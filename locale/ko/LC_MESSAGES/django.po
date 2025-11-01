@@ -1,0 +1,847 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-31 13:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: config/settings.py:132
+msgid "Malay"
+msgstr "말레이어"
+
+#: config/settings.py:133
+msgid "Korean"
+msgstr "한국어"
+
+#: config/settings.py:134
+msgid "Russian"
+msgstr "러시아어"
+
+#: config/settings.py:135
+msgid "Spanish"
+msgstr "스페인어"
+
+#: config/settings.py:136
+msgid "Chinese (Simplified)"
+msgstr "중국어 (간체)"
+
+#: config/settings.py:137
+msgid "Arabic"
+msgstr "아랍어"
+
+#: templates.copy/pages/contact.html:9 templates/pages/contact.html:9
+msgid "Contact Us - RecroTech"
+msgstr "문의하기 - RecroTech"
+
+#: templates.copy/pages/contact.html:10 templates/pages/contact.html:10
+msgid ""
+"Get in touch with RecroTech. Contact us for AI solutions, cloud services, "
+"and technology consulting."
+msgstr "RecroTech에 문의하세요. AI 솔루션, 클라우드 서비스 및 기술 컨설팅에 대해 연락주시기 바랍니다."
+
+#: templates.copy/pages/contact.html:35 templates.copy/pages/contact.html:39
+#: templates/includes/footer.html:29 templates/includes/header.html:320
+#: templates/pages/contact.html:35 templates/pages/contact.html:39
+msgid "Contact"
+msgstr "문의"
+
+#: templates.copy/pages/contact.html:37 templates.copy/pages/service.html:41
+#: templates.copy/pages/solutions.html:48 templates/pages/about.html:65
+#: templates/pages/contact.html:37 templates/pages/service.html:49
+#: templates/pages/service_details.html:302 templates/pages/solutions.html:48
+msgid "Home"
+msgstr "홈"
+
+#: templates.copy/pages/contact.html:53 templates.copy/pages/service.html:152
+#: templates/includes/footer.html:152 templates/includes/header.html:258
+#: templates/includes/header.html:357 templates/pages/contact.html:53
+#: templates/pages/service.html:176 templates/pages/service_details.html:449
+msgid "Contact Us"
+msgstr "문의하기"
+
+#: templates.copy/pages/contact.html:59 templates/pages/contact.html:59
+msgid "Address"
+msgstr "주소"
+
+#: templates.copy/pages/contact.html:63 templates/includes/footer.html:54
+#: templates/includes/header.html:226 templates/pages/contact.html:63
+msgid ""
+"Mustafa Kemal Mahallesi, Barış Sitesi, 2092 Sokak, No:22, Çankaya/ANKARA"
+msgstr "Mustafa Kemal Mahallesi, Barış Sitesi, 2092 Sokak, No:22, Çankaya/ANKARA"
+
+#: templates.copy/pages/contact.html:70 templates/pages/contact.html:70
+msgid "Number"
+msgstr "전화번호"
+
+#: templates.copy/pages/contact.html:81 templates/pages/contact.html:81
+msgid "E-mail"
+msgstr "이메일"
+
+#: templates.copy/pages/contact.html:98 templates/pages/contact.html:98
+msgid "Get In Touch"
+msgstr "연락하기"
+
+#: templates.copy/pages/contact.html:105 templates/pages/contact.html:105
+msgid "Your Name"
+msgstr "이름"
+
+#: templates.copy/pages/contact.html:110 templates/includes/footer.html:34
+#: templates/pages/contact.html:110
+msgid "Email"
+msgstr "이메일"
+
+#: templates.copy/pages/contact.html:117 templates/pages/contact.html:117
+msgid "Select Service"
+msgstr "서비스 선택"
+
+#: templates.copy/pages/contact.html:118 templates.copy/pages/service.html:59
+#: templates.copy/pages/service.html:142 templates/includes/footer.html:70
+#: templates/pages/contact.html:118 templates/pages/index.html:384
+#: templates/pages/service.html:71 templates/pages/service.html:156
+#: templates/pages/service_details.html:429
+msgid "AI Solutions"
+msgstr "AI 솔루션"
+
+#: templates.copy/pages/contact.html:119 templates.copy/pages/service.html:76
+#: templates/pages/contact.html:119 templates/pages/index.html:394
+#: templates/pages/service.html:88
+msgid "AI Agents and Automations"
+msgstr "AI 에이전트 및 자동화"
+
+#: templates.copy/pages/contact.html:120 templates.copy/pages/service.html:88
+#: templates.copy/pages/service.html:91 templates/includes/footer.html:80
+#: templates/pages/contact.html:120 templates/pages/service.html:100
+#: templates/pages/service.html:103
+msgid "Cloud Services"
+msgstr "클라우드 서비스"
+
+#: templates.copy/pages/contact.html:121 templates.copy/pages/service.html:103
+#: templates.copy/pages/service.html:106 templates/includes/header.html:310
+#: templates/pages/contact.html:121 templates/pages/index.html:402
+#: templates/pages/index.html:403 templates/pages/service.html:115
+#: templates/pages/service.html:118
+msgid "Trainings"
+msgstr "교육"
+
+#: templates.copy/pages/contact.html:122 templates.copy/pages/service.html:117
+#: templates.copy/pages/service.html:120 templates/includes/footer.html:90
+#: templates/pages/contact.html:122 templates/pages/index.html:411
+#: templates/pages/index.html:412 templates/pages/service.html:129
+#: templates/pages/service.html:132
+msgid "CRM Solutions"
+msgstr "CRM 솔루션"
+
+#: templates.copy/pages/contact.html:129 templates/pages/contact.html:129
+msgid "mm/dd/yyyy"
+msgstr "yyyy/mm/dd"
+
+#: templates.copy/pages/contact.html:134 templates/pages/contact.html:134
+msgid "Time"
+msgstr "시간"
+
+#: templates.copy/pages/contact.html:139 templates/pages/contact.html:139
+msgid "Type Here"
+msgstr "여기에 입력하세요"
+
+#: templates.copy/pages/contact.html:144 templates/pages/contact.html:144
+msgid "Send Now"
+msgstr "보내기"
+
+#: templates.copy/pages/service.html:8 templates/pages/service.html:9
+msgid "Services - RecroTech"
+msgstr "서비스 - RecroTech"
+
+#: templates.copy/pages/service.html:9 templates/pages/service.html:10
+msgid ""
+"Explore RecroTech's comprehensive technology services including AI "
+"Solutions, Cloud Services, AI Agents, Trainings, and CRM Solutions."
+msgstr "AI 솔루션, 클라우드 서비스, AI 에이전트, 교육 및 CRM 솔루션을 포함한 RecroTech의 포괄적인 기술 서비스를 살펴보세요."
+
+#: templates.copy/pages/service.html:38 templates.copy/pages/service.html:44
+#: templates/includes/footer.html:65 templates/includes/header.html:305
+#: templates/pages/service.html:46 templates/pages/service.html:55
+msgid "Services"
+msgstr "서비스"
+
+#: templates.copy/pages/service.html:62 templates/pages/index.html:385
+#: templates/pages/service.html:74
+msgid "A Wide Variety of AI Solutions"
+msgstr "다양한 AI 솔루션"
+
+#: templates.copy/pages/service.html:63 templates/pages/index.html:387
+#: templates/pages/service.html:75
+msgid ""
+"AI in finance, diplomacy, law, energy, defence, fashion, science and "
+"manufacturing. AI solutions that embraces innovative future products."
+msgstr "금융, 외교, 법률, 에너지, 국방, 패션, 과학 및 제조 분야의 AI. 혁신적인 미래 제품을 포용하는 AI 솔루션."
+
+#: templates.copy/pages/service.html:64 templates.copy/pages/service.html:79
+#: templates.copy/pages/service.html:94 templates.copy/pages/service.html:108
+#: templates.copy/pages/service.html:122 templates/pages/service.html:76
+#: templates/pages/service.html:91 templates/pages/service.html:106
+#: templates/pages/service.html:120 templates/pages/service.html:134
+msgid "Read More"
+msgstr "더 보기"
+
+#: templates.copy/pages/service.html:73 templates/pages/index.html:393
+#: templates/pages/service.html:85
+msgid "AI Agents"
+msgstr "AI 에이전트"
+
+#: templates.copy/pages/service.html:77 templates/pages/index.html:396
+#: templates/pages/service.html:89
+msgid ""
+"We build AI agents that solve real-world business challenges through open-"
+"source automation and seamless deployment."
+msgstr "오픈소스 자동화와 원활한 배포를 통해 실제 비즈니스 과제를 해결하는 AI 에이전트를 구축합니다."
+
+#: templates.copy/pages/service.html:92 templates/pages/service.html:104
+msgid ""
+"We turn ideas into reality by leveraging cloud technologies and designing "
+"large-scale, scalable architectures."
+msgstr "클라우드 기술을 활용하고 대규모 확장 가능한 아키텍처를 설계하여 아이디어를 현실로 만듭니다."
+
+#: templates.copy/pages/service.html:107 templates.copy/pages/service.html:121
+#: templates/pages/service.html:119 templates/pages/service.html:133
+msgid ""
+"Information Technology is a rapidly evolving field that encompasses the "
+"study and application"
+msgstr "정보 기술은 연구와 응용을 포괄하는 빠르게 발전하는 분야입니다"
+
+#: templates.copy/pages/service.html:137 templates/pages/service.html:149
+#: templates/pages/service_details.html:421
+msgid "Build What's Next"
+msgstr "다음 세대를 구축하세요"
+
+#: templates.copy/pages/service.html:143 templates/pages/service.html:160
+#: templates/pages/service_details.html:433
+msgid "Automation & Agents"
+msgstr "자동화 및 에이전트"
+
+#: templates.copy/pages/service.html:146 templates/pages/service.html:166
+#: templates/pages/service_details.html:439
+msgid "Cloud Architecture"
+msgstr "클라우드 아키텍처"
+
+#: templates.copy/pages/service.html:147 templates/pages/service.html:170
+#: templates/pages/service_details.html:443
+msgid "CRM Integrations"
+msgstr "CRM 통합"
+
+#: templates.copy/pages/solution_details.html:104
+#: templates/pages/service_details.html:392
+msgid "Previous"
+msgstr "이전"
+
+#: templates.copy/pages/solution_details.html:111
+#: templates/pages/service_details.html:397
+msgid "Next"
+msgstr "다음"
+
+#: templates.copy/pages/solutions.html:9 templates/pages/solutions.html:9
+msgid "Our Solutions - RecroTech"
+msgstr "우리의 솔루션 - RecroTech"
+
+#: templates.copy/pages/solutions.html:10 templates/pages/solutions.html:10
+msgid ""
+"Explore RecroTech's innovative AI solutions across Fashion, Agriculture, and "
+"Space industries."
+msgstr "패션, 농업 및 우주 산업 전반에 걸친 RecroTech의 혁신적인 AI 솔루션을 살펴보세요."
+
+#: templates.copy/pages/solutions.html:46
+#: templates.copy/pages/solutions.html:50 templates/pages/solutions.html:46
+#: templates/pages/solutions.html:50
+msgid "Our Solutions"
+msgstr "우리의 솔루션"
+
+#: templates.copy/pages/solutions.html:65
+#: templates.copy/pages/solutions.html:68 templates/pages/solutions.html:65
+#: templates/pages/solutions.html:68
+msgid "AI in Fashion"
+msgstr "패션 속의 AI"
+
+#: templates.copy/pages/solutions.html:80
+#: templates.copy/pages/solutions.html:83 templates/pages/solutions.html:80
+#: templates/pages/solutions.html:83
+msgid "AI in Agriculture"
+msgstr "농업 속의 AI"
+
+#: templates.copy/pages/solutions.html:95
+#: templates.copy/pages/solutions.html:98 templates/pages/solutions.html:95
+#: templates/pages/solutions.html:98
+msgid "AI in Space"
+msgstr "우주 속의 AI"
+
+#: templates/includes/footer.html:40 templates/includes/footer.html:46
+msgid "Phone"
+msgstr "전화"
+
+#: templates/includes/footer.html:52
+msgid "Headquarters"
+msgstr "본사"
+
+#: templates/includes/footer.html:75
+msgid "Automation Solutions"
+msgstr "자동화 솔루션"
+
+#: templates/includes/footer.html:85
+msgid "B2B Trainings"
+msgstr "B2B 교육"
+
+#: templates/includes/footer.html:96
+msgid "Branch"
+msgstr "지점"
+
+#: templates/includes/footer.html:98
+msgid ""
+"Teknoloji Geliştirme Bölgesi, Üniversiteler Mahallesi, Şehit Mustafa "
+"Tayyarcan Caddesi, No:5, Cyberpark Tepe Binası, Zemin Kat, No: Z43, 06800 "
+"Bilkent Çankaya/Ankara"
+msgstr "Teknoloji Geliştirme Bölgesi, Üniversiteler Mahallesi, Şehit Mustafa Tayyarcan Caddesi, No:5, Cyberpark Tepe Binası, Zemin Kat, No: Z43, 06800 Bilkent Çankaya/Ankara"
+
+#: templates/includes/footer.html:109
+msgid "Newsletter"
+msgstr "뉴스레터"
+
+#: templates/includes/footer.html:112
+msgid ""
+"Subscribe to our newsletter and receive the latest updates on RecroTech's "
+"innovations, projects, and industry insights — straight to your inbox."
+msgstr "뉴스레터를 구독하여 RecroTech의 혁신, 프로젝트 및 산업 인사이트에 대한 최신 업데이트를 받아보세요."
+
+#: templates/includes/footer.html:114
+msgid "Your email..."
+msgstr "이메일 주소..."
+
+#: templates/includes/footer.html:127
+msgid "© All Copyright 2025 by"
+msgstr "© 2025 All Copyright by"
+
+#: templates/includes/footer.html:132
+msgid "Documents"
+msgstr "문서"
+
+#: templates/includes/footer.html:137
+msgid "Info. Security Policy"
+msgstr "정보 보안 정책"
+
+#: templates/includes/footer.html:142
+msgid "Terms & Condition"
+msgstr "이용 약관"
+
+#: templates/includes/footer.html:147
+msgid "Privacy Policy"
+msgstr "개인정보 처리방침"
+
+#: templates/includes/header.html:11
+msgid "RecroTech - AI Solutions & Technology"
+msgstr "RecroTech - AI 솔루션 및 기술"
+
+#: templates/includes/header.html:176
+msgid "Loading"
+msgstr "로딩 중"
+
+#: templates/includes/header.html:215
+msgid ""
+"Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper "
+"the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus."
+msgstr "Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus."
+
+#: templates/includes/header.html:219
+msgid "Contact Info"
+msgstr "연락처 정보"
+
+#: templates/includes/header.html:244
+msgid "Mon-Fri, 09am - 05pm"
+msgstr "월-금, 오전 9시 - 오후 5시"
+
+#: templates/includes/header.html:294
+msgid "About"
+msgstr "소개"
+
+#: templates/includes/header.html:297 templates/pages/about.html:63
+#: templates/pages/about.html:67 templates/pages/about.html:80
+#: templates/pages/index.html:178
+msgid "About Us"
+msgstr "회사 소개"
+
+#: templates/includes/header.html:298 templates/pages/about.html:121
+msgid "Founder's Letter"
+msgstr "창립자의 편지"
+
+#: templates/includes/header.html:299
+msgid "Team"
+msgstr "팀"
+
+#: templates/includes/header.html:300 templates/pages/about.html:495
+msgid "FAQ"
+msgstr "자주 묻는 질문"
+
+#: templates/includes/header.html:309
+msgid "What we do"
+msgstr "우리가 하는 일"
+
+#: templates/includes/header.html:314
+msgid "Solutions"
+msgstr "솔루션"
+
+#: templates/includes/header.html:317
+msgid "Coming soon"
+msgstr "곧 공개"
+
+#: templates/includes/header.html:317
+msgid "News"
+msgstr "뉴스"
+
+#: templates/pages/about.html:9
+msgid "About Us - RecroTech"
+msgstr "회사 소개 - RecroTech"
+
+#: templates/pages/about.html:10
+msgid ""
+"Learn about RecroTech, our mission, vision, and team members dedicated to "
+"innovative technology solutions."
+msgstr "혁신적인 기술 솔루션에 전념하는 RecroTech의 미션, 비전 및 팀원에 대해 알아보세요."
+
+#: templates/pages/about.html:84
+msgid ""
+"We are a leading AI company based in Turkey, dedicated to harnessing "
+"technology for the benefit of humanity. Our expertise spans a wide range of "
+"fields, including software development, energy solutions, cloud computing, "
+"robotics, AI agents, automation, and scientific innovation."
+msgstr "우리는 인류의 이익을 위해 기술을 활용하는 데 전념하는 터키 기반의 선도적인 AI 회사입니다. 우리의 전문 지식은 소프트웨어 개발, 에너지 솔루션, 클라우드 컴퓨팅, 로봇공학, AI 에이전트, 자동화 및 과학 혁신을 포함한 광범위한 분야에 걸쳐 있습니다."
+
+#: templates/pages/about.html:88
+msgid ""
+"At our core, we believe in empowering businesses and society with cutting-"
+"edge technology. We organize specialized training programs to keep your "
+"employees updated with the latest advancements in AI and technology."
+msgstr "우리의 핵심은 최첨단 기술로 기업과 사회에 힘을 실어주는 것입니다. 우리는 직원들이 AI 및 기술의 최신 발전 사항을 지속적으로 습득할 수 있도록 전문 교육 프로그램을 제공합니다."
+
+#: templates/pages/about.html:92
+msgid ""
+"Our vision is clear: a world where AI doesn't just power technology, but "
+"actively creates it. We pride ourselves on delivering high customer "
+"satisfaction, solving complex problems, and giving our absolute best to help "
+"our clients succeed."
+msgstr "우리의 비전은 명확합니다: AI가 단순히 기술을 구동하는 것이 아니라 적극적으로 창조하는 세상. 우리는 높은 고객 만족도를 제공하고, 복잡한 문제를 해결하며, 고객의 성공을 돕기 위해 최선을 다하는 것을 자랑스럽게 생각합니다."
+
+#: templates/pages/about.html:98
+msgid "Company Image"
+msgstr "회사 이미지"
+
+#: templates/pages/about.html:124
+msgid ""
+"At Recro, we are an innovative technology company rooted in Türkiye driven "
+"by a vision to expand globally. Our name, derived from the Latin word "
+"'Recro' means 'to revive' and 'to restore' This captures the essence of what "
+"we do: we bring new life and strength to businesses by blending artificial "
+"intelligence with a human-centered approach. Recro's global vision is to "
+"bring our local expertise to the world stage by delivering future-ready "
+"solutions to organizations of all sizes. We offer technology to humanity "
+"with the philosophy of 'Be inspired by the unknown' In every project, we "
+"move forward by considering not only our customers' today but also their "
+"tomorrow. For us, what truly matters is using technology not merely as a "
+"tool, but as a means of creating value; making companies more competitive "
+"and more innovative. In short, at Recro, we are here to revive technology "
+"for the good of humanity. With our motto 'Be inspired by the unknown' let's "
+"shape the future together."
+msgstr "Recro에서 우리는 글로벌 확장의 비전으로 이끌리는 터키에 뿌리를 둔 혁신적인 기술 회사입니다. 라틴어 'Recro'에서 유래한 우리의 이름은 '되살리다'와 '회복하다'를 의미합니다. 이것은 우리가 하는 일의 본질을 담고 있습니다: 인공지능과 인간 중심 접근 방식을 결합하여 비즈니스에 새로운 생명과 힘을 불어넣습니다. Recro의 글로벌 비전은 모든 규모의 조직에 미래 지향적인 솔루션을 제공함으로써 지역 전문성을 세계 무대로 가져오는 것입니다. 우리는 '미지에서 영감을 받으라'는 철학으로 인류에게 기술을 제공합니다. 모든 프로젝트에서 우리는 고객의 오늘뿐만 아니라 내일도 고려하며 앞으로 나아갑니다. 우리에게 진정으로 중요한 것은 기술을 단순한 도구가 아닌 가치를 창출하는 수단으로 사용하는 것입니다; 기업을 더 경쟁력 있고 더 혁신적으로 만드는 것. 간단히 말해, Recro에서 우리는 인류의 이익을 위해 기술을 되살리기 위해 여기 있습니다. '미지에서 영감을 받으라'는 우리의 모토와 함께 미래를 함께 만들어갑시다."
+
+#: templates/pages/about.html:127
+msgid "Zafer Küçükşabanoğlu, Founder of RecroTech"
+msgstr "Zafer Küçükşabanoğlu, RecroTech 창립자"
+
+#: templates/pages/about.html:139
+msgid "RecroTech"
+msgstr "RecroTech"
+
+#: templates/pages/about.html:140
+msgid "Us"
+msgstr "우리"
+
+#: templates/pages/about.html:150 templates/pages/about.html:154
+msgid "Founder and Chairman"
+msgstr "창립자 겸 회장"
+
+#: templates/pages/about.html:155 templates/pages/about.html:173
+#: templates/pages/about.html:191 templates/pages/about.html:209
+#: templates/pages/about.html:227 templates/pages/about.html:245
+#: templates/pages/about.html:263 templates/pages/about.html:281
+msgid "LinkedIn Profile"
+msgstr "LinkedIn 프로필"
+
+#: templates/pages/about.html:168 templates/pages/about.html:172
+msgid "Chairman"
+msgstr "회장"
+
+#: templates/pages/about.html:186 templates/pages/about.html:190
+msgid "London Representative"
+msgstr "런던 대표"
+
+#: templates/pages/about.html:204 templates/pages/about.html:208
+msgid "Strategic Projects Director"
+msgstr "전략 프로젝트 이사"
+
+#: templates/pages/about.html:222 templates/pages/about.html:226
+msgid "Associated Developer"
+msgstr "협력 개발자"
+
+#: templates/pages/about.html:240 templates/pages/about.html:244
+msgid "Training Specialist"
+msgstr "교육 전문가"
+
+#: templates/pages/about.html:258 templates/pages/about.html:262
+msgid "Lawyer and Computer Engineer"
+msgstr "변호사 겸 컴퓨터 엔지니어"
+
+#: templates/pages/about.html:276 templates/pages/about.html:280
+msgid "Intern Developer"
+msgstr "인턴 개발자"
+
+#: templates/pages/about.html:501
+msgid "FAQ Animation"
+msgstr "FAQ 애니메이션"
+
+#: templates/pages/about.html:513
+msgid "What services does RecroTech offer?"
+msgstr "RecroTech는 어떤 서비스를 제공하나요?"
+
+#: templates/pages/about.html:518
+msgid ""
+"RecroTech offers a comprehensive range of technology services including AI-"
+"powered solutions, cloud computing, web and mobile development, digital "
+"transformation consulting, and custom software development. We tailor our "
+"services to meet the unique needs of each client."
+msgstr "RecroTech는 AI 기반 솔루션, 클라우드 컴퓨팅, 웹 및 모바일 개발, 디지털 전환 컨설팅, 맞춤형 소프트웨어 개발을 포함한 포괄적인 기술 서비스를 제공합니다. 우리는 각 고객의 고유한 요구 사항을 충족하도록 서비스를 맞춤화합니다."
+
+#: templates/pages/about.html:527
+msgid "Where is RecroTech located?"
+msgstr "RecroTech는 어디에 위치하고 있나요?"
+
+#: templates/pages/about.html:532
+msgid ""
+"We are headquartered in Türkiye with a vision for global expansion. We work "
+"with clients worldwide, offering both on-site and remote collaboration "
+"options to best serve our clients' needs."
+msgstr "우리는 글로벌 확장의 비전을 가지고 터키에 본사를 두고 있습니다. 우리는 전 세계 고객과 협력하며, 고객의 요구를 최상으로 충족시키기 위해 현장 및 원격 협업 옵션을 모두 제공합니다."
+
+#: templates/pages/about.html:541
+msgid "How can I join the RecroTech team?"
+msgstr "RecroTech 팀에 어떻게 합류할 수 있나요?"
+
+#: templates/pages/about.html:546
+msgid ""
+"We're always looking for talented individuals to join our team. Please visit "
+"our <a href=\"\">Contact page</a> or send your resume to info@recrotech.com. "
+"We offer exciting opportunities for developers, designers, AI specialists, "
+"and business professionals."
+msgstr "우리는 항상 재능 있는 인재가 팀에 합류하기를 기다리고 있습니다. <a href=\"\">문의 페이지</a>를 방문하거나 info@recrotech.com으로 이력서를 보내주세요. 우리는 개발자, 디자이너, AI 전문가 및 비즈니스 전문가를 위한 흥미로운 기회를 제공합니다."
+
+#: templates/pages/about.html:555
+msgid "What makes RecroTech different from other tech companies?"
+msgstr "RecroTech를 다른 기술 회사와 차별화하는 것은 무엇인가요?"
+
+#: templates/pages/about.html:560
+msgid ""
+"Our commitment to 'reviving and restoring' businesses through technology "
+"sets us apart. We don't just deliver technical solutions; we partner with "
+"our clients to understand their challenges and create meaningful innovations "
+"that drive real business value. Our team's expertise, combined with our "
+"client-centric approach, ensures success."
+msgstr "기술을 통해 비즈니스를 '되살리고 회복시키는' 우리의 약속이 우리를 차별화합니다. 우리는 단순히 기술 솔루션을 제공하는 것이 아닙니다; 우리는 고객과 협력하여 그들의 과제를 이해하고 실제 비즈니스 가치를 창출하는 의미 있는 혁신을 만듭니다. 우리 팀의 전문성과 고객 중심 접근 방식이 결합되어 성공을 보장합니다."
+
+#: templates/pages/about.html:569
+msgid "How long does a typical project take?"
+msgstr "일반적인 프로젝트는 얼마나 걸리나요?"
+
+#: templates/pages/about.html:574
+msgid ""
+"Project timelines vary depending on scope and complexity. Simple web "
+"projects may take 4-6 weeks, while complex AI solutions or enterprise "
+"systems can take several months. We provide detailed timelines during our "
+"initial consultation and keep you updated throughout the development process."
+msgstr "프로젝트 일정은 범위와 복잡성에 따라 다릅니다. 간단한 웹 프로젝트는 4-6주가 걸릴 수 있으며, 복잡한 AI 솔루션이나 기업 시스템은 몇 개월이 걸릴 수 있습니다. 우리는 초기 상담 중에 자세한 일정을 제공하고 개발 프로세스 전반에 걸쳐 업데이트를 제공합니다."
+
+#: templates/pages/index.html:9
+msgid "Home - RecroTech"
+msgstr "홈 - RecroTech"
+
+#: templates/pages/index.html:10
+msgid ""
+"RecroTech - We revive technology for the good of humanity. AI solutions "
+"across multiple industries."
+msgstr "RecroTech - 인류의 이익을 위해 기술을 되살립니다. 여러 산업 분야에 걸친 AI 솔루션."
+
+#: templates/pages/index.html:36
+msgid "Recro Technology"
+msgstr "Recro 기술"
+
+#: templates/pages/index.html:38
+msgid "we revive"
+msgstr "우리는 되살립니다"
+
+#: templates/pages/index.html:38
+msgid "technology for the"
+msgstr "기술을"
+
+#: templates/pages/index.html:38
+msgid "good of humanity."
+msgstr "인류의 이익을 위해."
+
+#: templates/pages/index.html:42
+msgid "Contact US"
+msgstr "문의하기"
+
+#: templates/pages/index.html:66
+msgid "Search..."
+msgstr "검색..."
+
+#: templates/pages/index.html:80
+msgid "AB Delegation"
+msgstr "EU 대표단"
+
+#: templates/pages/index.html:85
+msgid "Ministry of Family and Social Services"
+msgstr "가족사회서비스부"
+
+#: templates/pages/index.html:105
+msgid "Ministry of Agriculture and Forestry"
+msgstr "농림부"
+
+#: templates/pages/index.html:110
+msgid "Ministry of Health"
+msgstr "보건부"
+
+#: templates/pages/index.html:161
+msgid "About RecroTech"
+msgstr "RecroTech 소개"
+
+#: templates/pages/index.html:166
+msgid "years of"
+msgstr "년의"
+
+#: templates/pages/index.html:167
+msgid "experience"
+msgstr "경험"
+
+#: templates/pages/index.html:180
+msgid "We envision a world where AI creates technology, not just powers it."
+msgstr "우리는 AI가 단순히 기술을 구동하는 것이 아니라 창조하는 세상을 꿈꿉니다."
+
+#: templates/pages/index.html:189
+msgid "Guaranteed Success"
+msgstr "성공 보장"
+
+#: templates/pages/index.html:190
+msgid "Always try best for success."
+msgstr "항상 성공을 위해 최선을 다합니다."
+
+#: templates/pages/index.html:365
+msgid "Latest Service"
+msgstr "최신 서비스"
+
+#: templates/pages/index.html:367
+msgid "IT Excellence Every of Step of the Way"
+msgstr "모든 단계에서 IT 우수성"
+
+#: templates/pages/index.html:370
+msgid ""
+"Information Technology is a rapidly evolving field that encompasses the "
+"study and app"
+msgstr "정보 기술은 연구와 응용을 포괄하는 빠르게 발전하는 분야입니다"
+
+#: templates/pages/index.html:405 templates/pages/index.html:414
+msgid ""
+"Information Technology is a rapidly evolving field that is a encompasses the "
+"study and application"
+msgstr "정보 기술은 연구와 응용을 포괄하는 빠르게 발전하는 분야입니다"
+
+#: templates/pages/index.html:437 templates/pages/index.html:476
+msgid "Artificial Intelligence"
+msgstr "인공지능"
+
+#: templates/pages/index.html:444 templates/pages/index.html:483
+msgid "Smart City"
+msgstr "스마트 시티"
+
+#: templates/pages/index.html:451 templates/pages/index.html:490
+msgid "Space Technology"
+msgstr "우주 기술"
+
+#: templates/pages/index.html:459 templates/pages/index.html:498
+msgid "Innovation"
+msgstr "혁신"
+
+#: templates/pages/index.html:466 templates/pages/index.html:505
+msgid "Data Analytics"
+msgstr "데이터 분석"
+
+#: templates/pages/index.html:518
+msgid ""
+"With a solid standing in the industry, numerous awards, and a strong base of "
+"satisfied customers."
+msgstr "업계에서 확고한 입지, 수많은 상, 그리고 만족한 고객의 강력한 기반을 갖추고 있습니다."
+
+#: templates/pages/index.html:522
+msgid "Team member"
+msgstr "팀 구성원"
+
+#: templates/pages/index.html:526
+msgid "Work Complete"
+msgstr "완료된 작업"
+
+#: templates/pages/index.html:530
+msgid "Winning Award"
+msgstr "수상 경력"
+
+#: templates/pages/index.html:534
+msgid "Client Review"
+msgstr "고객 리뷰"
+
+#: templates/pages/index.html:550
+msgid "Latest Portfolio"
+msgstr "최신 포트폴리오"
+
+#: templates/pages/index.html:552
+msgid "Our Newest Project"
+msgstr "최신 프로젝트"
+
+#: templates/pages/index.html:568
+msgid "Completed Projects"
+msgstr "완료된 프로젝트"
+
+#: templates/pages/index.html:572
+msgid "Client Satisfaction"
+msgstr "고객 만족"
+
+#: templates/pages/index.html:585
+msgid "Innovation First"
+msgstr "혁신 우선"
+
+#: templates/pages/index.html:586
+msgid "Cutting-edge AI solutions"
+msgstr "최첨단 AI 솔루션"
+
+#: templates/pages/index.html:598
+msgid "Fast Delivery"
+msgstr "빠른 제공"
+
+#: templates/pages/index.html:599
+msgid "On-time project completion"
+msgstr "정시 프로젝트 완료"
+
+#: templates/pages/index.html:613
+msgid "Expert Team"
+msgstr "전문가 팀"
+
+#: templates/pages/index.html:614
+msgid "Highly skilled professionals"
+msgstr "고도로 숙련된 전문가"
+
+#: templates/pages/index.html:625
+msgid "Secure & Reliable"
+msgstr "안전하고 신뢰할 수 있는"
+
+#: templates/pages/index.html:626
+msgid "Enterprise-grade security"
+msgstr "엔터프라이즈급 보안"
+
+#: templates/pages/index.html:639
+msgid "AI Model Fashion Try-On"
+msgstr "AI 모델 패션 피팅"
+
+#: templates/pages/index.html:641
+msgid "AI FASHION"
+msgstr "AI 패션"
+
+#: templates/pages/index.html:642
+msgid "Fashion Try-On Technology"
+msgstr "패션 피팅 기술"
+
+#: templates/pages/index.html:645
+msgid "Virtual Fashion Assistant"
+msgstr "가상 패션 어시스턴트"
+
+#: templates/pages/index.html:646
+msgid ""
+"We make retail collection promotions faster, cheaper, and more creative by "
+"using robust AI tech."
+msgstr "강력한 AI 기술을 사용하여 소매 컬렉션 홍보를 더 빠르고, 저렴하며, 창의적으로 만듭니다."
+
+#: templates/pages/index.html:657
+msgid "AI Agriculture Projects"
+msgstr "AI 농업 프로젝트"
+
+#: templates/pages/index.html:659
+msgid "AI AGRICULTURE"
+msgstr "AI 농업"
+
+#: templates/pages/index.html:660
+msgid "Smart Farming Solutions"
+msgstr "스마트 농업 솔루션"
+
+#: templates/pages/index.html:663
+msgid "Precision Agriculture AI"
+msgstr "정밀 농업 AI"
+
+#: templates/pages/index.html:664
+msgid ""
+"AI agents which help for all practices in agricultural activities using a "
+"reliable wide knowledge-base."
+msgstr "신뢰할 수 있는 광범위한 지식 기반을 사용하여 농업 활동의 모든 실무를 지원하는 AI 에이전트."
+
+#: templates/pages/index.html:678
+msgid "Solar AI"
+msgstr "태양광 AI"
+
+#: templates/pages/index.html:680
+msgid "SOLAR AI"
+msgstr "태양광 AI"
+
+#: templates/pages/index.html:681
+msgid "Renewable Energy"
+msgstr "재생 에너지"
+
+#: templates/pages/index.html:684
+msgid "AI Energy Optimization"
+msgstr "AI 에너지 최적화"
+
+#: templates/pages/index.html:685
+msgid ""
+"Machine learning for solar panel efficiency and energy distribution "
+"optimization."
+msgstr "태양광 패널 효율성 및 에너지 분배 최적화를 위한 머신러닝."
+
+#: templates/pages/service_details.html:301
+msgid "Navigate to home page"
+msgstr "홈 페이지로 이동"
+
+#: templates/pages/service_details.html:383
+msgid "Navigate to previous service page"
+msgstr "이전 서비스 페이지로 이동"
+
+#: templates/pages/service_details.html:387
+msgid "Go back"
+msgstr "뒤로 가기"
+
+#: templates/pages/service_details.html:400
+msgid "Navigate to next service page"
+msgstr "다음 서비스 페이지로 이동"
+
+#: templates/pages/service_details.html:404
+msgid "Back to services"
+msgstr "서비스로 돌아가기"

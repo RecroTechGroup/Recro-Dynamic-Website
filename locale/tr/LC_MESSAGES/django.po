@@ -1,0 +1,1434 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-01 13:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: main_app/contexts.py:20 main_app/contexts.py:21 main_app/contexts.py:22
+#: templates.copy/pages/solutions.html:80
+#: templates.copy/pages/solutions.html:83 templates/pages/solutions.html:80
+#: templates/pages/solutions.html:83
+msgid "AI in Agriculture"
+msgstr "Tarım'da Yapay Zeka"
+
+#: main_app/contexts.py:24
+msgid ""
+"We leverage AI to support farmers and agriculture enthusiasts by providing "
+"up-to-date information on regulations and tailored solutions for the "
+"specific challenges they may face. Our intelligent systems help optimize "
+"decision-making across every aspect of farming, from crop management to "
+"resource allocation, ensuring better yields, compliance, and sustainability."
+msgstr ""
+
+#: main_app/contexts.py:29
+#, fuzzy
+#| msgid "AI in Agriculture"
+msgid "Spot-on Solutions in Agriculture"
+msgstr "Tarım'da Yapay Zeka"
+
+#: main_app/contexts.py:31
+msgid ""
+"With AI-driven insights, farmers can anticipate problems before they occur, "
+"stay informed about evolving regulations, and make smarter, data-backed "
+"decisions for their land and crops."
+msgstr ""
+
+#: main_app/contexts.py:39
+#, fuzzy
+#| msgid "Automation Solutions"
+msgid "Spot-on Solutions"
+msgstr "Otomasyon Çözümleri"
+
+#: main_app/contexts.py:41
+msgid ""
+"Create domain-specific agents capable of autonomous reasoning, planning, and "
+"interaction. Tailored AI solutions that understand your specific "
+"agricultural challenges and provide actionable recommendations."
+msgstr ""
+
+#: main_app/contexts.py:48
+msgid "Up-To-Date"
+msgstr ""
+
+#: main_app/contexts.py:50
+msgid ""
+"Stay current with the latest regulations, best practices, and market "
+"conditions affecting your agricultural operations."
+msgstr ""
+
+#: main_app/contexts.py:56
+msgid "Low-Cost Maintenance"
+msgstr ""
+
+#: main_app/contexts.py:58
+msgid ""
+"Integrate AI through lightweight APIs for instant scalability. Efficient, "
+"cost-effective solutions that reduce overhead while maximizing "
+"sustainability."
+msgstr ""
+
+#: main_app/contexts.py:66
+msgid "Fashion Models"
+msgstr ""
+
+#: main_app/contexts.py:67
+#, fuzzy
+#| msgid "About Us - RecroTech"
+msgid "AI Fashion Models - RecroTech"
+msgstr "Hakkımızda - RecroTech"
+
+#: main_app/contexts.py:68
+#, fuzzy
+#| msgid "AI in Fashion"
+msgid "AI Fashion Models"
+msgstr "Moda'da Yapay Zeka"
+
+#: main_app/contexts.py:70
+msgid ""
+"AI solutions are designed specifically for the fashion retail industry, "
+"helping your company boost sales and streamline operations. By leveraging "
+"advanced machine learning and computer vision, our models are fine-tuned to "
+"your company's unique needs, enabling smarter decision-making across every "
+"aspect of your business."
+msgstr ""
+
+#: main_app/contexts.py:75 main_app/contexts.py:126 main_app/contexts.py:185
+msgid "Adaptive Intelligence That Works for You"
+msgstr ""
+
+#: main_app/contexts.py:77
+msgid ""
+"Different types of GANs, image recognition, and diffusion models are "
+"integrated to provide your company with the best fashion solutions, from "
+"trend prediction to realistic visualizations and personalized styling. With "
+"retail-specific AI, your company can predict what customers want before they "
+"do, reduce waste, improve efficiency, and ultimately maximize revenue and "
+"customer satisfaction."
+msgstr ""
+
+#: main_app/contexts.py:88
+msgid "Higher Sales"
+msgstr ""
+
+#: main_app/contexts.py:90
+msgid ""
+"Boost revenue with AI-powered trend forecasting, personalized "
+"recommendations, and dynamic pricing. Predict customer preferences and "
+"optimize inventory to maximize conversion rates and average order value."
+msgstr ""
+
+#: main_app/contexts.py:97
+msgid "Reduced Ops Cost"
+msgstr ""
+
+#: main_app/contexts.py:99
+msgid ""
+"Streamline end-to-end business processes with adaptive automation and "
+"minimal supervision. Reduce waste, optimize supply chains, and automate "
+"routine tasks to cut operational expenses significantly."
+msgstr ""
+
+#: main_app/contexts.py:106
+#, fuzzy
+#| msgid "Company Image"
+msgid "Company Specific"
+msgstr "Şirket Görseli"
+
+#: main_app/contexts.py:108
+msgid ""
+"Integrate agents through lightweight APIs and open frameworks for instant "
+"scalability. Our models are fine-tuned to your brand's unique aesthetic, "
+"customer base, and business objectives for maximum impact."
+msgstr ""
+
+#: main_app/contexts.py:117 main_app/contexts.py:119
+#: templates.copy/pages/solutions.html:95
+#: templates.copy/pages/solutions.html:98 templates/pages/solutions.html:95
+#: templates/pages/solutions.html:98
+msgid "AI in Space"
+msgstr "Uzay'da Yapay Zeka"
+
+#: main_app/contexts.py:118
+#, fuzzy
+#| msgid "Services - RecroTech"
+msgid "AI in Space - RecroTech"
+msgstr "Hizmetler - RecroTech"
+
+#: main_app/contexts.py:121 main_app/contexts.py:180
+msgid ""
+"Build and deploy autonomous AI agents that tackle real-world business "
+"challenges through open-source automation and seamless deployment. From "
+"intelligent task routing to adaptive workflows and predictive orchestration, "
+"our systems integrate directly with your stack, accelerating outcomes and "
+"reducing manual overhead."
+msgstr ""
+
+#: main_app/contexts.py:128 main_app/contexts.py:187
+msgid ""
+"Our AI agents continuously learn from interactions and data, improving "
+"performance over time. They automate repetitive operations, detect "
+"anomalies, and respond to complex signals — allowing teams to focus on "
+"strategic decisions while the system handles precision execution."
+msgstr ""
+
+#: main_app/contexts.py:137 main_app/contexts.py:196
+msgid "Design an AI Agent"
+msgstr ""
+
+#: main_app/contexts.py:139
+msgid ""
+"Create domain-specific agents capable of autonomous reasoning, planning, and "
+"interaction. Tailor AI systems to your unique requirements with advanced "
+"customization and training capabilities."
+msgstr ""
+
+#: main_app/contexts.py:145 main_app/contexts.py:201
+#, fuzzy
+#| msgid "Automation Solutions"
+msgid "Automate Workflows"
+msgstr "Otomasyon Çözümleri"
+
+#: main_app/contexts.py:147
+msgid ""
+"Streamline end-to-end business processes with adaptive automation and "
+"minimal supervision. Reduce manual tasks, improve efficiency, and enable "
+"teams to focus on high-value activities."
+msgstr ""
+
+#: main_app/contexts.py:153 main_app/contexts.py:206
+msgid "Deploy Effortlessly"
+msgstr ""
+
+#: main_app/contexts.py:155
+msgid ""
+"Integrate agents through lightweight APIs and open frameworks for instant "
+"scalability. Deploy to production quickly with robust monitoring, version "
+"control, and rollback capabilities."
+msgstr ""
+
+#: main_app/contexts.py:176 main_app/contexts.py:177 main_app/contexts.py:178
+#: templates.copy/pages/contact.html:119 templates.copy/pages/service.html:76
+#: templates/pages/contact.html:119 templates/pages/index.html:394
+#: templates/pages/service.html:88
+msgid "AI Agents and Automations"
+msgstr "Yapay Zeka Ajanları ve Otomasyonlar"
+
+#: main_app/contexts.py:197
+msgid ""
+"Create domain-specific agents capable of autonomous reasoning, planning, and "
+"interaction."
+msgstr ""
+
+#: main_app/contexts.py:202
+msgid ""
+"Streamline end-to-end business processes with adaptive automation and "
+"minimal supervision."
+msgstr ""
+
+#: main_app/contexts.py:207
+msgid ""
+"Integrate agents through lightweight APIs and open frameworks for instant "
+"scalability."
+msgstr ""
+
+#: main_app/contexts.py:213 main_app/contexts.py:214
+#: templates.copy/pages/service.html:62 templates/pages/index.html:385
+#: templates/pages/service.html:74
+msgid "A Wide Variety of AI Solutions"
+msgstr "Geniş Çapta Yapay Zeka Çözümleri"
+
+#: main_app/contexts.py:215
+msgid "Industry-Ready AI Across Finance, Public Sector, Law & More"
+msgstr ""
+
+#: main_app/contexts.py:217
+msgid ""
+"We build and deploy industry-ready AI across finance, public sector, law, "
+"energy, manufacturing, and retail. Our solutions turn complex data into "
+"decisions by automating reviews, flagging risks, forecasting demand, and "
+"personalizing experiences. From LLMs to forecasting, anomaly detection, and "
+"optimization—we ship secure APIs and agents that integrate with your stack, "
+"monitor themselves, and prove value with live KPIs from day one."
+msgstr ""
+
+#: main_app/contexts.py:223
+msgid "Cutting-Edge Technologies That Deliver Results"
+msgstr ""
+
+#: main_app/contexts.py:225
+msgid ""
+"Technology evolves daily—we convert it into measurable results. Faster "
+"launches, lower risk, and proven ROI across software, hardware, "
+"communications, and automation. Our cross-industry expertise ensures you "
+"stay ahead with solutions built for scale and performance."
+msgstr ""
+
+#: main_app/contexts.py:234
+#, fuzzy
+#| msgid "Smart City"
+msgid "Start a Pilot"
+msgstr "Akıllı Şehir"
+
+#: main_app/contexts.py:236
+msgid ""
+"Launch a controlled pilot to validate AI impact in your specific workflow. "
+"We deploy a scoped solution, measure real KPIs, and iterate based on your "
+"feedback—proving value before full-scale rollout."
+msgstr ""
+
+#: main_app/contexts.py:243
+#, fuzzy
+#| msgid "AI Agents"
+msgid "Add an AI Agent"
+msgstr "Yapay Zeka Ajanları"
+
+#: main_app/contexts.py:245
+msgid ""
+"Deploy autonomous AI agents that handle repetitive tasks, respond to "
+"queries, and make decisions within defined parameters. Integrate seamlessly "
+"with your existing systems for 24/7 intelligent automation."
+msgstr ""
+
+#: main_app/contexts.py:252
+msgid "Modernize the Stack"
+msgstr ""
+
+#: main_app/contexts.py:254
+msgid ""
+"Upgrade legacy systems with cloud-native architecture, microservices, and "
+"modern DevOps practices. Reduce technical debt while maintaining business "
+"continuity and improving deployment velocity by 10x."
+msgstr ""
+
+#: main_app/contexts.py:261
+msgid "See Live KPIs"
+msgstr ""
+
+#: main_app/contexts.py:263
+msgid ""
+"Access real-time dashboards displaying business-critical metrics: model "
+"accuracy, processing speed, cost per transaction, user satisfaction, and "
+"ROI. Make data-driven decisions with live visibility into AI performance."
+msgstr ""
+
+#: main_app/contexts.py:272 main_app/contexts.py:273 main_app/contexts.py:274
+#: templates.copy/pages/contact.html:120 templates.copy/pages/service.html:88
+#: templates.copy/pages/service.html:91 templates/includes/footer.html:80
+#: templates/pages/contact.html:120 templates/pages/service.html:100
+#: templates/pages/service.html:103
+msgid "Cloud Services"
+msgstr "Bulut Hizmetleri"
+
+#: main_app/contexts.py:276
+msgid ""
+"We design and deploy cloud-native systems that transform ideas into "
+"scalable, high-performance applications. Our expertise in distributed "
+"computing, data orchestration, and infrastructure automation ensures "
+"reliability, speed, and seamless integration across any environment."
+msgstr ""
+
+#: main_app/contexts.py:280
+msgid "Infrastructure That Scales with You"
+msgstr ""
+
+#: main_app/contexts.py:282
+msgid ""
+"Our cloud architectures grow with your business — from prototypes to global-"
+"scale platforms. Through automated scaling, containerized deployment, and "
+"continuous monitoring, we build resilient systems that adapt to demand in "
+"real time."
+msgstr ""
+
+#: main_app/contexts.py:291
+msgid "Build on the Cloud"
+msgstr ""
+
+#: main_app/contexts.py:293
+msgid ""
+"Develop and deploy applications on secure, global-grade cloud infrastructure "
+"with high availability and performance optimization."
+msgstr ""
+
+#: main_app/contexts.py:299
+msgid "Automate Infrastructure"
+msgstr ""
+
+#: main_app/contexts.py:301
+msgid ""
+"Use Infrastructure as Code (IaC) and DevOps pipelines to manage cloud "
+"environments efficiently with version control and automation."
+msgstr ""
+
+#: main_app/contexts.py:307
+msgid "Scale Seamlessly"
+msgstr ""
+
+#: main_app/contexts.py:309
+msgid ""
+"Enable dynamic scaling and resource optimization based on real-time "
+"workloads, ensuring cost-efficiency and peak performance."
+msgstr ""
+
+#: main_app/contexts.py:317 main_app/contexts.py:318 main_app/contexts.py:319
+#: templates.copy/pages/contact.html:122 templates.copy/pages/service.html:117
+#: templates.copy/pages/service.html:120 templates/includes/footer.html:90
+#: templates/pages/contact.html:122 templates/pages/index.html:411
+#: templates/pages/index.html:412 templates/pages/service.html:129
+#: templates/pages/service.html:132
+msgid "CRM Solutions"
+msgstr "CRM Çözümleri"
+
+#: main_app/contexts.py:321
+msgid ""
+"We build intelligent CRM systems that unify data, automate engagement, and "
+"surface actionable insights across sales, support, and marketing. By "
+"combining AI-driven analytics with custom workflows, our CRM solutions help "
+"teams anticipate customer needs and strengthen long-term relationships."
+msgstr ""
+
+#: main_app/contexts.py:326
+msgid "Turning Data into Customer Intelligence"
+msgstr ""
+
+#: main_app/contexts.py:328
+msgid ""
+"From lead scoring to retention analytics, our CRM platforms turn customer "
+"behavior into measurable intelligence. Each interaction becomes a feedback "
+"loop that sharpens predictions, improves personalization, and drives "
+"sustainable growth."
+msgstr ""
+
+#: main_app/contexts.py:337
+msgid "Centralize Data"
+msgstr ""
+
+#: main_app/contexts.py:339
+msgid ""
+"Unify customer data from multiple touchpoints into a single source of truth. "
+"Eliminate data silos and gain a 360-degree view of every customer "
+"interaction."
+msgstr ""
+
+#: main_app/contexts.py:345
+#, fuzzy
+#| msgid "Automation & Agents"
+msgid "Automate Engagement"
+msgstr "Otomasyon ve Ajanlar"
+
+#: main_app/contexts.py:347
+msgid ""
+"Deploy intelligent workflows that trigger personalized communications, "
+"follow-ups, and nurture sequences based on customer behavior and lifecycle "
+"stage."
+msgstr ""
+
+#: main_app/contexts.py:353
+msgid "Analyze Behavior"
+msgstr ""
+
+#: main_app/contexts.py:355
+msgid ""
+"Leverage AI-powered analytics to identify patterns, predict churn, score "
+"leads, and uncover opportunities for cross-sell and upsell across your "
+"customer base."
+msgstr ""
+
+#: main_app/contexts.py:363 main_app/contexts.py:364 main_app/contexts.py:365
+msgid "Tech Enthusiasts"
+msgstr ""
+
+#: main_app/contexts.py:367
+msgid ""
+"We run hands-on labs, meetups, and open-source sprints where builders "
+"prototype fast, share knowledge, and ship. From weekend workshops to deep-"
+"dive clinics, we turn curiosity into working artifacts and community "
+"momentum."
+msgstr ""
+
+#: main_app/contexts.py:371
+msgid "Learn. Build. Share. Repeat."
+msgstr ""
+
+#: main_app/contexts.py:373
+msgid ""
+"Sessions focus on real tools, real data, and repeatable patterns. You leave "
+"with code, docs, and a path to production—plus a network that keeps the pace."
+msgstr ""
+
+#: main_app/contexts.py:381
+msgid "Hands-On Labs"
+msgstr ""
+
+#: main_app/contexts.py:383
+msgid ""
+"Guided builds with step-by-step briefs, from idea to working demo in hours. "
+"Learn by doing with real-world scenarios and production-ready code."
+msgstr ""
+
+#: main_app/contexts.py:389
+msgid "Open-Source Sprints"
+msgstr ""
+
+#: main_app/contexts.py:391
+msgid ""
+"Ship PRs together—issues, reviews, and merges with maintainers. Contribute "
+"to meaningful open-source projects and build your portfolio."
+msgstr ""
+
+#: main_app/contexts.py:397
+msgid "Prototyping Clinics"
+msgstr ""
+
+#: main_app/contexts.py:399
+msgid ""
+"Rapid design-to-code cycles, usability checks, and tech spikes. Validate "
+"ideas quickly and iterate based on real user feedback."
+msgstr ""
+
+#: main_app/contexts.py:407 main_app/contexts.py:409
+#: templates.copy/pages/contact.html:121 templates.copy/pages/service.html:103
+#: templates.copy/pages/service.html:106 templates/includes/header.html:584
+#: templates/includes/header.html:691 templates/pages/contact.html:121
+#: templates/pages/index.html:402 templates/pages/index.html:403
+#: templates/pages/service.html:115 templates/pages/service.html:118
+msgid "Trainings"
+msgstr "Eğitimler"
+
+#: main_app/contexts.py:408
+#, fuzzy
+#| msgid "Trainings"
+msgid "AI & Cloud Trainings"
+msgstr "Eğitimler"
+
+#: main_app/contexts.py:411
+msgid ""
+"We deliver hands-on, outcome-driven trainings that turn teams into effective "
+"AI and cloud practitioners. Programs combine fundamentals, real datasets, "
+"and production patterns—so learners can build, deploy, and operate reliable "
+"systems."
+msgstr ""
+
+#: main_app/contexts.py:415
+msgid "From Fundamentals to Production"
+msgstr ""
+
+#: main_app/contexts.py:417
+msgid ""
+"Courses progress from core concepts to deployment, monitoring, and cost "
+"control. Each module ends with a working artifact—model, pipeline, or service"
+"—ready to integrate."
+msgstr ""
+
+#: main_app/contexts.py:425
+#, fuzzy
+#| msgid "AI Solutions"
+msgid "AI Foundations"
+msgstr "Yapay Zeka Çözümleri"
+
+#: main_app/contexts.py:427
+msgid ""
+"Math, data prep, model selection, evaluation; practical notebooks with real "
+"datasets. Build a strong foundation in machine learning fundamentals."
+msgstr ""
+
+#: main_app/contexts.py:433
+#, fuzzy
+#| msgid "AI Agents"
+msgid "LLMs & Agents"
+msgstr "Yapay Zeka Ajanları"
+
+#: main_app/contexts.py:435
+msgid ""
+"Prompting, retrieval, tool-use, agent orchestration; safety, evals, and "
+"guardrails. Master modern LLM applications and autonomous agents."
+msgstr ""
+
+#: main_app/contexts.py:441
+msgid "MLOps & Pipelines"
+msgstr ""
+
+#: main_app/contexts.py:443
+msgid ""
+"Versioning, CI/CD for ML, feature stores, monitoring, drift and rollback "
+"patterns. Deploy and maintain production ML systems reliably."
+msgstr ""
+
+#: main_app/contexts.py:464
+#, fuzzy
+#| msgid ""
+#| "RecroTech - We revive technology for the good of humanity. AI solutions "
+#| "across multiple industries."
+msgid "We revive technology for the good of humanity"
+msgstr ""
+"RecroTech - İnsanlığın iyiliği için teknolojiyi yeniden canlandırıyoruz. "
+"Birçok sektörde yapay zeka çözümleri."
+
+#: main_app/contexts.py:468 templates.copy/pages/contact.html:63
+#: templates/includes/footer.html:54 templates/includes/header.html:606
+#: templates/pages/contact.html:63
+msgid ""
+"Mustafa Kemal Mahallesi, Barış Sitesi, 2092 Sokak, No:22, Çankaya/ANKARA"
+msgstr ""
+"Mustafa Kemal Mahallesi, Barış Sitesi, 2092 Sokak, No:22, Çankaya/ANKARA"
+
+#: templates.copy/pages/contact.html:9 templates/pages/contact.html:9
+msgid "Contact Us - RecroTech"
+msgstr "Bize Ulaşın - RecroTech"
+
+#: templates.copy/pages/contact.html:10 templates/pages/contact.html:10
+msgid ""
+"Get in touch with RecroTech. Contact us for AI solutions, cloud services, "
+"and technology consulting."
+msgstr ""
+"RecroTech ile iletişime geçin. Yapay zeka çözümleri, bulut hizmetleri ve "
+"teknoloji danışmanlığı için bizimle iletişime geçin."
+
+#: templates.copy/pages/contact.html:35 templates.copy/pages/contact.html:39
+#: templates/includes/footer.html:29 templates/includes/header.html:594
+#: templates/includes/header.html:701 templates/pages/contact.html:35
+#: templates/pages/contact.html:39
+msgid "Contact"
+msgstr "İletişim"
+
+#: templates.copy/pages/contact.html:37 templates.copy/pages/service.html:41
+#: templates.copy/pages/solutions.html:48 templates/pages/about.html:65
+#: templates/pages/contact.html:37 templates/pages/service.html:49
+#: templates/pages/service_details.html:302 templates/pages/solutions.html:48
+msgid "Home"
+msgstr "Ana Sayfa"
+
+#: templates.copy/pages/contact.html:53 templates.copy/pages/service.html:152
+#: templates/includes/footer.html:150 templates/includes/header.html:638
+#: templates/includes/header.html:786 templates/pages/contact.html:53
+#: templates/pages/service.html:176 templates/pages/service_details.html:449
+msgid "Contact Us"
+msgstr "Bize Ulaşın"
+
+#: templates.copy/pages/contact.html:59 templates/pages/contact.html:59
+msgid "Address"
+msgstr "Adres"
+
+#: templates.copy/pages/contact.html:70 templates/pages/contact.html:70
+msgid "Number"
+msgstr "Telefon"
+
+#: templates.copy/pages/contact.html:81 templates/pages/contact.html:81
+msgid "E-mail"
+msgstr "E-posta"
+
+#: templates.copy/pages/contact.html:98 templates/pages/contact.html:98
+msgid "Get In Touch"
+msgstr "İletişime Geçin"
+
+#: templates.copy/pages/contact.html:105 templates/pages/contact.html:105
+msgid "Your Name"
+msgstr "Adınız"
+
+#: templates.copy/pages/contact.html:110 templates/includes/footer.html:34
+#: templates/pages/contact.html:110
+msgid "Email"
+msgstr "E-posta"
+
+#: templates.copy/pages/contact.html:117 templates/pages/contact.html:117
+msgid "Select Service"
+msgstr "Hizmet Seçin"
+
+#: templates.copy/pages/contact.html:118 templates.copy/pages/service.html:59
+#: templates.copy/pages/service.html:142 templates/includes/footer.html:70
+#: templates/pages/contact.html:118 templates/pages/index.html:384
+#: templates/pages/service.html:71 templates/pages/service.html:156
+#: templates/pages/service_details.html:429
+msgid "AI Solutions"
+msgstr "Yapay Zeka Çözümleri"
+
+#: templates.copy/pages/contact.html:129 templates/pages/contact.html:129
+msgid "mm/dd/yyyy"
+msgstr "gg/aa/yyyy"
+
+#: templates.copy/pages/contact.html:134 templates/pages/contact.html:134
+msgid "Time"
+msgstr "Saat"
+
+#: templates.copy/pages/contact.html:139 templates/pages/contact.html:139
+msgid "Type Here"
+msgstr "Buraya Yazın"
+
+#: templates.copy/pages/contact.html:144 templates/pages/contact.html:144
+msgid "Send Now"
+msgstr "Gönder"
+
+#: templates.copy/pages/service.html:8 templates/pages/service.html:9
+msgid "Services - RecroTech"
+msgstr "Hizmetler - RecroTech"
+
+#: templates.copy/pages/service.html:9 templates/pages/service.html:10
+msgid ""
+"Explore RecroTech's comprehensive technology services including AI "
+"Solutions, Cloud Services, AI Agents, Trainings, and CRM Solutions."
+msgstr ""
+"RecroTech'un kapsamlı teknoloji hizmetlerini keşfedin: Yapay Zeka Çözümleri, "
+"Bulut Hizmetleri, Yapay Zeka Ajanları, Eğitimler ve CRM Çözümleri."
+
+#: templates.copy/pages/service.html:38 templates.copy/pages/service.html:44
+#: templates/includes/footer.html:65 templates/includes/header.html:580
+#: templates/includes/header.html:686 templates/pages/service.html:46
+#: templates/pages/service.html:55
+msgid "Services"
+msgstr "Hizmetler"
+
+#: templates.copy/pages/service.html:63 templates/pages/index.html:387
+#: templates/pages/service.html:75
+msgid ""
+"AI in finance, diplomacy, law, energy, defence, fashion, science and "
+"manufacturing. AI solutions that embraces innovative future products."
+msgstr ""
+"Finans, diplomasi, hukuk, enerji, savunma, moda, bilim ve üretimde yapay "
+"zeka. Yenilikçi geleceğe yönelik ürünleri kapsayan yapay zeka çözümleri."
+
+#: templates.copy/pages/service.html:64 templates.copy/pages/service.html:79
+#: templates.copy/pages/service.html:94 templates.copy/pages/service.html:108
+#: templates.copy/pages/service.html:122 templates/pages/service.html:76
+#: templates/pages/service.html:91 templates/pages/service.html:106
+#: templates/pages/service.html:120 templates/pages/service.html:134
+msgid "Read More"
+msgstr "Devamını Oku"
+
+#: templates.copy/pages/service.html:73 templates/pages/index.html:393
+#: templates/pages/service.html:85
+msgid "AI Agents"
+msgstr "Yapay Zeka Ajanları"
+
+#: templates.copy/pages/service.html:77 templates/pages/index.html:396
+#: templates/pages/service.html:89
+msgid ""
+"We build AI agents that solve real-world business challenges through open-"
+"source automation and seamless deployment."
+msgstr ""
+"Gerçek dünyadaki iş zorluklarını çözen yapay zeka ajanları geliştiriyoruz; "
+"açık kaynak otomasyon ve sorunsuz dağıtım ile."
+
+#: templates.copy/pages/service.html:92 templates/pages/service.html:104
+msgid ""
+"We turn ideas into reality by leveraging cloud technologies and designing "
+"large-scale, scalable architectures."
+msgstr ""
+"Bulut teknolojilerini kullanarak ve büyük ölçekli, ölçeklenebilir mimariler "
+"tasarlayarak fikirleri gerçeğe dönüştürüyoruz."
+
+#: templates.copy/pages/service.html:107 templates.copy/pages/service.html:121
+#: templates/pages/service.html:119 templates/pages/service.html:133
+msgid ""
+"Information Technology is a rapidly evolving field that encompasses the "
+"study and application"
+msgstr ""
+"Bilgi Teknolojisi, hızla gelişen ve hem çalışma hem de uygulamayı kapsayan "
+"bir alandır."
+
+#: templates.copy/pages/service.html:137 templates/pages/service.html:149
+#: templates/pages/service_details.html:421
+msgid "Build What's Next"
+msgstr "Geleceği İnşa Et"
+
+#: templates.copy/pages/service.html:143 templates/pages/service.html:160
+#: templates/pages/service_details.html:433
+msgid "Automation & Agents"
+msgstr "Otomasyon ve Ajanlar"
+
+#: templates.copy/pages/service.html:146 templates/pages/service.html:166
+#: templates/pages/service_details.html:439
+msgid "Cloud Architecture"
+msgstr "Bulut Mimarisi"
+
+#: templates.copy/pages/service.html:147 templates/pages/service.html:170
+#: templates/pages/service_details.html:443
+msgid "CRM Integrations"
+msgstr "CRM Entegrasyonları"
+
+#: templates.copy/pages/solution_details.html:104
+#: templates/pages/service_details.html:392
+msgid "Previous"
+msgstr "Önceki"
+
+#: templates.copy/pages/solution_details.html:111
+#: templates/pages/service_details.html:397
+msgid "Next"
+msgstr "Sonraki"
+
+#: templates.copy/pages/solutions.html:9 templates/pages/solutions.html:9
+msgid "Our Solutions - RecroTech"
+msgstr "Çözümlerimiz - RecroTech"
+
+#: templates.copy/pages/solutions.html:10 templates/pages/solutions.html:10
+msgid ""
+"Explore RecroTech's innovative AI solutions across Fashion, Agriculture, and "
+"Space industries."
+msgstr ""
+"RecroTech'un Moda, Tarım ve Uzay sektörlerindeki yenilikçi yapay zeka "
+"çözümlerini keşfedin."
+
+#: templates.copy/pages/solutions.html:46
+#: templates.copy/pages/solutions.html:50 templates/pages/solutions.html:46
+#: templates/pages/solutions.html:50
+msgid "Our Solutions"
+msgstr "Çözümlerimiz"
+
+#: templates.copy/pages/solutions.html:65
+#: templates.copy/pages/solutions.html:68 templates/pages/solutions.html:65
+#: templates/pages/solutions.html:68
+msgid "AI in Fashion"
+msgstr "Moda'da Yapay Zeka"
+
+#: templates/includes/footer.html:40 templates/includes/footer.html:46
+msgid "Phone"
+msgstr "Telefon"
+
+#: templates/includes/footer.html:52
+msgid "Headquarters"
+msgstr "Genel Merkez"
+
+#: templates/includes/footer.html:75
+msgid "Automation Solutions"
+msgstr "Otomasyon Çözümleri"
+
+#: templates/includes/footer.html:85
+msgid "B2B Trainings"
+msgstr "B2B Eğitimler"
+
+#: templates/includes/footer.html:95
+msgid "Branch"
+msgstr "Şube"
+
+#: templates/includes/footer.html:97
+msgid ""
+"Teknoloji Geliştirme Bölgesi, Üniversiteler Mahallesi, Şehit Mustafa "
+"Tayyarcan Caddesi, No:5, Cyberpark Tepe Binası, Zemin Kat, No: Z43, 06800 "
+"Bilkent Çankaya/Ankara"
+msgstr ""
+"Teknoloji Geliştirme Bölgesi, Üniversiteler Mahallesi, Şehit Mustafa "
+"Tayyarcan Caddesi, No:5, Cyberpark Tepe Binası, Zemin Kat, No: Z43, 06800 "
+"Bilkent Çankaya/Ankara"
+
+#: templates/includes/footer.html:107
+msgid "Newsletter"
+msgstr "Bülten"
+
+#: templates/includes/footer.html:110
+#, fuzzy
+#| msgid ""
+#| "Subscribe to our newsletter and receive the latest updates on RecroTech's "
+#| "innovations, projects, and industry insights — straight to your inbox."
+msgid ""
+"Subscribe to our newsletter and receive the latest updates on RecroTech's "
+"innovations, projects, and industry insights — straight to your inbox."
+msgstr ""
+"Bültenimize abone olun ve RecroTech'in yenilikleri, projeleri ve sektör "
+"içgörüleri hakkındaki en son güncellemeleri doğrudan gelen kutunuza alın."
+
+#: templates/includes/footer.html:112
+msgid "Your email..."
+msgstr "E-posta adresiniz..."
+
+#: templates/includes/footer.html:125
+msgid "© All Copyright 2025 by"
+msgstr "© Tüm Hakları Saklıdır 2025"
+
+#: templates/includes/footer.html:130
+msgid "Documents"
+msgstr "Dökümanlar"
+
+#: templates/includes/footer.html:135
+msgid "Info. Security Policy"
+msgstr "Bilgi Güvenliği Politikası"
+
+#: templates/includes/footer.html:140
+msgid "Terms & Condition"
+msgstr "Şartlar ve Koşullar"
+
+#: templates/includes/footer.html:145
+msgid "Privacy Policy"
+msgstr "Gizlilik Politikası"
+
+#: templates/includes/header.html:11
+msgid "RecroTech - AI Solutions & Technology"
+msgstr "RecroTech - Yapay Zeka Çözümleri ve Teknoloji"
+
+#: templates/includes/header.html:523
+msgid "Loading"
+msgstr "Yükleniyor"
+
+#: templates/includes/header.html:562
+msgid ""
+"Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper "
+"the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus."
+msgstr ""
+"RecroTech olarak, yapay zeka ve teknoloji alanında yenilikçi çözümler "
+"sunuyoruz. İşletmeleri dijital dönüşümde destekleyen güçlü bir ekibiz."
+
+#: templates/includes/header.html:569 templates/includes/header.html:675
+msgid "About"
+msgstr "Hakkımızda"
+
+#: templates/includes/header.html:572 templates/includes/header.html:678
+#: templates/pages/about.html:63 templates/pages/about.html:67
+#: templates/pages/about.html:80 templates/pages/index.html:178
+msgid "About Us"
+msgstr "Hakkımızda"
+
+#: templates/includes/header.html:573 templates/includes/header.html:679
+#: templates/pages/about.html:121
+msgid "Founder's Letter"
+msgstr "Kurucunun Mektubu"
+
+#: templates/includes/header.html:574 templates/includes/header.html:680
+msgid "Team"
+msgstr "Ekip"
+
+#: templates/includes/header.html:575 templates/includes/header.html:681
+#: templates/pages/about.html:495
+msgid "FAQ"
+msgstr "SSS"
+
+#: templates/includes/header.html:583 templates/includes/header.html:690
+msgid "What we do"
+msgstr "Neler Yapıyoruz"
+
+#: templates/includes/header.html:588 templates/includes/header.html:695
+msgid "Solutions"
+msgstr "Çözümler"
+
+#: templates/includes/header.html:591 templates/includes/header.html:698
+msgid "Coming soon"
+msgstr "Yakında"
+
+#: templates/includes/header.html:591 templates/includes/header.html:698
+msgid "News"
+msgstr "Haberler"
+
+#: templates/includes/header.html:599
+msgid "Contact Info"
+msgstr "İletişim Bilgileri"
+
+#: templates/includes/header.html:624
+msgid "Mon-Fri, 09am - 05pm"
+msgstr "Pzt-Cum, 09:00 - 17:00"
+
+#: templates/pages/about.html:9
+msgid "About Us - RecroTech"
+msgstr "Hakkımızda - RecroTech"
+
+#: templates/pages/about.html:10
+msgid ""
+"Learn about RecroTech, our mission, vision, and team members dedicated to "
+"innovative technology solutions."
+msgstr ""
+"RecroTech, misyonumuz, vizyonumuz ve yenilikçi teknoloji çözümlerine adanmış "
+"ekip üyelerimiz hakkında bilgi edinin."
+
+#: templates/pages/about.html:84
+msgid ""
+"We are a leading AI company based in Turkey, dedicated to harnessing "
+"technology for the benefit of humanity. Our expertise spans a wide range of "
+"fields, including software development, energy solutions, cloud computing, "
+"robotics, AI agents, automation, and scientific innovation."
+msgstr ""
+"Türkiye merkezli, teknolojiyi insanlığın yararına kullanmaya adanmış önde "
+"gelen bir yapay zeka şirketiyiz. Uzmanlığımız yazılım geliştirme, enerji "
+"çözümleri, bulut bilişim, robotik, yapay zeka ajanları, otomasyon ve "
+"bilimsel inovasyon gibi geniş bir alanı kapsar."
+
+#: templates/pages/about.html:88
+msgid ""
+"At our core, we believe in empowering businesses and society with cutting-"
+"edge technology. We organize specialized training programs to keep your "
+"employees updated with the latest advancements in AI and technology."
+msgstr ""
+"Özünde, son teknoloji ile işletmeleri ve toplumu güçlendirmeye inanıyoruz. "
+"Çalışanlarınızı yapay zeka ve teknolojideki en son gelişmelerle güncel "
+"tutmak için özel eğitim programları düzenliyoruz."
+
+#: templates/pages/about.html:92
+msgid ""
+"Our vision is clear: a world where AI doesn't just power technology, but "
+"actively creates it. We pride ourselves on delivering high customer "
+"satisfaction, solving complex problems, and giving our absolute best to help "
+"our clients succeed."
+msgstr ""
+"Vizyonumuz açık: yapay zekanın sadece teknolojiyi güçlendirmediği, aktif "
+"olarak yarattığı bir dünya. Yüksek müşteri memnuniyeti sağlamak, karmaşık "
+"sorunları çözmek ve müşterilerimizin başarılı olmasına yardımcı olmak için "
+"elimizden gelenin en iyisini yapmaktan gurur duyuyoruz."
+
+#: templates/pages/about.html:98
+msgid "Company Image"
+msgstr "Şirket Görseli"
+
+#: templates/pages/about.html:124
+msgid ""
+"At Recro, we are an innovative technology company rooted in Türkiye driven "
+"by a vision to expand globally. Our name, derived from the Latin word "
+"'Recro' means 'to revive' and 'to restore' This captures the essence of what "
+"we do: we bring new life and strength to businesses by blending artificial "
+"intelligence with a human-centered approach. Recro's global vision is to "
+"bring our local expertise to the world stage by delivering future-ready "
+"solutions to organizations of all sizes. We offer technology to humanity "
+"with the philosophy of 'Be inspired by the unknown' In every project, we "
+"move forward by considering not only our customers' today but also their "
+"tomorrow. For us, what truly matters is using technology not merely as a "
+"tool, but as a means of creating value; making companies more competitive "
+"and more innovative. In short, at Recro, we are here to revive technology "
+"for the good of humanity. With our motto 'Be inspired by the unknown' let's "
+"shape the future together."
+msgstr ""
+"Recro'da, Türkiye'de kök salmış, küresel ölçekte büyüme vizyonuyla hareket "
+"eden yenilikçi bir teknoloji şirketiyiz. Latince 'Recro' kelimesinden "
+"türetilen ismimiz 'yeniden canlandırmak' ve 'restore etmek' anlamına gelir. "
+"Bu, yaptığımız şeyin özünü yakalar: yapay zekayı insan merkezli bir "
+"yaklaşımla harmanlayarak işletmelere yeni hayat ve güç getiriyoruz. "
+"Recro'nun küresel vizyonu, her ölçekteki organizasyona geleceğe hazır "
+"çözümler sunarak yerel uzmanlığımızı dünya sahnesine taşımaktır. "
+"'Bilinmeyenden ilham al' felsefesiyle insanlığa teknoloji sunuyoruz. Her "
+"projede, sadece müşterilerimizin bugününü değil yarınını da göz önünde "
+"bulundurarak ilerliyoruz. Bizim için gerçekten önemli olan, teknolojiyi "
+"sadece bir araç olarak değil, değer yaratmanın bir aracı olarak kullanmak; "
+"şirketleri daha rekabetçi ve daha yenilikçi hale getirmektir. Kısacası "
+"Recro'da, insanlığın iyiliği için teknolojiyi yeniden canlandırmak için "
+"buradayız. 'Bilinmeyenden ilham al' mottosu ile birlikte geleceği "
+"şekillendirelim."
+
+#: templates/pages/about.html:127
+msgid "Zafer Küçükşabanoğlu, Founder of RecroTech"
+msgstr "Zafer Küçükşabanoğlu, RecroTech Kurucusu"
+
+#: templates/pages/about.html:139
+msgid "RecroTech"
+msgstr "RecroTech"
+
+#: templates/pages/about.html:140
+msgid "Us"
+msgstr "Biz"
+
+#: templates/pages/about.html:150 templates/pages/about.html:154
+msgid "Founder and Chairman"
+msgstr "Kurucu ve Başkan"
+
+#: templates/pages/about.html:155 templates/pages/about.html:173
+#: templates/pages/about.html:191 templates/pages/about.html:209
+#: templates/pages/about.html:227 templates/pages/about.html:245
+#: templates/pages/about.html:263 templates/pages/about.html:281
+msgid "LinkedIn Profile"
+msgstr "LinkedIn Profili"
+
+#: templates/pages/about.html:168 templates/pages/about.html:172
+msgid "Chairman"
+msgstr "Başkan"
+
+#: templates/pages/about.html:186 templates/pages/about.html:190
+msgid "London Representative"
+msgstr "Londra Temsilcisi"
+
+#: templates/pages/about.html:204 templates/pages/about.html:208
+msgid "Strategic Projects Director"
+msgstr "Stratejik Projeler Direktörü"
+
+#: templates/pages/about.html:222 templates/pages/about.html:226
+msgid "Associated Developer"
+msgstr "Ortak Geliştirici"
+
+#: templates/pages/about.html:240 templates/pages/about.html:244
+msgid "Training Specialist"
+msgstr "Eğitim Uzmanı"
+
+#: templates/pages/about.html:258 templates/pages/about.html:262
+msgid "Lawyer and Computer Engineer"
+msgstr "Avukat ve Bilgisayar Mühendisi"
+
+#: templates/pages/about.html:276 templates/pages/about.html:280
+msgid "Intern Developer"
+msgstr "Stajyer Geliştirici"
+
+#: templates/pages/about.html:501
+msgid "FAQ Animation"
+msgstr "SSS Animasyonu"
+
+#: templates/pages/about.html:513
+msgid "What services does RecroTech offer?"
+msgstr "RecroTech hangi hizmetleri sunuyor?"
+
+#: templates/pages/about.html:518
+msgid ""
+"RecroTech offers a comprehensive range of technology services including AI-"
+"powered solutions, cloud computing, web and mobile development, digital "
+"transformation consulting, and custom software development. We tailor our "
+"services to meet the unique needs of each client."
+msgstr ""
+"RecroTech, yapay zeka destekli çözümler, bulut bilişim, web ve mobil "
+"geliştirme, dijital dönüşüm danışmanlığı ve özel yazılım geliştirme dahil "
+"olmak üzere kapsamlı bir teknoloji hizmetleri yelpazesi sunar. "
+"Hizmetlerimizi her müşterinin benzersiz ihtiyaçlarını karşılayacak şekilde "
+"uyarlıyoruz."
+
+#: templates/pages/about.html:527
+msgid "Where is RecroTech located?"
+msgstr "RecroTech nerede bulunuyor?"
+
+#: templates/pages/about.html:532
+msgid ""
+"We are headquartered in Türkiye with a vision for global expansion. We work "
+"with clients worldwide, offering both on-site and remote collaboration "
+"options to best serve our clients' needs."
+msgstr ""
+"Genel merkezimiz Türkiye'de olup küresel genişleme vizyonuna sahibiz. "
+"Müşterilerimizin ihtiyaçlarına en iyi şekilde hizmet etmek için hem yerinde "
+"hem de uzaktan işbirliği seçenekleri sunarak dünya çapında müşterilerle "
+"çalışıyoruz."
+
+#: templates/pages/about.html:541
+msgid "How can I join the RecroTech team?"
+msgstr "RecroTech ekibine nasıl katılabilirim?"
+
+#: templates/pages/about.html:546
+msgid ""
+"We're always looking for talented individuals to join our team. Please visit "
+"our <a href=\"\">Contact page</a> or send your resume to info@recrotech.com. "
+"We offer exciting opportunities for developers, designers, AI specialists, "
+"and business professionals."
+msgstr ""
+"Ekibimize katılacak yetenekli bireyler arıyoruz. Lütfen <a "
+"href=\"\">İletişim sayfamızı</a> ziyaret edin veya özgeçmişinizi "
+"info@recrotech.com adresine gönderin. Geliştiriciler, tasarımcılar, yapay "
+"zeka uzmanları ve iş profesyonelleri için heyecan verici fırsatlar sunuyoruz."
+
+#: templates/pages/about.html:555
+msgid "What makes RecroTech different from other tech companies?"
+msgstr "RecroTech'i diğer teknoloji şirketlerinden farklı kılan nedir?"
+
+#: templates/pages/about.html:560
+msgid ""
+"Our commitment to 'reviving and restoring' businesses through technology "
+"sets us apart. We don't just deliver technical solutions; we partner with "
+"our clients to understand their challenges and create meaningful innovations "
+"that drive real business value. Our team's expertise, combined with our "
+"client-centric approach, ensures success."
+msgstr ""
+"Teknoloji aracılığıyla işletmeleri 'yeniden canlandırma ve restore etme' "
+"taahhüdümüz bizi farklı kılar. Sadece teknik çözümler sunmuyoruz; "
+"müşterilerimizle ortaklık kurarak zorluklarını anlıyor ve gerçek iş değeri "
+"yaratan anlamlı yenilikler yaratıyoruz. Ekibimizin uzmanlığı, müşteri odaklı "
+"yaklaşımımızla birleşince başarıyı garanti eder."
+
+#: templates/pages/about.html:569
+msgid "How long does a typical project take?"
+msgstr "Tipik bir proje ne kadar sürer?"
+
+#: templates/pages/about.html:574
+msgid ""
+"Project timelines vary depending on scope and complexity. Simple web "
+"projects may take 4-6 weeks, while complex AI solutions or enterprise "
+"systems can take several months. We provide detailed timelines during our "
+"initial consultation and keep you updated throughout the development process."
+msgstr ""
+"Proje süreleri kapsam ve karmaşıklığa bağlı olarak değişir. Basit web "
+"projeleri 4-6 hafta sürebilirken, karmaşık yapay zeka çözümleri veya "
+"kurumsal sistemler birkaç ay sürebilir. İlk danışmanlık sırasında ayrıntılı "
+"zaman çizelgeleri sağlıyor ve geliştirme süreci boyunca sizi güncel "
+"tutuyoruz."
+
+#: templates/pages/index.html:9
+msgid "Home - RecroTech"
+msgstr "Ana Sayfa - RecroTech"
+
+#: templates/pages/index.html:10
+msgid ""
+"RecroTech - We revive technology for the good of humanity. AI solutions "
+"across multiple industries."
+msgstr ""
+"RecroTech - İnsanlığın iyiliği için teknolojiyi yeniden canlandırıyoruz. "
+"Birçok sektörde yapay zeka çözümleri."
+
+#: templates/pages/index.html:36
+msgid "Recro Technology"
+msgstr "Recro Teknoloji"
+
+#: templates/pages/index.html:38
+msgid "we revive"
+msgstr "yeniden canlandırıyoruz"
+
+#: templates/pages/index.html:38
+msgid "technology for the"
+msgstr "teknolojiyi"
+
+#: templates/pages/index.html:38
+msgid "good of humanity."
+msgstr "insanlığın iyiliği için."
+
+#: templates/pages/index.html:42
+msgid "Contact US"
+msgstr "Bize Ulaşın"
+
+#: templates/pages/index.html:66
+msgid "Search..."
+msgstr "Ara..."
+
+#: templates/pages/index.html:80
+msgid "AB Delegation"
+msgstr "AB Delegasyonu"
+
+#: templates/pages/index.html:85
+msgid "Ministry of Family and Social Services"
+msgstr "Aile ve Sosyal Hizmetler Bakanlığı"
+
+#: templates/pages/index.html:105
+msgid "Ministry of Agriculture and Forestry"
+msgstr "Tarım ve Orman Bakanlığı"
+
+#: templates/pages/index.html:110
+msgid "Ministry of Health"
+msgstr "Sağlık Bakanlığı"
+
+#: templates/pages/index.html:161
+msgid "About RecroTech"
+msgstr "RecroTech Hakkında"
+
+#: templates/pages/index.html:166
+msgid "years of"
+msgstr "yıllık"
+
+#: templates/pages/index.html:167
+msgid "experience"
+msgstr "deneyim"
+
+#: templates/pages/index.html:180
+msgid "We envision a world where AI creates technology, not just powers it."
+msgstr ""
+"Yapay zekanın teknolojiyi sadece güçlendirmediği, yarattığı bir dünya hayal "
+"ediyoruz."
+
+#: templates/pages/index.html:189
+msgid "Guaranteed Success"
+msgstr "Garantili Başarı"
+
+#: templates/pages/index.html:190
+msgid "Always try best for success."
+msgstr "Başarı için her zaman en iyisini yaparız."
+
+#: templates/pages/index.html:365
+msgid "Latest Service"
+msgstr "En Son Hizmetler"
+
+#: templates/pages/index.html:367
+msgid "IT Excellence Every of Step of the Way"
+msgstr "Her Adımda Bilişim Mükemmelliği"
+
+#: templates/pages/index.html:370
+msgid ""
+"Information Technology is a rapidly evolving field that encompasses the "
+"study and app"
+msgstr ""
+"Bilgi Teknolojisi, hızla gelişen ve çalışma ile uygulamayı kapsayan bir "
+"alandır."
+
+#: templates/pages/index.html:405 templates/pages/index.html:414
+msgid ""
+"Information Technology is a rapidly evolving field that is a encompasses the "
+"study and application"
+msgstr ""
+"Bilgi Teknolojisi, hızla gelişen ve çalışma ile uygulamayı kapsayan bir "
+"alandır."
+
+#: templates/pages/index.html:437 templates/pages/index.html:476
+msgid "Artificial Intelligence"
+msgstr "Yapay Zeka"
+
+#: templates/pages/index.html:444 templates/pages/index.html:483
+msgid "Smart City"
+msgstr "Akıllı Şehir"
+
+#: templates/pages/index.html:451 templates/pages/index.html:490
+msgid "Space Technology"
+msgstr "Uzay Teknolojisi"
+
+#: templates/pages/index.html:459 templates/pages/index.html:498
+msgid "Innovation"
+msgstr "İnovasyon"
+
+#: templates/pages/index.html:466 templates/pages/index.html:505
+msgid "Data Analytics"
+msgstr "Veri Analitiği"
+
+#: templates/pages/index.html:518
+msgid ""
+"With a solid standing in the industry, numerous awards, and a strong base of "
+"satisfied customers."
+msgstr ""
+"Sektörde sağlam bir konuma, çok sayıda ödüle ve güçlü bir memnun müşteri "
+"tabanına sahibiz."
+
+#: templates/pages/index.html:522
+msgid "Team member"
+msgstr "Ekip Üyesi"
+
+#: templates/pages/index.html:526
+msgid "Work Complete"
+msgstr "Tamamlanan İş"
+
+#: templates/pages/index.html:530
+msgid "Winning Award"
+msgstr "Kazanılan Ödül"
+
+#: templates/pages/index.html:534
+msgid "Client Review"
+msgstr "Müşteri Yorumu"
+
+#: templates/pages/index.html:550
+msgid "Latest Portfolio"
+msgstr "Son Portföy"
+
+#: templates/pages/index.html:552
+msgid "Our Newest Project"
+msgstr "En Yeni Projemiz"
+
+#: templates/pages/index.html:568
+msgid "Completed Projects"
+msgstr "Tamamlanan Projeler"
+
+#: templates/pages/index.html:572
+msgid "Client Satisfaction"
+msgstr "Müşteri Memnuniyeti"
+
+#: templates/pages/index.html:585
+msgid "Innovation First"
+msgstr "Önce İnovasyon"
+
+#: templates/pages/index.html:586
+msgid "Cutting-edge AI solutions"
+msgstr "Son teknoloji yapay zeka çözümleri"
+
+#: templates/pages/index.html:598
+msgid "Fast Delivery"
+msgstr "Hızlı Teslimat"
+
+#: templates/pages/index.html:599
+msgid "On-time project completion"
+msgstr "Zamanında proje tamamlama"
+
+#: templates/pages/index.html:613
+msgid "Expert Team"
+msgstr "Uzman Ekip"
+
+#: templates/pages/index.html:614
+msgid "Highly skilled professionals"
+msgstr "Yüksek yetenekli profesyoneller"
+
+#: templates/pages/index.html:625
+msgid "Secure & Reliable"
+msgstr "Güvenli ve Güvenilir"
+
+#: templates/pages/index.html:626
+msgid "Enterprise-grade security"
+msgstr "Kurumsal düzeyde güvenlik"
+
+#: templates/pages/index.html:639
+msgid "AI Model Fashion Try-On"
+msgstr "Yapay Zeka Model Moda Denemesi"
+
+#: templates/pages/index.html:641
+msgid "AI FASHION"
+msgstr "YAPAY ZEKA MODA"
+
+#: templates/pages/index.html:642
+msgid "Fashion Try-On Technology"
+msgstr "Moda Deneme Teknolojisi"
+
+#: templates/pages/index.html:645
+msgid "Virtual Fashion Assistant"
+msgstr "Sanal Moda Asistanı"
+
+#: templates/pages/index.html:646
+msgid ""
+"We make retail collection promotions faster, cheaper, and more creative by "
+"using robust AI tech."
+msgstr ""
+"Güçlü yapay zeka teknolojisi kullanarak perakende koleksiyon tanıtımlarını "
+"daha hızlı, daha ucuz ve daha yaratıcı hale getiriyoruz."
+
+#: templates/pages/index.html:657
+msgid "AI Agriculture Projects"
+msgstr "Yapay Zeka Tarım Projeleri"
+
+#: templates/pages/index.html:659
+msgid "AI AGRICULTURE"
+msgstr "YAPAY ZEKA TARIM"
+
+#: templates/pages/index.html:660
+msgid "Smart Farming Solutions"
+msgstr "Akıllı Tarım Çözümleri"
+
+#: templates/pages/index.html:663
+msgid "Precision Agriculture AI"
+msgstr "Hassas Tarım Yapay Zekası"
+
+#: templates/pages/index.html:664
+msgid ""
+"AI agents which help for all practices in agricultural activities using a "
+"reliable wide knowledge-base."
+msgstr ""
+"Güvenilir geniş bilgi tabanı kullanarak tarımsal faaliyetlerdeki tüm "
+"uygulamalara yardımcı olan yapay zeka ajanları."
+
+#: templates/pages/index.html:678
+msgid "Solar AI"
+msgstr "Güneş Yapay Zekası"
+
+#: templates/pages/index.html:680
+msgid "SOLAR AI"
+msgstr "GÜNEŞ YAPAY ZEKASI"
+
+#: templates/pages/index.html:681
+msgid "Renewable Energy"
+msgstr "Yenilenebilir Enerji"
+
+#: templates/pages/index.html:684
+msgid "AI Energy Optimization"
+msgstr "Yapay Zeka Enerji Optimizasyonu"
+
+#: templates/pages/index.html:685
+msgid ""
+"Machine learning for solar panel efficiency and energy distribution "
+"optimization."
+msgstr ""
+"Güneş paneli verimliliği ve enerji dağıtım optimizasyonu için makine "
+"öğrenmesi."
+
+#: templates/pages/service_details.html:301
+msgid "Navigate to home page"
+msgstr "Ana sayfaya git"
+
+#: templates/pages/service_details.html:383
+msgid "Navigate to previous service page"
+msgstr "Önceki hizmet sayfasına git"
+
+#: templates/pages/service_details.html:387
+msgid "Go back"
+msgstr "Geri dön"
+
+#: templates/pages/service_details.html:400
+msgid "Navigate to next service page"
+msgstr "Sonraki hizmet sayfasına git"
+
+#: templates/pages/service_details.html:404
+msgid "Back to services"
+msgstr "Hizmetlere dön"

@@ -1,0 +1,1553 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-01 13:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: RUSSIAN <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: main_app/contexts.py:20 main_app/contexts.py:21 main_app/contexts.py:22
+#: templates.copy/pages/solutions.html:80
+#: templates.copy/pages/solutions.html:83 templates/pages/solutions.html:80
+#: templates/pages/solutions.html:83
+msgid "AI in Agriculture"
+msgstr "ИИ в сельском хозяйстве"
+
+#: main_app/contexts.py:24
+msgid ""
+"We leverage AI to support farmers and agriculture enthusiasts by providing "
+"up-to-date information on regulations and tailored solutions for the "
+"specific challenges they may face. Our intelligent systems help optimize "
+"decision-making across every aspect of farming, from crop management to "
+"resource allocation, ensuring better yields, compliance, and sustainability."
+msgstr ""
+"Мы используем ИИ для поддержки фермеров и энтузиастов сельского хозяйства, "
+"предоставляя актуальную информацию о правилах и индивидуальные решения для "
+"конкретных проблем, с которыми они могут столкнуться. Наши интеллектуальные "
+"системы помогают оптимизировать принятие решений во всех аспектах фермерства, "
+"от управления урожаем до распределения ресурсов, обеспечивая лучшую урожайность, "
+"соответствие требованиям и устойчивость."
+
+#: main_app/contexts.py:29
+msgid "Spot-on Solutions in Agriculture"
+msgstr "Точные решения в сельском хозяйстве"
+
+#: main_app/contexts.py:31
+msgid ""
+"With AI-driven insights, farmers can anticipate problems before they occur, "
+"stay informed about evolving regulations, and make smarter, data-backed "
+"decisions for their land and crops."
+msgstr ""
+"С помощью инсайтов на основе ИИ фермеры могут предвидеть проблемы до их "
+"возникновения, оставаться в курсе развивающихся правил и принимать более "
+"умные решения на основе данных для своих земель и культур."
+
+#: main_app/contexts.py:39
+msgid "Spot-on Solutions"
+msgstr "Точные решения"
+
+#: main_app/contexts.py:41
+msgid ""
+"Create domain-specific agents capable of autonomous reasoning, planning, and "
+"interaction. Tailored AI solutions that understand your specific "
+"agricultural challenges and provide actionable recommendations."
+msgstr ""
+"Создавайте узкоспециализированных агентов, способных к автономному мышлению, "
+"планированию и взаимодействию. Индивидуальные решения на основе ИИ, которые "
+"понимают ваши конкретные сельскохозяйственные проблемы и предоставляют "
+"практические рекомендации."
+
+#: main_app/contexts.py:48
+msgid "Up-To-Date"
+msgstr "Актуальность"
+
+#: main_app/contexts.py:50
+msgid ""
+"Stay current with the latest regulations, best practices, and market "
+"conditions affecting your agricultural operations."
+msgstr ""
+"Оставайтесь в курсе последних правил, лучших практик и рыночных условий, "
+"влияющих на ваши сельскохозяйственные операции."
+
+#: main_app/contexts.py:56
+msgid "Low-Cost Maintenance"
+msgstr "Низкозатратное обслуживание"
+
+#: main_app/contexts.py:58
+msgid ""
+"Integrate AI through lightweight APIs for instant scalability. Efficient, "
+"cost-effective solutions that reduce overhead while maximizing "
+"sustainability."
+msgstr ""
+"Интегрируйте ИИ через легкие API для мгновенной масштабируемости. Эффективные, "
+"экономически выгодные решения, которые снижают накладные расходы при "
+"максимизации устойчивости."
+
+#: main_app/contexts.py:66
+msgid "Fashion Models"
+msgstr "Модели моды"
+
+#: main_app/contexts.py:67
+msgid "AI Fashion Models - RecroTech"
+msgstr "Модели моды на основе ИИ - RecroTech"
+
+#: main_app/contexts.py:68
+msgid "AI Fashion Models"
+msgstr "Модели моды на основе ИИ"
+
+#: main_app/contexts.py:70
+msgid ""
+"AI solutions are designed specifically for the fashion retail industry, "
+"helping your company boost sales and streamline operations. By leveraging "
+"advanced machine learning and computer vision, our models are fine-tuned to "
+"your company's unique needs, enabling smarter decision-making across every "
+"aspect of your business."
+msgstr ""
+"Решения на основе ИИ разработаны специально для индустрии розничной торговли "
+"модой, помогая вашей компании увеличить продажи и оптимизировать операции. "
+"Используя передовое машинное обучение и компьютерное зрение, наши модели "
+"настроены на уникальные потребности вашей компании, обеспечивая более умное "
+"принятие решений во всех аспектах вашего бизнеса."
+
+#: main_app/contexts.py:75 main_app/contexts.py:126 main_app/contexts.py:185
+msgid "Adaptive Intelligence That Works for You"
+msgstr "Адаптивный интеллект, работающий на вас"
+
+#: main_app/contexts.py:77
+msgid ""
+"Different types of GANs, image recognition, and diffusion models are "
+"integrated to provide your company with the best fashion solutions, from "
+"trend prediction to realistic visualizations and personalized styling. With "
+"retail-specific AI, your company can predict what customers want before they "
+"do, reduce waste, improve efficiency, and ultimately maximize revenue and "
+"customer satisfaction."
+msgstr ""
+"Различные типы GAN, распознавание изображений и диффузионные модели интегрированы "
+"для предоставления вашей компании лучших модных решений, от прогнозирования "
+"трендов до реалистичных визуализаций и персонализированной стилизации. С помощью "
+"специализированного для розничной торговли ИИ ваша компания может предсказывать, "
+"чего хотят клиенты, прежде чем они это сделают, сокращать отходы, повышать "
+"эффективность и в конечном итоге максимизировать доход и удовлетворенность клиентов."
+
+#: main_app/contexts.py:88
+msgid "Higher Sales"
+msgstr "Более высокие продажи"
+
+#: main_app/contexts.py:90
+msgid ""
+"Boost revenue with AI-powered trend forecasting, personalized "
+"recommendations, and dynamic pricing. Predict customer preferences and "
+"optimize inventory to maximize conversion rates and average order value."
+msgstr ""
+"Увеличивайте доход с помощью прогнозирования трендов на основе ИИ, "
+"персонализированных рекомендаций и динамического ценообразования. Прогнозируйте "
+"предпочтения клиентов и оптимизируйте запасы для максимизации коэффициента "
+"конверсии и средней стоимости заказа."
+
+#: main_app/contexts.py:97
+msgid "Reduced Ops Cost"
+msgstr "Снижение операционных затрат"
+
+#: main_app/contexts.py:99
+msgid ""
+"Streamline end-to-end business processes with adaptive automation and "
+"minimal supervision. Reduce waste, optimize supply chains, and automate "
+"routine tasks to cut operational expenses significantly."
+msgstr ""
+"Оптимизируйте сквозные бизнес-процессы с помощью адаптивной автоматизации и "
+"минимального контроля. Сокращайте отходы, оптимизируйте цепочки поставок и "
+"автоматизируйте рутинные задачи для значительного снижения операционных расходов."
+
+#: main_app/contexts.py:106
+msgid "Company Specific"
+msgstr "Специфично для компании"
+
+#: main_app/contexts.py:108
+msgid ""
+"Integrate agents through lightweight APIs and open frameworks for instant "
+"scalability. Our models are fine-tuned to your brand's unique aesthetic, "
+"customer base, and business objectives for maximum impact."
+msgstr ""
+"Интегрируйте агенты через легкие API и открытые фреймворки для мгновенной "
+"масштабируемости. Наши модели настроены на уникальную эстетику вашего бренда, "
+"клиентскую базу и бизнес-цели для максимального эффекта."
+
+#: main_app/contexts.py:117 main_app/contexts.py:119
+#: templates.copy/pages/solutions.html:95
+#: templates.copy/pages/solutions.html:98 templates/pages/solutions.html:95
+#: templates/pages/solutions.html:98
+msgid "AI in Space"
+msgstr "ИИ в космосе"
+
+#: main_app/contexts.py:118
+msgid "AI in Space - RecroTech"
+msgstr "ИИ в космосе - RecroTech"
+
+#: main_app/contexts.py:121 main_app/contexts.py:180
+msgid ""
+"Build and deploy autonomous AI agents that tackle real-world business "
+"challenges through open-source automation and seamless deployment. From "
+"intelligent task routing to adaptive workflows and predictive orchestration, "
+"our systems integrate directly with your stack, accelerating outcomes and "
+"reducing manual overhead."
+msgstr ""
+"Создавайте и развертывайте автономные ИИ-агенты, которые решают реальные бизнес-"
+"задачи с помощью автоматизации с открытым исходным кодом и бесшовного "
+"развертывания. От интеллектуальной маршрутизации задач до адаптивных рабочих "
+"процессов и прогнозируемой оркестровки, наши системы интегрируются напрямую с "
+"вашим стеком, ускоряя результаты и снижая ручные накладные расходы."
+
+#: main_app/contexts.py:128 main_app/contexts.py:187
+msgid ""
+"Our AI agents continuously learn from interactions and data, improving "
+"performance over time. They automate repetitive operations, detect "
+"anomalies, and respond to complex signals — allowing teams to focus on "
+"strategic decisions while the system handles precision execution."
+msgstr ""
+"Наши ИИ-агенты непрерывно учатся на взаимодействиях и данных, улучшая "
+"производительность со временем. Они автоматизируют повторяющиеся операции, "
+"обнаруживают аномалии и реагируют на сложные сигналы — позволяя командам "
+"сосредоточиться на стратегических решениях, пока система выполняет точное исполнение."
+
+#: main_app/contexts.py:137 main_app/contexts.py:196
+msgid "Design an AI Agent"
+msgstr "Разработайте ИИ-агента"
+
+#: main_app/contexts.py:139
+msgid ""
+"Create domain-specific agents capable of autonomous reasoning, planning, and "
+"interaction. Tailor AI systems to your unique requirements with advanced "
+"customization and training capabilities."
+msgstr ""
+"Создавайте узкоспециализированных агентов, способных к автономному мышлению, "
+"планированию и взаимодействию. Адаптируйте системы ИИ к вашим уникальным "
+"требованиям с помощью расширенных возможностей настройки и обучения."
+
+#: main_app/contexts.py:145 main_app/contexts.py:201
+msgid "Automate Workflows"
+msgstr "Автоматизируйте рабочие процессы"
+
+#: main_app/contexts.py:147
+msgid ""
+"Streamline end-to-end business processes with adaptive automation and "
+"minimal supervision. Reduce manual tasks, improve efficiency, and enable "
+"teams to focus on high-value activities."
+msgstr ""
+"Оптимизируйте сквозные бизнес-процессы с помощью адаптивной автоматизации и "
+"минимального контроля. Сокращайте ручные задачи, повышайте эффективность и "
+"позволяйте командам сосредоточиться на высокоценных мероприятиях."
+
+#: main_app/contexts.py:153 main_app/contexts.py:206
+msgid "Deploy Effortlessly"
+msgstr "Развертывайте без усилий"
+
+#: main_app/contexts.py:155
+msgid ""
+"Integrate agents through lightweight APIs and open frameworks for instant "
+"scalability. Deploy to production quickly with robust monitoring, version "
+"control, and rollback capabilities."
+msgstr ""
+"Интегрируйте агенты через легкие API и открытые фреймворки для мгновенной "
+"масштабируемости. Быстро развертывайте в производство с надежным мониторингом, "
+"контролем версий и возможностями отката."
+
+#: main_app/contexts.py:176 main_app/contexts.py:177 main_app/contexts.py:178
+#: templates.copy/pages/contact.html:119 templates.copy/pages/service.html:76
+#: templates/pages/contact.html:119 templates/pages/index.html:394
+#: templates/pages/service.html:88
+msgid "AI Agents and Automations"
+msgstr "ИИ-агенты и автоматизация"
+
+#: main_app/contexts.py:197
+msgid ""
+"Create domain-specific agents capable of autonomous reasoning, planning, and "
+"interaction."
+msgstr ""
+"Создавайте узкоспециализированных агентов, способных к автономному мышлению, "
+"планированию и взаимодействию."
+
+#: main_app/contexts.py:202
+msgid ""
+"Streamline end-to-end business processes with adaptive automation and "
+"minimal supervision."
+msgstr ""
+"Оптимизируйте сквозные бизнес-процессы с помощью адаптивной автоматизации и "
+"минимального контроля."
+
+#: main_app/contexts.py:207
+msgid ""
+"Integrate agents through lightweight APIs and open frameworks for instant "
+"scalability."
+msgstr ""
+"Интегрируйте агенты через легкие API и открытые фреймворки для мгновенной "
+"масштабируемости."
+
+#: main_app/contexts.py:213 main_app/contexts.py:214
+#: templates.copy/pages/service.html:62 templates/pages/index.html:385
+#: templates/pages/service.html:74
+msgid "A Wide Variety of AI Solutions"
+msgstr "Широкий спектр решений в области ИИ"
+
+#: main_app/contexts.py:215
+msgid "Industry-Ready AI Across Finance, Public Sector, Law & More"
+msgstr "Готовый к промышленному использованию ИИ в финансах, государственном секторе, праве и других областях"
+
+#: main_app/contexts.py:217
+msgid ""
+"We build and deploy industry-ready AI across finance, public sector, law, "
+"energy, manufacturing, and retail. Our solutions turn complex data into "
+"decisions by automating reviews, flagging risks, forecasting demand, and "
+"personalizing experiences. From LLMs to forecasting, anomaly detection, and "
+"optimization—we ship secure APIs and agents that integrate with your stack, "
+"monitor themselves, and prove value with live KPIs from day one."
+msgstr ""
+"Мы создаем и развертываем готовые к промышленному использованию решения на основе "
+"ИИ в финансах, государственном секторе, праве, энергетике, производстве и "
+"розничной торговле. Наши решения превращают сложные данные в решения путем "
+"автоматизации проверок, выявления рисков, прогнозирования спроса и персонализации "
+"опыта. От больших языковых моделей до прогнозирования, обнаружения аномалий и "
+"оптимизации — мы поставляем защищенные API и агенты, которые интегрируются с вашим "
+"стеком, контролируют себя и доказывают ценность с помощью живых KPI с первого дня."
+
+#: main_app/contexts.py:223
+msgid "Cutting-Edge Technologies That Deliver Results"
+msgstr "Передовые технологии, которые приносят результаты"
+
+#: main_app/contexts.py:225
+msgid ""
+"Technology evolves daily—we convert it into measurable results. Faster "
+"launches, lower risk, and proven ROI across software, hardware, "
+"communications, and automation. Our cross-industry expertise ensures you "
+"stay ahead with solutions built for scale and performance."
+msgstr ""
+"Технологии развиваются ежедневно — мы превращаем их в измеримые результаты. "
+"Более быстрые запуски, меньший риск и доказанная окупаемость инвестиций в "
+"программном обеспечении, оборудовании, коммуникациях и автоматизации. Наш "
+"междисциплинарный опыт гарантирует, что вы остаетесь впереди с решениями, "
+"созданными для масштаба и производительности."
+
+#: main_app/contexts.py:234
+msgid "Start a Pilot"
+msgstr "Запустите пилотный проект"
+
+#: main_app/contexts.py:236
+msgid ""
+"Launch a controlled pilot to validate AI impact in your specific workflow. "
+"We deploy a scoped solution, measure real KPIs, and iterate based on your "
+"feedback—proving value before full-scale rollout."
+msgstr ""
+"Запустите контролируемый пилотный проект для проверки влияния ИИ на ваш конкретный "
+"рабочий процесс. Мы развертываем ограниченное решение, измеряем реальные KPI и "
+"итерируем на основе вашей обратной связи — доказывая ценность до полномасштабного "
+"внедрения."
+
+#: main_app/contexts.py:243
+msgid "Add an AI Agent"
+msgstr "Добавьте ИИ-агента"
+
+#: main_app/contexts.py:245
+msgid ""
+"Deploy autonomous AI agents that handle repetitive tasks, respond to "
+"queries, and make decisions within defined parameters. Integrate seamlessly "
+"with your existing systems for 24/7 intelligent automation."
+msgstr ""
+"Развертывайте автономные ИИ-агенты, которые выполняют повторяющиеся задачи, "
+"отвечают на запросы и принимают решения в рамках определенных параметров. "
+"Бесшовно интегрируйтесь с вашими существующими системами для круглосуточной "
+"интеллектуальной автоматизации."
+
+#: main_app/contexts.py:252
+msgid "Modernize the Stack"
+msgstr "Модернизируйте стек"
+
+#: main_app/contexts.py:254
+msgid ""
+"Upgrade legacy systems with cloud-native architecture, microservices, and "
+"modern DevOps practices. Reduce technical debt while maintaining business "
+"continuity and improving deployment velocity by 10x."
+msgstr ""
+"Обновите устаревшие системы с помощью облачной архитектуры, микросервисов и "
+"современных практик DevOps. Сокращайте технический долг, сохраняя непрерывность "
+"бизнеса и повышая скорость развертывания в 10 раз."
+
+#: main_app/contexts.py:261
+msgid "See Live KPIs"
+msgstr "Смотрите живые KPI"
+
+#: main_app/contexts.py:263
+msgid ""
+"Access real-time dashboards displaying business-critical metrics: model "
+"accuracy, processing speed, cost per transaction, user satisfaction, and "
+"ROI. Make data-driven decisions with live visibility into AI performance."
+msgstr ""
+"Получайте доступ к панелям мониторинга в реальном времени, отображающим критически "
+"важные для бизнеса метрики: точность модели, скорость обработки, стоимость на "
+"транзакцию, удовлетворенность пользователей и окупаемость инвестиций. Принимайте "
+"решения на основе данных с прямой видимостью производительности ИИ."
+
+#: main_app/contexts.py:272 main_app/contexts.py:273 main_app/contexts.py:274
+#: templates.copy/pages/contact.html:120 templates.copy/pages/service.html:88
+#: templates.copy/pages/service.html:91 templates/includes/footer.html:80
+#: templates/pages/contact.html:120 templates/pages/service.html:100
+#: templates/pages/service.html:103
+msgid "Cloud Services"
+msgstr "Облачные услуги"
+
+#: main_app/contexts.py:276
+msgid ""
+"We design and deploy cloud-native systems that transform ideas into "
+"scalable, high-performance applications. Our expertise in distributed "
+"computing, data orchestration, and infrastructure automation ensures "
+"reliability, speed, and seamless integration across any environment."
+msgstr ""
+"Мы проектируем и развертываем облачные системы, которые превращают идеи в "
+"масштабируемые высокопроизводительные приложения. Наш опыт в распределенных "
+"вычислениях, оркестровке данных и автоматизации инфраструктуры обеспечивает "
+"надежность, скорость и бесшовную интеграцию в любой среде."
+
+#: main_app/contexts.py:280
+msgid "Infrastructure That Scales with You"
+msgstr "Инфраструктура, которая масштабируется вместе с вами"
+
+#: main_app/contexts.py:282
+msgid ""
+"Our cloud architectures grow with your business — from prototypes to global-"
+"scale platforms. Through automated scaling, containerized deployment, and "
+"continuous monitoring, we build resilient systems that adapt to demand in "
+"real time."
+msgstr ""
+"Наши облачные архитектуры растут вместе с вашим бизнесом — от прототипов до "
+"платформ глобального масштаба. С помощью автоматического масштабирования, "
+"контейнеризованного развертывания и непрерывного мониторинга мы создаем "
+"устойчивые системы, которые адаптируются к спросу в режиме реального времени."
+
+#: main_app/contexts.py:291
+msgid "Build on the Cloud"
+msgstr "Стройте в облаке"
+
+#: main_app/contexts.py:293
+msgid ""
+"Develop and deploy applications on secure, global-grade cloud infrastructure "
+"with high availability and performance optimization."
+msgstr ""
+"Разрабатывайте и развертывайте приложения на защищенной облачной инфраструктуре "
+"глобального уровня с высокой доступностью и оптимизацией производительности."
+
+#: main_app/contexts.py:299
+msgid "Automate Infrastructure"
+msgstr "Автоматизируйте инфраструктуру"
+
+#: main_app/contexts.py:301
+msgid ""
+"Use Infrastructure as Code (IaC) and DevOps pipelines to manage cloud "
+"environments efficiently with version control and automation."
+msgstr ""
+"Используйте инфраструктуру как код (IaC) и конвейеры DevOps для эффективного "
+"управления облачными средами с контролем версий и автоматизацией."
+
+#: main_app/contexts.py:307
+msgid "Scale Seamlessly"
+msgstr "Масштабируйте бесшовно"
+
+#: main_app/contexts.py:309
+msgid ""
+"Enable dynamic scaling and resource optimization based on real-time "
+"workloads, ensuring cost-efficiency and peak performance."
+msgstr ""
+"Обеспечьте динамическое масштабирование и оптимизацию ресурсов на основе рабочих "
+"нагрузок в реальном времени, гарантируя экономическую эффективность и пиковую "
+"производительность."
+
+#: main_app/contexts.py:317 main_app/contexts.py:318 main_app/contexts.py:319
+#: templates.copy/pages/contact.html:122 templates.copy/pages/service.html:117
+#: templates.copy/pages/service.html:120 templates/includes/footer.html:90
+#: templates/pages/contact.html:122 templates/pages/index.html:411
+#: templates/pages/index.html:412 templates/pages/service.html:129
+#: templates/pages/service.html:132
+msgid "CRM Solutions"
+msgstr "CRM-решения"
+
+#: main_app/contexts.py:321
+msgid ""
+"We build intelligent CRM systems that unify data, automate engagement, and "
+"surface actionable insights across sales, support, and marketing. By "
+"combining AI-driven analytics with custom workflows, our CRM solutions help "
+"teams anticipate customer needs and strengthen long-term relationships."
+msgstr ""
+"Мы создаем интеллектуальные CRM-системы, которые объединяют данные, автоматизируют "
+"взаимодействие и выявляют действенные инсайты в продажах, поддержке и маркетинге. "
+"Объединяя аналитику на основе ИИ с индивидуальными рабочими процессами, наши CRM-"
+"решения помогают командам предвидеть потребности клиентов и укреплять долгосрочные "
+"отношения."
+
+#: main_app/contexts.py:326
+msgid "Turning Data into Customer Intelligence"
+msgstr "Превращаем данные в потребительскую аналитику"
+
+#: main_app/contexts.py:328
+msgid ""
+"From lead scoring to retention analytics, our CRM platforms turn customer "
+"behavior into measurable intelligence. Each interaction becomes a feedback "
+"loop that sharpens predictions, improves personalization, and drives "
+"sustainable growth."
+msgstr ""
+"От оценки лидов до аналитики удержания, наши CRM-платформы превращают поведение "
+"клиентов в измеримую аналитику. Каждое взаимодействие становится обратной связью, "
+"которая уточняет прогнозы, улучшает персонализацию и способствует устойчивому росту."
+
+#: main_app/contexts.py:337
+msgid "Centralize Data"
+msgstr "Централизуйте данные"
+
+#: main_app/contexts.py:339
+msgid ""
+"Unify customer data from multiple touchpoints into a single source of truth. "
+"Eliminate data silos and gain a 360-degree view of every customer "
+"interaction."
+msgstr ""
+"Объедините данные клиентов из множества точек контакта в единый источник истины. "
+"Устраните разрозненность данных и получите 360-градусный обзор каждого "
+"взаимодействия с клиентом."
+
+#: main_app/contexts.py:345
+msgid "Automate Engagement"
+msgstr "Автоматизируйте взаимодействие"
+
+#: main_app/contexts.py:347
+msgid ""
+"Deploy intelligent workflows that trigger personalized communications, "
+"follow-ups, and nurture sequences based on customer behavior and lifecycle "
+"stage."
+msgstr ""
+"Развертывайте интеллектуальные рабочие процессы, которые запускают персонализированные "
+"коммуникации, последующие действия и последовательности воспитания на основе "
+"поведения клиентов и этапа жизненного цикла."
+
+#: main_app/contexts.py:353
+msgid "Analyze Behavior"
+msgstr "Анализируйте поведение"
+
+#: main_app/contexts.py:355
+msgid ""
+"Leverage AI-powered analytics to identify patterns, predict churn, score "
+"leads, and uncover opportunities for cross-sell and upsell across your "
+"customer base."
+msgstr ""
+"Используйте аналитику на основе ИИ для выявления закономерностей, прогнозирования "
+"оттока, оценки лидов и обнаружения возможностей для перекрестных и дополнительных "
+"продаж в вашей клиентской базе."
+
+#: main_app/contexts.py:363 main_app/contexts.py:364 main_app/contexts.py:365
+msgid "Tech Enthusiasts"
+msgstr "Технологические энтузиасты"
+
+#: main_app/contexts.py:367
+msgid ""
+"We run hands-on labs, meetups, and open-source sprints where builders "
+"prototype fast, share knowledge, and ship. From weekend workshops to deep-"
+"dive clinics, we turn curiosity into working artifacts and community "
+"momentum."
+msgstr ""
+"Мы проводим практические лаборатории, встречи и спринты с открытым исходным кодом, "
+"где создатели быстро создают прототипы, делятся знаниями и выпускают продукты. От "
+"выходных семинаров до углубленных клиник, мы превращаем любопытство в рабочие "
+"артефакты и импульс сообщества."
+
+#: main_app/contexts.py:371
+msgid "Learn. Build. Share. Repeat."
+msgstr "Учитесь. Создавайте. Делитесь. Повторяйте."
+
+#: main_app/contexts.py:373
+msgid ""
+"Sessions focus on real tools, real data, and repeatable patterns. You leave "
+"with code, docs, and a path to production—plus a network that keeps the pace."
+msgstr ""
+"Сессии сосредоточены на реальных инструментах, реальных данных и повторяемых "
+"паттернах. Вы уходите с кодом, документацией и путем к производству — плюс сеть, "
+"которая поддерживает темп."
+
+#: main_app/contexts.py:381
+msgid "Hands-On Labs"
+msgstr "Практические лаборатории"
+
+#: main_app/contexts.py:383
+msgid ""
+"Guided builds with step-by-step briefs, from idea to working demo in hours. "
+"Learn by doing with real-world scenarios and production-ready code."
+msgstr ""
+"Управляемые сборки с пошаговыми инструкциями, от идеи до рабочей демонстрации за "
+"несколько часов. Учитесь на практике с реальными сценариями и готовым к производству "
+"кодом."
+
+#: main_app/contexts.py:389
+msgid "Open-Source Sprints"
+msgstr "Спринты с открытым исходным кодом"
+
+#: main_app/contexts.py:391
+msgid ""
+"Ship PRs together—issues, reviews, and merges with maintainers. Contribute "
+"to meaningful open-source projects and build your portfolio."
+msgstr ""
+"Отправляйте PR вместе — проблемы, обзоры и слияния с разработчиками. Вносите вклад "
+"в значимые проекты с открытым исходным кодом и создавайте свое портфолио."
+
+#: main_app/contexts.py:397
+msgid "Prototyping Clinics"
+msgstr "Клиники прототипирования"
+
+#: main_app/contexts.py:399
+msgid ""
+"Rapid design-to-code cycles, usability checks, and tech spikes. Validate "
+"ideas quickly and iterate based on real user feedback."
+msgstr ""
+"Быстрые циклы от дизайна к коду, проверки удобства использования и технические "
+"скачки. Быстро проверяйте идеи и итерируйте на основе реальной обратной связи от "
+"пользователей."
+
+#: main_app/contexts.py:407 main_app/contexts.py:409
+#: templates.copy/pages/contact.html:121 templates.copy/pages/service.html:103
+#: templates.copy/pages/service.html:106 templates/includes/header.html:584
+#: templates/includes/header.html:691 templates/pages/contact.html:121
+#: templates/pages/index.html:402 templates/pages/index.html:403
+#: templates/pages/service.html:115 templates/pages/service.html:118
+msgid "Trainings"
+msgstr "Обучение"
+
+#: main_app/contexts.py:408
+msgid "AI & Cloud Trainings"
+msgstr "Обучение ИИ и облачным технологиям"
+
+#: main_app/contexts.py:411
+msgid ""
+"We deliver hands-on, outcome-driven trainings that turn teams into effective "
+"AI and cloud practitioners. Programs combine fundamentals, real datasets, "
+"and production patterns—so learners can build, deploy, and operate reliable "
+"systems."
+msgstr ""
+"Мы проводим практические, результативно-ориентированные тренинги, которые превращают "
+"команды в эффективных практиков ИИ и облачных технологий. Программы сочетают "
+"фундаментальные основы, реальные наборы данных и производственные паттерны — чтобы "
+"обучающиеся могли создавать, развертывать и эксплуатировать надежные системы."
+
+#: main_app/contexts.py:415
+msgid "From Fundamentals to Production"
+msgstr "От основ к производству"
+
+#: main_app/contexts.py:417
+msgid ""
+"Courses progress from core concepts to deployment, monitoring, and cost "
+"control. Each module ends with a working artifact—model, pipeline, or service"
+"—ready to integrate."
+msgstr ""
+"Курсы прогрессируют от основных концепций к развертыванию, мониторингу и контролю "
+"затрат. Каждый модуль заканчивается рабочим артефактом — моделью, конвейером или "
+"сервисом — готовым к интеграции."
+
+#: main_app/contexts.py:425
+msgid "AI Foundations"
+msgstr "Основы ИИ"
+
+#: main_app/contexts.py:427
+msgid ""
+"Math, data prep, model selection, evaluation; practical notebooks with real "
+"datasets. Build a strong foundation in machine learning fundamentals."
+msgstr ""
+"Математика, подготовка данных, выбор модели, оценка; практические ноутбуки с "
+"реальными наборами данных. Постройте прочную основу в фундаментальных принципах "
+"машинного обучения."
+
+#: main_app/contexts.py:433
+msgid "LLMs & Agents"
+msgstr "Большие языковые модели и агенты"
+
+#: main_app/contexts.py:435
+msgid ""
+"Prompting, retrieval, tool-use, agent orchestration; safety, evals, and "
+"guardrails. Master modern LLM applications and autonomous agents."
+msgstr ""
+"Промптинг, извлечение, использование инструментов, оркестрация агентов; безопасность, "
+"оценки и ограждения. Освойте современные приложения больших языковых моделей и "
+"автономных агентов."
+
+#: main_app/contexts.py:441
+msgid "MLOps & Pipelines"
+msgstr "MLOps и конвейеры"
+
+#: main_app/contexts.py:443
+msgid ""
+"Versioning, CI/CD for ML, feature stores, monitoring, drift and rollback "
+"patterns. Deploy and maintain production ML systems reliably."
+msgstr ""
+"Версионирование, CI/CD для машинного обучения, хранилища признаков, мониторинг, "
+"паттерны дрейфа и отката. Надежно развертывайте и поддерживайте производственные "
+"системы машинного обучения."
+
+#: main_app/contexts.py:464
+msgid "We revive technology for the good of humanity"
+msgstr "Мы возрождаем технологии во благо человечества"
+
+#: main_app/contexts.py:468 templates.copy/pages/contact.html:63
+#: templates/includes/footer.html:54 templates/includes/header.html:606
+#: templates/pages/contact.html:63
+msgid ""
+"Mustafa Kemal Mahallesi, Barış Sitesi, 2092 Sokak, No:22, Çankaya/ANKARA"
+msgstr "Мустафа Кемаль Махаллеси, Барыш Ситеси, 2092 Сокак, №22, Чанкая/АНКАРА"
+
+#: templates.copy/pages/contact.html:9 templates/pages/contact.html:9
+msgid "Contact Us - RecroTech"
+msgstr "Свяжитесь с нами - RecroTech"
+
+#: templates.copy/pages/contact.html:10 templates/pages/contact.html:10
+msgid ""
+"Get in touch with RecroTech. Contact us for AI solutions, cloud services, "
+"and technology consulting."
+msgstr ""
+"Свяжитесь с RecroTech. Обратитесь к нам за решениями в области ИИ, облачными "
+"услугами и технологическим консалтингом."
+
+#: templates.copy/pages/contact.html:35 templates.copy/pages/contact.html:39
+#: templates/includes/footer.html:29 templates/includes/header.html:594
+#: templates/includes/header.html:701 templates/pages/contact.html:35
+#: templates/pages/contact.html:39
+msgid "Contact"
+msgstr "Контакты"
+
+#: templates.copy/pages/contact.html:37 templates.copy/pages/service.html:41
+#: templates.copy/pages/solutions.html:48 templates/pages/about.html:65
+#: templates/pages/contact.html:37 templates/pages/service.html:49
+#: templates/pages/service_details.html:302 templates/pages/solutions.html:48
+msgid "Home"
+msgstr "Главная"
+
+#: templates.copy/pages/contact.html:53 templates.copy/pages/service.html:152
+#: templates/includes/footer.html:150 templates/includes/header.html:638
+#: templates/includes/header.html:786 templates/pages/contact.html:53
+#: templates/pages/service.html:176 templates/pages/service_details.html:449
+msgid "Contact Us"
+msgstr "Свяжитесь с нами"
+
+#: templates.copy/pages/contact.html:59 templates/pages/contact.html:59
+msgid "Address"
+msgstr "Адрес"
+
+#: templates.copy/pages/contact.html:70 templates/pages/contact.html:70
+msgid "Number"
+msgstr "Телефон"
+
+#: templates.copy/pages/contact.html:81 templates/pages/contact.html:81
+msgid "E-mail"
+msgstr "Электронная почта"
+
+#: templates.copy/pages/contact.html:98 templates/pages/contact.html:98
+msgid "Get In Touch"
+msgstr "Свяжитесь с нами"
+
+#: templates.copy/pages/contact.html:105 templates/pages/contact.html:105
+msgid "Your Name"
+msgstr "Ваше имя"
+
+#: templates.copy/pages/contact.html:110 templates/includes/footer.html:34
+#: templates/pages/contact.html:110
+msgid "Email"
+msgstr "Электронная почта"
+
+#: templates.copy/pages/contact.html:117 templates/pages/contact.html:117
+msgid "Select Service"
+msgstr "Выберите услугу"
+
+#: templates.copy/pages/contact.html:118 templates.copy/pages/service.html:59
+#: templates.copy/pages/service.html:142 templates/includes/footer.html:70
+#: templates/pages/contact.html:118 templates/pages/index.html:384
+#: templates/pages/service.html:71 templates/pages/service.html:156
+#: templates/pages/service_details.html:429
+msgid "AI Solutions"
+msgstr "Решения в области ИИ"
+
+#: templates.copy/pages/contact.html:129 templates/pages/contact.html:129
+msgid "mm/dd/yyyy"
+msgstr "дд/мм/гггг"
+
+#: templates.copy/pages/contact.html:134 templates/pages/contact.html:134
+msgid "Time"
+msgstr "Время"
+
+#: templates.copy/pages/contact.html:139 templates/pages/contact.html:139
+msgid "Type Here"
+msgstr "Введите здесь"
+
+#: templates.copy/pages/contact.html:144 templates/pages/contact.html:144
+msgid "Send Now"
+msgstr "Отправить"
+
+#: templates.copy/pages/service.html:8 templates/pages/service.html:9
+msgid "Services - RecroTech"
+msgstr "Услуги - RecroTech"
+
+#: templates.copy/pages/service.html:9 templates/pages/service.html:10
+msgid ""
+"Explore RecroTech's comprehensive technology services including AI "
+"Solutions, Cloud Services, AI Agents, Trainings, and CRM Solutions."
+msgstr ""
+"Изучите комплексные технологические услуги RecroTech, включая решения в "
+"области ИИ, облачные услуги, ИИ-агенты, обучение и CRM-решения."
+
+#: templates.copy/pages/service.html:38 templates.copy/pages/service.html:44
+#: templates/includes/footer.html:65 templates/includes/header.html:580
+#: templates/includes/header.html:686 templates/pages/service.html:46
+#: templates/pages/service.html:55
+msgid "Services"
+msgstr "Услуги"
+
+#: templates.copy/pages/service.html:63 templates/pages/index.html:387
+#: templates/pages/service.html:75
+msgid ""
+"AI in finance, diplomacy, law, energy, defence, fashion, science and "
+"manufacturing. AI solutions that embraces innovative future products."
+msgstr ""
+"ИИ в финансах, дипломатии, праве, энергетике, обороне, моде, науке и "
+"производстве. Решения в области ИИ, которые охватывают инновационные "
+"продукты будущего."
+
+#: templates.copy/pages/service.html:64 templates.copy/pages/service.html:79
+#: templates.copy/pages/service.html:94 templates.copy/pages/service.html:108
+#: templates.copy/pages/service.html:122 templates/pages/service.html:76
+#: templates/pages/service.html:91 templates/pages/service.html:106
+#: templates/pages/service.html:120 templates/pages/service.html:134
+msgid "Read More"
+msgstr "Подробнее"
+
+#: templates.copy/pages/service.html:73 templates/pages/index.html:393
+#: templates/pages/service.html:85
+msgid "AI Agents"
+msgstr "ИИ-агенты"
+
+#: templates.copy/pages/service.html:77 templates/pages/index.html:396
+#: templates/pages/service.html:89
+msgid ""
+"We build AI agents that solve real-world business challenges through open-"
+"source automation and seamless deployment."
+msgstr ""
+"Мы создаем ИИ-агенты, которые решают реальные бизнес-задачи с помощью "
+"автоматизации с открытым исходным кодом и бесшовного развертывания."
+
+#: templates.copy/pages/service.html:92 templates/pages/service.html:104
+msgid ""
+"We turn ideas into reality by leveraging cloud technologies and designing "
+"large-scale, scalable architectures."
+msgstr ""
+"Мы превращаем идеи в реальность, используя облачные технологии и проектируя "
+"масштабируемые архитектуры."
+
+#: templates.copy/pages/service.html:107 templates.copy/pages/service.html:121
+#: templates/pages/service.html:119 templates/pages/service.html:133
+msgid ""
+"Information Technology is a rapidly evolving field that encompasses the "
+"study and application"
+msgstr ""
+"Информационные технологии - это быстро развивающаяся область, которая "
+"охватывает изучение и применение"
+
+#: templates.copy/pages/service.html:137 templates/pages/service.html:149
+#: templates/pages/service_details.html:421
+msgid "Build What's Next"
+msgstr "Создайте будущее"
+
+#: templates.copy/pages/service.html:143 templates/pages/service.html:160
+#: templates/pages/service_details.html:433
+msgid "Automation & Agents"
+msgstr "Автоматизация и агенты"
+
+#: templates.copy/pages/service.html:146 templates/pages/service.html:166
+#: templates/pages/service_details.html:439
+msgid "Cloud Architecture"
+msgstr "Облачная архитектура"
+
+#: templates.copy/pages/service.html:147 templates/pages/service.html:170
+#: templates/pages/service_details.html:443
+msgid "CRM Integrations"
+msgstr "Интеграции CRM"
+
+#: templates.copy/pages/solution_details.html:104
+#: templates/pages/service_details.html:392
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: templates.copy/pages/solution_details.html:111
+#: templates/pages/service_details.html:397
+msgid "Next"
+msgstr "Следующий"
+
+#: templates.copy/pages/solutions.html:9 templates/pages/solutions.html:9
+msgid "Our Solutions - RecroTech"
+msgstr "Наши решения - RecroTech"
+
+#: templates.copy/pages/solutions.html:10 templates/pages/solutions.html:10
+msgid ""
+"Explore RecroTech's innovative AI solutions across Fashion, Agriculture, and "
+"Space industries."
+msgstr ""
+"Изучите инновационные решения в области ИИ от RecroTech в индустриях моды, "
+"сельского хозяйства и космоса."
+
+#: templates.copy/pages/solutions.html:46
+#: templates.copy/pages/solutions.html:50 templates/pages/solutions.html:46
+#: templates/pages/solutions.html:50
+msgid "Our Solutions"
+msgstr "Наши решения"
+
+#: templates.copy/pages/solutions.html:65
+#: templates.copy/pages/solutions.html:68 templates/pages/solutions.html:65
+#: templates/pages/solutions.html:68
+msgid "AI in Fashion"
+msgstr "ИИ в моде"
+
+#: templates/includes/footer.html:40 templates/includes/footer.html:46
+msgid "Phone"
+msgstr "Телефон"
+
+#: templates/includes/footer.html:52
+msgid "Headquarters"
+msgstr "Главный офис"
+
+#: templates/includes/footer.html:75
+msgid "Automation Solutions"
+msgstr "Решения по автоматизации"
+
+#: templates/includes/footer.html:85
+msgid "B2B Trainings"
+msgstr "B2B обучение"
+
+#: templates/includes/footer.html:95
+msgid "Branch"
+msgstr "Филиал"
+
+#: templates/includes/footer.html:97
+msgid ""
+"Teknoloji Geliştirme Bölgesi, Üniversiteler Mahallesi, Şehit Mustafa "
+"Tayyarcan Caddesi, No:5, Cyberpark Tepe Binası, Zemin Kat, No: Z43, 06800 "
+"Bilkent Çankaya/Ankara"
+msgstr ""
+"Зона развития технологий, квартал Университетов, улица Шехит Мустафа "
+"Тайярджан, №5, здание Cyberpark Tepe, цокольный этаж, №: Z43, 06800 Билькент "
+"Чанкая/Анкара"
+
+#: templates/includes/footer.html:107
+msgid "Newsletter"
+msgstr "Новостная рассылка"
+
+#: templates/includes/footer.html:110
+msgid ""
+"Subscribe to our newsletter and receive the latest updates on RecroTech's "
+"innovations, projects, and industry insights — straight to your inbox."
+msgstr ""
+"Подпишитесь на нашу рассылку и получайте последние обновления об инновациях "
+"RecroTech, проектах и отраслевых идеях прямо на вашу почту."
+
+#: templates/includes/footer.html:112
+msgid "Your email..."
+msgstr "Ваш email..."
+
+#: templates/includes/footer.html:125
+msgid "© All Copyright 2025 by"
+msgstr "© Все права защищены 2025"
+
+#: templates/includes/footer.html:130
+msgid "Documents"
+msgstr "Документы"
+
+#: templates/includes/footer.html:135
+msgid "Info. Security Policy"
+msgstr "Политика информационной безопасности"
+
+#: templates/includes/footer.html:140
+msgid "Terms & Condition"
+msgstr "Условия использования"
+
+#: templates/includes/footer.html:145
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности"
+
+#: templates/includes/header.html:11
+msgid "RecroTech - AI Solutions & Technology"
+msgstr "RecroTech - Решения в области ИИ и технологии"
+
+#: templates/includes/header.html:523
+msgid "Loading"
+msgstr "Загрузка"
+
+#: templates/includes/header.html:562
+msgid ""
+"Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper "
+"the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus."
+msgstr ""
+"Мы - инновационная технологическая компания, стремящаяся предоставлять "
+"передовые решения."
+
+#: templates/includes/header.html:569 templates/includes/header.html:675
+msgid "About"
+msgstr "О нас"
+
+#: templates/includes/header.html:572 templates/includes/header.html:678
+#: templates/pages/about.html:63 templates/pages/about.html:67
+#: templates/pages/about.html:80 templates/pages/index.html:178
+msgid "About Us"
+msgstr "О нас"
+
+#: templates/includes/header.html:573 templates/includes/header.html:679
+#: templates/pages/about.html:121
+msgid "Founder's Letter"
+msgstr "Письмо основателя"
+
+#: templates/includes/header.html:574 templates/includes/header.html:680
+msgid "Team"
+msgstr "Команда"
+
+#: templates/includes/header.html:575 templates/includes/header.html:681
+#: templates/pages/about.html:495
+msgid "FAQ"
+msgstr "Часто задаваемые вопросы"
+
+#: templates/includes/header.html:583 templates/includes/header.html:690
+msgid "What we do"
+msgstr "Чем мы занимаемся"
+
+#: templates/includes/header.html:588 templates/includes/header.html:695
+msgid "Solutions"
+msgstr "Решения"
+
+#: templates/includes/header.html:591 templates/includes/header.html:698
+msgid "Coming soon"
+msgstr "Скоро"
+
+#: templates/includes/header.html:591 templates/includes/header.html:698
+msgid "News"
+msgstr "Новости"
+
+#: templates/includes/header.html:599
+msgid "Contact Info"
+msgstr "Контактная информация"
+
+#: templates/includes/header.html:624
+msgid "Mon-Fri, 09am - 05pm"
+msgstr "Пн-Пт, 09:00 - 17:00"
+
+#: templates/pages/about.html:9
+msgid "About Us - RecroTech"
+msgstr "О нас - RecroTech"
+
+#: templates/pages/about.html:10
+msgid ""
+"Learn about RecroTech, our mission, vision, and team members dedicated to "
+"innovative technology solutions."
+msgstr ""
+"Узнайте о RecroTech, нашей миссии, видении и членах команды, посвятивших "
+"себя инновационным технологическим решениям."
+
+#: templates/pages/about.html:84
+msgid ""
+"We are a leading AI company based in Turkey, dedicated to harnessing "
+"technology for the benefit of humanity. Our expertise spans a wide range of "
+"fields, including software development, energy solutions, cloud computing, "
+"robotics, AI agents, automation, and scientific innovation."
+msgstr ""
+"Мы - ведущая компания в области ИИ, базирующаяся в Турции, посвятившая себя "
+"использованию технологий на благо человечества. Наш опыт охватывает широкий "
+"спектр областей, включая разработку программного обеспечения, энергетические "
+"решения, облачные вычисления, робототехнику, ИИ-агенты, автоматизацию и "
+"научные инновации."
+
+#: templates/pages/about.html:88
+msgid ""
+"At our core, we believe in empowering businesses and society with cutting-"
+"edge technology. We organize specialized training programs to keep your "
+"employees updated with the latest advancements in AI and technology."
+msgstr ""
+"В основе нашей деятельности лежит вера в расширение возможностей бизнеса и "
+"общества с помощью передовых технологий. Мы организуем специализированные "
+"программы обучения, чтобы ваши сотрудники были в курсе последних достижений "
+"в области ИИ и технологий."
+
+#: templates/pages/about.html:92
+msgid ""
+"Our vision is clear: a world where AI doesn't just power technology, but "
+"actively creates it. We pride ourselves on delivering high customer "
+"satisfaction, solving complex problems, and giving our absolute best to help "
+"our clients succeed."
+msgstr ""
+"Наше видение ясно: мир, в котором ИИ не просто питает технологии, но активно "
+"создает их. Мы гордимся тем, что обеспечиваем высокую удовлетворенность "
+"клиентов, решаем сложные проблемы и прилагаем все усилия, чтобы помочь нашим "
+"клиентам добиться успеха."
+
+#: templates/pages/about.html:98
+msgid "Company Image"
+msgstr "Изображение компании"
+
+#: templates/pages/about.html:124
+msgid ""
+"At Recro, we are an innovative technology company rooted in Türkiye driven "
+"by a vision to expand globally. Our name, derived from the Latin word "
+"'Recro' means 'to revive' and 'to restore' This captures the essence of what "
+"we do: we bring new life and strength to businesses by blending artificial "
+"intelligence with a human-centered approach. Recro's global vision is to "
+"bring our local expertise to the world stage by delivering future-ready "
+"solutions to organizations of all sizes. We offer technology to humanity "
+"with the philosophy of 'Be inspired by the unknown' In every project, we "
+"move forward by considering not only our customers' today but also their "
+"tomorrow. For us, what truly matters is using technology not merely as a "
+"tool, but as a means of creating value; making companies more competitive "
+"and more innovative. In short, at Recro, we are here to revive technology "
+"for the good of humanity. With our motto 'Be inspired by the unknown' let's "
+"shape the future together."
+msgstr ""
+"В Recro мы - инновационная технологическая компания, укорененная в Турции, "
+"движимая видением глобального расширения. Наше название, происходящее от "
+"латинского слова 'Recro', означает 'возрождать' и 'восстанавливать'. Это "
+"отражает суть того, что мы делаем: мы вдыхаем новую жизнь и силу в бизнес, "
+"сочетая искусственный интеллект с ориентированным на человека подходом. "
+"Глобальное видение Recro заключается в том, чтобы вывести наш местный опыт "
+"на мировую арену, предоставляя готовые к будущему решения организациям "
+"любого размера. Мы предлагаем технологии человечеству с философией "
+"'Вдохновляйтесь неизвестным'. В каждом проекте мы двигаемся вперед, учитывая "
+"не только сегодняшний день наших клиентов, но и их завтрашний. Для нас "
+"действительно важно использовать технологии не просто как инструмент, а как "
+"средство создания ценности; делать компании более конкурентоспособными и "
+"инновационными. Короче говоря, в Recro мы здесь, чтобы возродить технологии "
+"во благо человечества. С нашим девизом 'Вдохновляйтесь неизвестным' давайте "
+"вместе формировать будущее."
+
+#: templates/pages/about.html:127
+msgid "Zafer Küçükşabanoğlu, Founder of RecroTech"
+msgstr "Зафер Кючюкшабаноглу, основатель RecroTech"
+
+#: templates/pages/about.html:139
+msgid "RecroTech"
+msgstr "RecroTech"
+
+#: templates/pages/about.html:140
+msgid "Us"
+msgstr "Наша команда"
+
+#: templates/pages/about.html:150 templates/pages/about.html:154
+msgid "Founder and Chairman"
+msgstr "Основатель и председатель"
+
+#: templates/pages/about.html:155 templates/pages/about.html:173
+#: templates/pages/about.html:191 templates/pages/about.html:209
+#: templates/pages/about.html:227 templates/pages/about.html:245
+#: templates/pages/about.html:263 templates/pages/about.html:281
+msgid "LinkedIn Profile"
+msgstr "Профиль в LinkedIn"
+
+#: templates/pages/about.html:168 templates/pages/about.html:172
+msgid "Chairman"
+msgstr "Председатель"
+
+#: templates/pages/about.html:186 templates/pages/about.html:190
+msgid "London Representative"
+msgstr "Представитель в Лондоне"
+
+#: templates/pages/about.html:204 templates/pages/about.html:208
+msgid "Strategic Projects Director"
+msgstr "Директор по стратегическим проектам"
+
+#: templates/pages/about.html:222 templates/pages/about.html:226
+msgid "Associated Developer"
+msgstr "Ассоциированный разработчик"
+
+#: templates/pages/about.html:240 templates/pages/about.html:244
+msgid "Training Specialist"
+msgstr "Специалист по обучению"
+
+#: templates/pages/about.html:258 templates/pages/about.html:262
+msgid "Lawyer and Computer Engineer"
+msgstr "Юрист и инженер-программист"
+
+#: templates/pages/about.html:276 templates/pages/about.html:280
+msgid "Intern Developer"
+msgstr "Разработчик-стажер"
+
+#: templates/pages/about.html:501
+msgid "FAQ Animation"
+msgstr "Анимация FAQ"
+
+#: templates/pages/about.html:513
+msgid "What services does RecroTech offer?"
+msgstr "Какие услуги предлагает RecroTech?"
+
+#: templates/pages/about.html:518
+msgid ""
+"RecroTech offers a comprehensive range of technology services including AI-"
+"powered solutions, cloud computing, web and mobile development, digital "
+"transformation consulting, and custom software development. We tailor our "
+"services to meet the unique needs of each client."
+msgstr ""
+"RecroTech предлагает комплексный спектр технологических услуг, включая "
+"решения на базе ИИ, облачные вычисления, разработку веб- и мобильных "
+"приложений, консалтинг по цифровой трансформации и разработку "
+"индивидуального программного обеспечения. Мы адаптируем наши услуги для "
+"удовлетворения уникальных потребностей каждого клиента."
+
+#: templates/pages/about.html:527
+msgid "Where is RecroTech located?"
+msgstr "Где находится RecroTech?"
+
+#: templates/pages/about.html:532
+msgid ""
+"We are headquartered in Türkiye with a vision for global expansion. We work "
+"with clients worldwide, offering both on-site and remote collaboration "
+"options to best serve our clients' needs."
+msgstr ""
+"Наша штаб-квартира находится в Турции с видением глобального расширения. Мы "
+"работаем с клиентами по всему миру, предлагая как локальное, так и удаленное "
+"сотрудничество для наилучшего обслуживания потребностей наших клиентов."
+
+#: templates/pages/about.html:541
+msgid "How can I join the RecroTech team?"
+msgstr "Как я могу присоединиться к команде RecroTech?"
+
+#: templates/pages/about.html:546
+msgid ""
+"We're always looking for talented individuals to join our team. Please visit "
+"our <a href=\"\">Contact page</a> or send your resume to info@recrotech.com. "
+"We offer exciting opportunities for developers, designers, AI specialists, "
+"and business professionals."
+msgstr ""
+"Мы всегда ищем талантливых людей для присоединения к нашей команде. "
+"Пожалуйста, посетите нашу страницу Контакты или отправьте свое резюме на "
+"info@recrotech.com. Мы предлагаем захватывающие возможности для "
+"разработчиков, дизайнеров, специалистов по ИИ и бизнес-профессионалов."
+
+#: templates/pages/about.html:555
+msgid "What makes RecroTech different from other tech companies?"
+msgstr "Чем RecroTech отличается от других технологических компаний?"
+
+#: templates/pages/about.html:560
+msgid ""
+"Our commitment to 'reviving and restoring' businesses through technology "
+"sets us apart. We don't just deliver technical solutions; we partner with "
+"our clients to understand their challenges and create meaningful innovations "
+"that drive real business value. Our team's expertise, combined with our "
+"client-centric approach, ensures success."
+msgstr ""
+"Наша приверженность 'возрождению и восстановлению' бизнеса с помощью "
+"технологий выделяет нас. Мы не просто предоставляем технические решения; мы "
+"сотрудничаем с нашими клиентами, чтобы понять их проблемы и создать значимые "
+"инновации, которые создают реальную бизнес-ценность. Опыт нашей команды в "
+"сочетании с нашим клиентоориентированным подходом обеспечивает успех."
+
+#: templates/pages/about.html:569
+msgid "How long does a typical project take?"
+msgstr "Сколько времени занимает типичный проект?"
+
+#: templates/pages/about.html:574
+msgid ""
+"Project timelines vary depending on scope and complexity. Simple web "
+"projects may take 4-6 weeks, while complex AI solutions or enterprise "
+"systems can take several months. We provide detailed timelines during our "
+"initial consultation and keep you updated throughout the development process."
+msgstr ""
+"Сроки проекта варьируются в зависимости от масштаба и сложности. Простые веб-"
+"проекты могут занять 4-6 недель, в то время как сложные решения в области ИИ "
+"или корпоративные системы могут занять несколько месяцев. Мы предоставляем "
+"подробные сроки во время первичной консультации и держим вас в курсе на "
+"протяжении всего процесса разработки."
+
+#: templates/pages/index.html:9
+msgid "Home - RecroTech"
+msgstr "Главная - RecroTech"
+
+#: templates/pages/index.html:10
+msgid ""
+"RecroTech - We revive technology for the good of humanity. AI solutions "
+"across multiple industries."
+msgstr ""
+"RecroTech - Мы возрождаем технологии во благо человечества. Решения в "
+"области ИИ в различных отраслях."
+
+#: templates/pages/index.html:36
+msgid "Recro Technology"
+msgstr "Технология Recro"
+
+#: templates/pages/index.html:38
+msgid "we revive"
+msgstr "мы возрождаем"
+
+#: templates/pages/index.html:38
+msgid "technology for the"
+msgstr "технологии для"
+
+#: templates/pages/index.html:38
+msgid "good of humanity."
+msgstr "блага человечества."
+
+#: templates/pages/index.html:42
+msgid "Contact US"
+msgstr "Свяжитесь с нами"
+
+#: templates/pages/index.html:66
+msgid "Search..."
+msgstr "Поиск..."
+
+#: templates/pages/index.html:80
+msgid "AB Delegation"
+msgstr "Делегация ЕС"
+
+#: templates/pages/index.html:85
+msgid "Ministry of Family and Social Services"
+msgstr "Министерство семьи и социальных услуг"
+
+#: templates/pages/index.html:105
+msgid "Ministry of Agriculture and Forestry"
+msgstr "Министерство сельского хозяйства и лесного хозяйства"
+
+#: templates/pages/index.html:110
+msgid "Ministry of Health"
+msgstr "Министерство здравоохранения"
+
+#: templates/pages/index.html:161
+msgid "About RecroTech"
+msgstr "О RecroTech"
+
+#: templates/pages/index.html:166
+msgid "years of"
+msgstr "лет"
+
+#: templates/pages/index.html:167
+msgid "experience"
+msgstr "опыта"
+
+#: templates/pages/index.html:180
+msgid "We envision a world where AI creates technology, not just powers it."
+msgstr ""
+"Мы представляем мир, в котором ИИ создает технологии, а не просто питает их."
+
+#: templates/pages/index.html:189
+msgid "Guaranteed Success"
+msgstr "Гарантированный успех"
+
+#: templates/pages/index.html:190
+msgid "Always try best for success."
+msgstr "Всегда стараемся изо всех сил для достижения успеха."
+
+#: templates/pages/index.html:365
+msgid "Latest Service"
+msgstr "Последние услуги"
+
+#: templates/pages/index.html:367
+msgid "IT Excellence Every of Step of the Way"
+msgstr "Превосходство в ИТ на каждом этапе пути"
+
+#: templates/pages/index.html:370
+msgid ""
+"Information Technology is a rapidly evolving field that encompasses the "
+"study and app"
+msgstr ""
+"Информационные технологии - это быстро развивающаяся область, которая "
+"охватывает изучение и применение"
+
+#: templates/pages/index.html:405 templates/pages/index.html:414
+msgid ""
+"Information Technology is a rapidly evolving field that is a encompasses the "
+"study and application"
+msgstr ""
+"Информационные технологии - это быстро развивающаяся область, которая "
+"охватывает изучение и применение"
+
+#: templates/pages/index.html:437 templates/pages/index.html:476
+msgid "Artificial Intelligence"
+msgstr "Искусственный интеллект"
+
+#: templates/pages/index.html:444 templates/pages/index.html:483
+msgid "Smart City"
+msgstr "Умный город"
+
+#: templates/pages/index.html:451 templates/pages/index.html:490
+msgid "Space Technology"
+msgstr "Космические технологии"
+
+#: templates/pages/index.html:459 templates/pages/index.html:498
+msgid "Innovation"
+msgstr "Инновации"
+
+#: templates/pages/index.html:466 templates/pages/index.html:505
+msgid "Data Analytics"
+msgstr "Аналитика данных"
+
+#: templates/pages/index.html:518
+msgid ""
+"With a solid standing in the industry, numerous awards, and a strong base of "
+"satisfied customers."
+msgstr ""
+"С прочной позицией в отрасли, многочисленными наградами и сильной базой "
+"довольных клиентов."
+
+#: templates/pages/index.html:522
+msgid "Team member"
+msgstr "Член команды"
+
+#: templates/pages/index.html:526
+msgid "Work Complete"
+msgstr "Выполненная работа"
+
+#: templates/pages/index.html:530
+msgid "Winning Award"
+msgstr "Полученная награда"
+
+#: templates/pages/index.html:534
+msgid "Client Review"
+msgstr "Отзыв клиента"
+
+#: templates/pages/index.html:550
+msgid "Latest Portfolio"
+msgstr "Последнее портфолио"
+
+#: templates/pages/index.html:552
+msgid "Our Newest Project"
+msgstr "Наш новейший проект"
+
+#: templates/pages/index.html:568
+msgid "Completed Projects"
+msgstr "Завершенные проекты"
+
+#: templates/pages/index.html:572
+msgid "Client Satisfaction"
+msgstr "Удовлетворенность клиентов"
+
+#: templates/pages/index.html:585
+msgid "Innovation First"
+msgstr "Инновации прежде всего"
+
+#: templates/pages/index.html:586
+msgid "Cutting-edge AI solutions"
+msgstr "Передовые решения в области ИИ"
+
+#: templates/pages/index.html:598
+msgid "Fast Delivery"
+msgstr "Быстрая доставка"
+
+#: templates/pages/index.html:599
+msgid "On-time project completion"
+msgstr "Своевременное завершение проекта"
+
+#: templates/pages/index.html:613
+msgid "Expert Team"
+msgstr "Команда экспертов"
+
+#: templates/pages/index.html:614
+msgid "Highly skilled professionals"
+msgstr "Высококвалифицированные профессионалы"
+
+#: templates/pages/index.html:625
+msgid "Secure & Reliable"
+msgstr "Безопасно и надежно"
+
+#: templates/pages/index.html:626
+msgid "Enterprise-grade security"
+msgstr "Безопасность корпоративного уровня"
+
+#: templates/pages/index.html:639
+msgid "AI Model Fashion Try-On"
+msgstr "Примерка модной одежды с помощью ИИ"
+
+#: templates/pages/index.html:641
+msgid "AI FASHION"
+msgstr "ИИ В МОДЕ"
+
+#: templates/pages/index.html:642
+msgid "Fashion Try-On Technology"
+msgstr "Технология примерки моды"
+
+#: templates/pages/index.html:645
+msgid "Virtual Fashion Assistant"
+msgstr "Виртуальный модный ассистент"
+
+#: templates/pages/index.html:646
+msgid ""
+"We make retail collection promotions faster, cheaper, and more creative by "
+"using robust AI tech."
+msgstr ""
+"Мы делаем промо-акции розничных коллекций быстрее, дешевле и креативнее, "
+"используя надежные технологии ИИ."
+
+#: templates/pages/index.html:657
+msgid "AI Agriculture Projects"
+msgstr "Проекты ИИ в сельском хозяйстве"
+
+#: templates/pages/index.html:659
+msgid "AI AGRICULTURE"
+msgstr "ИИ В СЕЛЬСКОМ ХОЗЯЙСТВЕ"
+
+#: templates/pages/index.html:660
+msgid "Smart Farming Solutions"
+msgstr "Решения для умного фермерства"
+
+#: templates/pages/index.html:663
+msgid "Precision Agriculture AI"
+msgstr "ИИ точного земледелия"
+
+#: templates/pages/index.html:664
+msgid ""
+"AI agents which help for all practices in agricultural activities using a "
+"reliable wide knowledge-base."
+msgstr ""
+"ИИ-агенты, которые помогают во всех практиках сельскохозяйственной "
+"деятельности, используя надежную обширную базу знаний."
+
+#: templates/pages/index.html:678
+msgid "Solar AI"
+msgstr "Солнечный ИИ"
+
+#: templates/pages/index.html:680
+msgid "SOLAR AI"
+msgstr "СОЛНЕЧНЫЙ ИИ"
+
+#: templates/pages/index.html:681
+msgid "Renewable Energy"
+msgstr "Возобновляемая энергия"
+
+#: templates/pages/index.html:684
+msgid "AI Energy Optimization"
+msgstr "Оптимизация энергии с помощью ИИ"
+
+#: templates/pages/index.html:685
+msgid ""
+"Machine learning for solar panel efficiency and energy distribution "
+"optimization."
+msgstr ""
+"Машинное обучение для повышения эффективности солнечных панелей и "
+"оптимизации распределения энергии."
+
+#: templates/pages/service_details.html:301
+msgid "Navigate to home page"
+msgstr "Перейти на главную страницу"
+
+#: templates/pages/service_details.html:383
+msgid "Navigate to previous service page"
+msgstr "Перейти на предыдущую страницу услуг"
+
+#: templates/pages/service_details.html:387
+msgid "Go back"
+msgstr "Назад"
+
+#: templates/pages/service_details.html:400
+msgid "Navigate to next service page"
+msgstr "Перейти на следующую страницу услуг"
+
+#: templates/pages/service_details.html:404
+msgid "Back to services"
+msgstr "Вернуться к услугам"

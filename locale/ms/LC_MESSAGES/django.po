@@ -1,0 +1,930 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-31 13:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: config/settings.py:132
+msgid "Malay"
+msgstr "Bahasa Melayu"
+
+#: config/settings.py:133
+msgid "Korean"
+msgstr "Bahasa Korea"
+
+#: config/settings.py:134
+msgid "Russian"
+msgstr "Bahasa Rusia"
+
+#: config/settings.py:135
+msgid "Spanish"
+msgstr "Bahasa Sepanyol"
+
+#: config/settings.py:136
+msgid "Chinese (Simplified)"
+msgstr "Bahasa Cina (Ringkas)"
+
+#: config/settings.py:137
+msgid "Arabic"
+msgstr "Bahasa Arab"
+
+#: templates.copy/pages/contact.html:9 templates/pages/contact.html:9
+msgid "Contact Us - RecroTech"
+msgstr "Hubungi Kami - RecroTech"
+
+#: templates.copy/pages/contact.html:10 templates/pages/contact.html:10
+msgid ""
+"Get in touch with RecroTech. Contact us for AI solutions, cloud services, "
+"and technology consulting."
+msgstr ""
+"Berhubung dengan RecroTech. Hubungi kami untuk penyelesaian AI, perkhidmatan awan, "
+"dan perundingan teknologi."
+
+#: templates.copy/pages/contact.html:35 templates.copy/pages/contact.html:39
+#: templates/includes/footer.html:29 templates/includes/header.html:320
+#: templates/pages/contact.html:35 templates/pages/contact.html:39
+msgid "Contact"
+msgstr "Hubungi"
+
+#: templates.copy/pages/contact.html:37 templates.copy/pages/service.html:41
+#: templates.copy/pages/solutions.html:48 templates/pages/about.html:65
+#: templates/pages/contact.html:37 templates/pages/service.html:49
+#: templates/pages/service_details.html:302 templates/pages/solutions.html:48
+msgid "Home"
+msgstr "Laman Utama"
+
+#: templates.copy/pages/contact.html:53 templates.copy/pages/service.html:152
+#: templates/includes/footer.html:152 templates/includes/header.html:258
+#: templates/includes/header.html:357 templates/pages/contact.html:53
+#: templates/pages/service.html:176 templates/pages/service_details.html:449
+msgid "Contact Us"
+msgstr "Hubungi Kami"
+
+#: templates.copy/pages/contact.html:59 templates/pages/contact.html:59
+msgid "Address"
+msgstr "Alamat"
+
+#: templates.copy/pages/contact.html:63 templates/includes/footer.html:54
+#: templates/includes/header.html:226 templates/pages/contact.html:63
+msgid ""
+"Mustafa Kemal Mahallesi, Barış Sitesi, 2092 Sokak, No:22, Çankaya/ANKARA"
+msgstr ""
+"Mustafa Kemal Mahallesi, Barış Sitesi, 2092 Sokak, No:22, Çankaya/ANKARA"
+
+#: templates.copy/pages/contact.html:70 templates/pages/contact.html:70
+msgid "Number"
+msgstr "Nombor"
+
+#: templates.copy/pages/contact.html:81 templates/pages/contact.html:81
+msgid "E-mail"
+msgstr "E-mel"
+
+#: templates.copy/pages/contact.html:98 templates/pages/contact.html:98
+msgid "Get In Touch"
+msgstr "Berhubung Dengan Kami"
+
+#: templates.copy/pages/contact.html:105 templates/pages/contact.html:105
+msgid "Your Name"
+msgstr "Nama Anda"
+
+#: templates.copy/pages/contact.html:110 templates/includes/footer.html:34
+#: templates/pages/contact.html:110
+msgid "Email"
+msgstr "E-mel"
+
+#: templates.copy/pages/contact.html:117 templates/pages/contact.html:117
+msgid "Select Service"
+msgstr "Pilih Perkhidmatan"
+
+#: templates.copy/pages/contact.html:118 templates.copy/pages/service.html:59
+#: templates.copy/pages/service.html:142 templates/includes/footer.html:70
+#: templates/pages/contact.html:118 templates/pages/index.html:384
+#: templates/pages/service.html:71 templates/pages/service.html:156
+#: templates/pages/service_details.html:429
+msgid "AI Solutions"
+msgstr "Penyelesaian AI"
+
+#: templates.copy/pages/contact.html:119 templates.copy/pages/service.html:76
+#: templates/pages/contact.html:119 templates/pages/index.html:394
+#: templates/pages/service.html:88
+msgid "AI Agents and Automations"
+msgstr "Ejen AI dan Automasi"
+
+#: templates.copy/pages/contact.html:120 templates.copy/pages/service.html:88
+#: templates.copy/pages/service.html:91 templates/includes/footer.html:80
+#: templates/pages/contact.html:120 templates/pages/service.html:100
+#: templates/pages/service.html:103
+msgid "Cloud Services"
+msgstr "Perkhidmatan Awan"
+
+#: templates.copy/pages/contact.html:121 templates.copy/pages/service.html:103
+#: templates.copy/pages/service.html:106 templates/includes/header.html:310
+#: templates/pages/contact.html:121 templates/pages/index.html:402
+#: templates/pages/index.html:403 templates/pages/service.html:115
+#: templates/pages/service.html:118
+msgid "Trainings"
+msgstr "Latihan"
+
+#: templates.copy/pages/contact.html:122 templates.copy/pages/service.html:117
+#: templates.copy/pages/service.html:120 templates/includes/footer.html:90
+#: templates/pages/contact.html:122 templates/pages/index.html:411
+#: templates/pages/index.html:412 templates/pages/service.html:129
+#: templates/pages/service.html:132
+msgid "CRM Solutions"
+msgstr "Penyelesaian CRM"
+
+#: templates.copy/pages/contact.html:129 templates/pages/contact.html:129
+msgid "mm/dd/yyyy"
+msgstr "hh/bb/tttt"
+
+#: templates.copy/pages/contact.html:134 templates/pages/contact.html:134
+msgid "Time"
+msgstr "Masa"
+
+#: templates.copy/pages/contact.html:139 templates/pages/contact.html:139
+msgid "Type Here"
+msgstr "Taip Di Sini"
+
+#: templates.copy/pages/contact.html:144 templates/pages/contact.html:144
+msgid "Send Now"
+msgstr "Hantar Sekarang"
+
+#: templates.copy/pages/service.html:8 templates/pages/service.html:9
+msgid "Services - RecroTech"
+msgstr "Perkhidmatan - RecroTech"
+
+#: templates.copy/pages/service.html:9 templates/pages/service.html:10
+msgid ""
+"Explore RecroTech's comprehensive technology services including AI "
+"Solutions, Cloud Services, AI Agents, Trainings, and CRM Solutions."
+msgstr ""
+"Terokai perkhidmatan teknologi komprehensif RecroTech termasuk Penyelesaian AI, "
+"Perkhidmatan Awan, Ejen AI, Latihan, dan Penyelesaian CRM."
+
+#: templates.copy/pages/service.html:38 templates.copy/pages/service.html:44
+#: templates/includes/footer.html:65 templates/includes/header.html:305
+#: templates/pages/service.html:46 templates/pages/service.html:55
+msgid "Services"
+msgstr "Perkhidmatan"
+
+#: templates.copy/pages/service.html:62 templates/pages/index.html:385
+#: templates/pages/service.html:74
+msgid "A Wide Variety of AI Solutions"
+msgstr "Pelbagai Jenis Penyelesaian AI"
+
+#: templates.copy/pages/service.html:63 templates/pages/index.html:387
+#: templates/pages/service.html:75
+msgid ""
+"AI in finance, diplomacy, law, energy, defence, fashion, science and "
+"manufacturing. AI solutions that embraces innovative future products."
+msgstr ""
+"AI dalam kewangan, diplomasi, undang-undang, tenaga, pertahanan, fesyen, sains dan "
+"pembuatan. Penyelesaian AI yang merangkumi produk masa depan yang inovatif."
+
+#: templates.copy/pages/service.html:64 templates.copy/pages/service.html:79
+#: templates.copy/pages/service.html:94 templates.copy/pages/service.html:108
+#: templates.copy/pages/service.html:122 templates/pages/service.html:76
+#: templates/pages/service.html:91 templates/pages/service.html:106
+#: templates/pages/service.html:120 templates/pages/service.html:134
+msgid "Read More"
+msgstr "Baca Lagi"
+
+#: templates.copy/pages/service.html:73 templates/pages/index.html:393
+#: templates/pages/service.html:85
+msgid "AI Agents"
+msgstr "Ejen AI"
+
+#: templates.copy/pages/service.html:77 templates/pages/index.html:396
+#: templates/pages/service.html:89
+msgid ""
+"We build AI agents that solve real-world business challenges through open-"
+"source automation and seamless deployment."
+msgstr ""
+"Kami membina ejen AI yang menyelesaikan cabaran perniagaan dunia sebenar melalui "
+"automasi sumber terbuka dan pelaksanaan yang lancar."
+
+#: templates.copy/pages/service.html:92 templates/pages/service.html:104
+msgid ""
+"We turn ideas into reality by leveraging cloud technologies and designing "
+"large-scale, scalable architectures."
+msgstr ""
+"Kami mengubah idea menjadi kenyataan dengan memanfaatkan teknologi awan dan mereka bentuk "
+"seni bina berskala besar yang boleh dikembangkan."
+
+#: templates.copy/pages/service.html:107 templates.copy/pages/service.html:121
+#: templates/pages/service.html:119 templates/pages/service.html:133
+msgid ""
+"Information Technology is a rapidly evolving field that encompasses the "
+"study and application"
+msgstr ""
+"Teknologi Maklumat adalah bidang yang berkembang pesat yang merangkumi "
+"kajian dan aplikasi"
+
+#: templates.copy/pages/service.html:137 templates/pages/service.html:149
+#: templates/pages/service_details.html:421
+msgid "Build What's Next"
+msgstr "Bina Apa Yang Seterusnya"
+
+#: templates.copy/pages/service.html:143 templates/pages/service.html:160
+#: templates/pages/service_details.html:433
+msgid "Automation & Agents"
+msgstr "Automasi & Ejen"
+
+#: templates.copy/pages/service.html:146 templates/pages/service.html:166
+#: templates/pages/service_details.html:439
+msgid "Cloud Architecture"
+msgstr "Seni Bina Awan"
+
+#: templates.copy/pages/service.html:147 templates/pages/service.html:170
+#: templates/pages/service_details.html:443
+msgid "CRM Integrations"
+msgstr "Integrasi CRM"
+
+#: templates.copy/pages/solution_details.html:104
+#: templates/pages/service_details.html:392
+msgid "Previous"
+msgstr "Sebelumnya"
+
+#: templates.copy/pages/solution_details.html:111
+#: templates/pages/service_details.html:397
+msgid "Next"
+msgstr "Seterusnya"
+
+#: templates.copy/pages/solutions.html:9 templates/pages/solutions.html:9
+msgid "Our Solutions - RecroTech"
+msgstr "Penyelesaian Kami - RecroTech"
+
+#: templates.copy/pages/solutions.html:10 templates/pages/solutions.html:10
+msgid ""
+"Explore RecroTech's innovative AI solutions across Fashion, Agriculture, and "
+"Space industries."
+msgstr ""
+"Terokai penyelesaian AI inovatif RecroTech merentasi industri Fesyen, Pertanian, dan "
+"Angkasa Lepas."
+
+#: templates.copy/pages/solutions.html:46
+#: templates.copy/pages/solutions.html:50 templates/pages/solutions.html:46
+#: templates/pages/solutions.html:50
+msgid "Our Solutions"
+msgstr "Penyelesaian Kami"
+
+#: templates.copy/pages/solutions.html:65
+#: templates.copy/pages/solutions.html:68 templates/pages/solutions.html:65
+#: templates/pages/solutions.html:68
+msgid "AI in Fashion"
+msgstr "AI dalam Fesyen"
+
+#: templates.copy/pages/solutions.html:80
+#: templates.copy/pages/solutions.html:83 templates/pages/solutions.html:80
+#: templates/pages/solutions.html:83
+msgid "AI in Agriculture"
+msgstr "AI dalam Pertanian"
+
+#: templates.copy/pages/solutions.html:95
+#: templates.copy/pages/solutions.html:98 templates/pages/solutions.html:95
+#: templates/pages/solutions.html:98
+msgid "AI in Space"
+msgstr "AI dalam Angkasa Lepas"
+
+#: templates/includes/footer.html:40 templates/includes/footer.html:46
+msgid "Phone"
+msgstr "Telefon"
+
+#: templates/includes/footer.html:52
+msgid "Headquarters"
+msgstr "Ibu Pejabat"
+
+#: templates/includes/footer.html:75
+msgid "Automation Solutions"
+msgstr "Penyelesaian Automasi"
+
+#: templates/includes/footer.html:85
+msgid "B2B Trainings"
+msgstr "Latihan B2B"
+
+#: templates/includes/footer.html:96
+msgid "Branch"
+msgstr "Cawangan"
+
+#: templates/includes/footer.html:98
+msgid ""
+"Teknoloji Geliştirme Bölgesi, Üniversiteler Mahallesi, Şehit Mustafa "
+"Tayyarcan Caddesi, No:5, Cyberpark Tepe Binası, Zemin Kat, No: Z43, 06800 "
+"Bilkent Çankaya/Ankara"
+msgstr ""
+"Teknoloji Geliştirme Bölgesi, Üniversiteler Mahallesi, Şehit Mustafa "
+"Tayyarcan Caddesi, No:5, Cyberpark Tepe Binası, Zemin Kat, No: Z43, 06800 "
+"Bilkent Çankaya/Ankara"
+
+#: templates/includes/footer.html:109
+msgid "Newsletter"
+msgstr "Surat Berita"
+
+#: templates/includes/footer.html:112
+msgid ""
+"Subscribe to our newsletter and receive the latest updates on RecroTech's "
+"innovations, projects, and industry insights — straight to your inbox."
+msgstr ""
+"Langgan surat berita kami dan terima kemas kini terkini mengenai inovasi RecroTech, "
+"projek, dan pandangan industri — terus ke peti masuk anda."
+
+#: templates/includes/footer.html:114
+msgid "Your email..."
+msgstr "E-mel anda..."
+
+#: templates/includes/footer.html:127
+msgid "© All Copyright 2025 by"
+msgstr "© Hak Cipta Terpelihara 2025 oleh"
+
+#: templates/includes/footer.html:132
+msgid "Documents"
+msgstr "Dokumen"
+
+#: templates/includes/footer.html:137
+msgid "Info. Security Policy"
+msgstr "Dasar Keselamatan Maklumat"
+
+#: templates/includes/footer.html:142
+msgid "Terms & Condition"
+msgstr "Terma & Syarat"
+
+#: templates/includes/footer.html:147
+msgid "Privacy Policy"
+msgstr "Dasar Privasi"
+
+#: templates/includes/header.html:11
+msgid "RecroTech - AI Solutions & Technology"
+msgstr "RecroTech - Penyelesaian AI & Teknologi"
+
+#: templates/includes/header.html:176
+msgid "Loading"
+msgstr "Memuatkan"
+
+#: templates/includes/header.html:215
+msgid ""
+"Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper "
+"the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus."
+msgstr ""
+"Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper "
+"the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus."
+
+#: templates/includes/header.html:219
+msgid "Contact Info"
+msgstr "Maklumat Hubungan"
+
+#: templates/includes/header.html:244
+msgid "Mon-Fri, 09am - 05pm"
+msgstr "Isnin-Jumaat, 09 pagi - 05 petang"
+
+#: templates/includes/header.html:294
+msgid "About"
+msgstr "Perihal"
+
+#: templates/includes/header.html:297 templates/pages/about.html:63
+#: templates/pages/about.html:67 templates/pages/about.html:80
+#: templates/pages/index.html:178
+msgid "About Us"
+msgstr "Tentang Kami"
+
+#: templates/includes/header.html:298 templates/pages/about.html:121
+msgid "Founder's Letter"
+msgstr "Surat Pengasas"
+
+#: templates/includes/header.html:299
+msgid "Team"
+msgstr "Pasukan"
+
+#: templates/includes/header.html:300 templates/pages/about.html:495
+msgid "FAQ"
+msgstr "Soalan Lazim"
+
+#: templates/includes/header.html:309
+msgid "What we do"
+msgstr "Apa yang kami lakukan"
+
+#: templates/includes/header.html:314
+msgid "Solutions"
+msgstr "Penyelesaian"
+
+#: templates/includes/header.html:317
+msgid "Coming soon"
+msgstr "Akan datang"
+
+#: templates/includes/header.html:317
+msgid "News"
+msgstr "Berita"
+
+#: templates/pages/about.html:9
+msgid "About Us - RecroTech"
+msgstr "Tentang Kami - RecroTech"
+
+#: templates/pages/about.html:10
+msgid ""
+"Learn about RecroTech, our mission, vision, and team members dedicated to "
+"innovative technology solutions."
+msgstr ""
+"Ketahui tentang RecroTech, misi, visi, dan ahli pasukan kami yang berdedikasi kepada "
+"penyelesaian teknologi yang inovatif."
+
+#: templates/pages/about.html:84
+msgid ""
+"We are a leading AI company based in Turkey, dedicated to harnessing "
+"technology for the benefit of humanity. Our expertise spans a wide range of "
+"fields, including software development, energy solutions, cloud computing, "
+"robotics, AI agents, automation, and scientific innovation."
+msgstr ""
+"Kami adalah syarikat AI terkemuka yang berpusat di Turki, berdedikasi untuk memanfaatkan "
+"teknologi untuk kebaikan manusia. Kepakaran kami merangkumi pelbagai bidang, "
+"termasuk pembangunan perisian, penyelesaian tenaga, pengkomputeran awan, "
+"robotik, ejen AI, automasi, dan inovasi saintifik."
+
+#: templates/pages/about.html:88
+msgid ""
+"At our core, we believe in empowering businesses and society with cutting-"
+"edge technology. We organize specialized training programs to keep your "
+"employees updated with the latest advancements in AI and technology."
+msgstr ""
+"Pada intinya, kami percaya dalam memperkasakan perniagaan dan masyarakat dengan "
+"teknologi canggih. Kami menganjurkan program latihan khusus untuk memastikan "
+"pekerja anda dikemas kini dengan kemajuan terkini dalam AI dan teknologi."
+
+#: templates/pages/about.html:92
+msgid ""
+"Our vision is clear: a world where AI doesn't just power technology, but "
+"actively creates it. We pride ourselves on delivering high customer "
+"satisfaction, solving complex problems, and giving our absolute best to help "
+"our clients succeed."
+msgstr ""
+"Visi kami jelas: dunia di mana AI bukan sahaja menggerakkan teknologi, tetapi "
+"secara aktif menciptanya. Kami berbangga dengan menyampaikan kepuasan pelanggan yang tinggi, "
+"menyelesaikan masalah yang kompleks, dan memberikan yang terbaik untuk membantu "
+"pelanggan kami berjaya."
+
+#: templates/pages/about.html:98
+msgid "Company Image"
+msgstr "Imej Syarikat"
+
+#: templates/pages/about.html:124
+msgid ""
+"At Recro, we are an innovative technology company rooted in Türkiye driven "
+"by a vision to expand globally. Our name, derived from the Latin word "
+"'Recro' means 'to revive' and 'to restore' This captures the essence of what "
+"we do: we bring new life and strength to businesses by blending artificial "
+"intelligence with a human-centered approach. Recro's global vision is to "
+"bring our local expertise to the world stage by delivering future-ready "
+"solutions to organizations of all sizes. We offer technology to humanity "
+"with the philosophy of 'Be inspired by the unknown' In every project, we "
+"move forward by considering not only our customers' today but also their "
+"tomorrow. For us, what truly matters is using technology not merely as a "
+"tool, but as a means of creating value; making companies more competitive "
+"and more innovative. In short, at Recro, we are here to revive technology "
+"for the good of humanity. With our motto 'Be inspired by the unknown' let's "
+"shape the future together."
+msgstr ""
+"Di Recro, kami adalah syarikat teknologi inovatif yang berakar umbi di Türkiye didorong "
+"oleh visi untuk berkembang secara global. Nama kami, berasal dari perkataan Latin "
+"'Recro' bermaksud 'menghidupkan semula' dan 'memulihkan'. Ini menangkap intipati apa "
+"yang kami lakukan: kami membawa kehidupan dan kekuatan baru kepada perniagaan dengan menggabungkan kecerdasan "
+"buatan dengan pendekatan berpusatkan manusia. Visi global Recro adalah untuk "
+"membawa kepakaran tempatan kami ke peringkat dunia dengan menyampaikan "
+"penyelesaian bersedia masa depan kepada organisasi semua saiz. Kami menawarkan teknologi kepada manusia "
+"dengan falsafah 'Terinspirasi oleh yang tidak diketahui'. Dalam setiap projek, kami "
+"bergerak ke hadapan dengan mempertimbangkan bukan sahaja hari ini pelanggan kami tetapi juga "
+"masa depan mereka. Bagi kami, apa yang benar-benar penting adalah menggunakan teknologi bukan sekadar sebagai "
+"alat, tetapi sebagai cara untuk mencipta nilai; menjadikan syarikat lebih berdaya saing "
+"dan lebih inovatif. Pendek kata, di Recro, kami di sini untuk menghidupkan semula teknologi "
+"untuk kebaikan manusia. Dengan moto kami 'Terinspirasi oleh yang tidak diketahui', mari kita "
+"bentuk masa depan bersama."
+
+#: templates/pages/about.html:127
+msgid "Zafer Küçükşabanoğlu, Founder of RecroTech"
+msgstr "Zafer Küçükşabanoğlu, Pengasas RecroTech"
+
+#: templates/pages/about.html:139
+msgid "RecroTech"
+msgstr "RecroTech"
+
+#: templates/pages/about.html:140
+msgid "Us"
+msgstr "Kami"
+
+#: templates/pages/about.html:150 templates/pages/about.html:154
+msgid "Founder and Chairman"
+msgstr "Pengasas dan Pengerusi"
+
+#: templates/pages/about.html:155 templates/pages/about.html:173
+#: templates/pages/about.html:191 templates/pages/about.html:209
+#: templates/pages/about.html:227 templates/pages/about.html:245
+#: templates/pages/about.html:263 templates/pages/about.html:281
+msgid "LinkedIn Profile"
+msgstr "Profil LinkedIn"
+
+#: templates/pages/about.html:168 templates/pages/about.html:172
+msgid "Chairman"
+msgstr "Pengerusi"
+
+#: templates/pages/about.html:186 templates/pages/about.html:190
+msgid "London Representative"
+msgstr "Wakil London"
+
+#: templates/pages/about.html:204 templates/pages/about.html:208
+msgid "Strategic Projects Director"
+msgstr "Pengarah Projek Strategik"
+
+#: templates/pages/about.html:222 templates/pages/about.html:226
+msgid "Associated Developer"
+msgstr "Pembangun Bersekutu"
+
+#: templates/pages/about.html:240 templates/pages/about.html:244
+msgid "Training Specialist"
+msgstr "Pakar Latihan"
+
+#: templates/pages/about.html:258 templates/pages/about.html:262
+msgid "Lawyer and Computer Engineer"
+msgstr "Peguam dan Jurutera Komputer"
+
+#: templates/pages/about.html:276 templates/pages/about.html:280
+msgid "Intern Developer"
+msgstr "Pembangun Pelatih"
+
+#: templates/pages/about.html:501
+msgid "FAQ Animation"
+msgstr "Animasi Soalan Lazim"
+
+#: templates/pages/about.html:513
+msgid "What services does RecroTech offer?"
+msgstr "Apakah perkhidmatan yang ditawarkan oleh RecroTech?"
+
+#: templates/pages/about.html:518
+msgid ""
+"RecroTech offers a comprehensive range of technology services including AI-"
+"powered solutions, cloud computing, web and mobile development, digital "
+"transformation consulting, and custom software development. We tailor our "
+"services to meet the unique needs of each client."
+msgstr ""
+"RecroTech menawarkan pelbagai perkhidmatan teknologi yang komprehensif termasuk penyelesaian "
+"berkuasa AI, pengkomputeran awan, pembangunan web dan mudah alih, perundingan "
+"transformasi digital, dan pembangunan perisian tersuai. Kami menyesuaikan "
+"perkhidmatan kami untuk memenuhi keperluan unik setiap pelanggan."
+
+#: templates/pages/about.html:527
+msgid "Where is RecroTech located?"
+msgstr "Di manakah RecroTech terletak?"
+
+#: templates/pages/about.html:532
+msgid ""
+"We are headquartered in Türkiye with a vision for global expansion. We work "
+"with clients worldwide, offering both on-site and remote collaboration "
+"options to best serve our clients' needs."
+msgstr ""
+"Ibu pejabat kami berada di Türkiye dengan visi untuk pengembangan global. Kami bekerja "
+"dengan pelanggan di seluruh dunia, menawarkan pilihan kerjasama di tapak dan jarak jauh "
+"untuk melayani keperluan pelanggan kami dengan sebaik mungkin."
+
+#: templates/pages/about.html:541
+msgid "How can I join the RecroTech team?"
+msgstr "Bagaimana saya boleh menyertai pasukan RecroTech?"
+
+#: templates/pages/about.html:546
+msgid ""
+"We're always looking for talented individuals to join our team. Please visit "
+"our <a href=\"\">Contact page</a> or send your resume to info@recrotech.com. "
+"We offer exciting opportunities for developers, designers, AI specialists, "
+"and business professionals."
+msgstr ""
+"Kami sentiasa mencari individu berbakat untuk menyertai pasukan kami. Sila lawati "
+"<a href=\"\">halaman Hubungi kami</a> atau hantar resume anda ke info@recrotech.com. "
+"Kami menawarkan peluang yang menarik untuk pembangun, pereka bentuk, pakar AI, "
+"dan profesional perniagaan."
+
+#: templates/pages/about.html:555
+msgid "What makes RecroTech different from other tech companies?"
+msgstr "Apakah yang membezakan RecroTech daripada syarikat teknologi lain?"
+
+#: templates/pages/about.html:560
+msgid ""
+"Our commitment to 'reviving and restoring' businesses through technology "
+"sets us apart. We don't just deliver technical solutions; we partner with "
+"our clients to understand their challenges and create meaningful innovations "
+"that drive real business value. Our team's expertise, combined with our "
+"client-centric approach, ensures success."
+msgstr ""
+"Komitmen kami untuk 'menghidupkan semula dan memulihkan' perniagaan melalui teknologi "
+"membezakan kami. Kami bukan sahaja menyampaikan penyelesaian teknikal; kami bekerjasama dengan "
+"pelanggan kami untuk memahami cabaran mereka dan mencipta inovasi bermakna "
+"yang mendorong nilai perniagaan sebenar. Kepakaran pasukan kami, digabungkan dengan "
+"pendekatan berpusatkan pelanggan kami, memastikan kejayaan."
+
+#: templates/pages/about.html:569
+msgid "How long does a typical project take?"
+msgstr "Berapa lama masa yang diambil untuk projek biasa?"
+
+#: templates/pages/about.html:574
+msgid ""
+"Project timelines vary depending on scope and complexity. Simple web "
+"projects may take 4-6 weeks, while complex AI solutions or enterprise "
+"systems can take several months. We provide detailed timelines during our "
+"initial consultation and keep you updated throughout the development process."
+msgstr ""
+"Garis masa projek berbeza-beza bergantung pada skop dan kerumitan. Projek web "
+"mudah mungkin mengambil masa 4-6 minggu, manakala penyelesaian AI yang kompleks atau sistem "
+"perusahaan boleh mengambil masa beberapa bulan. Kami menyediakan garis masa terperinci semasa "
+"perundingan awal kami dan memastikan anda dikemas kini sepanjang proses pembangunan."
+
+#: templates/pages/index.html:9
+msgid "Home - RecroTech"
+msgstr "Laman Utama - RecroTech"
+
+#: templates/pages/index.html:10
+msgid ""
+"RecroTech - We revive technology for the good of humanity. AI solutions "
+"across multiple industries."
+msgstr ""
+"RecroTech - Kami menghidupkan semula teknologi untuk kebaikan manusia. Penyelesaian AI "
+"merentasi pelbagai industri."
+
+#: templates/pages/index.html:36
+msgid "Recro Technology"
+msgstr "Recro Technology"
+
+#: templates/pages/index.html:38
+msgid "we revive"
+msgstr "kami menghidupkan semula"
+
+#: templates/pages/index.html:38
+msgid "technology for the"
+msgstr "teknologi untuk"
+
+#: templates/pages/index.html:38
+msgid "good of humanity."
+msgstr "kebaikan manusia."
+
+#: templates/pages/index.html:42
+msgid "Contact US"
+msgstr "Hubungi Kami"
+
+#: templates/pages/index.html:66
+msgid "Search..."
+msgstr "Cari..."
+
+#: templates/pages/index.html:80
+msgid "AB Delegation"
+msgstr "Delegasi EU"
+
+#: templates/pages/index.html:85
+msgid "Ministry of Family and Social Services"
+msgstr "Kementerian Keluarga dan Perkhidmatan Sosial"
+
+#: templates/pages/index.html:105
+msgid "Ministry of Agriculture and Forestry"
+msgstr "Kementerian Pertanian dan Perhutanan"
+
+#: templates/pages/index.html:110
+msgid "Ministry of Health"
+msgstr "Kementerian Kesihatan"
+
+#: templates/pages/index.html:161
+msgid "About RecroTech"
+msgstr "Tentang RecroTech"
+
+#: templates/pages/index.html:166
+msgid "years of"
+msgstr "tahun"
+
+#: templates/pages/index.html:167
+msgid "experience"
+msgstr "pengalaman"
+
+#: templates/pages/index.html:180
+msgid "We envision a world where AI creates technology, not just powers it."
+msgstr "Kami membayangkan dunia di mana AI mencipta teknologi, bukan hanya menggerakkannya."
+
+#: templates/pages/index.html:189
+msgid "Guaranteed Success"
+msgstr "Kejayaan Terjamin"
+
+#: templates/pages/index.html:190
+msgid "Always try best for success."
+msgstr "Sentiasa berusaha untuk kejayaan."
+
+#: templates/pages/index.html:365
+msgid "Latest Service"
+msgstr "Perkhidmatan Terkini"
+
+#: templates/pages/index.html:367
+msgid "IT Excellence Every of Step of the Way"
+msgstr "Kecemerlangan IT Setiap Langkah"
+
+#: templates/pages/index.html:370
+msgid ""
+"Information Technology is a rapidly evolving field that encompasses the "
+"study and app"
+msgstr ""
+"Teknologi Maklumat adalah bidang yang berkembang pesat yang merangkumi "
+"kajian dan aplikasi"
+
+#: templates/pages/index.html:405 templates/pages/index.html:414
+msgid ""
+"Information Technology is a rapidly evolving field that is a encompasses the "
+"study and application"
+msgstr ""
+"Teknologi Maklumat adalah bidang yang berkembang pesat yang merangkumi "
+"kajian dan aplikasi"
+
+#: templates/pages/index.html:437 templates/pages/index.html:476
+msgid "Artificial Intelligence"
+msgstr "Kecerdasan Buatan"
+
+#: templates/pages/index.html:444 templates/pages/index.html:483
+msgid "Smart City"
+msgstr "Bandar Pintar"
+
+#: templates/pages/index.html:451 templates/pages/index.html:490
+msgid "Space Technology"
+msgstr "Teknologi Angkasa Lepas"
+
+#: templates/pages/index.html:459 templates/pages/index.html:498
+msgid "Innovation"
+msgstr "Inovasi"
+
+#: templates/pages/index.html:466 templates/pages/index.html:505
+msgid "Data Analytics"
+msgstr "Analitik Data"
+
+#: templates/pages/index.html:518
+msgid ""
+"With a solid standing in the industry, numerous awards, and a strong base of "
+"satisfied customers."
+msgstr ""
+"Dengan kedudukan yang kukuh dalam industri, pelbagai anugerah, dan asas yang kuat "
+"pelanggan yang berpuas hati."
+
+#: templates/pages/index.html:522
+msgid "Team member"
+msgstr "Ahli pasukan"
+
+#: templates/pages/index.html:526
+msgid "Work Complete"
+msgstr "Kerja Selesai"
+
+#: templates/pages/index.html:530
+msgid "Winning Award"
+msgstr "Anugerah Kemenangan"
+
+#: templates/pages/index.html:534
+msgid "Client Review"
+msgstr "Ulasan Pelanggan"
+
+#: templates/pages/index.html:550
+msgid "Latest Portfolio"
+msgstr "Portfolio Terkini"
+
+#: templates/pages/index.html:552
+msgid "Our Newest Project"
+msgstr "Projek Terbaru Kami"
+
+#: templates/pages/index.html:568
+msgid "Completed Projects"
+msgstr "Projek Selesai"
+
+#: templates/pages/index.html:572
+msgid "Client Satisfaction"
+msgstr "Kepuasan Pelanggan"
+
+#: templates/pages/index.html:585
+msgid "Innovation First"
+msgstr "Inovasi Utama"
+
+#: templates/pages/index.html:586
+msgid "Cutting-edge AI solutions"
+msgstr "Penyelesaian AI terkini"
+
+#: templates/pages/index.html:598
+msgid "Fast Delivery"
+msgstr "Penghantaran Pantas"
+
+#: templates/pages/index.html:599
+msgid "On-time project completion"
+msgstr "Penyiapan projek tepat pada masanya"
+
+#: templates/pages/index.html:613
+msgid "Expert Team"
+msgstr "Pasukan Pakar"
+
+#: templates/pages/index.html:614
+msgid "Highly skilled professionals"
+msgstr "Profesional berkemahiran tinggi"
+
+#: templates/pages/index.html:625
+msgid "Secure & Reliable"
+msgstr "Selamat & Boleh Dipercayai"
+
+#: templates/pages/index.html:626
+msgid "Enterprise-grade security"
+msgstr "Keselamatan gred perusahaan"
+
+#: templates/pages/index.html:639
+msgid "AI Model Fashion Try-On"
+msgstr "Percubaan Fesyen Model AI"
+
+#: templates/pages/index.html:641
+msgid "AI FASHION"
+msgstr "FESYEN AI"
+
+#: templates/pages/index.html:642
+msgid "Fashion Try-On Technology"
+msgstr "Teknologi Percubaan Fesyen"
+
+#: templates/pages/index.html:645
+msgid "Virtual Fashion Assistant"
+msgstr "Pembantu Fesyen Maya"
+
+#: templates/pages/index.html:646
+msgid ""
+"We make retail collection promotions faster, cheaper, and more creative by "
+"using robust AI tech."
+msgstr ""
+"Kami menjadikan promosi koleksi runcit lebih pantas, lebih murah, dan lebih kreatif dengan "
+"menggunakan teknologi AI yang mantap."
+
+#: templates/pages/index.html:657
+msgid "AI Agriculture Projects"
+msgstr "Projek Pertanian AI"
+
+#: templates/pages/index.html:659
+msgid "AI AGRICULTURE"
+msgstr "PERTANIAN AI"
+
+#: templates/pages/index.html:660
+msgid "Smart Farming Solutions"
+msgstr "Penyelesaian Pertanian Pintar"
+
+#: templates/pages/index.html:663
+msgid "Precision Agriculture AI"
+msgstr "AI Pertanian Ketepatan"
+
+#: templates/pages/index.html:664
+msgid ""
+"AI agents which help for all practices in agricultural activities using a "
+"reliable wide knowledge-base."
+msgstr ""
+"Ejen AI yang membantu untuk semua amalan dalam aktiviti pertanian menggunakan "
+"pangkalan pengetahuan yang luas dan boleh dipercayai."
+
+#: templates/pages/index.html:678
+msgid "Solar AI"
+msgstr "AI Solar"
+
+#: templates/pages/index.html:680
+msgid "SOLAR AI"
+msgstr "AI SOLAR"
+
+#: templates/pages/index.html:681
+msgid "Renewable Energy"
+msgstr "Tenaga Boleh Diperbaharui"
+
+#: templates/pages/index.html:684
+msgid "AI Energy Optimization"
+msgstr "Pengoptimuman Tenaga AI"
+
+#: templates/pages/index.html:685
+msgid ""
+"Machine learning for solar panel efficiency and energy distribution "
+"optimization."
+msgstr ""
+"Pembelajaran mesin untuk kecekapan panel solar dan pengoptimuman "
+"pengedaran tenaga."
+
+#: templates/pages/service_details.html:301
+msgid "Navigate to home page"
+msgstr "Pergi ke laman utama"
+
+#: templates/pages/service_details.html:383
+msgid "Navigate to previous service page"
+msgstr "Pergi ke halaman perkhidmatan sebelumnya"
+
+#: templates/pages/service_details.html:387
+msgid "Go back"
+msgstr "Kembali"
+
+#: templates/pages/service_details.html:400
+msgid "Navigate to next service page"
+msgstr "Pergi ke halaman perkhidmatan seterusnya"
+
+#: templates/pages/service_details.html:404
+msgid "Back to services"
+msgstr "Kembali ke perkhidmatan"

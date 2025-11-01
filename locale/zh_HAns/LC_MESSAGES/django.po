@@ -1,0 +1,846 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-31 13:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: config/settings.py:132
+msgid "Malay"
+msgstr "马来语"
+
+#: config/settings.py:133
+msgid "Korean"
+msgstr "韩语"
+
+#: config/settings.py:134
+msgid "Russian"
+msgstr "俄语"
+
+#: config/settings.py:135
+msgid "Spanish"
+msgstr "西班牙语"
+
+#: config/settings.py:136
+msgid "Chinese (Simplified)"
+msgstr "简体中文"
+
+#: config/settings.py:137
+msgid "Arabic"
+msgstr "阿拉伯语"
+
+#: templates.copy/pages/contact.html:9 templates/pages/contact.html:9
+msgid "Contact Us - RecroTech"
+msgstr "联系我们 - RecroTech"
+
+#: templates.copy/pages/contact.html:10 templates/pages/contact.html:10
+msgid ""
+"Get in touch with RecroTech. Contact us for AI solutions, cloud services, "
+"and technology consulting."
+msgstr "联系 RecroTech。联系我们获取人工智能解决方案、云服务和技术咨询。"
+
+#: templates.copy/pages/contact.html:35 templates.copy/pages/contact.html:39
+#: templates/includes/footer.html:29 templates/includes/header.html:320
+#: templates/pages/contact.html:35 templates/pages/contact.html:39
+msgid "Contact"
+msgstr "联系"
+
+#: templates.copy/pages/contact.html:37 templates.copy/pages/service.html:41
+#: templates.copy/pages/solutions.html:48 templates/pages/about.html:65
+#: templates/pages/contact.html:37 templates/pages/service.html:49
+#: templates/pages/service_details.html:302 templates/pages/solutions.html:48
+msgid "Home"
+msgstr "首页"
+
+#: templates.copy/pages/contact.html:53 templates.copy/pages/service.html:152
+#: templates/includes/footer.html:152 templates/includes/header.html:258
+#: templates/includes/header.html:357 templates/pages/contact.html:53
+#: templates/pages/service.html:176 templates/pages/service_details.html:449
+msgid "Contact Us"
+msgstr "联系我们"
+
+#: templates.copy/pages/contact.html:59 templates/pages/contact.html:59
+msgid "Address"
+msgstr "地址"
+
+#: templates.copy/pages/contact.html:63 templates/includes/footer.html:54
+#: templates/includes/header.html:226 templates/pages/contact.html:63
+msgid ""
+"Mustafa Kemal Mahallesi, Barış Sitesi, 2092 Sokak, No:22, Çankaya/ANKARA"
+msgstr "Mustafa Kemal Mahallesi, Barış Sitesi, 2092 Sokak, No:22, Çankaya/安卡拉"
+
+#: templates.copy/pages/contact.html:70 templates/pages/contact.html:70
+msgid "Number"
+msgstr "电话"
+
+#: templates.copy/pages/contact.html:81 templates/pages/contact.html:81
+msgid "E-mail"
+msgstr "电子邮箱"
+
+#: templates.copy/pages/contact.html:98 templates/pages/contact.html:98
+msgid "Get In Touch"
+msgstr "取得联系"
+
+#: templates.copy/pages/contact.html:105 templates/pages/contact.html:105
+msgid "Your Name"
+msgstr "您的姓名"
+
+#: templates.copy/pages/contact.html:110 templates/includes/footer.html:34
+#: templates/pages/contact.html:110
+msgid "Email"
+msgstr "电子邮箱"
+
+#: templates.copy/pages/contact.html:117 templates/pages/contact.html:117
+msgid "Select Service"
+msgstr "选择服务"
+
+#: templates.copy/pages/contact.html:118 templates.copy/pages/service.html:59
+#: templates.copy/pages/service.html:142 templates/includes/footer.html:70
+#: templates/pages/contact.html:118 templates/pages/index.html:384
+#: templates/pages/service.html:71 templates/pages/service.html:156
+#: templates/pages/service_details.html:429
+msgid "AI Solutions"
+msgstr "人工智能解决方案"
+
+#: templates.copy/pages/contact.html:119 templates.copy/pages/service.html:76
+#: templates/pages/contact.html:119 templates/pages/index.html:394
+#: templates/pages/service.html:88
+msgid "AI Agents and Automations"
+msgstr "AI智能体与自动化"
+
+#: templates.copy/pages/contact.html:120 templates.copy/pages/service.html:88
+#: templates.copy/pages/service.html:91 templates/includes/footer.html:80
+#: templates/pages/contact.html:120 templates/pages/service.html:100
+#: templates/pages/service.html:103
+msgid "Cloud Services"
+msgstr "云服务"
+
+#: templates.copy/pages/contact.html:121 templates.copy/pages/service.html:103
+#: templates.copy/pages/service.html:106 templates/includes/header.html:310
+#: templates/pages/contact.html:121 templates/pages/index.html:402
+#: templates/pages/index.html:403 templates/pages/service.html:115
+#: templates/pages/service.html:118
+msgid "Trainings"
+msgstr "培训"
+
+#: templates.copy/pages/contact.html:122 templates.copy/pages/service.html:117
+#: templates.copy/pages/service.html:120 templates/includes/footer.html:90
+#: templates/pages/contact.html:122 templates/pages/index.html:411
+#: templates/pages/index.html:412 templates/pages/service.html:129
+#: templates/pages/service.html:132
+msgid "CRM Solutions"
+msgstr "客户关系管理解决方案"
+
+#: templates.copy/pages/contact.html:129 templates/pages/contact.html:129
+msgid "mm/dd/yyyy"
+msgstr "年/月/日"
+
+#: templates.copy/pages/contact.html:134 templates/pages/contact.html:134
+msgid "Time"
+msgstr "时间"
+
+#: templates.copy/pages/contact.html:139 templates/pages/contact.html:139
+msgid "Type Here"
+msgstr "在此输入"
+
+#: templates.copy/pages/contact.html:144 templates/pages/contact.html:144
+msgid "Send Now"
+msgstr "立即发送"
+
+#: templates.copy/pages/service.html:8 templates/pages/service.html:9
+msgid "Services - RecroTech"
+msgstr "服务 - RecroTech"
+
+#: templates.copy/pages/service.html:9 templates/pages/service.html:10
+msgid ""
+"Explore RecroTech's comprehensive technology services including AI "
+"Solutions, Cloud Services, AI Agents, Trainings, and CRM Solutions."
+msgstr "探索 RecroTech 的综合技术服务，包括人工智能解决方案、云服务、AI智能体、培训和客户关系管理解决方案。"
+
+#: templates.copy/pages/service.html:38 templates.copy/pages/service.html:44
+#: templates/includes/footer.html:65 templates/includes/header.html:305
+#: templates/pages/service.html:46 templates/pages/service.html:55
+msgid "Services"
+msgstr "服务"
+
+#: templates.copy/pages/service.html:62 templates/pages/index.html:385
+#: templates/pages/service.html:74
+msgid "A Wide Variety of AI Solutions"
+msgstr "多样化的人工智能解决方案"
+
+#: templates.copy/pages/service.html:63 templates/pages/index.html:387
+#: templates/pages/service.html:75
+msgid ""
+"AI in finance, diplomacy, law, energy, defence, fashion, science and "
+"manufacturing. AI solutions that embraces innovative future products."
+msgstr "金融、外交、法律、能源、国防、时尚、科学和制造业领域的人工智能。拥抱创新未来产品的AI解决方案。"
+
+#: templates.copy/pages/service.html:64 templates.copy/pages/service.html:79
+#: templates.copy/pages/service.html:94 templates.copy/pages/service.html:108
+#: templates.copy/pages/service.html:122 templates/pages/service.html:76
+#: templates/pages/service.html:91 templates/pages/service.html:106
+#: templates/pages/service.html:120 templates/pages/service.html:134
+msgid "Read More"
+msgstr "了解更多"
+
+#: templates.copy/pages/service.html:73 templates/pages/index.html:393
+#: templates/pages/service.html:85
+msgid "AI Agents"
+msgstr "AI智能体"
+
+#: templates.copy/pages/service.html:77 templates/pages/index.html:396
+#: templates/pages/service.html:89
+msgid ""
+"We build AI agents that solve real-world business challenges through open-"
+"source automation and seamless deployment."
+msgstr "我们构建AI智能体，通过开源自动化和无缝部署解决现实世界的业务挑战。"
+
+#: templates.copy/pages/service.html:92 templates/pages/service.html:104
+msgid ""
+"We turn ideas into reality by leveraging cloud technologies and designing "
+"large-scale, scalable architectures."
+msgstr "我们利用云技术和设计大规模可扩展架构，将创意变为现实。"
+
+#: templates.copy/pages/service.html:107 templates.copy/pages/service.html:121
+#: templates/pages/service.html:119 templates/pages/service.html:133
+msgid ""
+"Information Technology is a rapidly evolving field that encompasses the "
+"study and application"
+msgstr "信息技术是一个快速发展的领域，涵盖了研究和应用"
+
+#: templates.copy/pages/service.html:137 templates/pages/service.html:149
+#: templates/pages/service_details.html:421
+msgid "Build What's Next"
+msgstr "构建未来"
+
+#: templates.copy/pages/service.html:143 templates/pages/service.html:160
+#: templates/pages/service_details.html:433
+msgid "Automation & Agents"
+msgstr "自动化与智能体"
+
+#: templates.copy/pages/service.html:146 templates/pages/service.html:166
+#: templates/pages/service_details.html:439
+msgid "Cloud Architecture"
+msgstr "云架构"
+
+#: templates.copy/pages/service.html:147 templates/pages/service.html:170
+#: templates/pages/service_details.html:443
+msgid "CRM Integrations"
+msgstr "CRM集成"
+
+#: templates.copy/pages/solution_details.html:104
+#: templates/pages/service_details.html:392
+msgid "Previous"
+msgstr "上一页"
+
+#: templates.copy/pages/solution_details.html:111
+#: templates/pages/service_details.html:397
+msgid "Next"
+msgstr "下一页"
+
+#: templates.copy/pages/solutions.html:9 templates/pages/solutions.html:9
+msgid "Our Solutions - RecroTech"
+msgstr "我们的解决方案 - RecroTech"
+
+#: templates.copy/pages/solutions.html:10 templates/pages/solutions.html:10
+msgid ""
+"Explore RecroTech's innovative AI solutions across Fashion, Agriculture, and "
+"Space industries."
+msgstr "探索 RecroTech 在时尚、农业和太空行业的创新人工智能解决方案。"
+
+#: templates.copy/pages/solutions.html:46
+#: templates.copy/pages/solutions.html:50 templates/pages/solutions.html:46
+#: templates/pages/solutions.html:50
+msgid "Our Solutions"
+msgstr "我们的解决方案"
+
+#: templates.copy/pages/solutions.html:65
+#: templates.copy/pages/solutions.html:68 templates/pages/solutions.html:65
+#: templates/pages/solutions.html:68
+msgid "AI in Fashion"
+msgstr "时尚领域的人工智能"
+
+#: templates.copy/pages/solutions.html:80
+#: templates.copy/pages/solutions.html:83 templates/pages/solutions.html:80
+#: templates/pages/solutions.html:83
+msgid "AI in Agriculture"
+msgstr "农业领域的人工智能"
+
+#: templates.copy/pages/solutions.html:95
+#: templates.copy/pages/solutions.html:98 templates/pages/solutions.html:95
+#: templates/pages/solutions.html:98
+msgid "AI in Space"
+msgstr "太空领域的人工智能"
+
+#: templates/includes/footer.html:40 templates/includes/footer.html:46
+msgid "Phone"
+msgstr "电话"
+
+#: templates/includes/footer.html:52
+msgid "Headquarters"
+msgstr "总部"
+
+#: templates/includes/footer.html:75
+msgid "Automation Solutions"
+msgstr "自动化解决方案"
+
+#: templates/includes/footer.html:85
+msgid "B2B Trainings"
+msgstr "B2B培训"
+
+#: templates/includes/footer.html:96
+msgid "Branch"
+msgstr "分支机构"
+
+#: templates/includes/footer.html:98
+msgid ""
+"Teknoloji Geliştirme Bölgesi, Üniversiteler Mahallesi, Şehit Mustafa "
+"Tayyarcan Caddesi, No:5, Cyberpark Tepe Binası, Zemin Kat, No: Z43, 06800 "
+"Bilkent Çankaya/Ankara"
+msgstr "Teknoloji Geliştirme Bölgesi, Üniversiteler Mahallesi, Şehit Mustafa Tayyarcan Caddesi, No:5, Cyberpark Tepe Binası, Zemin Kat, No: Z43, 06800 Bilkent Çankaya/安卡拉"
+
+#: templates/includes/footer.html:109
+msgid "Newsletter"
+msgstr "通讯订阅"
+
+#: templates/includes/footer.html:112
+msgid ""
+"Subscribe to our newsletter and receive the latest updates on RecroTech's "
+"innovations, projects, and industry insights — straight to your inbox."
+msgstr "订阅我们的通讯，直接在您的收件箱中接收 RecroTech 的创新、项目和行业见解的最新更新。"
+
+#: templates/includes/footer.html:114
+msgid "Your email..."
+msgstr "您的电子邮箱..."
+
+#: templates/includes/footer.html:127
+msgid "© All Copyright 2025 by"
+msgstr "© 2025 版权所有"
+
+#: templates/includes/footer.html:132
+msgid "Documents"
+msgstr "文档"
+
+#: templates/includes/footer.html:137
+msgid "Info. Security Policy"
+msgstr "信息安全政策"
+
+#: templates/includes/footer.html:142
+msgid "Terms & Condition"
+msgstr "条款与条件"
+
+#: templates/includes/footer.html:147
+msgid "Privacy Policy"
+msgstr "隐私政策"
+
+#: templates/includes/header.html:11
+msgid "RecroTech - AI Solutions & Technology"
+msgstr "RecroTech - 人工智能解决方案与技术"
+
+#: templates/includes/header.html:176
+msgid "Loading"
+msgstr "加载中"
+
+#: templates/includes/header.html:215
+msgid ""
+"Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper "
+"the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus."
+msgstr "我们致力于为客户提供卓越的技术解决方案，通过创新和专业知识推动业务发展。"
+
+#: templates/includes/header.html:219
+msgid "Contact Info"
+msgstr "联系信息"
+
+#: templates/includes/header.html:244
+msgid "Mon-Fri, 09am - 05pm"
+msgstr "周一至周五，上午9点至下午5点"
+
+#: templates/includes/header.html:294
+msgid "About"
+msgstr "关于"
+
+#: templates/includes/header.html:297 templates/pages/about.html:63
+#: templates/pages/about.html:67 templates/pages/about.html:80
+#: templates/pages/index.html:178
+msgid "About Us"
+msgstr "关于我们"
+
+#: templates/includes/header.html:298 templates/pages/about.html:121
+msgid "Founder's Letter"
+msgstr "创始人致辞"
+
+#: templates/includes/header.html:299
+msgid "Team"
+msgstr "团队"
+
+#: templates/includes/header.html:300 templates/pages/about.html:495
+msgid "FAQ"
+msgstr "常见问题"
+
+#: templates/includes/header.html:309
+msgid "What we do"
+msgstr "我们的服务"
+
+#: templates/includes/header.html:314
+msgid "Solutions"
+msgstr "解决方案"
+
+#: templates/includes/header.html:317
+msgid "Coming soon"
+msgstr "即将推出"
+
+#: templates/includes/header.html:317
+msgid "News"
+msgstr "新闻"
+
+#: templates/pages/about.html:9
+msgid "About Us - RecroTech"
+msgstr "关于我们 - RecroTech"
+
+#: templates/pages/about.html:10
+msgid ""
+"Learn about RecroTech, our mission, vision, and team members dedicated to "
+"innovative technology solutions."
+msgstr "了解 RecroTech、我们的使命、愿景以及致力于创新技术解决方案的团队成员。"
+
+#: templates/pages/about.html:84
+msgid ""
+"We are a leading AI company based in Turkey, dedicated to harnessing "
+"technology for the benefit of humanity. Our expertise spans a wide range of "
+"fields, including software development, energy solutions, cloud computing, "
+"robotics, AI agents, automation, and scientific innovation."
+msgstr "我们是一家总部位于土耳其的领先人工智能公司，致力于利用技术造福人类。我们的专业知识涵盖广泛领域，包括软件开发、能源解决方案、云计算、机器人技术、AI智能体、自动化和科学创新。"
+
+#: templates/pages/about.html:88
+msgid ""
+"At our core, we believe in empowering businesses and society with cutting-"
+"edge technology. We organize specialized training programs to keep your "
+"employees updated with the latest advancements in AI and technology."
+msgstr "我们的核心理念是通过尖端技术赋能企业和社会。我们组织专业培训计划，让您的员工了解人工智能和技术的最新进展。"
+
+#: templates/pages/about.html:92
+msgid ""
+"Our vision is clear: a world where AI doesn't just power technology, but "
+"actively creates it. We pride ourselves on delivering high customer "
+"satisfaction, solving complex problems, and giving our absolute best to help "
+"our clients succeed."
+msgstr "我们的愿景很明确：一个人工智能不仅驱动技术，而且积极创造技术的世界。我们以提供高客户满意度、解决复杂问题以及全力以赴帮助客户成功而自豪。"
+
+#: templates/pages/about.html:98
+msgid "Company Image"
+msgstr "公司形象"
+
+#: templates/pages/about.html:124
+msgid ""
+"At Recro, we are an innovative technology company rooted in Türkiye driven "
+"by a vision to expand globally. Our name, derived from the Latin word "
+"'Recro' means 'to revive' and 'to restore' This captures the essence of what "
+"we do: we bring new life and strength to businesses by blending artificial "
+"intelligence with a human-centered approach. Recro's global vision is to "
+"bring our local expertise to the world stage by delivering future-ready "
+"solutions to organizations of all sizes. We offer technology to humanity "
+"with the philosophy of 'Be inspired by the unknown' In every project, we "
+"move forward by considering not only our customers' today but also their "
+"tomorrow. For us, what truly matters is using technology not merely as a "
+"tool, but as a means of creating value; making companies more competitive "
+"and more innovative. In short, at Recro, we are here to revive technology "
+"for the good of humanity. With our motto 'Be inspired by the unknown' let's "
+"shape the future together."
+msgstr "在 Recro，我们是一家扎根于土耳其的创新技术公司，秉持全球扩张的愿景。我们的名字源自拉丁语'Recro'，意为'复兴'和'恢复'。这捕捉了我们工作的本质：我们通过将人工智能与以人为本的方法相结合，为企业带来新的生命力和力量。Recro 的全球愿景是通过为各种规模的组织提供面向未来的解决方案，将我们的本土专业知识带到世界舞台。我们以'受未知启发'的理念向人类提供技术。在每个项目中，我们不仅考虑客户的今天，还考虑他们的明天。对我们来说，真正重要的是将技术不仅仅用作工具，而是作为创造价值的手段；使公司更具竞争力和创新性。简而言之，在 Recro，我们在这里为了人类的利益而复兴技术。以我们的座右铭'受未知启发'，让我们一起塑造未来。"
+
+#: templates/pages/about.html:127
+msgid "Zafer Küçükşabanoğlu, Founder of RecroTech"
+msgstr "Zafer Küçükşabanoğlu，RecroTech 创始人"
+
+#: templates/pages/about.html:139
+msgid "RecroTech"
+msgstr "RecroTech"
+
+#: templates/pages/about.html:140
+msgid "Us"
+msgstr "我们"
+
+#: templates/pages/about.html:150 templates/pages/about.html:154
+msgid "Founder and Chairman"
+msgstr "创始人兼董事长"
+
+#: templates/pages/about.html:155 templates/pages/about.html:173
+#: templates/pages/about.html:191 templates/pages/about.html:209
+#: templates/pages/about.html:227 templates/pages/about.html:245
+#: templates/pages/about.html:263 templates/pages/about.html:281
+msgid "LinkedIn Profile"
+msgstr "LinkedIn 个人资料"
+
+#: templates/pages/about.html:168 templates/pages/about.html:172
+msgid "Chairman"
+msgstr "董事长"
+
+#: templates/pages/about.html:186 templates/pages/about.html:190
+msgid "London Representative"
+msgstr "伦敦代表"
+
+#: templates/pages/about.html:204 templates/pages/about.html:208
+msgid "Strategic Projects Director"
+msgstr "战略项目总监"
+
+#: templates/pages/about.html:222 templates/pages/about.html:226
+msgid "Associated Developer"
+msgstr "关联开发人员"
+
+#: templates/pages/about.html:240 templates/pages/about.html:244
+msgid "Training Specialist"
+msgstr "培训专家"
+
+#: templates/pages/about.html:258 templates/pages/about.html:262
+msgid "Lawyer and Computer Engineer"
+msgstr "律师和计算机工程师"
+
+#: templates/pages/about.html:276 templates/pages/about.html:280
+msgid "Intern Developer"
+msgstr "实习开发人员"
+
+#: templates/pages/about.html:501
+msgid "FAQ Animation"
+msgstr "常见问题动画"
+
+#: templates/pages/about.html:513
+msgid "What services does RecroTech offer?"
+msgstr "RecroTech 提供哪些服务？"
+
+#: templates/pages/about.html:518
+msgid ""
+"RecroTech offers a comprehensive range of technology services including AI-"
+"powered solutions, cloud computing, web and mobile development, digital "
+"transformation consulting, and custom software development. We tailor our "
+"services to meet the unique needs of each client."
+msgstr "RecroTech 提供全面的技术服务，包括人工智能驱动的解决方案、云计算、Web和移动开发、数字化转型咨询和定制软件开发。我们定制服务以满足每位客户的独特需求。"
+
+#: templates/pages/about.html:527
+msgid "Where is RecroTech located?"
+msgstr "RecroTech 位于哪里？"
+
+#: templates/pages/about.html:532
+msgid ""
+"We are headquartered in Türkiye with a vision for global expansion. We work "
+"with clients worldwide, offering both on-site and remote collaboration "
+"options to best serve our clients' needs."
+msgstr "我们的总部位于土耳其，并有全球扩张的愿景。我们与全球客户合作，提供现场和远程协作选项，以最好地满足客户的需求。"
+
+#: templates/pages/about.html:541
+msgid "How can I join the RecroTech team?"
+msgstr "我如何加入 RecroTech 团队？"
+
+#: templates/pages/about.html:546
+msgid ""
+"We're always looking for talented individuals to join our team. Please visit "
+"our <a href=\"\">Contact page</a> or send your resume to info@recrotech.com. "
+"We offer exciting opportunities for developers, designers, AI specialists, "
+"and business professionals."
+msgstr "我们一直在寻找有才华的人加入我们的团队。请访问我们的<a href=\"\">联系页面</a>或将您的简历发送至 info@recrotech.com。我们为开发人员、设计师、人工智能专家和商业专业人士提供令人兴奋的机会。"
+
+#: templates/pages/about.html:555
+msgid "What makes RecroTech different from other tech companies?"
+msgstr "RecroTech 与其他科技公司有何不同？"
+
+#: templates/pages/about.html:560
+msgid ""
+"Our commitment to 'reviving and restoring' businesses through technology "
+"sets us apart. We don't just deliver technical solutions; we partner with "
+"our clients to understand their challenges and create meaningful innovations "
+"that drive real business value. Our team's expertise, combined with our "
+"client-centric approach, ensures success."
+msgstr "我们致力于通过技术'复兴和恢复'业务，这使我们与众不同。我们不仅提供技术解决方案；我们与客户合作，了解他们的挑战，创造有意义的创新，推动真正的业务价值。我们团队的专业知识与以客户为中心的方法相结合，确保成功。"
+
+#: templates/pages/about.html:569
+msgid "How long does a typical project take?"
+msgstr "一个典型的项目需要多长时间？"
+
+#: templates/pages/about.html:574
+msgid ""
+"Project timelines vary depending on scope and complexity. Simple web "
+"projects may take 4-6 weeks, while complex AI solutions or enterprise "
+"systems can take several months. We provide detailed timelines during our "
+"initial consultation and keep you updated throughout the development process."
+msgstr "项目时间表因范围和复杂性而异。简单的Web项目可能需要4-6周，而复杂的人工智能解决方案或企业系统可能需要几个月。我们在初步咨询期间提供详细的时间表，并在整个开发过程中让您了解最新情况。"
+
+#: templates/pages/index.html:9
+msgid "Home - RecroTech"
+msgstr "首页 - RecroTech"
+
+#: templates/pages/index.html:10
+msgid ""
+"RecroTech - We revive technology for the good of humanity. AI solutions "
+"across multiple industries."
+msgstr "RecroTech - 我们为人类的利益复兴技术。跨多个行业的人工智能解决方案。"
+
+#: templates/pages/index.html:36
+msgid "Recro Technology"
+msgstr "Recro 技术"
+
+#: templates/pages/index.html:38
+msgid "we revive"
+msgstr "我们复兴"
+
+#: templates/pages/index.html:38
+msgid "technology for the"
+msgstr "技术为了"
+
+#: templates/pages/index.html:38
+msgid "good of humanity."
+msgstr "人类的利益。"
+
+#: templates/pages/index.html:42
+msgid "Contact US"
+msgstr "联系我们"
+
+#: templates/pages/index.html:66
+msgid "Search..."
+msgstr "搜索..."
+
+#: templates/pages/index.html:80
+msgid "AB Delegation"
+msgstr "欧盟代表团"
+
+#: templates/pages/index.html:85
+msgid "Ministry of Family and Social Services"
+msgstr "家庭和社会服务部"
+
+#: templates/pages/index.html:105
+msgid "Ministry of Agriculture and Forestry"
+msgstr "农业和林业部"
+
+#: templates/pages/index.html:110
+msgid "Ministry of Health"
+msgstr "卫生部"
+
+#: templates/pages/index.html:161
+msgid "About RecroTech"
+msgstr "关于 RecroTech"
+
+#: templates/pages/index.html:166
+msgid "years of"
+msgstr "年"
+
+#: templates/pages/index.html:167
+msgid "experience"
+msgstr "经验"
+
+#: templates/pages/index.html:180
+msgid "We envision a world where AI creates technology, not just powers it."
+msgstr "我们设想一个人工智能创造技术而不仅仅是驱动技术的世界。"
+
+#: templates/pages/index.html:189
+msgid "Guaranteed Success"
+msgstr "保证成功"
+
+#: templates/pages/index.html:190
+msgid "Always try best for success."
+msgstr "始终为成功而努力。"
+
+#: templates/pages/index.html:365
+msgid "Latest Service"
+msgstr "最新服务"
+
+#: templates/pages/index.html:367
+msgid "IT Excellence Every of Step of the Way"
+msgstr "每一步都追求IT卓越"
+
+#: templates/pages/index.html:370
+msgid ""
+"Information Technology is a rapidly evolving field that encompasses the "
+"study and app"
+msgstr "信息技术是一个快速发展的领域，涵盖了研究和应用"
+
+#: templates/pages/index.html:405 templates/pages/index.html:414
+msgid ""
+"Information Technology is a rapidly evolving field that is a encompasses the "
+"study and application"
+msgstr "信息技术是一个快速发展的领域，涵盖了研究和应用"
+
+#: templates/pages/index.html:437 templates/pages/index.html:476
+msgid "Artificial Intelligence"
+msgstr "人工智能"
+
+#: templates/pages/index.html:444 templates/pages/index.html:483
+msgid "Smart City"
+msgstr "智慧城市"
+
+#: templates/pages/index.html:451 templates/pages/index.html:490
+msgid "Space Technology"
+msgstr "航天技术"
+
+#: templates/pages/index.html:459 templates/pages/index.html:498
+msgid "Innovation"
+msgstr "创新"
+
+#: templates/pages/index.html:466 templates/pages/index.html:505
+msgid "Data Analytics"
+msgstr "数据分析"
+
+#: templates/pages/index.html:518
+msgid ""
+"With a solid standing in the industry, numerous awards, and a strong base of "
+"satisfied customers."
+msgstr "在行业中拥有稳固地位，获得众多奖项，并拥有强大的满意客户基础。"
+
+#: templates/pages/index.html:522
+msgid "Team member"
+msgstr "团队成员"
+
+#: templates/pages/index.html:526
+msgid "Work Complete"
+msgstr "完成工作"
+
+#: templates/pages/index.html:530
+msgid "Winning Award"
+msgstr "获奖"
+
+#: templates/pages/index.html:534
+msgid "Client Review"
+msgstr "客户评价"
+
+#: templates/pages/index.html:550
+msgid "Latest Portfolio"
+msgstr "最新作品集"
+
+#: templates/pages/index.html:552
+msgid "Our Newest Project"
+msgstr "我们最新的项目"
+
+#: templates/pages/index.html:568
+msgid "Completed Projects"
+msgstr "完成的项目"
+
+#: templates/pages/index.html:572
+msgid "Client Satisfaction"
+msgstr "客户满意度"
+
+#: templates/pages/index.html:585
+msgid "Innovation First"
+msgstr "创新优先"
+
+#: templates/pages/index.html:586
+msgid "Cutting-edge AI solutions"
+msgstr "尖端人工智能解决方案"
+
+#: templates/pages/index.html:598
+msgid "Fast Delivery"
+msgstr "快速交付"
+
+#: templates/pages/index.html:599
+msgid "On-time project completion"
+msgstr "按时完成项目"
+
+#: templates/pages/index.html:613
+msgid "Expert Team"
+msgstr "专家团队"
+
+#: templates/pages/index.html:614
+msgid "Highly skilled professionals"
+msgstr "高技能专业人员"
+
+#: templates/pages/index.html:625
+msgid "Secure & Reliable"
+msgstr "安全可靠"
+
+#: templates/pages/index.html:626
+msgid "Enterprise-grade security"
+msgstr "企业级安全"
+
+#: templates/pages/index.html:639
+msgid "AI Model Fashion Try-On"
+msgstr "AI模特时尚试穿"
+
+#: templates/pages/index.html:641
+msgid "AI FASHION"
+msgstr "AI时尚"
+
+#: templates/pages/index.html:642
+msgid "Fashion Try-On Technology"
+msgstr "时尚试穿技术"
+
+#: templates/pages/index.html:645
+msgid "Virtual Fashion Assistant"
+msgstr "虚拟时尚助手"
+
+#: templates/pages/index.html:646
+msgid ""
+"We make retail collection promotions faster, cheaper, and more creative by "
+"using robust AI tech."
+msgstr "我们使用强大的人工智能技术，使零售系列促销更快、更便宜、更有创意。"
+
+#: templates/pages/index.html:657
+msgid "AI Agriculture Projects"
+msgstr "人工智能农业项目"
+
+#: templates/pages/index.html:659
+msgid "AI AGRICULTURE"
+msgstr "AI农业"
+
+#: templates/pages/index.html:660
+msgid "Smart Farming Solutions"
+msgstr "智慧农业解决方案"
+
+#: templates/pages/index.html:663
+msgid "Precision Agriculture AI"
+msgstr "精准农业AI"
+
+#: templates/pages/index.html:664
+msgid ""
+"AI agents which help for all practices in agricultural activities using a "
+"reliable wide knowledge-base."
+msgstr "AI智能体使用可靠的广泛知识库帮助农业活动中的所有实践。"
+
+#: templates/pages/index.html:678
+msgid "Solar AI"
+msgstr "太阳能AI"
+
+#: templates/pages/index.html:680
+msgid "SOLAR AI"
+msgstr "太阳能AI"
+
+#: templates/pages/index.html:681
+msgid "Renewable Energy"
+msgstr "可再生能源"
+
+#: templates/pages/index.html:684
+msgid "AI Energy Optimization"
+msgstr "AI能源优化"
+
+#: templates/pages/index.html:685
+msgid ""
+"Machine learning for solar panel efficiency and energy distribution "
+"optimization."
+msgstr "用于太阳能电池板效率和能源分配优化的机器学习。"
+
+#: templates/pages/service_details.html:301
+msgid "Navigate to home page"
+msgstr "导航到首页"
+
+#: templates/pages/service_details.html:383
+msgid "Navigate to previous service page"
+msgstr "导航到上一个服务页面"
+
+#: templates/pages/service_details.html:387
+msgid "Go back"
+msgstr "返回"
+
+#: templates/pages/service_details.html:400
+msgid "Navigate to next service page"
+msgstr "导航到下一个服务页面"
+
+#: templates/pages/service_details.html:404
+msgid "Back to services"
+msgstr "返回服务"

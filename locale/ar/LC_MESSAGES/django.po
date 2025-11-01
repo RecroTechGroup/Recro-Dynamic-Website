@@ -1,0 +1,771 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-31 13:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ARABIC <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: config/settings.py:132
+msgid "Malay"
+msgstr "الملايو"
+
+#: config/settings.py:133
+msgid "Korean"
+msgstr "الكورية"
+
+#: config/settings.py:134
+msgid "Russian"
+msgstr "الروسية"
+
+#: config/settings.py:135
+msgid "Spanish"
+msgstr "الإسبانية"
+
+#: config/settings.py:136
+msgid "Chinese (Simplified)"
+msgstr "الصينية (المبسطة)"
+
+#: config/settings.py:137
+msgid "Arabic"
+msgstr "العربية"
+
+#: templates.copy/pages/contact.html:9 templates/pages/contact.html:9
+msgid "Contact Us - RecroTech"
+msgstr "اتصل بنا - RecroTech"
+
+#: templates.copy/pages/contact.html:10 templates/pages/contact.html:10
+msgid "Get in touch with RecroTech. Contact us for AI solutions, cloud services, and technology consulting."
+msgstr "تواصل مع RecroTech. اتصل بنا للحصول على حلول الذكاء الاصطناعي وخدمات السحابة والاستشارات التقنية."
+
+#: templates.copy/pages/contact.html:35 templates.copy/pages/contact.html:39
+#: templates/includes/footer.html:29 templates/includes/header.html:320
+#: templates/pages/contact.html:35 templates/pages/contact.html:39
+msgid "Contact"
+msgstr "اتصل بنا"
+
+#: templates.copy/pages/contact.html:37 templates.copy/pages/service.html:41
+#: templates.copy/pages/solutions.html:48 templates/pages/about.html:65
+#: templates/pages/contact.html:37 templates/pages/service.html:49
+#: templates/pages/service_details.html:302 templates/pages/solutions.html:48
+msgid "Home"
+msgstr "الرئيسية"
+
+#: templates.copy/pages/contact.html:53 templates.copy/pages/service.html:152
+#: templates/includes/footer.html:152 templates/includes/header.html:258
+#: templates/includes/header.html:357 templates/pages/contact.html:53
+#: templates/pages/service.html:176 templates/pages/service_details.html:449
+msgid "Contact Us"
+msgstr "اتصل بنا"
+
+#: templates.copy/pages/contact.html:59 templates/pages/contact.html:59
+msgid "Address"
+msgstr "العنوان"
+
+#: templates.copy/pages/contact.html:63 templates/includes/footer.html:54
+#: templates/includes/header.html:226 templates/pages/contact.html:63
+msgid "Mustafa Kemal Mahallesi, Barış Sitesi, 2092 Sokak, No:22, Çankaya/ANKARA"
+msgstr "حي مصطفى كمال، موقع باريش، شارع 2092، رقم: 22، تشانكايا/أنقرة"
+
+#: templates.copy/pages/contact.html:70 templates/pages/contact.html:70
+msgid "Number"
+msgstr "الهاتف"
+
+#: templates.copy/pages/contact.html:81 templates/pages/contact.html:81
+msgid "E-mail"
+msgstr "البريد الإلكتروني"
+
+#: templates.copy/pages/contact.html:98 templates/pages/contact.html:98
+msgid "Get In Touch"
+msgstr "تواصل معنا"
+
+#: templates.copy/pages/contact.html:105 templates/pages/contact.html:105
+msgid "Your Name"
+msgstr "اسمك"
+
+#: templates.copy/pages/contact.html:110 templates/includes/footer.html:34
+#: templates/pages/contact.html:110
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: templates.copy/pages/contact.html:117 templates/pages/contact.html:117
+msgid "Select Service"
+msgstr "اختر الخدمة"
+
+#: templates.copy/pages/contact.html:118 templates.copy/pages/service.html:59
+#: templates.copy/pages/service.html:142 templates/includes/footer.html:70
+#: templates/pages/contact.html:118 templates/pages/index.html:384
+#: templates/pages/service.html:71 templates/pages/service.html:156
+#: templates/pages/service_details.html:429
+msgid "AI Solutions"
+msgstr "حلول الذكاء الاصطناعي"
+
+#: templates.copy/pages/contact.html:119 templates.copy/pages/service.html:76
+#: templates/pages/contact.html:119 templates/pages/index.html:394
+#: templates/pages/service.html:88
+msgid "AI Agents and Automations"
+msgstr "وكلاء الذكاء الاصطناعي والأتمتة"
+
+#: templates.copy/pages/contact.html:120 templates.copy/pages/service.html:88
+#: templates.copy/pages/service.html:91 templates/includes/footer.html:80
+#: templates/pages/contact.html:120 templates/pages/service.html:100
+#: templates/pages/service.html:103
+msgid "Cloud Services"
+msgstr "الخدمات السحابية"
+
+#: templates.copy/pages/contact.html:121 templates.copy/pages/service.html:103
+#: templates.copy/pages/service.html:106 templates/includes/header.html:310
+#: templates/pages/contact.html:121 templates/pages/index.html:402
+#: templates/pages/index.html:403 templates/pages/service.html:115
+#: templates/pages/service.html:118
+msgid "Trainings"
+msgstr "التدريبات"
+
+#: templates.copy/pages/contact.html:122 templates.copy/pages/service.html:117
+#: templates.copy/pages/service.html:120 templates/includes/footer.html:90
+#: templates/pages/contact.html:122 templates/pages/index.html:411
+#: templates/pages/index.html:412 templates/pages/service.html:129
+#: templates/pages/service.html:132
+msgid "CRM Solutions"
+msgstr "حلول إدارة علاقات العملاء"
+
+#: templates.copy/pages/contact.html:129 templates/pages/contact.html:129
+msgid "mm/dd/yyyy"
+msgstr "شش/يي/سسسس"
+
+#: templates.copy/pages/contact.html:134 templates/pages/contact.html:134
+msgid "Time"
+msgstr "الوقت"
+
+#: templates.copy/pages/contact.html:139 templates/pages/contact.html:139
+msgid "Type Here"
+msgstr "اكتب هنا"
+
+#: templates.copy/pages/contact.html:144 templates/pages/contact.html:144
+msgid "Send Now"
+msgstr "أرسل الآن"
+
+#: templates.copy/pages/service.html:8 templates/pages/service.html:9
+msgid "Services - RecroTech"
+msgstr "الخدمات - RecroTech"
+
+#: templates.copy/pages/service.html:9 templates/pages/service.html:10
+msgid "Explore RecroTech's comprehensive technology services including AI Solutions, Cloud Services, AI Agents, Trainings, and CRM Solutions."
+msgstr "استكشف خدمات التكنولوجيا الشاملة من RecroTech بما في ذلك حلول الذكاء الاصطناعي والخدمات السحابية ووكلاء الذكاء الاصطناعي والتدريبات وحلول إدارة علاقات العملاء."
+
+#: templates.copy/pages/service.html:38 templates.copy/pages/service.html:44
+#: templates/includes/footer.html:65 templates/includes/header.html:305
+#: templates/pages/service.html:46 templates/pages/service.html:55
+msgid "Services"
+msgstr "الخدمات"
+
+#: templates.copy/pages/service.html:62 templates/pages/index.html:385
+#: templates/pages/service.html:74
+msgid "A Wide Variety of AI Solutions"
+msgstr "مجموعة واسعة من حلول الذكاء الاصطناعي"
+
+#: templates.copy/pages/service.html:63 templates/pages/index.html:387
+#: templates/pages/service.html:75
+msgid "AI in finance, diplomacy, law, energy, defence, fashion, science and manufacturing. AI solutions that embraces innovative future products."
+msgstr "الذكاء الاصطناعي في التمويل والدبلوماسية والقانون والطاقة والدفاع والأزياء والعلوم والتصنيع. حلول الذكاء الاصطناعي التي تحتضن منتجات المستقبل المبتكرة."
+
+#: templates.copy/pages/service.html:64 templates.copy/pages/service.html:79
+#: templates.copy/pages/service.html:94 templates.copy/pages/service.html:108
+#: templates.copy/pages/service.html:122 templates/pages/service.html:76
+#: templates/pages/service.html:91 templates/pages/service.html:106
+#: templates/pages/service.html:120 templates/pages/service.html:134
+msgid "Read More"
+msgstr "اقرأ المزيد"
+
+#: templates.copy/pages/service.html:73 templates/pages/index.html:393
+#: templates/pages/service.html:85
+msgid "AI Agents"
+msgstr "وكلاء الذكاء الاصطناعي"
+
+#: templates.copy/pages/service.html:77 templates/pages/index.html:396
+#: templates/pages/service.html:89
+msgid "We build AI agents that solve real-world business challenges through open-source automation and seamless deployment."
+msgstr "نقوم ببناء وكلاء الذكاء الاصطناعي التي تحل تحديات الأعمال في العالم الحقيقي من خلال الأتمتة مفتوحة المصدر والنشر السلس."
+
+#: templates.copy/pages/service.html:92 templates/pages/service.html:104
+msgid "We turn ideas into reality by leveraging cloud technologies and designing large-scale, scalable architectures."
+msgstr "نحول الأفكار إلى واقع من خلال الاستفادة من تقنيات السحابة وتصميم بنى واسعة النطاق وقابلة للتوسع."
+
+#: templates.copy/pages/service.html:107 templates.copy/pages/service.html:121
+#: templates/pages/service.html:119 templates/pages/service.html:133
+msgid "Information Technology is a rapidly evolving field that encompasses the study and application"
+msgstr "تكنولوجيا المعلومات مجال سريع التطور يشمل الدراسة والتطبيق"
+
+#: templates.copy/pages/service.html:137 templates/pages/service.html:149
+#: templates/pages/service_details.html:421
+msgid "Build What's Next"
+msgstr "ابنِ ما هو قادم"
+
+#: templates.copy/pages/service.html:143 templates/pages/service.html:160
+#: templates/pages/service_details.html:433
+msgid "Automation & Agents"
+msgstr "الأتمتة والوكلاء"
+
+#: templates.copy/pages/service.html:146 templates/pages/service.html:166
+#: templates/pages/service_details.html:439
+msgid "Cloud Architecture"
+msgstr "بنية السحابة"
+
+#: templates.copy/pages/service.html:147 templates/pages/service.html:170
+#: templates/pages/service_details.html:443
+msgid "CRM Integrations"
+msgstr "تكاملات إدارة علاقات العملاء"
+
+#: templates.copy/pages/solution_details.html:104
+#: templates/pages/service_details.html:392
+msgid "Previous"
+msgstr "السابق"
+
+#: templates.copy/pages/solution_details.html:111
+#: templates/pages/service_details.html:397
+msgid "Next"
+msgstr "التالي"
+
+#: templates.copy/pages/solutions.html:9 templates/pages/solutions.html:9
+msgid "Our Solutions - RecroTech"
+msgstr "حلولنا - RecroTech"
+
+#: templates.copy/pages/solutions.html:10 templates/pages/solutions.html:10
+msgid "Explore RecroTech's innovative AI solutions across Fashion, Agriculture, and Space industries."
+msgstr "استكشف حلول الذكاء الاصطناعي المبتكرة من RecroTech عبر صناعات الأزياء والزراعة والفضاء."
+
+#: templates.copy/pages/solutions.html:46
+#: templates.copy/pages/solutions.html:50 templates/pages/solutions.html:46
+#: templates/pages/solutions.html:50
+msgid "Our Solutions"
+msgstr "حلولنا"
+
+#: templates.copy/pages/solutions.html:65
+#: templates.copy/pages/solutions.html:68 templates/pages/solutions.html:65
+#: templates/pages/solutions.html:68
+msgid "AI in Fashion"
+msgstr "الذكاء الاصطناعي في الأزياء"
+
+#: templates.copy/pages/solutions.html:80
+#: templates.copy/pages/solutions.html:83 templates/pages/solutions.html:80
+#: templates/pages/solutions.html:83
+msgid "AI in Agriculture"
+msgstr "الذكاء الاصطناعي في الزراعة"
+
+#: templates.copy/pages/solutions.html:95
+#: templates.copy/pages/solutions.html:98 templates/pages/solutions.html:95
+#: templates/pages/solutions.html:98
+msgid "AI in Space"
+msgstr "الذكاء الاصطناعي في الفضاء"
+
+#: templates/includes/footer.html:40 templates/includes/footer.html:46
+msgid "Phone"
+msgstr "الهاتف"
+
+#: templates/includes/footer.html:52
+msgid "Headquarters"
+msgstr "المقر الرئيسي"
+
+#: templates/includes/footer.html:75
+msgid "Automation Solutions"
+msgstr "حلول الأتمتة"
+
+#: templates/includes/footer.html:85
+msgid "B2B Trainings"
+msgstr "تدريبات B2B"
+
+#: templates/includes/footer.html:96
+msgid "Branch"
+msgstr "الفرع"
+
+#: templates/includes/footer.html:98
+msgid "Teknoloji Geliştirme Bölgesi, Üniversiteler Mahallesi, Şehit Mustafa Tayyarcan Caddesi, No:5, Cyberpark Tepe Binası, Zemin Kat, No: Z43, 06800 Bilkent Çankaya/Ankara"
+msgstr "منطقة تطوير التكنولوجيا، حي الجامعات، شارع الشهيد مصطفى تايارجان، رقم: 5، مبنى سايبر بارك تيبي، الطابق الأرضي، رقم: Z43، 06800 بيلكنت تشانكايا/أنقرة"
+
+#: templates/includes/footer.html:109
+msgid "Newsletter"
+msgstr "النشرة الإخبارية"
+
+#: templates/includes/footer.html:112
+msgid "Subscribe to our newsletter and receive the latest updates on RecroTech's innovations, projects, and industry insights — straight to your inbox."
+msgstr "اشترك في نشرتنا الإخبارية واحصل على آخر التحديثات حول ابتكارات RecroTech ومشاريعها ورؤى الصناعة — مباشرة إلى بريدك الإلكتروني."
+
+#: templates/includes/footer.html:114
+msgid "Your email..."
+msgstr "بريدك الإلكتروني..."
+
+#: templates/includes/footer.html:127
+msgid "© All Copyright 2025 by"
+msgstr "© جميع الحقوق محفوظة 2025 لـ"
+
+#: templates/includes/footer.html:132
+msgid "Documents"
+msgstr "المستندات"
+
+#: templates/includes/footer.html:137
+msgid "Info. Security Policy"
+msgstr "سياسة أمن المعلومات"
+
+#: templates/includes/footer.html:142
+msgid "Terms & Condition"
+msgstr "الشروط والأحكام"
+
+#: templates/includes/footer.html:147
+msgid "Privacy Policy"
+msgstr "سياسة الخصوصية"
+
+#: templates/includes/header.html:11
+msgid "RecroTech - AI Solutions & Technology"
+msgstr "RecroTech - حلول الذكاء الاصطناعي والتكنولوجيا"
+
+#: templates/includes/header.html:176
+msgid "Loading"
+msgstr "جارٍ التحميل"
+
+#: templates/includes/header.html:215
+msgid "Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus."
+msgstr "نحن شركة تكنولوجيا مبتكرة مكرسة لتقديم حلول متطورة."
+
+#: templates/includes/header.html:219
+msgid "Contact Info"
+msgstr "معلومات الاتصال"
+
+#: templates/includes/header.html:244
+msgid "Mon-Fri, 09am - 05pm"
+msgstr "الإثنين-الجمعة، 09:00 - 17:00"
+
+#: templates/includes/header.html:294
+msgid "About"
+msgstr "حول"
+
+#: templates/includes/header.html:297 templates/pages/about.html:63
+#: templates/pages/about.html:67 templates/pages/about.html:80
+#: templates/pages/index.html:178
+msgid "About Us"
+msgstr "من نحن"
+
+#: templates/includes/header.html:298 templates/pages/about.html:121
+msgid "Founder's Letter"
+msgstr "رسالة المؤسس"
+
+#: templates/includes/header.html:299
+msgid "Team"
+msgstr "الفريق"
+
+#: templates/includes/header.html:300 templates/pages/about.html:495
+msgid "FAQ"
+msgstr "الأسئلة الشائعة"
+
+#: templates/includes/header.html:309
+msgid "What we do"
+msgstr "ما نقوم به"
+
+#: templates/includes/header.html:314
+msgid "Solutions"
+msgstr "الحلول"
+
+#: templates/includes/header.html:317
+msgid "Coming soon"
+msgstr "قريباً"
+
+#: templates/includes/header.html:317
+msgid "News"
+msgstr "الأخبار"
+
+#: templates/pages/about.html:9
+msgid "About Us - RecroTech"
+msgstr "من نحن - RecroTech"
+
+#: templates/pages/about.html:10
+msgid "Learn about RecroTech, our mission, vision, and team members dedicated to innovative technology solutions."
+msgstr "تعرف على RecroTech ومهمتنا ورؤيتنا وأعضاء فريقنا المكرسين لحلول التكنولوجيا المبتكرة."
+
+#: templates/pages/about.html:84
+msgid "We are a leading AI company based in Turkey, dedicated to harnessing technology for the benefit of humanity. Our expertise spans a wide range of fields, including software development, energy solutions, cloud computing, robotics, AI agents, automation, and scientific innovation."
+msgstr "نحن شركة رائدة في مجال الذكاء الاصطناعي مقرها تركيا، مكرسة لتسخير التكنولوجيا لصالح البشرية. تمتد خبرتنا إلى مجموعة واسعة من المجالات، بما في ذلك تطوير البرمجيات، حلول الطاقة، الحوسبة السحابية، الروبوتات، وكلاء الذكاء الاصطناعي، الأتمتة، والابتكار العلمي."
+
+#: templates/pages/about.html:88
+msgid "At our core, we believe in empowering businesses and society with cutting-edge technology. We organize specialized training programs to keep your employees updated with the latest advancements in AI and technology."
+msgstr "في جوهرنا، نؤمن بتمكين الشركات والمجتمع بالتكنولوجيا المتطورة. نقوم بتنظيم برامج تدريبية متخصصة لإبقاء موظفيك على اطلاع بأحدث التطورات في الذكاء الاصطناعي والتكنولوجيا."
+
+#: templates/pages/about.html:92
+msgid "Our vision is clear: a world where AI doesn't just power technology, but actively creates it. We pride ourselves on delivering high customer satisfaction, solving complex problems, and giving our absolute best to help our clients succeed."
+msgstr "رؤيتنا واضحة: عالم لا يقوم فيه الذكاء الاصطناعي بتشغيل التكنولوجيا فحسب، بل يخلقها بنشاط. نفخر بتقديم رضا عملاء عالٍ، وحل المشكلات المعقدة، وبذل قصارى جهدنا لمساعدة عملائنا على النجاح."
+
+#: templates/pages/about.html:98
+msgid "Company Image"
+msgstr "صورة الشركة"
+
+#: templates/pages/about.html:124
+msgid "At Recro, we are an innovative technology company rooted in Türkiye driven by a vision to expand globally. Our name, derived from the Latin word 'Recro' means 'to revive' and 'to restore' This captures the essence of what we do: we bring new life and strength to businesses by blending artificial intelligence with a human-centered approach. Recro's global vision is to bring our local expertise to the world stage by delivering future-ready solutions to organizations of all sizes. We offer technology to humanity with the philosophy of 'Be inspired by the unknown' In every project, we move forward by considering not only our customers' today but also their tomorrow. For us, what truly matters is using technology not merely as a tool, but as a means of creating value; making companies more competitive and more innovative. In short, at Recro, we are here to revive technology for the good of humanity. With our motto 'Be inspired by the unknown' let's shape the future together."
+msgstr "في Recro، نحن شركة تكنولوجيا مبتكرة متجذرة في تركيا مدفوعة برؤية للتوسع عالمياً. اسمنا، المشتق من الكلمة اللاتينية 'Recro' يعني 'إحياء' و'استعادة'. هذا يلخص جوهر ما نقوم به: نجلب حياة وقوة جديدة للشركات من خلال دمج الذكاء الاصطناعي مع نهج يركز على الإنسان. رؤية Recro العالمية هي جلب خبرتنا المحلية إلى المسرح العالمي من خلال تقديم حلول جاهزة للمستقبل للمؤسسات من جميع الأحجام. نقدم التكنولوجيا للبشرية بفلسفة 'استلهم من المجهول'. في كل مشروع، نتقدم من خلال النظر ليس فقط في حاضر عملائنا ولكن أيضاً في مستقبلهم. بالنسبة لنا، ما يهم حقاً هو استخدام التكنولوجيا ليس مجرد أداة، ولكن كوسيلة لخلق القيمة؛ جعل الشركات أكثر تنافسية وأكثر ابتكاراً. باختصار، في Recro، نحن هنا لإحياء التكنولوجيا من أجل خير البشرية. مع شعارنا 'استلهم من المجهول' دعونا نشكل المستقبل معاً."
+
+#: templates/pages/about.html:127
+msgid "Zafer Küçükşabanoğlu, Founder of RecroTech"
+msgstr "ظافر كوتشوكشابان أوغلو، مؤسس RecroTech"
+
+#: templates/pages/about.html:139
+msgid "RecroTech"
+msgstr "RecroTech"
+
+#: templates/pages/about.html:140
+msgid "Us"
+msgstr "فريقنا"
+
+#: templates/pages/about.html:150 templates/pages/about.html:154
+msgid "Founder and Chairman"
+msgstr "المؤسس والرئيس"
+
+#: templates/pages/about.html:155 templates/pages/about.html:173
+#: templates/pages/about.html:191 templates/pages/about.html:209
+#: templates/pages/about.html:227 templates/pages/about.html:245
+#: templates/pages/about.html:263 templates/pages/about.html:281
+msgid "LinkedIn Profile"
+msgstr "الملف الشخصي على LinkedIn"
+
+#: templates/pages/about.html:168 templates/pages/about.html:172
+msgid "Chairman"
+msgstr "الرئيس"
+
+#: templates/pages/about.html:186 templates/pages/about.html:190
+msgid "London Representative"
+msgstr "ممثل لندن"
+
+#: templates/pages/about.html:204 templates/pages/about.html:208
+msgid "Strategic Projects Director"
+msgstr "مدير المشاريع الاستراتيجية"
+
+#: templates/pages/about.html:222 templates/pages/about.html:226
+msgid "Associated Developer"
+msgstr "مطور مشارك"
+
+#: templates/pages/about.html:240 templates/pages/about.html:244
+msgid "Training Specialist"
+msgstr "أخصائي تدريب"
+
+#: templates/pages/about.html:258 templates/pages/about.html:262
+msgid "Lawyer and Computer Engineer"
+msgstr "محامي ومهندس حاسوب"
+
+#: templates/pages/about.html:276 templates/pages/about.html:280
+msgid "Intern Developer"
+msgstr "مطور متدرب"
+
+#: templates/pages/about.html:501
+msgid "FAQ Animation"
+msgstr "رسوم متحركة للأسئلة الشائعة"
+
+#: templates/pages/about.html:513
+msgid "What services does RecroTech offer?"
+msgstr "ما هي الخدمات التي تقدمها RecroTech؟"
+
+#: templates/pages/about.html:518
+msgid "RecroTech offers a comprehensive range of technology services including AI-powered solutions, cloud computing, web and mobile development, digital transformation consulting, and custom software development. We tailor our services to meet the unique needs of each client."
+msgstr "تقدم RecroTech مجموعة شاملة من الخدمات التقنية بما في ذلك الحلول المدعومة بالذكاء الاصطناعي والحوسبة السحابية وتطوير الويب والهاتف المحمول واستشارات التحول الرقمي وتطوير البرمجيات المخصصة. نصمم خدماتنا لتلبية الاحتياجات الفريدة لكل عميل."
+
+#: templates/pages/about.html:527
+msgid "Where is RecroTech located?"
+msgstr "أين تقع RecroTech؟"
+
+#: templates/pages/about.html:532
+msgid "We are headquartered in Türkiye with a vision for global expansion. We work with clients worldwide, offering both on-site and remote collaboration options to best serve our clients' needs."
+msgstr "مقرنا الرئيسي في تركيا مع رؤية للتوسع العالمي. نعمل مع عملاء في جميع أنحاء العالم، ونقدم خيارات التعاون في الموقع وعن بُعد لخدمة احتياجات عملائنا بشكل أفضل."
+
+#: templates/pages/about.html:541
+msgid "How can I join the RecroTech team?"
+msgstr "كيف يمكنني الانضمام إلى فريق RecroTech؟"
+
+#: templates/pages/about.html:546
+msgid "We're always looking for talented individuals to join our team. Please visit our <a href=\"\">Contact page</a> or send your resume to info@recrotech.com. We offer exciting opportunities for developers, designers, AI specialists, and business professionals."
+msgstr "نحن نبحث دائماً عن الأفراد الموهوبين للانضمام إلى فريقنا. يرجى زيارة صفحة الاتصال الخاصة بنا أو إرسال سيرتك الذاتية إلى info@recrotech.com. نقدم فرصاً مثيرة للمطورين والمصممين ومتخصصي الذكاء الاصطناعي ومحترفي الأعمال."
+
+#: templates/pages/about.html:555
+msgid "What makes RecroTech different from other tech companies?"
+msgstr "ما الذي يميز RecroTech عن شركات التكنولوجيا الأخرى؟"
+
+#: templates/pages/about.html:560
+msgid "Our commitment to 'reviving and restoring' businesses through technology sets us apart. We don't just deliver technical solutions; we partner with our clients to understand their challenges and create meaningful innovations that drive real business value. Our team's expertise, combined with our client-centric approach, ensures success."
+msgstr "التزامنا بـ 'إحياء واستعادة' الشركات من خلال التكنولوجيا يميزنا. نحن لا نقدم حلولاً تقنية فحسب؛ نتعاون مع عملائنا لفهم تحدياتهم وخلق ابتكارات ذات مغزى تدفع قيمة الأعمال الحقيقية. خبرة فريقنا، جنباً إلى جنب مع نهجنا الذي يركز على العميل، يضمن النجاح."
+
+#: templates/pages/about.html:569
+msgid "How long does a typical project take?"
+msgstr "كم من الوقت يستغرق المشروع النموذجي؟"
+
+#: templates/pages/about.html:574
+msgid "Project timelines vary depending on scope and complexity. Simple web projects may take 4-6 weeks, while complex AI solutions or enterprise systems can take several months. We provide detailed timelines during our initial consultation and keep you updated throughout the development process."
+msgstr "تختلف الجداول الزمنية للمشروع اعتماداً على النطاق والتعقيد. قد تستغرق مشاريع الويب البسيطة 4-6 أسابيع، بينما يمكن أن تستغرق حلول الذكاء الاصطناعي المعقدة أو أنظمة المؤسسات عدة أشهر. نقدم جداول زمنية مفصلة خلال استشارتنا الأولية ونبقيك على اطلاع طوال عملية التطوير."
+
+#: templates/pages/index.html:9
+msgid "Home - RecroTech"
+msgstr "الرئيسية - RecroTech"
+
+#: templates/pages/index.html:10
+msgid "RecroTech - We revive technology for the good of humanity. AI solutions across multiple industries."
+msgstr "RecroTech - نحيي التكنولوجيا من أجل خير البشرية. حلول الذكاء الاصطناعي عبر صناعات متعددة."
+
+#: templates/pages/index.html:36
+msgid "Recro Technology"
+msgstr "تكنولوجيا Recro"
+
+#: templates/pages/index.html:38
+msgid "we revive"
+msgstr "نحيي"
+
+#: templates/pages/index.html:38
+msgid "technology for the"
+msgstr "التكنولوجيا من أجل"
+
+#: templates/pages/index.html:38
+msgid "good of humanity."
+msgstr "خير البشرية."
+
+#: templates/pages/index.html:42
+msgid "Contact US"
+msgstr "اتصل بنا"
+
+#: templates/pages/index.html:66
+msgid "Search..."
+msgstr "بحث..."
+
+#: templates/pages/index.html:80
+msgid "AB Delegation"
+msgstr "وفد الاتحاد الأوروبي"
+
+#: templates/pages/index.html:85
+msgid "Ministry of Family and Social Services"
+msgstr "وزارة الأسرة والخدمات الاجتماعية"
+
+#: templates/pages/index.html:105
+msgid "Ministry of Agriculture and Forestry"
+msgstr "وزارة الزراعة والغابات"
+
+#: templates/pages/index.html:110
+msgid "Ministry of Health"
+msgstr "وزارة الصحة"
+
+#: templates/pages/index.html:161
+msgid "About RecroTech"
+msgstr "حول RecroTech"
+
+#: templates/pages/index.html:166
+msgid "years of"
+msgstr "سنوات من"
+
+#: templates/pages/index.html:167
+msgid "experience"
+msgstr "الخبرة"
+
+#: templates/pages/index.html:180
+msgid "We envision a world where AI creates technology, not just powers it."
+msgstr "نتصور عالماً يخلق فيه الذكاء الاصطناعي التكنولوجيا، وليس فقط يشغلها."
+
+#: templates/pages/index.html:189
+msgid "Guaranteed Success"
+msgstr "النجاح المضمون"
+
+#: templates/pages/index.html:190
+msgid "Always try best for success."
+msgstr "نسعى دائماً لتحقيق النجاح."
+
+#: templates/pages/index.html:365
+msgid "Latest Service"
+msgstr "أحدث الخدمات"
+
+#: templates/pages/index.html:367
+msgid "IT Excellence Every of Step of the Way"
+msgstr "التميز في تكنولوجيا المعلومات في كل خطوة"
+
+#: templates/pages/index.html:370
+msgid "Information Technology is a rapidly evolving field that encompasses the study and app"
+msgstr "تكنولوجيا المعلومات مجال سريع التطور يشمل الدراسة والتطبيق"
+
+#: templates/pages/index.html:405 templates/pages/index.html:414
+msgid "Information Technology is a rapidly evolving field that is a encompasses the study and application"
+msgstr "تكنولوجيا المعلومات مجال سريع التطور يشمل الدراسة والتطبيق"
+
+#: templates/pages/index.html:437 templates/pages/index.html:476
+msgid "Artificial Intelligence"
+msgstr "الذكاء الاصطناعي"
+
+#: templates/pages/index.html:444 templates/pages/index.html:483
+msgid "Smart City"
+msgstr "المدينة الذكية"
+
+#: templates/pages/index.html:451 templates/pages/index.html:490
+msgid "Space Technology"
+msgstr "تكنولوجيا الفضاء"
+
+#: templates/pages/index.html:459 templates/pages/index.html:498
+msgid "Innovation"
+msgstr "الابتكار"
+
+#: templates/pages/index.html:466 templates/pages/index.html:505
+msgid "Data Analytics"
+msgstr "تحليلات البيانات"
+
+#: templates/pages/index.html:518
+msgid "With a solid standing in the industry, numerous awards, and a strong base of satisfied customers."
+msgstr "مع مكانة قوية في الصناعة، العديد من الجوائز، وقاعدة قوية من العملاء الراضين."
+
+#: templates/pages/index.html:522
+msgid "Team member"
+msgstr "عضو الفريق"
+
+#: templates/pages/index.html:526
+msgid "Work Complete"
+msgstr "العمل المكتمل"
+
+#: templates/pages/index.html:530
+msgid "Winning Award"
+msgstr "الجوائز الفائزة"
+
+#: templates/pages/index.html:534
+msgid "Client Review"
+msgstr "مراجعة العميل"
+
+#: templates/pages/index.html:550
+msgid "Latest Portfolio"
+msgstr "أحدث الأعمال"
+
+#: templates/pages/index.html:552
+msgid "Our Newest Project"
+msgstr "أحدث مشروع لنا"
+
+#: templates/pages/index.html:568
+msgid "Completed Projects"
+msgstr "المشاريع المكتملة"
+
+#: templates/pages/index.html:572
+msgid "Client Satisfaction"
+msgstr "رضا العميل"
+
+#: templates/pages/index.html:585
+msgid "Innovation First"
+msgstr "الابتكار أولاً"
+
+#: templates/pages/index.html:586
+msgid "Cutting-edge AI solutions"
+msgstr "حلول الذكاء الاصطناعي المتطورة"
+
+#: templates/pages/index.html:598
+msgid "Fast Delivery"
+msgstr "التسليم السريع"
+
+#: templates/pages/index.html:599
+msgid "On-time project completion"
+msgstr "إكمال المشروع في الوقت المحدد"
+
+#: templates/pages/index.html:613
+msgid "Expert Team"
+msgstr "فريق الخبراء"
+
+#: templates/pages/index.html:614
+msgid "Highly skilled professionals"
+msgstr "محترفون ذوو مهارات عالية"
+
+#: templates/pages/index.html:625
+msgid "Secure & Reliable"
+msgstr "آمن وموثوق"
+
+#: templates/pages/index.html:626
+msgid "Enterprise-grade security"
+msgstr "أمان على مستوى المؤسسات"
+
+#: templates/pages/index.html:639
+msgid "AI Model Fashion Try-On"
+msgstr "تجربة الأزياء بنموذج الذكاء الاصطناعي"
+
+#: templates/pages/index.html:641
+msgid "AI FASHION"
+msgstr "الذكاء الاصطناعي في الأزياء"
+
+#: templates/pages/index.html:642
+msgid "Fashion Try-On Technology"
+msgstr "تقنية تجربة الأزياء"
+
+#: templates/pages/index.html:645
+msgid "Virtual Fashion Assistant"
+msgstr "مساعد الأزياء الافتراضي"
+
+#: templates/pages/index.html:646
+msgid "We make retail collection promotions faster, cheaper, and more creative by using robust AI tech."
+msgstr "نجعل ترويج مجموعات البيع بالتجزئة أسرع وأرخص وأكثر إبداعاً باستخدام تقنية الذكاء الاصطناعي القوية."
+
+#: templates/pages/index.html:657
+msgid "AI Agriculture Projects"
+msgstr "مشاريع الزراعة بالذكاء الاصطناعي"
+
+#: templates/pages/index.html:659
+msgid "AI AGRICULTURE"
+msgstr "الذكاء الاصطناعي في الزراعة"
+
+#: templates/pages/index.html:660
+msgid "Smart Farming Solutions"
+msgstr "حلول الزراعة الذكية"
+
+#: templates/pages/index.html:663
+msgid "Precision Agriculture AI"
+msgstr "الذكاء الاصطناعي للزراعة الدقيقة"
+
+#: templates/pages/index.html:664
+msgid "AI agents which help for all practices in agricultural activities using a reliable wide knowledge-base."
+msgstr "وكلاء الذكاء الاصطناعي التي تساعد في جميع الممارسات في الأنشطة الزراعية باستخدام قاعدة معرفية واسعة وموثوقة."
+
+#: templates/pages/index.html:678
+msgid "Solar AI"
+msgstr "الذكاء الاصطناعي الشمسي"
+
+#: templates/pages/index.html:680
+msgid "SOLAR AI"
+msgstr "الذكاء الاصطناعي الشمسي"
+
+#: templates/pages/index.html:681
+msgid "Renewable Energy"
+msgstr "الطاقة المتجددة"
+
+#: templates/pages/index.html:684
+msgid "AI Energy Optimization"
+msgstr "تحسين الطاقة بالذكاء الاصطناعي"
+
+#: templates/pages/index.html:685
+msgid "Machine learning for solar panel efficiency and energy distribution optimization."
+msgstr "التعلم الآلي لكفاءة الألواح الشمسية وتحسين توزيع الطاقة."
+
+#: templates/pages/service_details.html:301
+msgid "Navigate to home page"
+msgstr "انتقل إلى الصفحة الرئيسية"
+
+#: templates/pages/service_details.html:383
+msgid "Navigate to previous service page"
+msgstr "انتقل إلى صفحة الخدمة السابقة"
+
+#: templates/pages/service_details.html:387
+msgid "Go back"
+msgstr "عودة"
+
+#: templates/pages/service_details.html:400
+msgid "Navigate to next service page"
+msgstr "انتقل إلى صفحة الخدمة التالية"
+
+#: templates/pages/service_details.html:404
+msgid "Back to services"
+msgstr "العودة إلى الخدمات"
+
+# Additional translations
+msgid "Our Team"
+msgstr "فريقنا"
+
+msgid "Things You May Wonder"
+msgstr "أشياء قد تتساءل عنها"
