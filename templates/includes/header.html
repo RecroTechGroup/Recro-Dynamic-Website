@@ -1,0 +1,818 @@
+{% load static i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="themedevo">
+    <meta name="description" content="{% trans 'RecroTech - AI Solutions & Technology' %}">
+    <!-- ======== Page title ============ -->
+    <title>RecroTech</title>
+
+    <!--<< Favicon >>-->
+    <link rel="shortcut icon" href="{% static 'img/favicon.png' %}">
+
+    <!--<< CSS Files >>-->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/meanmenu.css' %}">
+    <link rel="stylesheet" href="{% static 'css/swiper-bundle.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'css/icomon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/all.min.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Language Switch Custom Style -->
+    <style>
+        /* Language Switch Custom Style - Updated */
+        .language-switcher {
+            position: relative;
+            margin-left: 20px;
+        }
+
+        .language-switcher .lang-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 18px;
+            background: #4461F2;
+            border: none;
+            border-radius: 30px;
+            color: #fff;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(68, 97, 242, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .language-switcher .lang-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(68, 97, 242, 0.5);
+            background: #3651d9;
+        }
+
+        .language-switcher .lang-btn i {
+            font-size: 16px;
+        }
+
+        .language-switcher .lang-dropdown {
+            position: absolute;
+            top: calc(100% + 10px);
+            right: -40px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            z-index: 1000;
+            display: flex;
+            min-width: 300px;
+        }
+
+        .language-switcher:hover .lang-dropdown,
+        .language-switcher .lang-dropdown:hover {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        /* Sütun stilleri */
+        .language-switcher .lang-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .language-switcher .lang-column:first-child {
+            border-right: 1px solid #f0f0f0;
+        }
+
+        .language-switcher .lang-dropdown a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 14px 20px;
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            transition: all 0.2s ease;
+            border-bottom: 1px solid #f0f0f0;
+            white-space: nowrap;
+        }
+
+        .language-switcher .lang-column a:last-child {
+            border-bottom: none;
+        }
+
+        .language-switcher .lang-dropdown a:hover {
+            background: #4461F2;
+            color: #fff;
+        }
+
+        .language-switcher .lang-dropdown a.active {
+            background: #f0f3ff;
+            color: #4461F2;
+            font-weight: 600;
+        }
+
+        /* Tooltip for disabled links */
+        .disabled-link {
+            position: relative;
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+
+        .disabled-link:hover::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 5px 10px;
+            background: #333;
+            color: #fff;
+            border-radius: 4px;
+            font-size: 12px;
+            white-space: nowrap;
+            z-index: 1000;
+        }
+
+        /* Mobile Menu Styles */
+        /* Mobile Menu Styles */
+.mobile-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
+.mobile-menu-list li {
+    margin-bottom: 5px;
+}
+
+.mobile-menu-list > li > a {
+    display: block;
+    padding: 12px 15px;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    position: relative;
+}
+
+.mobile-menu-list > li > a:hover {
+    background: #f0f3ff;
+    color: #4461F2;
+    padding-left: 20px;
+}
+
+.mobile-menu-list .has-submenu > a {
+    padding-right: 40px;
+}
+
+.mobile-menu-list .has-submenu > a::after {
+    content: '\f078';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    transition: transform 0.3s ease;
+    color: #4461F2;
+}
+
+.mobile-menu-list .has-submenu.active > a::after {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.mobile-menu-list .submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.mobile-menu-list .has-submenu.active .submenu {
+    max-height: 500px;
+}
+
+.mobile-menu-list .submenu li a {
+    display: block;
+    padding: 10px 15px 10px 30px;
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.mobile-menu-list .submenu li a:hover {
+    color: #4461F2;
+    padding-left: 35px;
+}
+
+        /* Mobile Responsive Styles */
+        @media (max-width: 1199px) {
+            .language-switcher {
+                margin-left: 15px;
+            }
+
+            .language-switcher .lang-btn {
+                padding: 8px 15px;
+                font-size: 13px;
+                gap: 6px;
+            }
+
+            .language-switcher .lang-btn i {
+                font-size: 14px;
+            }
+
+            .language-switcher .lang-dropdown {
+                right: 0;
+                min-width: 260px;
+            }
+
+            .language-switcher .lang-dropdown a {
+                padding: 12px 15px;
+                font-size: 13px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .header-main {
+                padding: 15px 0;
+            }
+
+            .logo img {
+                max-width: 150px;
+                height: auto;
+            }
+
+            .language-switcher {
+                margin-left: 10px;
+            }
+
+            .language-switcher .lang-btn {
+                padding: 7px 12px;
+                font-size: 12px;
+                gap: 5px;
+            }
+
+            .language-switcher .lang-dropdown {
+                min-width: 240px;
+                right: 0;
+            }
+
+            .main-button {
+                display: none;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .logo img {
+                max-width: 120px;
+            }
+
+            .language-switcher .lang-btn {
+                padding: 6px 10px;
+                font-size: 11px;
+                gap: 4px;
+            }
+
+            .language-switcher .lang-btn i.fa-globe {
+                font-size: 12px;
+            }
+
+            .language-switcher .lang-btn i.fa-chevron-down {
+                font-size: 8px !important;
+            }
+
+            .language-switcher .lang-dropdown {
+                min-width: 220px;
+                max-width: 90vw;
+                right: 0;
+                left: auto;
+            }
+
+            .language-switcher .lang-dropdown a {
+                padding: 10px 12px;
+                font-size: 12px;
+            }
+
+            .header__hamburger {
+                margin-left: 10px;
+            }
+
+            .mobile-menu-list > li > a {
+                font-size: 15px;
+                padding: 10px 12px;
+            }
+
+            .mobile-menu-list .submenu li a {
+                font-size: 13px;
+                padding: 8px 12px 8px 25px;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .logo img {
+                max-width: 100px;
+            }
+
+            .language-switcher {
+                margin-left: 8px;
+            }
+
+            .language-switcher .lang-btn {
+                padding: 5px 8px;
+                font-size: 10px;
+                gap: 3px;
+                border-radius: 20px;
+            }
+
+            .language-switcher .lang-btn span {
+                display: none;
+            }
+
+            .language-switcher .lang-btn i.fa-globe {
+                font-size: 14px;
+            }
+
+            .language-switcher .lang-btn i.fa-chevron-down {
+                display: none;
+            }
+
+            .language-switcher .lang-dropdown {
+                min-width: 200px;
+                font-size: 11px;
+            }
+
+            .language-switcher .lang-dropdown a {
+                padding: 9px 10px;
+                font-size: 11px;
+            }
+
+            .mobile-menu-list > li > a {
+                font-size: 14px;
+                padding: 9px 10px;
+            }
+
+            .mobile-menu-list .submenu li a {
+                font-size: 12px;
+                padding: 7px 10px 7px 20px;
+            }
+        }
+
+        /* Offcanvas Mobile Optimization */
+        @media (max-width: 991px) {
+            .offcanvas__info {
+                width: 320px;
+            }
+
+            .offcanvas__logo img {
+                max-width: 200px;
+            }
+
+            .offcanvas__contact h4 {
+                font-size: 18px;
+                margin-bottom: 15px;
+            }
+
+            .offcanvas__contact ul li {
+                font-size: 13px;
+                margin-bottom: 12px;
+            }
+
+            .offcanvas__contact-icon {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .offcanvas__info {
+                width: 280px;
+            }
+
+            .offcanvas__logo img {
+                max-width: 150px;
+            }
+
+            .offcanvas__contact h4 {
+                font-size: 16px;
+            }
+
+            .offcanvas__contact ul li {
+                font-size: 12px;
+                margin-bottom: 10px;
+            }
+
+            .social-icon a {
+                width: 35px;
+                height: 35px;
+                font-size: 14px;
+            }
+        }
+
+        /* Preloader Mobile */
+        @media (max-width: 767px) {
+            .txt-loading .letters-loading {
+                font-size: 40px;
+            }
+
+            .animation-preloader p {
+                font-size: 14px;
+            }
+        }
+
+        /* Header Right Alignment Fix */
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        @media (max-width: 991px) {
+            .header-right {
+                gap: 5px;
+            }
+        }
+        /* Sadece Navbar Menu Link'lerin Altını Çizme */
+.main-menu nav ul li a {
+    text-decoration: none;
+}
+
+.main-menu nav ul li.active a {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.main-menu nav ul li a:hover {
+    text-decoration: none;
+}
+
+/* Submenu için */
+.main-menu .submenu li a {
+    text-decoration: none;
+}
+
+.main-menu .submenu li a:hover {
+    text-decoration: none;
+}
+
+/* Has-dropdown için */
+.has-dropdown > a {
+    text-decoration: none;
+}
+
+/* Mobile menu için */
+.mobile-menu-list li a {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* 2) Hover’da istersen çiz */
+a:hover {
+    text-decoration: underline;
+}
+
+.mobile-menu-list .submenu li a {
+    text-decoration: none;
+}
+    </style>
+</head>
+
+<body>
+
+    <!-- Preloader Start -->
+    <div id="preloader" class="preloader">
+        <div class="animation-preloader">
+            <div class="spinner"></div>
+            <div class="txt-loading">
+                <span data-text-preloader="R" class="letters-loading">R</span>
+                <span data-text-preloader="E" class="letters-loading">E</span>
+                <span data-text-preloader="C" class="letters-loading">C</span>
+                <span data-text-preloader="R" class="letters-loading">R</span>
+                <span data-text-preloader="O" class="letters-loading">O</span>
+                <span data-text-preloader="T" class="letters-loading">T</span>
+                <span data-text-preloader="E" class="letters-loading">E</span>
+                <span data-text-preloader="C" class="letters-loading">C</span>
+                <span data-text-preloader="H" class="letters-loading">H</span>
+            </div>
+            <p class="text-center">{% trans "Loading" %}</p>
+        </div>
+        <div class="loader">
+            <div class="row">
+                <div class="col-3 loader-section section-left"><div class="bg"></div></div>
+                <div class="col-3 loader-section section-left"><div class="bg"></div></div>
+                <div class="col-3 loader-section section-right"><div class="bg"></div></div>
+                <div class="col-3 loader-section section-right"><div class="bg"></div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back To Top Start -->
+    <button id="back-top" class="back-to-top">
+        <i class="fa-regular fa-arrow-up"></i>
+    </button>
+
+    <!--<< Mouse Cursor Start >>-->
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+
+    <!-- Offcanvas Area Start -->
+    <div class="fix-area">
+        <div class="offcanvas__info">
+            <div class="offcanvas__wrapper">
+                <div class="offcanvas__content">
+                    <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                        <div class="offcanvas__logo">
+                            <a href="{% url 'pages:home' %}">
+                                <img src="{% static 'img/logo/recro-tech-logo-small.png' %}"
+                                     alt="logo-img"
+                                     style="max-width: 100%; height: auto;">
+                            </a>
+                        </div>
+                        <div class="offcanvas__close">
+                            <button><i class="fas fa-times"></i></button>
+                        </div>
+                    </div>
+                    <p class="text d-none d-xl-block">
+                        {% trans "Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus." %}
+                    </p>
+
+                    <!-- Mobile Menu Navigation -->
+                    <ul class="mobile-menu-list">
+                        <li class="has-submenu">
+                            <a href="{% url 'pages:about' %}">
+                                {% trans "About" %}
+                            </a>
+                            <ul class="submenu">
+                                <li><a href="{% url 'pages:about' %}#about-us">{% trans "About Us" %}</a></li>
+                                <li><a href="{% url 'pages:about' %}#founder">{% trans "Founder's Letter" %}</a></li>
+                                <li><a href="{% url 'pages:about' %}#team">{% trans "Team" %}</a></li>
+                                <li><a href="{% url 'pages:about' %}#faq">{% trans "FAQ" %}</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="{% url 'pages:services' %}">
+                                {% trans "Services" %}
+                            </a>
+                            <ul class="submenu">
+                                <li><a href="{% url 'pages:services' %}">{% trans "What we do" %}</a></li>
+                                <li><a href="{% url 'pages:service_details' 'train' %}">{% trans "Trainings" %}</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="{% url 'pages:solutions' %}">{% trans "Solutions" %}</a>
+                        </li>
+                        <li>
+                            <a href="#" class="disabled-link" data-tooltip="{% trans 'Coming soon' %}">{% trans "News" %}</a>
+                        </li>
+                        <li>
+                            <a href="{% url 'pages:contact' %}">{% trans "Contact" %}</a>
+                        </li>
+                    </ul>
+
+                    <div class="offcanvas__contact">
+                        <h4>{% trans "Contact Info" %}</h4>
+                        <ul>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="#">{% trans "Mustafa Kemal Mahallesi, Barış Sitesi, 2092 Sokak, No:22, Çankaya/ANKARA" %}</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="mailto:info@recrotechgroup.com">
+                                        <span class="mailto:info@recrotechgroup.com">info@recrotechgroup.com</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-clock"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="#">{% trans "Mon-Fri, 09am - 05pm" %}</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="far fa-phone"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="tel:+905373230081">+90 537 323 00 81</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="main-button mt-4">
+                            <a href="{% url 'pages:contact' %}">
+                                <span class="theme-btn">{% trans "Contact Us" %}</span>
+                                <span class="arrow-btn"><i class="icon-arrow-right"></i></span>
+                            </a>
+                        </div>
+                        <div class="social-icon d-flex align-items-center flex-wrap">
+                            <a href="https://open.spotify.com/show/03cjFsiKrU2UCv8gMbIuoZ?si=8742fcf8d4d24015&nd=1&dlsi=086215539480468e"><i class="fab fa-spotify"></i></a>
+                            <a href="https://www.instagram.com/recrotech/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://x.com/recrotech"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.youtube.com/channel/UCu-9E68CfoKosVQMxCtK3wA"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.linkedin.com/company/recrotech"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas__overlay"></div>
+
+    <!-- Header Section Start -->
+    <header class="header-section">
+        <div id="header-sticky" class="header-1 inner-header">
+            <div class="container">
+                <div class="mega-menu-wrapper">
+                    <div class="header-main">
+                        <div class="logo">
+                            <a href="{% url 'pages:home' %}" class="header-logo">
+                                <img src="{% static 'img/logo/recrotech-white-logo.png' %}" alt="logo-img">
+                            </a>
+                            <a href="{% url 'pages:home' %}" class="header-logo-2">
+                                <img src="{% static 'img/logo/recro-tech-logo-small.png' %}" alt="logo-img">
+                            </a>
+                        </div>
+                        <div class="mean__menu-wrapper d-none d-xl-block">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                        <li class="has-dropdown active menu-thumb">
+                                            <a href="{% url 'pages:about' %}">{% trans "About" %}</a>
+                                            <i class="fa-solid fa-chevron-down"></i>
+                                            <ul class="submenu">
+                                                <li><a href="{% url 'pages:about' %}#about-us">{% trans "About Us" %}</a></li>
+                                                <li><a href="{% url 'pages:about' %}#founder">{% trans "Founder's Letter" %}</a></li>
+                                                <li><a href="{% url 'pages:about' %}#team">{% trans "Team" %}</a></li>
+                                                <li><a href="{% url 'pages:about' %}#faq">{% trans "FAQ" %}</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="{% url 'pages:services' %}">
+                                                {% trans "Services" %}
+                                                <i class="fa-solid fa-chevron-down"></i>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li><a href="{% url 'pages:services' %}">{% trans "What we do" %}</a></li>
+                                                <li><a href="{% url 'pages:service_details' 'train' %}">{% trans "Trainings" %}</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="{% url 'pages:solutions' %}">{% trans "Solutions" %}</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="disabled-link" data-tooltip="{% trans 'Coming soon' %}">{% trans "News" %}</a>
+                                        </li>
+                                        <li>
+                                            <a href="{% url 'pages:contact' %}">{% trans "Contact" %}</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="header-right d-flex justify-content-end align-items-center">
+                            <!-- Language Switcher -->
+                            <div class="language-switcher">
+                                <button class="lang-btn">
+                                    <i class="fas fa-globe"></i>
+                                    <span>
+                                    {% if LANGUAGE_CODE == 'tr' %}
+                                    TR
+                                    {% elif LANGUAGE_CODE == 'en' %}
+                                    EN
+                                    {% elif LANGUAGE_CODE == 'ar' %}
+                                    AR
+                                    {% elif LANGUAGE_CODE == 'es' %}
+                                    ES
+                                    {% elif LANGUAGE_CODE == 'ru' %}
+                                    RU
+                                    {% elif LANGUAGE_CODE == 'zh-hans' %}
+                                    ZH
+                                    {% elif LANGUAGE_CODE == 'ko' %}
+                                    KO
+                                    {% elif LANGUAGE_CODE == 'ms' %}
+                                    MS
+                                    {% endif %}
+                                    </span>
+                                    <i class="fas fa-chevron-down" style="font-size: 10px;"></i>
+                                </button>
+
+                                <div class="lang-dropdown">
+                                    {% get_current_language as LANGUAGE_CODE %}
+
+                                    <div class="lang-column">
+                                        <a href="/en{% if LANGUAGE_CODE == 'zh-hans' %}{{ request.path|slice:'8:' }}{% else %}{{ request.path|slice:'3:' }}{% endif %}"
+                                           class="{% if LANGUAGE_CODE == 'en' %}active{% endif %}">
+                                            <span>English</span>
+                                        </a>
+
+                                        <a href="/ru{% if LANGUAGE_CODE == 'zh-hans' %}{{ request.path|slice:'8:' }}{% else %}{{ request.path|slice:'3:' }}{% endif %}"
+                                           class="{% if LANGUAGE_CODE == 'ru' %}active{% endif %}">
+                                            <span>Русский</span>
+                                        </a>
+
+                                        <a href="/ar{% if LANGUAGE_CODE == 'zh-hans' %}{{ request.path|slice:'8:' }}{% else %}{{ request.path|slice:'3:' }}{% endif %}"
+                                           class="{% if LANGUAGE_CODE == 'ar' %}active{% endif %}">
+                                            <span>العربية</span>
+                                        </a>
+
+                                        <a href="/es{% if LANGUAGE_CODE == 'zh-hans' %}{{ request.path|slice:'8:' }}{% else %}{{ request.path|slice:'3:' }}{% endif %}"
+                                           class="{% if LANGUAGE_CODE == 'es' %}active{% endif %}">
+                                            <span>Español</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="lang-column">
+                                        <a href="/tr{% if LANGUAGE_CODE == 'zh-hans' %}{{ request.path|slice:'8:' }}{% else %}{{ request.path|slice:'3:' }}{% endif %}"
+                                           class="{% if LANGUAGE_CODE == 'tr' %}active{% endif %}">
+                                            <span>Türkçe</span>
+                                        </a>
+
+                                        <a href="/zh-hans{% if LANGUAGE_CODE == 'zh-hans' %}{{ request.path|slice:'8:' }}{% else %}{{ request.path|slice:'3:' }}{% endif %}"
+                                           class="{% if LANGUAGE_CODE == 'zh-hans' %}active{% endif %}">
+                                            <span>简体中文</span>
+                                        </a>
+
+                                        <a href="/ko{% if LANGUAGE_CODE == 'zh-hans' %}{{ request.path|slice:'8:' }}{% else %}{{ request.path|slice:'3:' }}{% endif %}"
+                                           class="{% if LANGUAGE_CODE == 'ko' %}active{% endif %}">
+                                            <span>한국어</span>
+                                        </a>
+
+                                        <a href="/ms{% if LANGUAGE_CODE == 'zh-hans' %}{{ request.path|slice:'8:' }}{% else %}{{ request.path|slice:'3:' }}{% endif %}"
+                                           class="{% if LANGUAGE_CODE == 'ms' %}active{% endif %}">
+                                            <span>Malay</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="main-button d-none d-lg-block">
+                                <a href="{% url 'pages:contact' %}">
+                                    <span class="theme-btn">{% trans "Contact Us" %}</span>
+                                    <span class="arrow-btn"><i class="icon-arrow-right"></i></span>
+                                </a>
+                            </div>
+                            <div class="header__hamburger d-xl-none my-auto">
+                                <div class="sidebar__toggle">
+                                    <i class="fas fa-bars"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const submenuParents = document.querySelectorAll('.mobile-menu-list .has-submenu > a');
+
+            submenuParents.forEach(function(parent) {
+                parent.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const parentLi = this.parentElement;
+                    parentLi.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

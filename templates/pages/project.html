@@ -1,0 +1,371 @@
+{% load static i18n %}
+{% include "includes/header.html" %}
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects - RecroTech</title>
+    <meta name="description" content="Explore RecroTech's portfolio of successful technology projects. View our case studies in AI, cloud computing, and digital transformation.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{% static 'img/favicon.ico' %}">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'css/swiper-bundle.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/meanmenu.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'icomoon/style.css' %}">
+    <link rel="stylesheet" href="{% static 'webfonts/all.min.css' %}">
+
+    <!-- Custom Styles -->
+    <style>
+      /* Project Card Enhancements */
+      .project-items-5 {
+        position: relative;
+        overflow: hidden;
+        border-radius: 16px;
+        background: #FFFFFF;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        transition: all 0.4s ease;
+      }
+
+      .project-items-5:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+      }
+
+      .project-items-5 .thumb {
+        position: relative;
+        overflow: hidden;
+        height: 300px;
+      }
+
+      .project-items-5 .thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.4s ease;
+      }
+
+      .project-items-5:hover .thumb img {
+        transform: scale(1.1);
+      }
+
+      .project-items-5 .content {
+        padding: 24px;
+        position: relative;
+      }
+
+      .project-items-5 .content h3 {
+        font-size: 22px;
+        font-weight: 700;
+        color: #0D0E10;
+        margin-bottom: 8px;
+        line-height: 1.3;
+      }
+
+      .project-items-5 .content h3 a {
+        color: #0D0E10;
+        transition: color 0.3s ease;
+      }
+
+      .project-items-5 .content h3 a:hover {
+        color: #2D5BFF;
+      }
+
+      .project-items-5 .content h4 {
+        font-size: 14px;
+        color: #9CA3AF;
+        font-weight: 600;
+        margin-bottom: 16px;
+      }
+
+      .project-items-5 .content .icon {
+        position: absolute;
+        bottom: 24px;
+        right: 24px;
+        width: 48px;
+        height: 48px;
+        background: #2D5BFF;
+        color: #FFFFFF;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+      }
+
+      .project-items-5:hover .content .icon {
+        background: #0f4a76;
+        transform: rotate(45deg);
+      }
+
+      /* Section Title */
+      .section-title-projects {
+        text-align: center;
+        margin-bottom: 64px;
+      }
+
+      .section-title-projects h2 {
+        font-size: 42px;
+        font-weight: 700;
+        color: #0D0E10;
+        margin-bottom: 16px;
+      }
+
+      .section-title-projects p {
+        font-size: 18px;
+        color: #475467;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        .project-items-5 .thumb {
+          height: 220px;
+        }
+
+        .section-title-projects h2 {
+          font-size: 32px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Header Include -->
+    {% include "includes/header.html" %}
+
+    <!-- Breadcrumb Section -->
+    <div class="breadcrumb-wrapper bg-cover" style="background-image: url('{% static 'img/pages_back.jpeg' %}');">
+      <div class="container">
+        <div class="page-heading">
+          <h1 class="wow fadeInUp" data-wow-delay=".3s">Our Projects</h1>
+          <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+            <li>
+              <a href="{% url 'pages:home' %}">
+                Home
+              </a>
+            </li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+            </li>
+            <li>
+              Our Projects
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section Start -->
+    <section class="project-section-5 fix section-padding">
+      <div class="container">
+
+        <!-- Section Title -->
+        <div class="section-title-projects wow fadeInUp" data-wow-delay=".3s">
+          <h2>Portfolio of Success Stories</h2>
+          <p>
+            Discover how we've helped businesses transform through innovative technology solutions.
+            Each project represents our commitment to excellence and client success.
+          </p>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- Project 1 -->
+          <div class="col-lg-6 col-md-6">
+            <div class="project-items-5 wow fadeInUp" data-wow-delay=".3s">
+              <div class="thumb">
+                <img src="{% static 'img/project/10.jpg' %}" alt="Enterprise AI Implementation">
+              </div>
+              <div class="content">
+                <h3>
+                  <a href="{% url 'pages:project_details' project_id=1 %}">
+                    Success Through Technological Expertise
+                  </a>
+                </h3>
+                <h4>2022</h4>
+                <a href="{% url 'pages:project_details' project_id=1 %}" class="icon" aria-label="View project details">
+                  <i class="icon-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-lg-6 col-md-6">
+            <div class="project-items-5 wow fadeInUp" data-wow-delay=".4s">
+              <div class="thumb">
+                <img src="{% static 'img/project/11.jpg' %}" alt="Mobile Application Development">
+              </div>
+              <div class="content">
+                <h3>
+                  <a href="{% url 'pages:project_details' project_id=2 %}">
+                    Mobile Tech Mastery
+                  </a>
+                </h3>
+                <h4>2025</h4>
+                <a href="{% url 'pages:project_details' project_id=2 %}" class="icon" aria-label="View project details">
+                  <i class="icon-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="col-lg-6 col-md-6">
+            <div class="project-items-5 wow fadeInUp" data-wow-delay=".5s">
+              <div class="thumb">
+                <img src="{% static 'img/project/12.jpg' %}" alt="Cybersecurity Infrastructure">
+              </div>
+              <div class="content">
+                <h3>
+                  <a href="{% url 'pages:project_details' project_id=3 %}">
+                    Cyber Security Sentinel
+                  </a>
+                </h3>
+                <h4>2022</h4>
+                <a href="{% url 'pages:project_details' project_id=3 %}" class="icon" aria-label="View project details">
+                  <i class="icon-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="col-lg-6 col-md-6">
+            <div class="project-items-5 wow fadeInUp" data-wow-delay=".6s">
+              <div class="thumb">
+                <img src="{% static 'img/project/13.jpg' %}" alt="Web Platform Development">
+              </div>
+              <div class="content">
+                <h3>
+                  <a href="{% url 'pages:project_details' project_id=4 %}">
+                    Web Wise Wizards
+                  </a>
+                </h3>
+                <h4>2023</h4>
+                <a href="{% url 'pages:project_details' project_id=4 %}" class="icon" aria-label="View project details">
+                  <i class="icon-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="col-lg-6 col-md-6">
+            <div class="project-items-5 wow fadeInUp" data-wow-delay=".7s">
+              <div class="thumb">
+                <img src="{% static 'img/project/14.jpg' %}" alt="UX/UI Design Project">
+              </div>
+              <div class="content">
+                <h3>
+                  <a href="{% url 'pages:project_details' project_id=5 %}">
+                    Precision Pixels
+                  </a>
+                </h3>
+                <h4>2024</h4>
+                <a href="{% url 'pages:project_details' project_id=5 %}" class="icon" aria-label="View project details">
+                  <i class="icon-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="col-lg-6 col-md-6">
+            <div class="project-items-5 wow fadeInUp" data-wow-delay=".8s">
+              <div class="thumb">
+                <img src="{% static 'img/project/15.jpg' %}" alt="Cloud Migration Project">
+              </div>
+              <div class="content">
+                <h3>
+                  <a href="{% url 'pages:project_details' project_id=6 %}">
+                    Tech Wave Solutions
+                  </a>
+                </h3>
+                <h4>2023</h4>
+                <a href="{% url 'pages:project_details' project_id=6 %}" class="icon" aria-label="View project details">
+                  <i class="icon-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section Start -->
+    <section class="cta-banner-section">
+      <div class="container">
+        <div class="cta-banner-wrapper">
+          <div class="row g-4 align-items-end">
+            <div class="col-lg-6">
+              <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                Ready to Start Your Project?
+              </h2>
+              <p class="mt-3 wow fadeInUp" data-wow-delay=".4s">
+                Let's collaborate to bring your vision to life with cutting-edge technology solutions.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <div class="cta-list-items">
+                <ul>
+                  <li>
+                    <i class="fa-regular fa-chevrons-right"></i>
+                    AI & Machine Learning
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-chevrons-right"></i>
+                    Cloud Architecture
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <i class="fa-regular fa-chevrons-right"></i>
+                    Security Solutions
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-chevrons-right"></i>
+                    Custom Development
+                  </li>
+                </ul>
+              </div>
+              <div class="main-button wow fadeInUp" data-wow-delay=".5s">
+                <a href="{% url 'pages:contact' %}">
+                  <span class="theme-btn">Contact Us</span>
+                  <span class="arrow-btn"><i class="icon-arrow-right"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Include -->
+    {% include "includes/footer.html" %}
+
+    <!-- JavaScript Files -->
+    <script src="{% static 'js/jquery-3.7.1.min.js' %}"></script>
+    <script src="{% static 'js/viewport.jquery.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+    <script src="{% static 'js/jquery.waypoints.js' %}"></script>
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'js/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'js/jquery.meanmenu.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/wow.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+  </body>
+</html>

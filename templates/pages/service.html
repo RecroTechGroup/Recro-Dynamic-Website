@@ -1,0 +1,203 @@
+{% load static i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% include "includes/header.html" %}
+
+<html lang="{{ LANGUAGE_CODE }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% trans "Services - RecroTech" %}</title>
+  <meta name="description" content="{% trans "Explore RecroTech's comprehensive technology services including AI Solutions, Cloud Services, AI Agents, Trainings, and CRM Solutions." %}">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="{% static 'img/favicon.ico' %}">
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+  <link rel="stylesheet" href="{% static 'css/swiper-bundle.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+  <link rel="stylesheet" href="{% static 'css/meanmenu.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+  <link rel="stylesheet" href="{% static 'icomoon/style.css' %}">
+  <link rel="stylesheet" href="{% static 'webfonts/all.min.css' %}">
+
+  <!-- Custom Styles for Services Section -->
+  <style>
+    .service-section .row > [class*='col-'] {
+      display: flex;
+    }
+
+    .service-section .service-box-items {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header Include -->
+{% include "includes/header.html" %}
+
+<!-- Breadcrumb Section -->
+<div class="breadcrumb-wrapper bg-cover" style="background-image: url('{% static 'img/pages_back.jpeg' %}');">
+  <div class="container">
+    <div class="page-heading">
+      <h1 class="wow fadeInUp" data-wow-delay=".3s">{% trans "Services" %}</h1>
+      <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+        <li>
+          <a href="{% url 'pages:home' %}">{% trans "Home" %}</a>
+        </li>
+        <li>
+          <i class="fas fa-chevron-right"></i>
+        </li>
+        <li>
+          {% trans "Services" %}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Service Section Start -->
+<section class="service-section section-padding">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-xl-4 col-lg-6 col-md-6">
+        <div class="service-box-items mt-0 wow fadeInUp" data-wow-delay=".3s">
+          <div class="icon">
+            <img src="{% static 'img/service/aisolutions.png' %}" alt="{% trans 'AI Solutions' %}" loading="lazy" decoding="async" width="64" height="64" />
+          </div>
+          <div class="content">
+            <h3><a href="{% url 'pages:service_details' 'awide' %}">{% trans "A Wide Variety of AI Solutions" %}</a></h3>
+            <p>{% trans "AI in finance, diplomacy, law, energy, defence, fashion, science and manufacturing. AI solutions that embraces innovative future products." %}</p>
+            <a href="{% url 'pages:service_details' 'awide' %}" class="link-btn">{% trans "Read More" %} <span><i class="icon-arrow-right" aria-hidden="true"></i></span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-xl-4 col-lg-6 col-md-6">
+        <div class="service-box-items mt-0 wow fadeInUp" data-wow-delay=".4s">
+          <div class="icon">
+            <img src="{% static 'img/service/agent.png' %}" alt="{% trans 'AI Agents' %}" loading="lazy" decoding="async" width="64" height="64" />
+          </div>
+          <div class="content">
+            <h3><a href="{% url 'pages:service_details' 'aiagent' %}">{% trans "AI Agents and Automations" %}</a></h3>
+            <p>{% trans "We build AI agents that solve real-world business challenges through open-source automation and seamless deployment." %}</p>
+            <br>
+            <a href="{% url 'pages:service_details' 'aiagent' %}" class="link-btn">{% trans "Read More" %} <span><i class="icon-arrow-right" aria-hidden="true"></i></span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-xl-4 col-lg-6 col-md-6">
+        <div class="service-box-items mt-0 wow fadeInUp" data-wow-delay=".5s">
+          <div class="icon">
+            <img src="{% static 'img/service/cloud.png' %}" alt="{% trans 'Cloud Services' %}" loading="lazy" decoding="async" width="64" height="64" />
+          </div>
+          <div class="content">
+            <h3><a href="{% url 'pages:service_details' 'cloud' %}">{% trans "Cloud Services" %}</a></h3>
+            <p>{% trans "We turn ideas into reality by leveraging cloud technologies and designing large-scale, scalable architectures." %}</p>
+            <br><br>
+            <a href="{% url 'pages:service_details' 'cloud' %}" class="link-btn">{% trans "Read More" %} <span><i class="icon-arrow-right" aria-hidden="true"></i></span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-xl-4 col-lg-6 col-md-6">
+        <div class="service-box-items mt-0 wow fadeInUp" data-wow-delay=".6s">
+          <div class="icon">
+            <img src="{% static 'img/service/trainings.png' %}" alt="{% trans 'Trainings' %}" loading="lazy" decoding="async" width="64" height="64" />
+          </div>
+          <div class="content">
+            <h3><a href="{% url 'pages:service_details' 'train' %}">{% trans "Trainings" %}</a></h3>
+            <p>{% trans "Information Technology is a rapidly evolving field that encompasses the study and application" %}</p>
+            <a href="{% url 'pages:service_details' 'train' %}" class="link-btn">{% trans "Read More" %} <span><i class="icon-arrow-right" aria-hidden="true"></i></span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-xl-4 col-lg-6 col-md-6">
+        <div class="service-box-items mt-0 wow fadeInUp" data-wow-delay=".7s">
+          <div class="icon">
+            <img src="{% static 'img/service/crm.png' %}" alt="{% trans 'CRM Solutions' %}" loading="lazy" decoding="async" width="64" height="64" />
+          </div>
+          <div class="content">
+            <h3><a href="{% url 'pages:service_details' 'crm' %}">{% trans "CRM Solutions" %}</a></h3>
+            <p>{% trans "Information Technology is a rapidly evolving field that encompasses the study and application" %}</p>
+            <a href="{% url 'pages:service_details' 'crm' %}" class="link-btn">{% trans "Read More" %} <span><i class="icon-arrow-right" aria-hidden="true"></i></span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section Start -->
+<section class="cta-banner-section">
+  <div class="container">
+    <div class="cta-banner-wrapper">
+      <div class="row g-4 align-items-end">
+        <div class="col-lg-6">
+          <h2>{% trans "Build What's Next" %}</h2>
+        </div>
+        <div class="col-lg-6">
+          <div class="cta-list-items">
+            <ul>
+              <li>
+                <i class="fa-regular fa-chevrons-right"></i>
+                {% trans "AI Solutions" %}
+              </li>
+              <li>
+                <i class="fa-regular fa-chevrons-right"></i>
+                {% trans "Automation & Agents" %}
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <i class="fa-regular fa-chevrons-right"></i>
+                {% trans "Cloud Architecture" %}
+              </li>
+              <li>
+                <i class="fa-regular fa-chevrons-right"></i>
+                {% trans "CRM Integrations" %}
+              </li>
+            </ul>
+          </div>
+          <div class="main-button wow fadeInUp" data-wow-delay=".3s">
+            <a href="{% url 'pages:contact' %}">
+              <span class="theme-btn">{% trans "Contact Us" %}</span>
+              <span class="arrow-btn"><i class="icon-arrow-right"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Include -->
+{% include "includes/footer.html" %}
+
+<!-- JavaScript Files -->
+<script src="{% static 'js/jquery-3.7.1.min.js' %}"></script>
+<script src="{% static 'js/viewport.jquery.js' %}"></script>
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+<script src="{% static 'js/jquery.waypoints.js' %}"></script>
+<script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+<script src="{% static 'js/swiper-bundle.min.js' %}"></script>
+<script src="{% static 'js/jquery.meanmenu.min.js' %}"></script>
+<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+<script src="{% static 'js/wow.min.js' %}"></script>
+<script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>

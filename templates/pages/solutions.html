@@ -1,0 +1,127 @@
+{% load static i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% include "includes/header.html" %}
+
+<html lang="{{ LANGUAGE_CODE }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% trans "Our Solutions - RecroTech" %}</title>
+    <meta name="description" content="{% trans "Explore RecroTech's innovative AI solutions across Fashion, Agriculture, and Space industries." %}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{% static 'img/favicon.ico' %}">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'css/swiper-bundle.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/meanmenu.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'icomoon/style.css' %}">
+    <link rel="stylesheet" href="{% static 'webfonts/all.min.css' %}">
+
+    <!-- Custom Styles for Solutions Section -->
+    <style>
+      .service-section .row > [class*='col-'] { display: flex; }
+      .service-section .service-box-items { width: 100%; }
+      .project-items-5 .thumb { width: 100%; height: 400px; overflow: hidden; border-radius: 8px; }
+      .project-items-5 .thumb img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+      .project-items-5 { height: 100%; display: flex; flex-direction: column; }
+      .project-items-5 .content { flex: 1; }
+      @media (max-width: 768px) { .project-items-5 .thumb { height: 300px; } }
+    </style>
+  </head>
+  <body>
+
+    <!-- Header Include -->
+    {% include "includes/header.html" %}
+
+    <!-- Breadcrumb Section -->
+    <div class="breadcrumb-wrapper bg-cover" style="background-image: url('{% static 'img/pages_back.jpeg' %}');">
+      <div class="container">
+        <div class="page-heading">
+          <h1 class="wow fadeInUp" data-wow-delay=".3s">{% trans "Our Solutions" %}</h1>
+          <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+            <li><a href="{% url 'pages:home' %}">{% trans "Home" %}</a></li>
+            <li><i class="fas fa-chevron-right"></i></li>
+            <li>{% trans "Our Solutions" %}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Details Section Start -->
+    <section class="project-section-5 fix section-padding">
+      <div class="container">
+        <div class="row g-4">
+
+          <!-- Fashion -->
+          <div class="col-lg-6 col-md-6">
+            <div class="project-items-5 wow fadeInUp" data-wow-delay=".3s">
+              <div class="thumb">
+                <img src="{% static 'img/project/fashion-ai.jpeg' %}" alt="{% trans 'AI in Fashion' %}">
+              </div>
+              <div class="content">
+                <h3><a href="{% url 'pages:solution_details' 'fashion' %}">{% trans "AI in Fashion" %}</a></h3>
+                <a href="{% url 'pages:solution_details' 'fashion' %}" class="icon">
+                  <i class="icon-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Agriculture -->
+          <div class="col-lg-6 col-md-6">
+            <div class="project-items-5 wow fadeInUp" data-wow-delay=".5s">
+              <div class="thumb">
+                <img src="{% static 'img/project/agri-ai.jpeg' %}" alt="{% trans 'AI in Agriculture' %}">
+              </div>
+              <div class="content">
+                <h3><a href="{% url 'pages:solution_details' 'agri' %}">{% trans "AI in Agriculture" %}</a></h3>
+                <a href="{% url 'pages:solution_details' 'agri' %}" class="icon">
+                  <i class="icon-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Space -->
+          <div class="col-lg-6 col-md-6">
+            <div class="project-items-5 wow fadeInUp" data-wow-delay=".7s">
+              <div class="thumb">
+                <img src="{% static 'img/project/ai-space.jpeg' %}" alt="{% trans 'AI in Space' %}">
+              </div>
+              <div class="content">
+                <h3><a href="{% url 'pages:solution_details' 'space' %}">{% trans "AI in Space" %}</a></h3>
+                <a href="{% url 'pages:solution_details' 'space' %}" class="icon">
+                  <i class="icon-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Include -->
+    {% include "includes/footer.html" %}
+
+    <!-- JavaScript Files -->
+    <script src="{% static 'js/jquery-3.7.1.min.js' %}"></script>
+    <script src="{% static 'js/viewport.jquery.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+    <script src="{% static 'js/jquery.waypoints.js' %}"></script>
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'js/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'js/jquery.meanmenu.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/wow.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+  </body>
+</html>

@@ -1,0 +1,427 @@
+{% load static i18n %}
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - RecroTech</title>
+    <meta name="description" content="Meet our talented team of experts. Dedicated professionals driving innovation in AI, cloud computing, and digital transformation.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{% static 'img/favicon.ico' %}">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'css/swiper-bundle.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/meanmenu.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'icomoon/style.css' %}">
+    <link rel="stylesheet" href="{% static 'webfonts/all.min.css' %}">
+  </head>
+
+  <body>
+    <!-- Header Include -->
+    {% include "includes/header.html" %}
+
+    <!-- Hero Breadcrumb -->
+    <div class="breadcrumb-wrapper bg-cover" style="background-image: url('{% static 'img/pages_back.jpeg' %}');">
+      <div class="container">
+        <div class="page-heading">
+          <h1 class="wow fadeInUp" data-wow-delay=".3s">Our Team</h1>
+          <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+            <li>
+              <a href="{% url 'pages:home' %}">Home</a>
+            </li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+            </li>
+            <li>Our Team</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Section -->
+    <section class="team-section section-padding fix">
+      <div class="container">
+        <div class="row g-4">
+
+          <!-- Team Member 1 -->
+          <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+            <div class="team-box-items-3 style-2">
+              <div class="team-img">
+                <img src="{% static 'img/team/01.png' %}" alt="Courtney Henry">
+              </div>
+              <div class="team-content">
+                <h3><a href="#">Courtney Henry</a></h3>
+                <p>SEO Expert</p>
+                <div class="social-icon d-flex align-items-center">
+                  <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+            <div class="team-box-items-3 mt-0">
+              <div class="team-img">
+                <img src="{% static 'img/team/02.png' %}" alt="Cameron Williamson">
+              </div>
+              <div class="team-content">
+                <h3><a href="#">Cameron Williamson</a></h3>
+                <p>Nursing Assistant</p>
+                <div class="social-icon d-flex align-items-center">
+                  <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Team Member 3 -->
+          <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+            <div class="team-box-items-3 mt-0">
+              <div class="team-img">
+                <img src="{% static 'img/team/03.png' %}" alt="Marvin McKinney">
+              </div>
+              <div class="team-content">
+                <h3><a href="#">Marvin McKinney</a></h3>
+                <p>Marketing Coordinator</p>
+                <div class="social-icon d-flex align-items-center">
+                  <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Team Member 4 -->
+          <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+            <div class="team-box-items-3 mt-0">
+              <div class="team-img">
+                <img src="{% static 'img/team/05.png' %}" alt="Savannah Nguyen">
+              </div>
+              <div class="team-content">
+                <h3><a href="#">Savannah Nguyen</a></h3>
+                <p>SEO Expert</p>
+                <div class="social-icon d-flex align-items-center">
+                  <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Team Member 5 -->
+          <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+            <div class="team-box-items-3 style-2 mt-0">
+              <div class="team-img">
+                <img src="{% static 'img/team/06.png' %}" alt="Leslie Alexander">
+              </div>
+              <div class="team-content">
+                <h3><a href="#">Leslie Alexander</a></h3>
+                <p>CEO</p>
+                <div class="social-icon d-flex align-items-center">
+                  <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Team Member 6 -->
+          <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+            <div class="team-box-items-3 mt-0">
+              <div class="team-img">
+                <img src="{% static 'img/team/07.png' %}" alt="Darlene Robertson">
+              </div>
+              <div class="team-content">
+                <h3><a href="#">Darlene Robertson</a></h3>
+                <p>Marketing Coordinator</p>
+                <div class="social-icon d-flex align-items-center">
+                  <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section-2 section-padding pt-0 fix">
+      <div class="container">
+        <div class="contact-wrapper-2 mt-0">
+          <div class="row">
+
+            <!-- Contact Image -->
+            <div class="col-lg-6">
+              <div class="contact-image">
+                <img src="{% static 'img/contact/01.png' %}" alt="Contact us" class="wow img-custom-anim-left">
+                <div class="radius-image">
+                  <img src="{% static 'img/contact/radius-image-2.png' %}" alt="Decoration">
+                </div>
+                <div class="box-shape float-bob-y">
+                  <img src="{% static 'img/choose-us/shape-box.png' %}" alt="Shape">
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="col-lg-6">
+              <div class="contact-item">
+                <div class="section-title mb-0 wow fadeInUp" data-wow-delay=".3s">
+                  <h2>Contact Us</h2>
+                </div>
+                <form action="#" method="POST" class="contact-form-items">
+                  {% csrf_token %}
+                  <div class="row g-4">
+
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                      <div class="form-clt">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".7s">
+                      <div class="form-clt">
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
+                      <div class="form-clt">
+                        <input type="text" name="service" id="option" placeholder="Select Service">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                      <div class="form-clt">
+                        <input type="text" name="date" id="name2" placeholder="mm/dd/yyyy">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".7s">
+                      <div class="form-clt">
+                        <input type="text" name="time" id="Time" placeholder="Time">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".9s">
+                      <div class="form-clt">
+                        <textarea name="message" id="message1" placeholder="Type Here"></textarea>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".3s">
+                      <button type="submit" class="theme-btn style-2">
+                        <span>Send Now <i class="icon-arrow-right"></i></span>
+                      </button>
+                    </div>
+
+                  </div>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Banner Section -->
+    <section class="cta-banner-section">
+      <div class="container">
+        <div class="cta-banner-wrapper">
+          <div class="row g-4 align-items-end">
+
+            <div class="col-lg-6">
+              <h2>Technology is rapidly evolving to the field</h2>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="cta-list-items">
+                <ul>
+                  <li>
+                    <i class="fa-regular fa-chevrons-right"></i>
+                    TechSavvy Solutions
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-chevrons-right"></i>
+                    NetworkNinja Services
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <i class="fa-regular fa-chevrons-right"></i>
+                    TechSavvy Solutions
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-chevrons-right"></i>
+                    NetworkNinja Services
+                  </li>
+                </ul>
+              </div>
+              <div class="main-button wow fadeInUp" data-wow-delay=".3s">
+                <a href="{% url 'pages:about' %}">
+                  <span class="theme-btn">Contact Us</span>
+                  <span class="arrow-btn"><i class="icon-arrow-right"></i></span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section section-bg">
+      <div class="color-shape">
+        <img src="{% static 'img/footer-color.png' %}" alt="Shape">
+      </div>
+      <div class="color-shape-2">
+        <img src="{% static 'img/footer-color-2.png' %}" alt="Shape">
+      </div>
+
+      <div class="container">
+
+        <!-- Footer Logo Area -->
+        <div class="footer-logo-area">
+          <a href="{% url 'pages:home' %}" class="footer-logo wow fadeInUp" data-wow-delay=".3s">
+            <img src="{% static 'img/logo/black-logo.svg' %}" alt="RecroTech Logo">
+          </a>
+          <div class="social-icon d-flex align-items-center wow fadeInUp" data-wow-delay=".5s">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- Footer Widgets -->
+        <div class="footer-widget-wrapper">
+          <div class="row justify-content-between">
+
+            <!-- Contact Widget -->
+            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+              <div class="single-footer-widget">
+                <div class="wid-title">
+                  <h3>Contact</h3>
+                </div>
+                <div class="footer-content">
+                  <ul class="footer-contact">
+                    <li>
+                      Email
+                      <span>
+                        <a href="mailto:info@example.com">info@example.com</a>
+                      </span>
+                    </li>
+                    <li>
+                      Phone
+                      <span>
+                        <a href="tel:+17189044450">+1718-904-4450</a>
+                      </span>
+                    </li>
+                    <li>
+                      Location
+                      <span>2118 Thornridge Cir. Syracuse</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Service Widget -->
+            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+              <div class="single-footer-widget">
+                <div class="wid-title">
+                  <h3>Service</h3>
+                </div>
+                <ul class="list-items">
+                  <li><a href="">Tech Savvy Solutions</a></li>
+                  <li><a href="">Data Driven Dynamics</a></li>
+                  <li><a href="">Network Ninja Services</a></li>
+                  <li><a href="">Cloud Craft Creations</a></li>
+                  <li><a href="">Cyber Security Sentinel</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Newsletter Widget -->
+            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+              <div class="single-footer-widget">
+                <div class="wid-title">
+                  <h3>Newsletter</h3>
+                </div>
+                <div class="footer-content">
+                  <p>Information Technology is a rapidly evolving field that encompasses the latest study</p>
+                  <div class="footer-input">
+                    <input type="email" placeholder="Your email..." aria-label="Email for newsletter">
+                    <button class="newsletter-button" type="submit" aria-label="Subscribe to newsletter">
+                      <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                  </div>
+                  <div class="social-icon d-flex align-items-center">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <div class="footer-wrapper d-flex align-items-center justify-content-between">
+            <p class="wow fadeInLeft color-2" data-wow-delay=".3s">
+              © All Copyright 2025 by <a href="{% url 'pages:home' %}">RecroTech</a>
+            </p>
+            <ul class="footer-menu wow fadeInRight" data-wow-delay=".5s">
+              <li><a href="{% url 'pages:contact' %}">Terms & Condition</a></li>
+              <li><a href="{% url 'pages:contact' %}">Privacy Policy</a></li>
+              <li><a href="{% url 'pages:contact' %}">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="{% static 'js/jquery-3.7.1.min.js' %}"></script>
+    <script src="{% static 'js/viewport.jquery.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+    <script src="{% static 'js/jquery.waypoints.js' %}"></script>
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'js/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'js/jquery.meanmenu.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/wow.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+  </body>
+</html>

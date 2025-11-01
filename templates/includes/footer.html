@@ -1,0 +1,312 @@
+{% load static i18n %}
+
+<!--  Footer Section Start -->
+<footer class="footer-section section-bg">
+    <div class="color-shape">
+        <img src="{% static 'img/footer-color.png' %}" alt="img">
+    </div>
+    <div class="color-shape-2">
+        <img src="{% static 'img/footer-color-2.png' %}" alt="img">
+    </div>
+    <div class="container">
+        <div class="footer-logo-area">
+            <a href="{% url 'pages:home' %}" class="footer-logo wow fadeInUp" data-wow-delay=".3s">
+                <img src="{% static 'img/logo/recro-tech-logo-small.png' %}" alt="img">
+            </a>
+            <div class="social-icon d-flex align-items-center justify-content-center flex-wrap wow fadeInUp" data-wow-delay=".5s">
+                <a href="https://open.spotify.com/show/03cjFsiKrU2UCv8gMbIuoZ?si=8742fcf8d4d24015&nd=1&dlsi=086215539480468e"><i class="fab fa-spotify"></i></a>
+                <a href="https://www.youtube.com/channel/UCu-9E68CfoKosVQMxCtK3wA"><i class="fab fa-youtube"></i></a>
+                <a href="https://x.com/recrotech"><i class="fab fa-x"></i></a>
+                <a href="https://www.linkedin.com/company/recrotech/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/recrotech/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-widget-wrapper">
+            <div class="row justify-content-between">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4 mb-lg-0 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="single-footer-widget">
+                        <div class="wid-title">
+                            <h3>{% trans "Contact" %}</h3>
+                        </div>
+                        <div class="footer-content">
+                            <ul class="footer-contact">
+                                <li>
+                                    {% trans "Email" %}
+                                    <span>
+                                        <a href="mailto:info@recrotechgroup.com">info@recrotechgroup.com</a>
+                                    </span>
+                                </li>
+                                <li>
+                                    {% trans "Phone" %}
+                                    <span>
+                                        <a href="tel:+903128037837">+90 312 803 78 37</a>
+                                    </span>
+                                </li>
+                                <li>
+                                    {% trans "Phone" %}
+                                    <span>
+                                        <a href="tel:+905373230081">+90 537 323 00 81</a>
+                                    </span>
+                                </li>
+                                <li>
+                                    {% trans "Headquarters" %} <br>
+                                    <span>
+                                        <b>{% trans "Mustafa Kemal Mahallesi, Barış Sitesi, 2092 Sokak, No:22, Çankaya/ANKARA" %}</b>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4 mb-lg-0 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="single-footer-widget">
+                        <div class="wid-title">
+                            <h3>{% trans "Services" %}</h3>
+                        </div>
+                        <ul class="list-items footer-contact">
+                            <li>
+                                <a href="{% url 'pages:services' %}">
+                                    <b>{% trans "AI Solutions" %}</b>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{% url 'pages:services' %}">
+                                    <b>{% trans "Automation Solutions" %}</b>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{% url 'pages:services' %}">
+                                    <b>{% trans "Cloud Services" %}</b>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{% url 'pages:services' %}">
+                                    <b>{% trans "B2B Trainings" %}</b>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{% url 'pages:services' %}">
+                                    <b>{% trans "CRM Solutions" %}</b>
+                                </a>
+                            </li>
+
+                            <li class="mt-3">
+                                {% trans "Branch" %} <br>
+                                <span>
+                                    <b>{% trans "Teknoloji Geliştirme Bölgesi, Üniversiteler Mahallesi, Şehit Mustafa Tayyarcan Caddesi, No:5, Cyberpark Tepe Binası, Zemin Kat, No: Z43, 06800 Bilkent Çankaya/Ankara" %}</b>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 mb-4 mb-lg-0 wow fadeInUp" data-wow-delay=".7s">
+                    <div class="single-footer-widget">
+                        <div class="wid-title">
+                            <h3>{% trans "Newsletter" %}</h3>
+                        </div>
+                        <div class="footer-content">
+                            <p>{% trans "Subscribe to our newsletter and receive the latest updates on RecroTech's innovations, projects, and industry insights — straight to your inbox." %}</p>
+                            <div class="footer-input">
+                                <input type="email" placeholder="{% trans 'Your email...' %}">
+                                <button class="newsletter-button" type="submit">
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-wrapper d-flex align-items-center justify-content-between flex-wrap">
+                <p class="wow fadeInLeft color-2 text-center text-md-start mb-3 mb-md-0" data-wow-delay=".3s">
+                    {% blocktrans %}© All Copyright 2025 by{% endblocktrans %} <a href="{% url 'pages:home' %}">RecroTech</a>
+                </p>
+                <ul class="footer-menu wow fadeInRight d-flex flex-wrap justify-content-center justify-content-md-end" data-wow-delay=".5s">
+                    <li>
+                        <a href="{% url 'pages:documents' %}">
+                            {% trans "Documents" %}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'pages:information_security_policy' %}">
+                            {% trans "Info. Security Policy" %}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'pages:contact' %}">
+                            {% trans "Terms & Condition" %}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'pages:contact' %}">
+                            {% trans "Privacy Policy" %}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'pages:contact' %}">
+                            {% trans "Contact Us" %}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+/* Footer Mobile Responsive Styles */
+@media (max-width: 991px) {
+    .footer-logo-area {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-logo img {
+        max-width: 150px;
+    }
+
+    .social-icon {
+        justify-content: center !important;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .footer-widget-wrapper .row {
+        margin: 0 -15px;
+    }
+
+    .single-footer-widget {
+        padding: 0 15px;
+    }
+
+    .wid-title h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-contact li {
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .footer-contact a {
+        word-break: break-word;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-logo img {
+        max-width: 120px;
+    }
+
+    .social-icon a {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        margin: 5px;
+    }
+
+    .wid-title h3 {
+        font-size: 18px;
+    }
+
+    .footer-contact li {
+        font-size: 13px;
+    }
+
+    .footer-input {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-input input {
+        width: 100% !important;
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+
+    .footer-input button {
+        width: 100%;
+        padding: 12px;
+        justify-content: center;
+    }
+
+    .footer-bottom {
+        padding: 20px 0;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-wrapper p {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .footer-menu li {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .footer-menu li a {
+        display: block;
+        padding: 8px 15px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer-section {
+        padding: 40px 0 20px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .footer-logo img {
+        max-width: 100px;
+    }
+
+    .social-icon a {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .single-footer-widget {
+        padding: 0 10px;
+    }
+
+    .wid-title h3 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .footer-contact li {
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+
+    .footer-content p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+}
+</style>

@@ -1,0 +1,510 @@
+{% load static i18n %}
+{% include "includes/header.html" %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ solution.page_title }} - RecroTech</title>
+    <meta name="description" content="{{ solution.intro_text|truncatechars:150 }}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{% static 'img/favicon.ico' %}">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'css/swiper-bundle.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/meanmenu.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'icomoon/style.css' %}">
+    <link rel="stylesheet" href="{% static 'webfonts/all.min.css' %}">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <style>
+        /* CSS Variables */
+        :root {
+            --accent: #2D5BFF;
+            --accent-dark: #0f4a76;
+            --color-text-primary: #0D0E10;
+            --color-text-secondary: #475467;
+            --color-bg-main: #F8FAFC;
+            --color-border: #E5E7EB;
+            --radius-sm: 8px;
+            --radius-lg: 16px;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Hero Breadcrumb */
+        .breadcrumb-wrapper {
+            background-size: cover;
+            background-position: center;
+            padding: 120px 0;
+        }
+
+        .page-heading h1 {
+            font-family: 'Inter', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .breadcrumb-items {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            color: rgba(255,255,255,0.7);
+        }
+
+        .breadcrumb-items a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb-items a:hover {
+            color: #FFFFFF;
+        }
+
+        /* Solution Section */
+        .service-details-section {
+            padding: 100px 0;
+            background-color: var(--color-bg-main);
+        }
+
+        .details-image img {
+            width: 100%;
+            height: auto;
+            border-radius: var(--radius-lg);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+        }
+
+        .section-title {
+            font-family: 'Inter', sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--color-text-primary);
+            margin-bottom: 24px;
+            line-height: 1.3;
+        }
+
+        .service-intro-content p,
+        .technology-section p {
+            font-family: 'Inter', sans-serif;
+            font-size: 17px;
+            line-height: 1.7;
+            color: var(--color-text-secondary);
+            max-width: 60ch;
+        }
+
+        /* Section Title with Accent */
+        .section-title-with-accent {
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .section-title-with-accent::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 4px;
+            width: 4px;
+            height: 32px;
+            background: var(--accent);
+            border-radius: 2px;
+        }
+
+        /* Action Pills */
+        .action-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 32px;
+        }
+
+        .pill {
+            padding: 12px 24px;
+            min-height: 44px;
+            background: #FFFFFF;
+            color: var(--accent);
+            border: 2px solid var(--accent);
+            border-radius: var(--radius-sm);
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .pill:hover {
+            background: var(--accent);
+            color: #FFFFFF;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(45, 91, 255, 0.3);
+        }
+
+        .pill.active {
+            background: var(--accent);
+            color: #FFFFFF;
+            box-shadow: 0 4px 12px rgba(45, 91, 255, 0.35);
+        }
+
+        /* Pill Descriptions */
+        .pill-description {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, margin-top 0.4s ease, opacity 0.4s ease;
+            opacity: 0;
+            margin-top: 0;
+        }
+
+        .pill-description.expanded {
+            max-height: 500px;
+            opacity: 1;
+            margin-top: 12px;
+        }
+
+        .pill-description > div {
+            padding: 16px 20px;
+            background: #F9FAFB;
+            border-radius: var(--radius-sm);
+            border-left: 3px solid var(--accent);
+        }
+
+        .pill-description p {
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            line-height: 1.6;
+            color: var(--color-text-secondary);
+            margin: 0;
+        }
+
+        /* Tech Visual */
+        .tech-visual {
+            position: sticky;
+            top: 100px;
+            background: transparent;
+        }
+
+        .tech-visual img {
+            width: 100%;
+            max-width: 360px;
+            border-radius: var(--radius-lg);
+            background: transparent;
+            box-shadow: none;
+        }
+
+        /* Navigation */
+        .slider-button {
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 1px solid var(--color-border);
+        }
+
+        .cmn-prev,
+        .cmn-next {
+            width: 48px;
+            height: 48px;
+            border-radius: var(--radius-sm);
+            background: var(--accent);
+            border: none;
+            color: #FFFFFF;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(45,91,255,0.2);
+        }
+
+        .cmn-prev:hover,
+        .cmn-next:hover {
+            background: var(--accent-dark);
+            transform: scale(1.05);
+            box-shadow: 0 4px 16px rgba(15, 74, 118, 0.4);
+        }
+
+        /* Focus States */
+        button:focus-visible,
+        a:focus-visible {
+            outline: 3px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .page-heading h1 {
+                font-size: 32px;
+            }
+
+            .section-title {
+                font-size: 24px;
+            }
+
+            .service-intro-content p,
+            .technology-section p {
+                font-size: 16px;
+            }
+
+            .action-pills {
+                flex-direction: column;
+            }
+
+            .pill {
+                width: 100%;
+            }
+
+            .tech-visual {
+                position: relative;
+                top: auto;
+                margin-top: 32px;
+            }
+
+            .slider-button {
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<!-- Hero Breadcrumb -->
+<div class="breadcrumb-wrapper" style="background-image: url('{% static 'img/pages_back.jpeg' %}');">
+    <div class="container">
+        <div class="page-heading text-center">
+            <h1 class="wow fadeInUp" data-wow-delay=".3s">
+                {{ solution.hero_title }}
+            </h1>
+            <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+                <li>
+                    <a href="{% url 'pages:home' %}" aria-label="Navigate to home page">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <i class="fas fa-chevron-right" style="font-size: 12px;" aria-hidden="true"></i>
+                </li>
+                <li>
+                    <a href="{% url 'pages:solutions' %}" aria-label="Navigate to solutions page">
+                        Solutions
+                    </a>
+                </li>
+                <li>
+                    <i class="fas fa-chevron-right" style="font-size: 12px;" aria-hidden="true"></i>
+                </li>
+                <li style="color: #FFFFFF;">
+                    {{ solution.hero_title }}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Solution Details Section -->
+<section class="service-details-section">
+    <div class="container">
+        <div class="service-details-wrapper">
+            <!-- Introduction Section -->
+            <div class="row align-items-center mb-5" style="gap: 40px;">
+                <div class="col-lg-4 col-md-5 mb-4 mb-md-0">
+                    <div class="details-image wow fadeInUp" data-wow-delay=".3s" style="max-width: 360px;">
+                        <img src="{% static solution.image_main %}" alt="{{ solution.hero_title }}" loading="lazy">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7">
+                    <div class="service-intro-content wow fadeInUp" data-wow-delay=".5s">
+                        <h2 class="section-title">
+                            {{ solution.intro_title }}
+                        </h2>
+                        <p>
+                            {{ solution.intro_text }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technology Section -->
+            <div class="technology-section" style="margin-top: 80px; margin-bottom: 80px;">
+                <div class="row align-items-start" style="gap: 40px;">
+                    <div class="col-lg-7 col-md-6">
+                        <h3 class="section-title section-title-with-accent wow fadeInUp" data-wow-delay=".3s">
+                            {{ solution.section_title }}
+                        </h3>
+                        <p class="wow fadeInUp" data-wow-delay=".4s" style="margin-bottom: 32px;">
+                            {{ solution.section_text }}
+                        </p>
+
+                        <!-- Action Pills -->
+                        <div class="action-pills wow fadeInUp" data-wow-delay=".5s">
+                            {% for pill in solution.pills %}
+                            <button class="pill" data-key="{{ pill.key }}" aria-label="{{ pill.title }}" aria-expanded="false">
+                                {{ pill.title }}
+                            </button>
+                            {% endfor %}
+                        </div>
+
+                        <!-- Descriptions Container -->
+                        <div class="descriptions-container" style="margin-top: 20px;">
+                            {% for pill in solution.pills %}
+                            <div class="pill-description" data-key="{{ pill.key }}">
+                                <div>
+                                    <p>{{ pill.description }}</p>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-5">
+                        <div class="tech-visual wow fadeInUp" data-wow-delay=".6s">
+                            <img src="{% static solution.image_side %}" alt="{{ solution.hero_title }}" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Section -->
+            <div class="slider-button d-flex align-items-center justify-content-between wow fadeInUp" data-wow-delay=".7s">
+                <div class="d-flex align-items-center gap-3">
+                    {% if prev_solution %}
+                    <a href="{% url 'pages:solution_details' prev_solution %}" class="cmn-prev cmn-border d-center" aria-label="Navigate to previous solution">
+                        <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+                    </a>
+                    <span style="font-family: 'Inter', sans-serif; font-weight: 600; font-size: 15px; color: #0D0E10;">
+                        Previous
+                    </span>
+                    {% endif %}
+                </div>
+                <div class="d-flex align-items-center gap-3">
+                    {% if next_solution %}
+                    <span style="font-family: 'Inter', sans-serif; font-weight: 600; font-size: 15px; color: #0D0E10;">
+                        Next
+                    </span>
+                    <a href="{% url 'pages:solution_details' next_solution %}" class="cmn-next cmn-border d-center" aria-label="Navigate to next solution">
+                        <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-banner-section">
+    <div class="container">
+        <div class="cta-banner-wrapper">
+            <div class="row g-4 align-items-end">
+                <div class="col-lg-6">
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                        Transform Your Industry
+                    </h2>
+                </div>
+                <div class="col-lg-6">
+                    <div class="cta-list-items">
+                        <ul>
+                            <li>
+                                <i class="fa-regular fa-chevrons-right"></i>
+                                AI-Powered Solutions
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-chevrons-right"></i>
+                                Industry-Specific Tools
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <i class="fa-regular fa-chevrons-right"></i>
+                                Real-Time Analytics
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-chevrons-right"></i>
+                                Scalable Infrastructure
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main-button wow fadeInUp" data-wow-delay=".4s">
+                        <a href="{% url 'pages:contact' %}">
+                            <span class="theme-btn">Get Started</span>
+                            <span class="arrow-btn"><i class="icon-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Include -->
+{% include "includes/footer.html" %}
+
+<!-- JavaScript Files -->
+<script src="{% static 'js/jquery-3.7.1.min.js' %}"></script>
+<script src="{% static 'js/viewport.jquery.js' %}"></script>
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+<script src="{% static 'js/jquery.waypoints.js' %}"></script>
+<script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+<script src="{% static 'js/swiper-bundle.min.js' %}"></script>
+<script src="{% static 'js/jquery.meanmenu.min.js' %}"></script>
+<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+<script src="{% static 'js/wow.min.js' %}"></script>
+<script src="{% static 'js/main.js' %}"></script>
+
+<!-- Interactive Pills Script -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const pills = document.querySelectorAll('.pill');
+
+        function handlePillClick(event) {
+            const clickedPill = event.currentTarget;
+            const key = clickedPill.getAttribute('data-key');
+            const description = document.querySelector(`.pill-description[data-key="${key}"]`);
+            const isActive = clickedPill.classList.contains('active');
+
+            if (isActive) {
+                clickedPill.classList.remove('active');
+                clickedPill.setAttribute('aria-expanded', 'false');
+                description.classList.remove('expanded');
+            } else {
+                pills.forEach(pill => {
+                    pill.classList.remove('active');
+                    pill.setAttribute('aria-expanded', 'false');
+                });
+                document.querySelectorAll('.pill-description').forEach(desc => {
+                    desc.classList.remove('expanded');
+                });
+
+                clickedPill.classList.add('active');
+                clickedPill.setAttribute('aria-expanded', 'true');
+                description.classList.add('expanded');
+            }
+        }
+
+        pills.forEach(pill => {
+            pill.addEventListener('click', handlePillClick);
+        });
+    });
+</script>
+</body>
+</html>

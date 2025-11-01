@@ -1,0 +1,352 @@
+{% load static i18n %}
+{% include "includes/header.html" %}
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Security Policy - Bilgi Güvenliği Politikası - RecroTech</title>
+    <meta name="description" content="RecroAI Information Security Management System (ISMS) policy and ISO 27001:2022 compliance commitments.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{% static 'img/favicon.ico' %}">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'css/swiper-bundle.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/meanmenu.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'icomoon/style.css' %}">
+    <link rel="stylesheet" href="{% static 'webfonts/all.min.css' %}">
+
+    <!-- Custom Styles -->
+    <style>
+      /* Sosyal medya ikonları için düzeltme */
+      .team-line-box .social-profile {
+        position: relative;
+      }
+
+      .team-line-box .social-profile ul {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(20px);
+        transition: all 0.3s ease;
+        pointer-events: none;
+      }
+
+      .team-line-box .social-profile:hover ul,
+      .team-line-box .social-profile .plus-btn:hover + ul {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+        pointer-events: auto;
+      }
+
+      .team-line-box .social-profile .plus-btn {
+        cursor: pointer;
+        z-index: 10;
+        position: relative;
+        pointer-events: auto !important;
+      }
+
+      /* Security Policy Content Styles */
+      .security-policy-content {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      .security-policy-content h1,
+      .security-policy-content h2,
+      .security-policy-content h3 {
+        color: #0D0E10;
+        font-weight: 700;
+        margin-bottom: 24px;
+      }
+
+      .security-policy-content p {
+        color: #475467;
+        line-height: 1.8;
+        margin-bottom: 20px;
+        font-size: 16px;
+      }
+
+      .security-policy-content ul.wp-block-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 24px 0;
+      }
+
+      .security-policy-content ul.wp-block-list li {
+        position: relative;
+        padding-left: 32px;
+        margin-bottom: 16px;
+        color: #475467;
+        line-height: 1.8;
+        font-size: 16px;
+      }
+
+      .security-policy-content ul.wp-block-list li:before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #2D5BFF;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      .policy-highlight {
+        background: #F0F4FF;
+        border-left: 4px solid #2D5BFF;
+        padding: 24px;
+        border-radius: 8px;
+        margin: 32px 0;
+      }
+
+      .policy-highlight strong {
+        color: #2D5BFF;
+        font-size: 18px;
+      }
+
+      /* Icon Boxes */
+      .security-icon-box {
+        background: #FFFFFF;
+        border: 1px solid #E5E7EB;
+        border-radius: 12px;
+        padding: 24px;
+        text-align: center;
+        transition: all 0.3s ease;
+        margin-top: 32px;
+      }
+
+      .security-icon-box:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+        border-color: #2D5BFF;
+      }
+
+      .security-icon-box i {
+        font-size: 48px;
+        color: #2D5BFF;
+        margin-bottom: 16px;
+      }
+
+      .security-icon-box h4 {
+        color: #0D0E10;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+
+      .security-icon-box p {
+        color: #475467;
+        font-size: 14px;
+        margin: 0;
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        .security-policy-content {
+          padding: 0 16px;
+        }
+
+        .security-policy-content ul.wp-block-list li {
+          font-size: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Header Include -->
+    {% include "includes/header.html" %}
+
+    <!-- Breadcrumb Section -->
+    <div class="breadcrumb-wrapper bg-cover" style="background-image: url('{% static 'img/pages_back.jpeg' %}');">
+      <div class="container">
+        <div class="page-heading">
+          <h1 class="wow fadeInUp" data-wow-delay=".3s">Information Security Policy</h1>
+          <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+            <li>
+              <a href="{% url 'pages:home' %}">
+                Home
+              </a>
+            </li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+            </li>
+            <li>
+              Information Security Policy
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Security Policy Section -->
+    <section class="about-section section-padding fix">
+      <div class="container">
+        <div class="about-wrapper-11">
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <div class="security-policy-content">
+
+                <!-- Policy Header -->
+                <div class="policy-highlight wow fadeInUp" data-wow-delay=".3s">
+                  <p><strong>BİLGİ GÜVENLİĞİ POLİTİKASI</strong></p>
+                  <p style="margin-bottom: 0; margin-top: 16px;">
+                    RecroAI olarak hizmetlerinin sunulması aşamalarındaki süreçlerle ilgili Bilgi Güvenliği Yönetim Sistemi (BGYS) kurulması kapsamında;
+                  </p>
+                </div>
+
+                <!-- Policy Content -->
+                <div class="wow fadeInUp" data-wow-delay=".5s">
+                  <ul class="wp-block-list">
+                    <li>
+                      Bilgi Güvenliği Yönetim Sistemi gereksinimleri olan bilginin gizliliği, bütünlüğü ve erişilebilirliği prensiplerine uymak amacıyla kurumumuzda bilgi varlıkları ve kişisel verilerin tanımlanarak, risklerin belirlenerek, risklere ilişkin kontrol önlemlerinin alınmasını içeren risk yönetim metodolojisini kurumumuz, personellerimiz, paydaşlarımız ve tedarikçilerimiz için kurmayı,
+                    </li>
+                    <li>
+                      Bilgi Teknolojileri Birimi faaliyetleri kapsamında hizmet kalitemizi sürekli iyileştirmeyi,
+                    </li>
+                    <li>
+                      Bilgi güvenliği faaliyetlerindeki risklerini azaltmak için gerekli donanım, yazılım, eğitim ve diğer kontrollere gerekli kaynakları sağlamak ve devamlılığını sağlamayı,
+                    </li>
+                    <li>
+                      Bilgi güvenliği ihlali durumunda gerekli görülen yaptırımları uygulamayı,
+                    </li>
+                    <li>
+                      Personeller ve tüm paydaşlarımıza ait bilgilerin gizliliğini korumayı, bağlı olduğu ulusal, uluslararası veya sektörel düzenlemelere uymayı, yasal ve ilgili mevzuat gereklerini yerine getirmeyi, anlaşmalardan doğan yükümlülüklerini karşılamayı, iç ve dış paydaşlara yönelik kurumsal sorumluluklarından kaynaklanan bilgi güvenliği gereksinimlerini sağlamayı,
+                    </li>
+                    <li>
+                      Tüm personelin ve iş ortaklarının; bilgi güvenliğinin sağlanmasındaki süreçlerde BGYS'ye katılımını ve uymasını sağlamak için bilinçlendirme, eğitim ve teşvikini sağlamayı,
+                    </li>
+                    <li>
+                      BGYS'nin verimliliğini, iç ve dış denetimlerle kontrol etmeyi, izlemek, gözden geçirmek ve sistemi sürekli uyumlu kılmayı, sürekli iyileştirmeyi BGYS politikası olarak benimser ve taahhüt eder.
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Security Commitment Icons -->
+                <div class="row g-4 mt-5">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="security-icon-box wow fadeInUp" data-wow-delay=".3s">
+                      <i class="fas fa-shield-alt"></i>
+                      <h4>ISO 27001:2022</h4>
+                      <p>Certified Information Security Management System</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="security-icon-box wow fadeInUp" data-wow-delay=".5s">
+                      <i class="fas fa-lock"></i>
+                      <h4>Data Protection</h4>
+                      <p>Comprehensive data privacy and security measures</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="security-icon-box wow fadeInUp" data-wow-delay=".7s">
+                      <i class="fas fa-check-circle"></i>
+                      <h4>Compliance</h4>
+                      <p>Full compliance with national and international regulations</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Additional Information -->
+                <div class="mt-5 wow fadeInUp" data-wow-delay=".9s">
+                  <h3>Our Commitment to Security</h3>
+                  <p>
+                    At RecroTech, information security is not just a requirement—it's a fundamental principle that guides everything we do.
+                    Our Information Security Management System (ISMS) ensures that all information assets, including customer data,
+                    intellectual property, and operational information, are protected against unauthorized access, disclosure, modification, or destruction.
+                  </p>
+                  <p>
+                    We continuously monitor, review, and improve our security controls to adapt to evolving threats and maintain the highest
+                    standards of information security. Our ISO 27001:2022 certification demonstrates our commitment to implementing industry
+                    best practices and maintaining a robust security posture.
+                  </p>
+                </div>
+
+                <!-- Call to Action -->
+                <div class="text-center mt-5 wow fadeInUp" data-wow-delay="1s">
+                  <a href="{% url 'pages:docs' %}" class="theme-btn">
+                    View Our Certifications
+                    <i class="icon-arrow-right ms-2"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-banner-section">
+      <div class="container">
+        <div class="cta-banner-wrapper">
+          <div class="row g-4 align-items-end">
+            <div class="col-lg-6">
+              <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                Security & Compliance First
+              </h2>
+              <p class="mt-3 wow fadeInUp" data-wow-delay=".4s">
+                Our ISO 27001:2022 certified processes ensure your data is always protected.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <div class="cta-list-items">
+                <ul>
+                  <li>
+                    <i class="fa-regular fa-chevrons-right"></i>
+                    ISO 27001:2022 Certified
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-chevrons-right"></i>
+                    GDPR Compliant
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <i class="fa-regular fa-chevrons-right"></i>
+                    24/7 Security Monitoring
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-chevrons-right"></i>
+                    Data Encryption
+                  </li>
+                </ul>
+              </div>
+              <div class="main-button wow fadeInUp" data-wow-delay=".5s">
+                <a href="{% url 'pages:contact' %}">
+                  <span class="theme-btn">Contact Us</span>
+                  <span class="arrow-btn"><i class="icon-arrow-right"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Include -->
+    {% include "includes/footer.html" %}
+
+    <!-- JavaScript Files -->
+    <script src="{% static 'js/jquery-3.7.1.min.js' %}"></script>
+    <script src="{% static 'js/viewport.jquery.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+    <script src="{% static 'js/jquery.waypoints.js' %}"></script>
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'js/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'js/jquery.meanmenu.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/wow.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+  </body>
+</html>

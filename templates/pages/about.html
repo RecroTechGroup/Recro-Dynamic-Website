@@ -1,0 +1,605 @@
+{% load static i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% trans "About Us - RecroTech" %}</title>
+    <meta name="description" content="{% trans "Learn about RecroTech, our mission, vision, and team members dedicated to innovative technology solutions." %}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{% static 'img/favicon.ico' %}">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'css/swiper-bundle.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/meanmenu.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'icomoon/style.css' %}">
+    <link rel="stylesheet" href="{% static 'webfonts/all.min.css' %}">
+
+    <!-- Custom Styles for Team Section -->
+    <style>
+      /* Sosyal medya ikonları için düzeltme */
+      .team-line-box .social-profile {
+        position: relative;
+      }
+      .team-line-box .social-profile ul {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(20px);
+        transition: all .3s ease;
+        pointer-events: none;
+      }
+      .team-line-box .social-profile:hover ul,
+      .team-line-box .social-profile .plus-btn:hover + ul {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+        pointer-events: auto;
+      }
+      .team-line-box .social-profile .plus-btn {
+        cursor: pointer;
+        z-index: 10;
+        position: relative;
+        pointer-events: auto !important;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Header Include -->
+    {% include "includes/header.html" %}
+
+    <!-- Breadcrumb Section -->
+    <div class="breadcrumb-wrapper bg-cover" style="background-image: url('{% static 'img/pages_back.jpeg' %}');">
+      <div class="container">
+        <div class="page-heading">
+          <h1 class="wow fadeInUp" data-wow-delay=".3s">{% trans "About Us" %}</h1>
+          <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+            <li><a href="{% url 'pages:home' %}">{% trans "Home" %}</a></li>
+            <li><i class="fas fa-chevron-right"></i></li>
+            <li>{% trans "About Us" %}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+<!-- About Section -->
+<section id="about-us" class="about-section section-padding" style="background-color: #f9f9f9; padding: 80px 20px;">
+    <div class="container" style="max-width: 1200px; margin: 0 auto;">
+        <div class="about-wrapper" style="display: flex; align-items: center; gap: 50px; flex-wrap: wrap;">
+            <!-- Text -->
+            <div class="about-texts" style="flex: 1; min-width: 300px;">
+                <h2 style="color: #111; font-size: 36px; font-weight: 700; margin-bottom: 30px;">
+                    {% trans "About Us" %}
+                </h2>
+
+                <p style="color: #111; font-size: 18px; line-height: 1.8; margin-bottom: 20px;">
+                    {% trans "We are a leading AI company based in Turkey, dedicated to harnessing technology for the benefit of humanity. Our expertise spans a wide range of fields, including software development, energy solutions, cloud computing, robotics, AI agents, automation, and scientific innovation." %}
+                </p>
+
+                <p style="color: #111; font-size: 18px; line-height: 1.8; margin-bottom: 20px;">
+                    {% trans "At our core, we believe in empowering businesses and society with cutting-edge technology. We organize specialized training programs to keep your employees updated with the latest advancements in AI and technology." %}
+                </p>
+
+                <p style="color: #111; font-size: 18px; line-height: 1.8;">
+                    {% trans "Our vision is clear: a world where AI doesn't just power technology, but actively creates it. We pride ourselves on delivering high customer satisfaction, solving complex problems, and giving our absolute best to help our clients succeed." %}
+                </p>
+            </div>
+
+            <!-- Image -->
+            <div class="about-image" style="flex: 1; min-width: 300px; text-align: center;">
+                <img src="{% static 'img/company.png' %}" alt="{% trans 'Company Image' %}" style="max-width: 100%; height: auto; border-radius: 10px;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Founder's Letter Section -->
+<section id="founder" class="about-section section-padding fix">
+    <div class="container">
+        <div class="about-wrapper-11">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-image-items">
+                        <div
+                            class="about-image-1 bg-cover wow fadeInLeft"
+                            data-wow-delay=".3s"
+                            style="background-image: url('{% static "img/about/zafer.jpeg" %}');">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="about-content">
+                        <div class="section-title">
+                            <h2 class="wow fadeInUp" data-wow-delay=".3s">{% trans "Founder's Letter" %}</h2>
+                        </div>
+                        <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                            {% trans "At Recro, we are an innovative technology company rooted in Türkiye driven by a vision to expand globally. Our name, derived from the Latin word 'Recro' means 'to revive' and 'to restore' This captures the essence of what we do: we bring new life and strength to businesses by blending artificial intelligence with a human-centered approach. Recro's global vision is to bring our local expertise to the world stage by delivering future-ready solutions to organizations of all sizes. We offer technology to humanity with the philosophy of 'Be inspired by the unknown' In every project, we move forward by considering not only our customers' today but also their tomorrow. For us, what truly matters is using technology not merely as a tool, but as a means of creating value; making companies more competitive and more innovative. In short, at Recro, we are here to revive technology for the good of humanity. With our motto 'Be inspired by the unknown' let's shape the future together." %}
+                        </p>
+                        <p style="text-align: right; margin-top: 40px; font-style: italic;">
+                            {% trans "Zafer Küçükşabanoğlu, Founder of RecroTech" %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Board Section -->
+<section id="team" class="team-section">
+    <div class="section-title">
+        <h6>{% trans "RecroTech" %}</h6>
+        <h2>{% trans "Us" %}</h2>
+    </div>
+
+    <div class="team-grid">
+        <!-- Team Member 1 - Zafer -->
+        <div class="team-card">
+            <div class="card-image-wrapper">
+                <img src="{% static 'img/team/zafer1.png' %}" alt="Zafer KÜÇÜKŞABANOĞLU">
+                <div class="card-name-tag">
+                    <h4>Zafer KÜÇÜKŞABANOĞLU</h4>
+                    <p>{% trans "Founder and Chairman" %}</p>
+                </div>
+                <div class="card-overlay">
+                    <h4>Zafer KÜÇÜKŞABANOĞLU</h4>
+                    <p class="member-role">{% trans "Founder and Chairman" %}</p>
+                    <a href="https://www.linkedin.com/in/zkucuksabanoglu/" target="_blank" class="linkedin-link" aria-label="{% trans 'LinkedIn Profile' %}">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 2 - Volkan -->
+        <div class="team-card">
+            <div class="card-image-wrapper">
+                <img src="{% static 'img/team/volkan3.png' %}" alt="Volkan KILIÇ">
+                <div class="card-name-tag">
+                    <h4>Volkan KILIÇ</h4>
+                    <p>{% trans "Chairman" %}</p>
+                </div>
+                <div class="card-overlay">
+                    <h4>Volkan KILIÇ</h4>
+                    <p class="member-role">{% trans "Chairman" %}</p>
+                    <a href="https://tr.linkedin.com/in/volkan-k%C4%B1l%C4%B1%C3%A7" target="_blank" class="linkedin-link" aria-label="{% trans 'LinkedIn Profile' %}">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 3 - Ulaş -->
+        <div class="team-card">
+            <div class="card-image-wrapper">
+                <img src="{% static 'img/team/ulas.jpeg' %}" alt="Ulaş Mallı">
+                <div class="card-name-tag">
+                    <h4>Ulaş Mallı</h4>
+                    <p>{% trans "London Representative" %}</p>
+                </div>
+                <div class="card-overlay">
+                    <h4>Ulaş Mallı</h4>
+                    <p class="member-role">{% trans "London Representative" %}</p>
+                    <a href="https://uk.linkedin.com/in/ulas-malli-90027057/en" target="_blank" class="linkedin-link" aria-label="{% trans 'LinkedIn Profile' %}">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 4 - Güler -->
+        <div class="team-card">
+            <div class="card-image-wrapper">
+                <img src="{% static 'img/team/guler.jpeg' %}" alt="Güler KOÇAK">
+                <div class="card-name-tag">
+                    <h4>Güler KOÇAK, PhD.</h4>
+                    <p>{% trans "Strategic Projects Director" %}</p>
+                </div>
+                <div class="card-overlay">
+                    <h4>Güler KOÇAK, PhD.</h4>
+                    <p class="member-role">{% trans "Strategic Projects Director" %}</p>
+                    <a href="https://www.linkedin.com/in/guler-kocak-ph-d-76335b207/" target="_blank" class="linkedin-link" aria-label="{% trans 'LinkedIn Profile' %}">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 5 - Sadık -->
+        <div class="team-card">
+            <div class="card-image-wrapper">
+                <img src="{% static 'img/team/sadik2.png' %}" alt="Sadık Emre DÜZGÜN">
+                <div class="card-name-tag">
+                    <h4>Sadık Emre DÜZGÜN</h4>
+                    <p>{% trans "Associated Developer" %}</p>
+                </div>
+                <div class="card-overlay">
+                    <h4>Sadık Emre DÜZGÜN</h4>
+                    <p class="member-role">{% trans "Associated Developer" %}</p>
+                    <a href="https://www.linkedin.com/in/sadik-emre-duzgun/" target="_blank" class="linkedin-link" aria-label="{% trans 'LinkedIn Profile' %}">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 6 - Okan -->
+        <div class="team-card">
+            <div class="card-image-wrapper">
+                <img src="{% static 'img/team/okan_yasar.jpeg' %}" alt="Okan YAŞAR">
+                <div class="card-name-tag">
+                    <h4>Okan YAŞAR</h4>
+                    <p>{% trans "Training Specialist" %}</p>
+                </div>
+                <div class="card-overlay">
+                    <h4>Okan YAŞAR</h4>
+                    <p class="member-role">{% trans "Training Specialist" %}</p>
+                    <a href="https://www.linkedin.com/in/okanyasar/" target="_blank" class="linkedin-link" aria-label="{% trans 'LinkedIn Profile' %}">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 7 - Ömer -->
+        <div class="team-card">
+            <div class="card-image-wrapper">
+                <img src="{% static 'img/team/omer_ozer.png' %}" alt="Ömer ÖZER">
+                <div class="card-name-tag">
+                    <h4>Ömer ÖZER</h4>
+                    <p>{% trans "Lawyer and Computer Engineer" %}</p>
+                </div>
+                <div class="card-overlay">
+                    <h4>Ömer ÖZER</h4>
+                    <p class="member-role">{% trans "Lawyer and Computer Engineer" %}</p>
+                    <a href="https://www.linkedin.com/in/avomerozer/?originalSubdomain=tr" target="_blank" class="linkedin-link" aria-label="{% trans 'LinkedIn Profile' %}">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 8 - Kutay -->
+        <div class="team-card">
+            <div class="card-image-wrapper">
+                <img src="{% static 'img/team/kutay.png' %}" alt="Kutay ALTUNTAŞ">
+                <div class="card-name-tag">
+                    <h4>Kutay ALTUNTAŞ</h4>
+                    <p>{% trans "Intern Developer" %}</p>
+                </div>
+                <div class="card-overlay">
+                    <h4>Kutay ALTUNTAŞ</h4>
+                    <p class="member-role">{% trans "Intern Developer" %}</p>
+                    <a href="https://www.linkedin.com/in/kutay-altunta%C5%9F-7a575324a/" target="_blank" class="linkedin-link" aria-label="{% trans 'LinkedIn Profile' %}">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .team-section {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .section-title h6 {
+        color: #0077b5;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+
+    .section-title h2 {
+        font-size: 42px;
+        color: #333;
+        font-weight: 700;
+    }
+
+    .team-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 30px;
+        padding: 20px 0;
+    }
+
+    .team-card {
+        position: relative;
+        background: transparent; /* was white */
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
+        height: 300px;
+    }
+
+
+    .team-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-image-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .card-image-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.4s ease;
+    }
+
+    .team-card:hover .card-image-wrapper img {
+        transform: scale(1.05);
+        opacity: 0.3;
+    }
+
+    .card-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, rgba(0, 123, 255, 0.95), rgba(0, 86, 179, 0.95));
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        opacity: 0;
+        transition: opacity 0.4s ease;
+        text-align: center;
+        color: white;
+    }
+
+    .team-card:hover .card-overlay {
+        opacity: 1;
+    }
+
+    .card-overlay h4 {
+        font-size: 22px;
+        font-weight: 700;
+        margin: 0 0 8px 0;
+        color: white;
+    }
+
+    .card-overlay .member-role {
+        font-size: 15px;
+        margin: 0 0 20px 0;
+        opacity: 0.95;
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    .linkedin-link {
+        margin-top: 15px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background: white;
+        border-radius: 50%;
+        color: #0077b5;
+        font-size: 18px;
+        transition: all 0.3s ease;
+        text-decoration: none;
+    }
+
+    .linkedin-link:hover {
+        transform: scale(1.15);
+        background: #0077b5;
+        color: white;
+    }
+
+    .card-name-tag {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+        padding: 20px 15px 15px;
+        transition: opacity 0.4s ease;
+    }
+
+    .team-card:hover .card-name-tag {
+        opacity: 0;
+    }
+
+    .card-name-tag h4 {
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .card-name-tag p {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 13px;
+        margin: 4px 0 0 0;
+    }
+
+    @media (max-width: 1024px) {
+        .team-grid {
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+        .team-card {
+            height: 320px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .section-title h2 {
+            font-size: 32px;
+        }
+        .team-grid {
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .team-card {
+            height: 300px;
+        }
+        .card-overlay h4 {
+            font-size: 20px;
+        }
+        .card-overlay .member-role {
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .team-grid {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+        .team-card {
+            height: 280px;
+        }
+    }
+</style>
+
+<!-- FAQ Section -->
+<section id="faq" class="faq-section-3 fix section-padding">
+    <div class="container">
+        <div class="section-title text-center wow fadeInUp" data-wow-delay=".3s">
+            <h2>{% trans "FAQ" %}</h2>
+        </div>
+        <div class="faq-wrapper-3">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="faq-image wow fadeInLeft" data-wow-delay=".4s">
+                        <img src="{% static 'img/gif/about.gif' %}" alt="{% trans 'FAQ Animation' %}">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="faq-content">
+                        <div class="faq-accordion">
+                            <div class="accordion" id="accordionAbout">
+
+                                <!-- FAQ Item 1 -->
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".5s">
+                                    <h4 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                                            {% trans "What services does RecroTech offer?" %}
+                                        </button>
+                                    </h4>
+                                    <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#accordionAbout">
+                                        <div class="accordion-body">
+                                            {% trans "RecroTech offers a comprehensive range of technology services including AI-powered solutions, cloud computing, web and mobile development, digital transformation consulting, and custom software development. We tailor our services to meet the unique needs of each client." %}
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ Item 2 -->
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".6s">
+                                    <h4 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                            {% trans "Where is RecroTech located?" %}
+                                        </button>
+                                    </h4>
+                                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionAbout">
+                                        <div class="accordion-body">
+                                            {% trans "We are headquartered in Türkiye with a vision for global expansion. We work with clients worldwide, offering both on-site and remote collaboration options to best serve our clients' needs." %}
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ Item 3 -->
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
+                                    <h4 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                            {% trans "How can I join the RecroTech team?" %}
+                                        </button>
+                                    </h4>
+                                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionAbout">
+                                        <div class="accordion-body">
+                                            {% blocktrans %}We're always looking for talented individuals to join our team. Please visit our <a href="">Contact page</a> or send your resume to info@recrotech.com. We offer exciting opportunities for developers, designers, AI specialists, and business professionals.{% endblocktrans %}
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ Item 4 -->
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".8s">
+                                    <h4 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                            {% trans "What makes RecroTech different from other tech companies?" %}
+                                        </button>
+                                    </h4>
+                                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordionAbout">
+                                        <div class="accordion-body">
+                                            {% trans "Our commitment to 'reviving and restoring' businesses through technology sets us apart. We don't just deliver technical solutions; we partner with our clients to understand their challenges and create meaningful innovations that drive real business value. Our team's expertise, combined with our client-centric approach, ensures success." %}
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ Item 5 -->
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".9s">
+                                    <h4 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                                            {% trans "How long does a typical project take?" %}
+                                        </button>
+                                    </h4>
+                                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#accordionAbout">
+                                        <div class="accordion-body">
+                                            {% trans "Project timelines vary depending on scope and complexity. Simple web projects may take 4-6 weeks, while complex AI solutions or enterprise systems can take several months. We provide detailed timelines during our initial consultation and keep you updated throughout the development process." %}
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Include -->
+{% include "includes/footer.html" %}
+
+<!-- JavaScript Files -->
+<script src="{% static 'js/jquery-3.7.1.min.js' %}"></script>
+<script src="{% static 'js/viewport.jquery.js' %}"></script>
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+<script src="{% static 'js/jquery.waypoints.js' %}"></script>
+<script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+<script src="{% static 'js/swiper-bundle.min.js' %}"></script>
+<script src="{% static 'js/jquery.meanmenu.min.js' %}"></script>
+<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+<script src="{% static 'js/wow.min.js' %}"></script>
+<script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>

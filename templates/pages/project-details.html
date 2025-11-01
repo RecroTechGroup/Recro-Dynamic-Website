@@ -1,0 +1,540 @@
+{% load static i18n %}
+{% include "includes/header.html" %}
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ project.title|default:"Project Details" }} - RecroTech</title>
+    <meta name="description" content="{{ project.description|default:'Detailed view of our technology project implementation and results.' }}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{% static 'img/favicon.ico' %}">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'css/swiper-bundle.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/meanmenu.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'icomoon/style.css' %}">
+    <link rel="stylesheet" href="{% static 'webfonts/all.min.css' %}">
+
+    <!-- Custom Styles -->
+    <style>
+      /* Project Details Styling */
+      .details-top-items {
+        background: #FFFFFF;
+        border: 1px solid #E5E7EB;
+        border-radius: 16px;
+        padding: 32px;
+        margin-bottom: 48px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 24px;
+      }
+
+      .details-left h2 {
+        color: #0D0E10;
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        line-height: 1.3;
+      }
+
+      .post-cat {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .post-cat li a {
+        padding: 8px 16px;
+        background: #F0F4FF;
+        color: #2D5BFF;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        text-transform: capitalize;
+      }
+
+      .post-cat li a:hover {
+        background: #2D5BFF;
+        color: #FFFFFF;
+        transform: translateY(-2px);
+      }
+
+      .client-details {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .client-details li {
+        color: #475467;
+        font-size: 15px;
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .client-details li:last-child {
+        margin-bottom: 0;
+      }
+
+      .client-details li span {
+        color: #0D0E10;
+        font-weight: 600;
+      }
+
+      /* Content Sections */
+      .project-details-content h3 {
+        color: #0D0E10;
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 24px;
+      }
+
+      .project-details-content p {
+        color: #475467;
+        line-height: 1.8;
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+
+      /* List Items */
+      .list-items {
+        display: flex;
+        gap: 32px;
+        flex-wrap: wrap;
+      }
+
+      .list-items ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        flex: 1;
+        min-width: 250px;
+      }
+
+      .list-items ul li {
+        position: relative;
+        padding-left: 28px;
+        margin-bottom: 16px;
+        color: #475467;
+        font-size: 15px;
+        line-height: 1.6;
+      }
+
+      .list-items ul li:before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #2D5BFF;
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      /* Progress Bars */
+      .progress-area {
+        background: #F8FAFC;
+        border-radius: 12px;
+        padding: 24px;
+      }
+
+      .pro-items {
+        margin-bottom: 24px;
+      }
+
+      .pro-items:last-child {
+        margin-bottom: 0;
+      }
+
+      .pro-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+      }
+
+      .pro-head .title {
+        color: #0D0E10;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0;
+      }
+
+      .pro-head .point {
+        color: #2D5BFF;
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      .progress {
+        background: #E5E7EB;
+        border-radius: 10px;
+        height: 10px;
+        overflow: hidden;
+      }
+
+      .progress-value {
+        background: linear-gradient(90deg, #2D5BFF 0%, #5B8AFF 100%);
+        height: 100%;
+        width: 86%;
+        border-radius: 10px;
+        transition: width 1s ease;
+      }
+
+      .progress-value.style-two {
+        width: 96%;
+        background: linear-gradient(90deg, #10B981 0%, #34D399 100%);
+      }
+
+      /* Details Images */
+      .details-image {
+        border-radius: 12px;
+        overflow: hidden;
+      }
+
+      .details-image img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.4s ease;
+      }
+
+      .details-image:hover img {
+        transform: scale(1.05);
+      }
+
+      /* Navigation Buttons */
+      .slider-button {
+        margin-top: 64px;
+        padding-top: 32px;
+        border-top: 1px solid #E5E7EB;
+      }
+
+      .cmn-prev,
+      .cmn-next {
+        width: 48px;
+        height: 48px;
+        background: #2D5BFF;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .cmn-prev:hover,
+      .cmn-next:hover {
+        background: #0f4a76;
+        transform: scale(1.05);
+      }
+
+      .previus-text {
+        color: #0D0E10;
+        font-weight: 600;
+        font-size: 15px;
+      }
+
+      /* Responsive */
+      @media (max-width: 991px) {
+        .details-top-items {
+          flex-direction: column;
+        }
+
+        .details-left h2 {
+          font-size: 24px;
+        }
+
+        .project-details-content h3 {
+          font-size: 22px;
+        }
+
+        .list-items {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Header Include -->
+    {% include "includes/header.html" %}
+
+    <!-- Breadcrumb Section -->
+    <div class="breadcrumb-wrapper bg-cover" style="background-image: url('{% static 'img/pages_back.jpeg' %}');">
+      <div class="container">
+        <div class="page-heading">
+          <h1 class="wow fadeInUp" data-wow-delay=".3s">Project Details</h1>
+          <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+            <li>
+              <a href="{% url 'pages:home' %}">
+                Home
+              </a>
+            </li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+            </li>
+            <li>
+              <a href="{% url 'pages:projects' %}">
+                Projects
+              </a>
+            </li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+            </li>
+            <li>
+              Project Details
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Details Section Start -->
+    <section class="project-details-section fix section-padding">
+      <div class="container">
+        <div class="project-details-wrapper">
+          
+          <!-- Project Header -->
+          <div class="project-details-items">
+            <div class="row g-4">
+              <div class="col-lg-12">
+                <div class="details-top-items wow fadeInUp" data-wow-delay=".3s">
+                  <div class="details-left">
+                    <h2>Building Digital Products End to End</h2>
+                    <ul class="post-cat">
+                      <li>
+                        <a href="{% url 'pages:projects' %}">Creative</a>
+                      </li>
+                      <li>
+                        <a href="{% url 'pages:projects' %}">Branding</a>
+                      </li>
+                      <li>
+                        <a href="{% url 'pages:projects' %}">Analytics</a>
+                      </li>
+                      <li>
+                        <a href="{% url 'pages:projects' %}">Audience</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="details-right">
+                    <ul class="client-details">
+                      <li>
+                        Client: <span>David Martin</span>
+                      </li>
+                      <li>
+                        Year: <span>2024</span>
+                      </li>
+                      <li>
+                        Author: <span>Robert Mory</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Content -->
+          <div class="project-details-content">
+            
+            <!-- Overview Section -->
+            <h3 class="wow fadeInUp" data-wow-delay=".4s">Overview</h3>
+            <div class="row g-4">
+              <div class="col-lg-7">
+                <p class="wow fadeInUp" data-wow-delay=".5s">
+                  This comprehensive digital transformation project focused on building end-to-end solutions that 
+                  integrate modern technologies with business processes. Our team worked closely with the client to 
+                  understand their unique challenges and deliver a scalable, maintainable platform that supports their 
+                  long-term growth objectives. The project encompassed full-stack development, cloud infrastructure 
+                  setup, and implementation of AI-powered features to enhance user experience and operational efficiency.
+                </p>
+              </div>
+              <div class="col-lg-5">
+                <p class="wow fadeInUp" data-wow-delay=".6s">
+                  We utilized cutting-edge technologies and best practices throughout the development lifecycle, 
+                  ensuring high code quality, security, and performance. The solution includes responsive web 
+                  applications, mobile interfaces, and robust backend systems designed to handle enterprise-scale 
+                  workloads while maintaining excellent user experience across all touchpoints.
+                </p>
+              </div>
+            </div>
+
+            <!-- Results Section -->
+            <h3 class="mt-5 wow fadeInUp" data-wow-delay=".7s">Final Results Of the Project</h3>
+            <div class="row g-5">
+              <div class="col-lg-7">
+                <div class="list-items wow fadeInUp" data-wow-delay=".8s">
+                  <ul>
+                    <li><span>50% increase in operational efficiency through automation</span></li>
+                    <li><span>Seamless integration with existing enterprise systems</span></li>
+                    <li><span>Enhanced user engagement with intuitive interfaces</span></li>
+                  </ul>
+                  <ul>
+                    <li><span>Real-time analytics and reporting capabilities</span></li>
+                    <li><span>Scalable cloud infrastructure supporting growth</span></li>
+                    <li><span>Comprehensive security and compliance measures</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="progress-area wow fadeInUp" data-wow-delay=".9s">
+                  <div class="progress-wrap">
+                    <div class="pro-items">
+                      <div class="pro-head">
+                        <h6 class="title">
+                          Branding Design
+                        </h6>
+                        <span class="point">
+                          86%
+                        </span>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-value"></div>
+                      </div>
+                    </div>
+                    <div class="pro-items">
+                      <div class="pro-head">
+                        <h6 class="title">
+                          Business Impact
+                        </h6>
+                        <span class="point">
+                          96%
+                        </span>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-value style-two"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Images -->
+            <div class="row g-4 mt-4">
+              <div class="col-md-6">
+                <div class="details-image wow fadeInUp" data-wow-delay=".3s">
+                  <img src="{% static 'img/project/details-1.jpg' %}" 
+                       alt="Project Implementation Screenshot">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details-image wow fadeInUp" data-wow-delay=".5s">
+                  <img src="{% static 'img/project/details-2.jpg' %}" 
+                       alt="Project Dashboard View">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Navigation Buttons -->
+          <div class="slider-button d-flex align-items-center justify-content-between wow fadeInUp" data-wow-delay=".7s">
+            <div class="d-flex align-items-center gap-3">
+              <button class="cmn-prev cmn-border d-center" 
+                      onclick="window.location.href=''"
+                      aria-label="Previous project">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <span class="fw-bold previus-text text-capitalize">
+                Previous
+              </span>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+              <span class="fw-bold previus-text text-capitalize">
+                Next
+              </span>
+              <button class="cmn-next cmn-border d-center" 
+                      onclick="window.location.href=''"
+                      aria-label="Next project">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section Start -->
+    <section class="cta-banner-section">
+      <div class="container">
+        <div class="cta-banner-wrapper">
+          <div class="row g-4 align-items-end">
+            <div class="col-lg-6">
+              <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                Let's Build Your Next Project
+              </h2>
+              <p class="mt-3 wow fadeInUp" data-wow-delay=".4s">
+                Partner with us to transform your vision into reality with cutting-edge technology.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <div class="cta-list-items">
+                <ul>
+                  <li>
+                    <i class="fa-regular fa-chevrons-right"></i>
+                    Custom Development
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-chevrons-right"></i>
+                    Cloud Solutions
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <i class="fa-regular fa-chevrons-right"></i>
+                    AI Integration
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-chevrons-right"></i>
+                    Digital Transformation
+                  </li>
+                </ul>
+              </div>
+              <div class="main-button wow fadeInUp" data-wow-delay=".5s">
+                <a href="{% url 'pages:contact' %}">
+                  <span class="theme-btn">Contact Us</span>
+                  <span class="arrow-btn"><i class="icon-arrow-right"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Include -->
+    {% include "includes/footer.html" %}
+
+    <!-- JavaScript Files -->
+    <script src="{% static 'js/jquery-3.7.1.min.js' %}"></script>
+    <script src="{% static 'js/viewport.jquery.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+    <script src="{% static 'js/jquery.waypoints.js' %}"></script>
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'js/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'js/jquery.meanmenu.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/wow.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+  </body>
+</html>
