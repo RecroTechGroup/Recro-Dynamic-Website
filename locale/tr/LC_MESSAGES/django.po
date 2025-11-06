@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-01 13:31+0300\n"
+"POT-Creation-Date: 2025-11-05 17:05+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,12 +18,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: main_app/contexts.py:20 main_app/contexts.py:21 main_app/contexts.py:22
-#: templates.copy/pages/solutions.html:80
-#: templates.copy/pages/solutions.html:83 templates/pages/solutions.html:80
-#: templates/pages/solutions.html:83
-msgid "AI in Agriculture"
-msgstr "Tarım'da Yapay Zeka"
+#: main_app/contexts.py:20 main_app/contexts.py:22
+#: templates/pages/solutions.html:69
+#, fuzzy
+#| msgid "AI Agriculture Projects"
+msgid "Agriculture LLMs"
+msgstr "Yapay Zeka Tarım Projeleri"
+
+#: main_app/contexts.py:21
+#, fuzzy
+#| msgid "Services - RecroTech"
+msgid "Agriculture LLMs - RecroTech"
+msgstr "Hizmetler - RecroTech"
 
 #: main_app/contexts.py:24
 msgid ""
@@ -81,21 +87,18 @@ msgid ""
 "sustainability."
 msgstr ""
 
-#: main_app/contexts.py:66
-msgid "Fashion Models"
-msgstr ""
+#: main_app/contexts.py:66 main_app/contexts.py:68
+#: templates/pages/solutions.html:84 templates/pages/solutions.html:87
+#, fuzzy
+#| msgid "AI in Fashion"
+msgid "Fashion AI"
+msgstr "Moda'da Yapay Zeka"
 
 #: main_app/contexts.py:67
 #, fuzzy
 #| msgid "About Us - RecroTech"
-msgid "AI Fashion Models - RecroTech"
+msgid "Fashion AI - RecroTech"
 msgstr "Hakkımızda - RecroTech"
-
-#: main_app/contexts.py:68
-#, fuzzy
-#| msgid "AI in Fashion"
-msgid "AI Fashion Models"
-msgstr "Moda'da Yapay Zeka"
 
 #: main_app/contexts.py:70
 msgid ""
@@ -106,7 +109,7 @@ msgid ""
 "aspect of your business."
 msgstr ""
 
-#: main_app/contexts.py:75 main_app/contexts.py:126 main_app/contexts.py:185
+#: main_app/contexts.py:75 main_app/contexts.py:385
 msgid "Adaptive Intelligence That Works for You"
 msgstr ""
 
@@ -156,19 +159,364 @@ msgid ""
 msgstr ""
 
 #: main_app/contexts.py:117 main_app/contexts.py:119
-#: templates.copy/pages/solutions.html:95
-#: templates.copy/pages/solutions.html:98 templates/pages/solutions.html:95
-#: templates/pages/solutions.html:98
-msgid "AI in Space"
-msgstr "Uzay'da Yapay Zeka"
+#: templates/pages/solutions.html:99 templates/pages/solutions.html:102
+#, fuzzy
+#| msgid "Smart Farming Solutions"
+msgid "Marketing Solutions"
+msgstr "Akıllı Tarım Çözümleri"
 
 #: main_app/contexts.py:118
 #, fuzzy
+#| msgid "Our Solutions - RecroTech"
+msgid "Marketing Solutions - RecroTech"
+msgstr "Çözümlerimiz - RecroTech"
+
+#: main_app/contexts.py:121
+msgid ""
+"Empower your marketing strategy with AI-driven insights and analytics. Our "
+"comprehensive marketing solutions help you understand your customers, "
+"competitors, and market dynamics better. From brand positioning to customer "
+"segmentation, we provide the tools and intelligence needed to make data-"
+"backed decisions that drive growth and customer loyalty."
+msgstr ""
+
+#: main_app/contexts.py:126
+msgid "Data-Driven Marketing Intelligence"
+msgstr ""
+
+#: main_app/contexts.py:128
+msgid ""
+"Leverage advanced data analytics, customer research, and market intelligence "
+"to transform your marketing performance. Our solutions integrate seamlessly "
+"with your existing systems, providing real-time insights that help you stay "
+"ahead of market trends and customer expectations."
+msgstr ""
+
+#: main_app/contexts.py:137
+msgid "Elevate Your Brand Value"
+msgstr ""
+
+#: main_app/contexts.py:139
+msgid ""
+"Understand your brand and industry better to elevate your brand value. "
+"Conduct comprehensive brand health tracking, positioning research, and "
+"perception analysis to strengthen your market presence and competitive "
+"advantage."
+msgstr ""
+
+#: main_app/contexts.py:146
+msgid "Increase Sales & Loyalty"
+msgstr ""
+
+#: main_app/contexts.py:148
+msgid ""
+"Know your customers better and increase both sales and customer loyalty. "
+"Utilize customer research, segmentation, and behavioral analysis to create "
+"targeted campaigns that resonate with your audience and drive conversions."
+msgstr ""
+
+#: main_app/contexts.py:155
+msgid "Make Confident Decisions"
+msgstr ""
+
+#: main_app/contexts.py:157
+msgid ""
+"Decode the market, products, services, and competition to make faster and "
+"more confident decisions. Access comprehensive market research, competitive "
+"intelligence, and predictive analytics for strategic advantage."
+msgstr ""
+
+#: main_app/contexts.py:166 main_app/contexts.py:168
+#: templates/pages/solutions.html:114 templates/pages/solutions.html:117
+msgid "Real Estate AI Assistant & Models"
+msgstr ""
+
+#: main_app/contexts.py:167
+#, fuzzy
+#| msgid "About Us - RecroTech"
+msgid "Real Estate AI Assistant & Models - RecroTech"
+msgstr "Hakkımızda - RecroTech"
+
+#: main_app/contexts.py:170
+msgid ""
+"Transform your real estate business with intelligent AI assistants that "
+"engage customers instantly and accurately. Our solutions help you maximize "
+"customer potential by providing immediate, intelligent responses to property "
+"inquiries, market questions, and client needs. Never lose a potential buyer "
+"or tenant due to delayed responses."
+msgstr ""
+
+#: main_app/contexts.py:175
+#, fuzzy
+#| msgid "Automation & Agents"
+msgid "Intelligent Customer Engagement"
+msgstr "Otomasyon ve Ajanlar"
+
+#: main_app/contexts.py:177
+msgid ""
+"Increase your customer acquisition rate with AI-powered assistants that "
+"respond to inquiries in seconds. Our intelligent models understand property "
+"listings, market conditions, and customer preferences to provide "
+"personalized recommendations and accurate information 24/7."
+msgstr ""
+
+#: main_app/contexts.py:186
+msgid "Maximize Customer Potential"
+msgstr ""
+
+#: main_app/contexts.py:188
+msgid ""
+"Increase your customer potential by engaging prospects instantly. Our AI "
+"assistants provide accurate, detailed responses to property inquiries within "
+"seconds, significantly improving conversion rates and customer satisfaction."
+msgstr ""
+
+#: main_app/contexts.py:195
+msgid "Instant Intelligent Responses"
+msgstr ""
+
+#: main_app/contexts.py:197
+msgid ""
+"Answer customer questions in seconds and increase your chance of closing "
+"deals. AI-powered responses cover property details, pricing, availability, "
+"neighborhood information, and financing options with accuracy and "
+"consistency."
+msgstr ""
+
+#: main_app/contexts.py:204
+msgid "24/7 Availability"
+msgstr ""
+
+#: main_app/contexts.py:206
+msgid ""
+"Never miss an opportunity with round-the-clock AI assistance. Capture leads "
+"outside business hours, schedule viewings automatically, and maintain "
+"engagement across all customer touchpoints without increasing operational "
+"costs."
+msgstr ""
+
+#: main_app/contexts.py:215 main_app/contexts.py:217
+#: templates/pages/solutions.html:129 templates/pages/solutions.html:132
+#, fuzzy
+#| msgid "AI Solutions"
+msgid "Logistics AI Solutions"
+msgstr "Yapay Zeka Çözümleri"
+
+#: main_app/contexts.py:216
+#, fuzzy
+#| msgid "Our Solutions - RecroTech"
+msgid "Logistics AI Solutions - RecroTech"
+msgstr "Çözümlerimiz - RecroTech"
+
+#: main_app/contexts.py:219
+msgid ""
+"Revolutionize your logistics operations with AI-powered solutions that "
+"streamline customer communication, optimize workflows, and enhance "
+"operational efficiency. Our intelligent systems ensure your customers "
+"receive instant, accurate responses while your team operates seamlessly "
+"across all logistics processes."
+msgstr ""
+
+#: main_app/contexts.py:224
+msgid "Seamless Logistics Intelligence"
+msgstr ""
+
+#: main_app/contexts.py:226
+msgid ""
+"Don't lose customers due to delayed responses. Our AI solutions provide "
+"intelligent, instant answers to tracking inquiries, delivery schedules, and "
+"service questions. Simultaneously, optimize internal operations with smart "
+"workforce management and process automation."
+msgstr ""
+
+#: main_app/contexts.py:235
+msgid "Instant Customer Response"
+msgstr ""
+
+#: main_app/contexts.py:237
+msgid ""
+"Don't lose customers because of late answers. Provide intelligent responses "
+"to tracking inquiries, delivery status, and service questions in seconds. "
+"Maintain customer satisfaction with accurate, real-time information delivery."
+msgstr ""
+
+#: main_app/contexts.py:244
+msgid "Seamless Workforce Organization"
+msgstr ""
+
+#: main_app/contexts.py:246
+msgid ""
+"Organize your employees seamlessly with AI-driven scheduling, task "
+"allocation, and performance optimization. Coordinate drivers, warehouse "
+"staff, and support teams efficiently to maximize productivity and reduce "
+"operational bottlenecks."
+msgstr ""
+
+#: main_app/contexts.py:253
+msgid "Optimized Operations"
+msgstr ""
+
+#: main_app/contexts.py:255
+msgid ""
+"Integrate AI across your logistics chain for route optimization, demand "
+"forecasting, and inventory management. Reduce costs, improve delivery times, "
+"and enhance overall operational efficiency with intelligent automation."
+msgstr ""
+
+#: main_app/contexts.py:264 main_app/contexts.py:266
+#: templates/pages/solutions.html:144 templates/pages/solutions.html:147
+#, fuzzy
+#| msgid "Artificial Intelligence"
+msgid "Financial Technologies & Intelligence"
+msgstr "Yapay Zeka"
+
+#: main_app/contexts.py:265
+msgid "Financial Technologies & Intelligence - RecroTech"
+msgstr ""
+
+#: main_app/contexts.py:268
+msgid ""
+"We perform cutting-edge R&D in financial markets and develop innovative "
+"financial solutions that make life easier for companies. Our AI-powered "
+"financial intelligence systems provide advanced analytics, risk assessment, "
+"and automated decision-making capabilities to transform your financial "
+"operations."
+msgstr ""
+
+#: main_app/contexts.py:273
+msgid "Intelligent Financial Solutions"
+msgstr ""
+
+#: main_app/contexts.py:275
+msgid ""
+"Leverage advanced financial AI to optimize investment strategies, automate "
+"risk management, and gain deeper insights into market dynamics. Our "
+"solutions combine machine learning with financial expertise to deliver "
+"actionable intelligence for better decision-making."
+msgstr ""
+
+#: main_app/contexts.py:284
+#, fuzzy
+#| msgid "Data Analytics"
+msgid "Advanced Market Analytics"
+msgstr "Veri Analitiği"
+
+#: main_app/contexts.py:286
+msgid ""
+"Conduct sophisticated financial market research and analysis using AI-"
+"powered tools. Identify trends, predict market movements, and uncover "
+"investment opportunities with advanced quantitative models and real-time "
+"data processing."
+msgstr ""
+
+#: main_app/contexts.py:293
+#, fuzzy
+#| msgid "Automation & Agents"
+msgid "Automated Risk Management"
+msgstr "Otomasyon ve Ajanlar"
+
+#: main_app/contexts.py:295
+msgid ""
+"Implement intelligent risk assessment and management systems that "
+"continuously monitor portfolios, detect anomalies, and provide early "
+"warnings. Make life easier for companies with automated compliance, fraud "
+"detection, and credit scoring."
+msgstr ""
+
+#: main_app/contexts.py:302
+#, fuzzy
+#| msgid "Smart Farming Solutions"
+msgid "Innovative Financial Solutions"
+msgstr "Akıllı Tarım Çözümleri"
+
+#: main_app/contexts.py:304
+msgid ""
+"Deploy cutting-edge fintech solutions tailored to your company's needs. From "
+"algorithmic trading to personalized financial planning, our R&D-driven "
+"innovations transform complex financial challenges into streamlined, "
+"efficient processes."
+msgstr ""
+
+#: main_app/contexts.py:313 main_app/contexts.py:315
+#: templates/pages/solutions.html:159 templates/pages/solutions.html:162
+#, fuzzy
+#| msgid "Artificial Intelligence"
+msgid "Legal Intelligence"
+msgstr "Yapay Zeka"
+
+#: main_app/contexts.py:314
+#, fuzzy
 #| msgid "Services - RecroTech"
-msgid "AI in Space - RecroTech"
+msgid "Legal Intelligence - RecroTech"
 msgstr "Hizmetler - RecroTech"
 
-#: main_app/contexts.py:121 main_app/contexts.py:180
+#: main_app/contexts.py:317
+msgid ""
+"RecroTech works with JUS to provide comprehensive legal and ethical "
+"intelligence for AI systems. JUS serves as the legal and ethical "
+"intelligence core, ensuring that all AI systems operate with transparency, "
+"accountability, and compliance. Through strategic collaboration, we "
+"integrate advanced legal frameworks and governance tools to align AI "
+"innovation with regulatory standards."
+msgstr ""
+
+#: main_app/contexts.py:322
+msgid "Compliance and Governance Excellence"
+msgstr ""
+
+#: main_app/contexts.py:324
+msgid ""
+"Transform legal complexity into operational clarity. JUS enables "
+"organizations to automate compliance, audit algorithmic decisions, and "
+"maintain data privacy across AI ecosystems. From AI policy management to "
+"certification readiness, build trust and responsibility into every "
+"intelligent system."
+msgstr ""
+
+#: main_app/contexts.py:334
+msgid "Regulatory Compliance"
+msgstr ""
+
+#: main_app/contexts.py:336
+msgid ""
+"Ensure compliance with KVKK, GDPR, and ISO/IEC 42001 standards. JUS "
+"integrates advanced legal frameworks into your AI systems, automating "
+"compliance monitoring and maintaining alignment with evolving regulatory "
+"requirements across jurisdictions."
+msgstr ""
+
+#: main_app/contexts.py:343
+msgid "Algorithmic Transparency"
+msgstr ""
+
+#: main_app/contexts.py:345
+msgid ""
+"Audit algorithmic decisions with transparency and accountability. Maintain "
+"data privacy across AI ecosystems while ensuring ethical AI operations. "
+"Track, document, and validate AI system behaviors to meet legal and ethical "
+"standards."
+msgstr ""
+
+#: main_app/contexts.py:352
+msgid "Sustainable Digital Future"
+msgstr ""
+
+#: main_app/contexts.py:354
+msgid ""
+"Shape the foundation of a sustainable digital future with JUS. From AI "
+"policy management to certification readiness, empower your institution to "
+"innovate confidently within ethical and lawful boundaries, building trust "
+"into every intelligent system."
+msgstr ""
+
+#: main_app/contexts.py:376 main_app/contexts.py:377 main_app/contexts.py:378
+#: templates.copy/pages/contact.html:119 templates.copy/pages/service.html:76
+#: templates/pages/contact.html:124 templates/pages/index.html:410
+#: templates/pages/service.html:88
+msgid "AI Agents and Automations"
+msgstr "Yapay Zeka Ajanları ve Otomasyonlar"
+
+#: main_app/contexts.py:380
 msgid ""
 "Build and deploy autonomous AI agents that tackle real-world business "
 "challenges through open-source automation and seamless deployment. From "
@@ -177,7 +525,7 @@ msgid ""
 "reducing manual overhead."
 msgstr ""
 
-#: main_app/contexts.py:128 main_app/contexts.py:187
+#: main_app/contexts.py:387
 msgid ""
 "Our AI agents continuously learn from interactions and data, improving "
 "performance over time. They automate repetitive operations, detect "
@@ -185,77 +533,49 @@ msgid ""
 "strategic decisions while the system handles precision execution."
 msgstr ""
 
-#: main_app/contexts.py:137 main_app/contexts.py:196
+#: main_app/contexts.py:396
 msgid "Design an AI Agent"
 msgstr ""
 
-#: main_app/contexts.py:139
-msgid ""
-"Create domain-specific agents capable of autonomous reasoning, planning, and "
-"interaction. Tailor AI systems to your unique requirements with advanced "
-"customization and training capabilities."
-msgstr ""
-
-#: main_app/contexts.py:145 main_app/contexts.py:201
-#, fuzzy
-#| msgid "Automation Solutions"
-msgid "Automate Workflows"
-msgstr "Otomasyon Çözümleri"
-
-#: main_app/contexts.py:147
-msgid ""
-"Streamline end-to-end business processes with adaptive automation and "
-"minimal supervision. Reduce manual tasks, improve efficiency, and enable "
-"teams to focus on high-value activities."
-msgstr ""
-
-#: main_app/contexts.py:153 main_app/contexts.py:206
-msgid "Deploy Effortlessly"
-msgstr ""
-
-#: main_app/contexts.py:155
-msgid ""
-"Integrate agents through lightweight APIs and open frameworks for instant "
-"scalability. Deploy to production quickly with robust monitoring, version "
-"control, and rollback capabilities."
-msgstr ""
-
-#: main_app/contexts.py:176 main_app/contexts.py:177 main_app/contexts.py:178
-#: templates.copy/pages/contact.html:119 templates.copy/pages/service.html:76
-#: templates/pages/contact.html:119 templates/pages/index.html:394
-#: templates/pages/service.html:88
-msgid "AI Agents and Automations"
-msgstr "Yapay Zeka Ajanları ve Otomasyonlar"
-
-#: main_app/contexts.py:197
+#: main_app/contexts.py:397
 msgid ""
 "Create domain-specific agents capable of autonomous reasoning, planning, and "
 "interaction."
 msgstr ""
 
-#: main_app/contexts.py:202
+#: main_app/contexts.py:401
+#, fuzzy
+#| msgid "Automation Solutions"
+msgid "Automate Workflows"
+msgstr "Otomasyon Çözümleri"
+
+#: main_app/contexts.py:402
 msgid ""
 "Streamline end-to-end business processes with adaptive automation and "
 "minimal supervision."
 msgstr ""
 
-#: main_app/contexts.py:207
+#: main_app/contexts.py:406
+msgid "Deploy Effortlessly"
+msgstr ""
+
+#: main_app/contexts.py:407
 msgid ""
 "Integrate agents through lightweight APIs and open frameworks for instant "
 "scalability."
 msgstr ""
 
-#: main_app/contexts.py:213 main_app/contexts.py:214
-#: templates.copy/pages/service.html:62 templates/pages/index.html:385
+#: main_app/contexts.py:413 main_app/contexts.py:414
+#: templates.copy/pages/service.html:62 templates/pages/index.html:401
 #: templates/pages/service.html:74
 msgid "A Wide Variety of AI Solutions"
 msgstr "Geniş Çapta Yapay Zeka Çözümleri"
 
-#: main_app/contexts.py:215
+#: main_app/contexts.py:415
 msgid "Industry-Ready AI Across Finance, Public Sector, Law & More"
 msgstr ""
 
-#: main_app/contexts.py:217
+#: main_app/contexts.py:417
 msgid ""
 "We build and deploy industry-ready AI across finance, public sector, law, "
 "energy, manufacturing, and retail. Our solutions turn complex data into "
@@ -265,11 +585,11 @@ msgid ""
 "monitor themselves, and prove value with live KPIs from day one."
 msgstr ""
 
-#: main_app/contexts.py:223
+#: main_app/contexts.py:423
 msgid "Cutting-Edge Technologies That Deliver Results"
 msgstr ""
 
-#: main_app/contexts.py:225
+#: main_app/contexts.py:425
 msgid ""
 "Technology evolves daily—we convert it into measurable results. Faster "
 "launches, lower risk, and proven ROI across software, hardware, "
@@ -277,63 +597,64 @@ msgid ""
 "stay ahead with solutions built for scale and performance."
 msgstr ""
 
-#: main_app/contexts.py:234
+#: main_app/contexts.py:434
 #, fuzzy
 #| msgid "Smart City"
 msgid "Start a Pilot"
 msgstr "Akıllı Şehir"
 
-#: main_app/contexts.py:236
+#: main_app/contexts.py:436
 msgid ""
 "Launch a controlled pilot to validate AI impact in your specific workflow. "
 "We deploy a scoped solution, measure real KPIs, and iterate based on your "
 "feedback—proving value before full-scale rollout."
 msgstr ""
 
-#: main_app/contexts.py:243
+#: main_app/contexts.py:443
 #, fuzzy
 #| msgid "AI Agents"
 msgid "Add an AI Agent"
 msgstr "Yapay Zeka Ajanları"
 
-#: main_app/contexts.py:245
+#: main_app/contexts.py:445
 msgid ""
 "Deploy autonomous AI agents that handle repetitive tasks, respond to "
 "queries, and make decisions within defined parameters. Integrate seamlessly "
 "with your existing systems for 24/7 intelligent automation."
 msgstr ""
 
-#: main_app/contexts.py:252
+#: main_app/contexts.py:452
 msgid "Modernize the Stack"
 msgstr ""
 
-#: main_app/contexts.py:254
+#: main_app/contexts.py:454
 msgid ""
 "Upgrade legacy systems with cloud-native architecture, microservices, and "
 "modern DevOps practices. Reduce technical debt while maintaining business "
 "continuity and improving deployment velocity by 10x."
 msgstr ""
 
-#: main_app/contexts.py:261
+#: main_app/contexts.py:461
 msgid "See Live KPIs"
 msgstr ""
 
-#: main_app/contexts.py:263
+#: main_app/contexts.py:463
 msgid ""
 "Access real-time dashboards displaying business-critical metrics: model "
 "accuracy, processing speed, cost per transaction, user satisfaction, and "
 "ROI. Make data-driven decisions with live visibility into AI performance."
 msgstr ""
 
-#: main_app/contexts.py:272 main_app/contexts.py:273 main_app/contexts.py:274
+#: main_app/contexts.py:472 main_app/contexts.py:473 main_app/contexts.py:474
 #: templates.copy/pages/contact.html:120 templates.copy/pages/service.html:88
-#: templates.copy/pages/service.html:91 templates/includes/footer.html:80
-#: templates/pages/contact.html:120 templates/pages/service.html:100
+#: templates.copy/pages/service.html:91 templates/includes/footer.html:98
+#: templates/includes/header.html:588 templates/includes/header.html:703
+#: templates/pages/contact.html:125 templates/pages/service.html:100
 #: templates/pages/service.html:103
 msgid "Cloud Services"
 msgstr "Bulut Hizmetleri"
 
-#: main_app/contexts.py:276
+#: main_app/contexts.py:476
 msgid ""
 "We design and deploy cloud-native systems that transform ideas into "
 "scalable, high-performance applications. Our expertise in distributed "
@@ -341,11 +662,11 @@ msgid ""
 "reliability, speed, and seamless integration across any environment."
 msgstr ""
 
-#: main_app/contexts.py:280
+#: main_app/contexts.py:480
 msgid "Infrastructure That Scales with You"
 msgstr ""
 
-#: main_app/contexts.py:282
+#: main_app/contexts.py:482
 msgid ""
 "Our cloud architectures grow with your business — from prototypes to global-"
 "scale platforms. Through automated scaling, containerized deployment, and "
@@ -353,46 +674,47 @@ msgid ""
 "real time."
 msgstr ""
 
-#: main_app/contexts.py:291
+#: main_app/contexts.py:491
 msgid "Build on the Cloud"
 msgstr ""
 
-#: main_app/contexts.py:293
+#: main_app/contexts.py:493
 msgid ""
 "Develop and deploy applications on secure, global-grade cloud infrastructure "
 "with high availability and performance optimization."
 msgstr ""
 
-#: main_app/contexts.py:299
+#: main_app/contexts.py:499
 msgid "Automate Infrastructure"
 msgstr ""
 
-#: main_app/contexts.py:301
+#: main_app/contexts.py:501
 msgid ""
 "Use Infrastructure as Code (IaC) and DevOps pipelines to manage cloud "
 "environments efficiently with version control and automation."
 msgstr ""
 
-#: main_app/contexts.py:307
+#: main_app/contexts.py:507
 msgid "Scale Seamlessly"
 msgstr ""
 
-#: main_app/contexts.py:309
+#: main_app/contexts.py:509
 msgid ""
 "Enable dynamic scaling and resource optimization based on real-time "
 "workloads, ensuring cost-efficiency and peak performance."
 msgstr ""
 
-#: main_app/contexts.py:317 main_app/contexts.py:318 main_app/contexts.py:319
+#: main_app/contexts.py:517 main_app/contexts.py:518 main_app/contexts.py:519
 #: templates.copy/pages/contact.html:122 templates.copy/pages/service.html:117
-#: templates.copy/pages/service.html:120 templates/includes/footer.html:90
-#: templates/pages/contact.html:122 templates/pages/index.html:411
-#: templates/pages/index.html:412 templates/pages/service.html:129
+#: templates.copy/pages/service.html:120 templates/includes/footer.html:108
+#: templates/includes/header.html:590 templates/includes/header.html:704
+#: templates/pages/contact.html:127 templates/pages/index.html:427
+#: templates/pages/index.html:428 templates/pages/service.html:129
 #: templates/pages/service.html:132
 msgid "CRM Solutions"
 msgstr "CRM Çözümleri"
 
-#: main_app/contexts.py:321
+#: main_app/contexts.py:521
 msgid ""
 "We build intelligent CRM systems that unify data, automate engagement, and "
 "surface actionable insights across sales, support, and marketing. By "
@@ -400,11 +722,11 @@ msgid ""
 "teams anticipate customer needs and strengthen long-term relationships."
 msgstr ""
 
-#: main_app/contexts.py:326
+#: main_app/contexts.py:526
 msgid "Turning Data into Customer Intelligence"
 msgstr ""
 
-#: main_app/contexts.py:328
+#: main_app/contexts.py:528
 msgid ""
 "From lead scoring to retention analytics, our CRM platforms turn customer "
 "behavior into measurable intelligence. Each interaction becomes a feedback "
@@ -412,46 +734,46 @@ msgid ""
 "sustainable growth."
 msgstr ""
 
-#: main_app/contexts.py:337
+#: main_app/contexts.py:537
 msgid "Centralize Data"
 msgstr ""
 
-#: main_app/contexts.py:339
+#: main_app/contexts.py:539
 msgid ""
 "Unify customer data from multiple touchpoints into a single source of truth. "
 "Eliminate data silos and gain a 360-degree view of every customer "
 "interaction."
 msgstr ""
 
-#: main_app/contexts.py:345
+#: main_app/contexts.py:545
 #, fuzzy
 #| msgid "Automation & Agents"
 msgid "Automate Engagement"
 msgstr "Otomasyon ve Ajanlar"
 
-#: main_app/contexts.py:347
+#: main_app/contexts.py:547
 msgid ""
 "Deploy intelligent workflows that trigger personalized communications, "
 "follow-ups, and nurture sequences based on customer behavior and lifecycle "
 "stage."
 msgstr ""
 
-#: main_app/contexts.py:353
+#: main_app/contexts.py:553
 msgid "Analyze Behavior"
 msgstr ""
 
-#: main_app/contexts.py:355
+#: main_app/contexts.py:555
 msgid ""
 "Leverage AI-powered analytics to identify patterns, predict churn, score "
 "leads, and uncover opportunities for cross-sell and upsell across your "
 "customer base."
 msgstr ""
 
-#: main_app/contexts.py:363 main_app/contexts.py:364 main_app/contexts.py:365
+#: main_app/contexts.py:563 main_app/contexts.py:564 main_app/contexts.py:565
 msgid "Tech Enthusiasts"
 msgstr ""
 
-#: main_app/contexts.py:367
+#: main_app/contexts.py:567
 msgid ""
 "We run hands-on labs, meetups, and open-source sprints where builders "
 "prototype fast, share knowledge, and ship. From weekend workshops to deep-"
@@ -459,62 +781,62 @@ msgid ""
 "momentum."
 msgstr ""
 
-#: main_app/contexts.py:371
+#: main_app/contexts.py:571
 msgid "Learn. Build. Share. Repeat."
 msgstr ""
 
-#: main_app/contexts.py:373
+#: main_app/contexts.py:573
 msgid ""
 "Sessions focus on real tools, real data, and repeatable patterns. You leave "
 "with code, docs, and a path to production—plus a network that keeps the pace."
 msgstr ""
 
-#: main_app/contexts.py:381
+#: main_app/contexts.py:581
 msgid "Hands-On Labs"
 msgstr ""
 
-#: main_app/contexts.py:383
+#: main_app/contexts.py:583
 msgid ""
 "Guided builds with step-by-step briefs, from idea to working demo in hours. "
 "Learn by doing with real-world scenarios and production-ready code."
 msgstr ""
 
-#: main_app/contexts.py:389
+#: main_app/contexts.py:589
 msgid "Open-Source Sprints"
 msgstr ""
 
-#: main_app/contexts.py:391
+#: main_app/contexts.py:591
 msgid ""
 "Ship PRs together—issues, reviews, and merges with maintainers. Contribute "
 "to meaningful open-source projects and build your portfolio."
 msgstr ""
 
-#: main_app/contexts.py:397
+#: main_app/contexts.py:597
 msgid "Prototyping Clinics"
 msgstr ""
 
-#: main_app/contexts.py:399
+#: main_app/contexts.py:599
 msgid ""
 "Rapid design-to-code cycles, usability checks, and tech spikes. Validate "
 "ideas quickly and iterate based on real user feedback."
 msgstr ""
 
-#: main_app/contexts.py:407 main_app/contexts.py:409
+#: main_app/contexts.py:607 main_app/contexts.py:609
 #: templates.copy/pages/contact.html:121 templates.copy/pages/service.html:103
-#: templates.copy/pages/service.html:106 templates/includes/header.html:584
-#: templates/includes/header.html:691 templates/pages/contact.html:121
-#: templates/pages/index.html:402 templates/pages/index.html:403
+#: templates.copy/pages/service.html:106 templates/includes/header.html:594
+#: templates/includes/header.html:706 templates/pages/contact.html:126
+#: templates/pages/index.html:418 templates/pages/index.html:419
 #: templates/pages/service.html:115 templates/pages/service.html:118
 msgid "Trainings"
 msgstr "Eğitimler"
 
-#: main_app/contexts.py:408
+#: main_app/contexts.py:608
 #, fuzzy
 #| msgid "Trainings"
 msgid "AI & Cloud Trainings"
 msgstr "Eğitimler"
 
-#: main_app/contexts.py:411
+#: main_app/contexts.py:611
 msgid ""
 "We deliver hands-on, outcome-driven trainings that turn teams into effective "
 "AI and cloud practitioners. Programs combine fundamentals, real datasets, "
@@ -522,52 +844,52 @@ msgid ""
 "systems."
 msgstr ""
 
-#: main_app/contexts.py:415
+#: main_app/contexts.py:615
 msgid "From Fundamentals to Production"
 msgstr ""
 
-#: main_app/contexts.py:417
+#: main_app/contexts.py:617
 msgid ""
 "Courses progress from core concepts to deployment, monitoring, and cost "
 "control. Each module ends with a working artifact—model, pipeline, or service"
 "—ready to integrate."
 msgstr ""
 
-#: main_app/contexts.py:425
+#: main_app/contexts.py:625
 #, fuzzy
 #| msgid "AI Solutions"
 msgid "AI Foundations"
 msgstr "Yapay Zeka Çözümleri"
 
-#: main_app/contexts.py:427
+#: main_app/contexts.py:627
 msgid ""
 "Math, data prep, model selection, evaluation; practical notebooks with real "
 "datasets. Build a strong foundation in machine learning fundamentals."
 msgstr ""
 
-#: main_app/contexts.py:433
+#: main_app/contexts.py:633
 #, fuzzy
 #| msgid "AI Agents"
 msgid "LLMs & Agents"
 msgstr "Yapay Zeka Ajanları"
 
-#: main_app/contexts.py:435
+#: main_app/contexts.py:635
 msgid ""
 "Prompting, retrieval, tool-use, agent orchestration; safety, evals, and "
 "guardrails. Master modern LLM applications and autonomous agents."
 msgstr ""
 
-#: main_app/contexts.py:441
+#: main_app/contexts.py:641
 msgid "MLOps & Pipelines"
 msgstr ""
 
-#: main_app/contexts.py:443
+#: main_app/contexts.py:643
 msgid ""
 "Versioning, CI/CD for ML, feature stores, monitoring, drift and rollback "
 "patterns. Deploy and maintain production ML systems reliably."
 msgstr ""
 
-#: main_app/contexts.py:464
+#: main_app/contexts.py:664
 #, fuzzy
 #| msgid ""
 #| "RecroTech - We revive technology for the good of humanity. AI solutions "
@@ -577,9 +899,9 @@ msgstr ""
 "RecroTech - İnsanlığın iyiliği için teknolojiyi yeniden canlandırıyoruz. "
 "Birçok sektörde yapay zeka çözümleri."
 
-#: main_app/contexts.py:468 templates.copy/pages/contact.html:63
-#: templates/includes/footer.html:54 templates/includes/header.html:606
-#: templates/pages/contact.html:63
+#: main_app/contexts.py:668 templates.copy/pages/contact.html:63
+#: templates/includes/footer.html:122 templates/includes/header.html:616
+#: templates/pages/contact.html:60
 msgid ""
 "Mustafa Kemal Mahallesi, Barış Sitesi, 2092 Sokak, No:22, Çankaya/ANKARA"
 msgstr ""
@@ -598,76 +920,77 @@ msgstr ""
 "teknoloji danışmanlığı için bizimle iletişime geçin."
 
 #: templates.copy/pages/contact.html:35 templates.copy/pages/contact.html:39
-#: templates/includes/footer.html:29 templates/includes/header.html:594
-#: templates/includes/header.html:701 templates/pages/contact.html:35
-#: templates/pages/contact.html:39
+#: templates/includes/footer.html:51 templates/includes/header.html:604
+#: templates/includes/header.html:716 templates/pages/contact.html:32
+#: templates/pages/contact.html:36
 msgid "Contact"
 msgstr "İletişim"
 
 #: templates.copy/pages/contact.html:37 templates.copy/pages/service.html:41
 #: templates.copy/pages/solutions.html:48 templates/pages/about.html:65
-#: templates/pages/contact.html:37 templates/pages/service.html:49
+#: templates/pages/contact.html:34 templates/pages/service.html:49
 #: templates/pages/service_details.html:302 templates/pages/solutions.html:48
 msgid "Home"
 msgstr "Ana Sayfa"
 
 #: templates.copy/pages/contact.html:53 templates.copy/pages/service.html:152
-#: templates/includes/footer.html:150 templates/includes/header.html:638
-#: templates/includes/header.html:786 templates/pages/contact.html:53
+#: templates/includes/footer.html:204 templates/includes/header.html:648
+#: templates/includes/header.html:801 templates/pages/contact.html:50
 #: templates/pages/service.html:176 templates/pages/service_details.html:449
 msgid "Contact Us"
 msgstr "Bize Ulaşın"
 
-#: templates.copy/pages/contact.html:59 templates/pages/contact.html:59
+#: templates.copy/pages/contact.html:59
 msgid "Address"
 msgstr "Adres"
 
-#: templates.copy/pages/contact.html:70 templates/pages/contact.html:70
+#: templates.copy/pages/contact.html:70 templates/pages/contact.html:76
 msgid "Number"
 msgstr "Telefon"
 
-#: templates.copy/pages/contact.html:81 templates/pages/contact.html:81
+#: templates.copy/pages/contact.html:81 templates/pages/contact.html:85
 msgid "E-mail"
 msgstr "E-posta"
 
-#: templates.copy/pages/contact.html:98 templates/pages/contact.html:98
+#: templates.copy/pages/contact.html:98 templates/pages/contact.html:101
 msgid "Get In Touch"
 msgstr "İletişime Geçin"
 
-#: templates.copy/pages/contact.html:105 templates/pages/contact.html:105
+#: templates.copy/pages/contact.html:105 templates/pages/contact.html:110
 msgid "Your Name"
 msgstr "Adınız"
 
-#: templates.copy/pages/contact.html:110 templates/includes/footer.html:34
-#: templates/pages/contact.html:110
+#: templates.copy/pages/contact.html:110 templates/includes/footer.html:56
+#: templates/pages/contact.html:115
 msgid "Email"
 msgstr "E-posta"
 
-#: templates.copy/pages/contact.html:117 templates/pages/contact.html:117
+#: templates.copy/pages/contact.html:117 templates/pages/contact.html:122
 msgid "Select Service"
 msgstr "Hizmet Seçin"
 
 #: templates.copy/pages/contact.html:118 templates.copy/pages/service.html:59
-#: templates.copy/pages/service.html:142 templates/includes/footer.html:70
-#: templates/pages/contact.html:118 templates/pages/index.html:384
+#: templates.copy/pages/service.html:142 templates/includes/footer.html:88
+#: templates/includes/header.html:584 templates/includes/header.html:701
+#: templates/pages/contact.html:123 templates/pages/index.html:400
 #: templates/pages/service.html:71 templates/pages/service.html:156
 #: templates/pages/service_details.html:429
 msgid "AI Solutions"
 msgstr "Yapay Zeka Çözümleri"
 
-#: templates.copy/pages/contact.html:129 templates/pages/contact.html:129
+#: templates.copy/pages/contact.html:129 templates/pages/contact.html:134
 msgid "mm/dd/yyyy"
 msgstr "gg/aa/yyyy"
 
-#: templates.copy/pages/contact.html:134 templates/pages/contact.html:134
+#: templates.copy/pages/contact.html:134 templates/pages/contact.html:139
 msgid "Time"
 msgstr "Saat"
 
-#: templates.copy/pages/contact.html:139 templates/pages/contact.html:139
+#: templates.copy/pages/contact.html:139 templates/pages/contact.html:144
 msgid "Type Here"
 msgstr "Buraya Yazın"
 
-#: templates.copy/pages/contact.html:144 templates/pages/contact.html:144
+#: templates.copy/pages/contact.html:144 templates/pages/contact.html:149
 msgid "Send Now"
 msgstr "Gönder"
 
@@ -684,13 +1007,13 @@ msgstr ""
 "Bulut Hizmetleri, Yapay Zeka Ajanları, Eğitimler ve CRM Çözümleri."
 
 #: templates.copy/pages/service.html:38 templates.copy/pages/service.html:44
-#: templates/includes/footer.html:65 templates/includes/header.html:580
-#: templates/includes/header.html:686 templates/pages/service.html:46
+#: templates/includes/footer.html:83 templates/includes/header.html:580
+#: templates/includes/header.html:696 templates/pages/service.html:46
 #: templates/pages/service.html:55
 msgid "Services"
 msgstr "Hizmetler"
 
-#: templates.copy/pages/service.html:63 templates/pages/index.html:387
+#: templates.copy/pages/service.html:63 templates/pages/index.html:403
 #: templates/pages/service.html:75
 msgid ""
 "AI in finance, diplomacy, law, energy, defence, fashion, science and "
@@ -707,12 +1030,13 @@ msgstr ""
 msgid "Read More"
 msgstr "Devamını Oku"
 
-#: templates.copy/pages/service.html:73 templates/pages/index.html:393
+#: templates.copy/pages/service.html:73 templates/includes/header.html:586
+#: templates/includes/header.html:702 templates/pages/index.html:409
 #: templates/pages/service.html:85
 msgid "AI Agents"
 msgstr "Yapay Zeka Ajanları"
 
-#: templates.copy/pages/service.html:77 templates/pages/index.html:396
+#: templates.copy/pages/service.html:77 templates/pages/index.html:412
 #: templates/pages/service.html:89
 msgid ""
 "We build AI agents that solve real-world business challenges through open-"
@@ -787,32 +1111,41 @@ msgid "Our Solutions"
 msgstr "Çözümlerimiz"
 
 #: templates.copy/pages/solutions.html:65
-#: templates.copy/pages/solutions.html:68 templates/pages/solutions.html:65
-#: templates/pages/solutions.html:68
+#: templates.copy/pages/solutions.html:68
 msgid "AI in Fashion"
 msgstr "Moda'da Yapay Zeka"
 
-#: templates/includes/footer.html:40 templates/includes/footer.html:46
+#: templates.copy/pages/solutions.html:80
+#: templates.copy/pages/solutions.html:83
+msgid "AI in Agriculture"
+msgstr "Tarım'da Yapay Zeka"
+
+#: templates.copy/pages/solutions.html:95
+#: templates.copy/pages/solutions.html:98
+msgid "AI in Space"
+msgstr "Uzay'da Yapay Zeka"
+
+#: templates/includes/footer.html:62 templates/includes/footer.html:68
 msgid "Phone"
 msgstr "Telefon"
 
-#: templates/includes/footer.html:52
-msgid "Headquarters"
-msgstr "Genel Merkez"
-
-#: templates/includes/footer.html:75
+#: templates/includes/footer.html:93
 msgid "Automation Solutions"
 msgstr "Otomasyon Çözümleri"
 
-#: templates/includes/footer.html:85
+#: templates/includes/footer.html:103
 msgid "B2B Trainings"
 msgstr "B2B Eğitimler"
 
-#: templates/includes/footer.html:95
+#: templates/includes/footer.html:120 templates/pages/contact.html:56
+msgid "Headquarters"
+msgstr "Genel Merkez"
+
+#: templates/includes/footer.html:126 templates/pages/contact.html:65
 msgid "Branch"
 msgstr "Şube"
 
-#: templates/includes/footer.html:97
+#: templates/includes/footer.html:128 templates/pages/contact.html:69
 msgid ""
 "Teknoloji Geliştirme Bölgesi, Üniversiteler Mahallesi, Şehit Mustafa "
 "Tayyarcan Caddesi, No:5, Cyberpark Tepe Binası, Zemin Kat, No: Z43, 06800 "
@@ -822,43 +1155,31 @@ msgstr ""
 "Tayyarcan Caddesi, No:5, Cyberpark Tepe Binası, Zemin Kat, No: Z43, 06800 "
 "Bilkent Çankaya/Ankara"
 
-#: templates/includes/footer.html:107
+#: templates/includes/footer.html:134
 msgid "Newsletter"
 msgstr "Bülten"
 
-#: templates/includes/footer.html:110
-#, fuzzy
-#| msgid ""
-#| "Subscribe to our newsletter and receive the latest updates on RecroTech's "
-#| "innovations, projects, and industry insights — straight to your inbox."
-msgid ""
-"Subscribe to our newsletter and receive the latest updates on RecroTech's "
-"innovations, projects, and industry insights — straight to your inbox."
-msgstr ""
-"Bültenimize abone olun ve RecroTech'in yenilikleri, projeleri ve sektör "
-"içgörüleri hakkındaki en son güncellemeleri doğrudan gelen kutunuza alın."
-
-#: templates/includes/footer.html:112
+#: templates/includes/footer.html:139
 msgid "Your email..."
 msgstr "E-posta adresiniz..."
 
-#: templates/includes/footer.html:125
+#: templates/includes/footer.html:179
 msgid "© All Copyright 2025 by"
 msgstr "© Tüm Hakları Saklıdır 2025"
 
-#: templates/includes/footer.html:130
+#: templates/includes/footer.html:184
 msgid "Documents"
 msgstr "Dökümanlar"
 
-#: templates/includes/footer.html:135
+#: templates/includes/footer.html:189
 msgid "Info. Security Policy"
 msgstr "Bilgi Güvenliği Politikası"
 
-#: templates/includes/footer.html:140
+#: templates/includes/footer.html:194
 msgid "Terms & Condition"
 msgstr "Şartlar ve Koşullar"
 
-#: templates/includes/footer.html:145
+#: templates/includes/footer.html:199
 msgid "Privacy Policy"
 msgstr "Gizlilik Politikası"
 
@@ -878,51 +1199,47 @@ msgstr ""
 "RecroTech olarak, yapay zeka ve teknoloji alanında yenilikçi çözümler "
 "sunuyoruz. İşletmeleri dijital dönüşümde destekleyen güçlü bir ekibiz."
 
-#: templates/includes/header.html:569 templates/includes/header.html:675
+#: templates/includes/header.html:569 templates/includes/header.html:685
 msgid "About"
 msgstr "Hakkımızda"
 
-#: templates/includes/header.html:572 templates/includes/header.html:678
+#: templates/includes/header.html:572 templates/includes/header.html:688
 #: templates/pages/about.html:63 templates/pages/about.html:67
-#: templates/pages/about.html:80 templates/pages/index.html:178
+#: templates/pages/about.html:80 templates/pages/index.html:194
 msgid "About Us"
 msgstr "Hakkımızda"
 
-#: templates/includes/header.html:573 templates/includes/header.html:679
+#: templates/includes/header.html:573 templates/includes/header.html:689
 #: templates/pages/about.html:121
 msgid "Founder's Letter"
 msgstr "Kurucunun Mektubu"
 
-#: templates/includes/header.html:574 templates/includes/header.html:680
+#: templates/includes/header.html:574 templates/includes/header.html:690
 msgid "Team"
 msgstr "Ekip"
 
-#: templates/includes/header.html:575 templates/includes/header.html:681
-#: templates/pages/about.html:495
+#: templates/includes/header.html:575 templates/includes/header.html:691
+#: templates/pages/about.html:535
 msgid "FAQ"
 msgstr "SSS"
 
-#: templates/includes/header.html:583 templates/includes/header.html:690
-msgid "What we do"
-msgstr "Neler Yapıyoruz"
-
-#: templates/includes/header.html:588 templates/includes/header.html:695
+#: templates/includes/header.html:598 templates/includes/header.html:710
 msgid "Solutions"
 msgstr "Çözümler"
 
-#: templates/includes/header.html:591 templates/includes/header.html:698
+#: templates/includes/header.html:601 templates/includes/header.html:713
 msgid "Coming soon"
 msgstr "Yakında"
 
-#: templates/includes/header.html:591 templates/includes/header.html:698
+#: templates/includes/header.html:601 templates/includes/header.html:713
 msgid "News"
 msgstr "Haberler"
 
-#: templates/includes/header.html:599
+#: templates/includes/header.html:609
 msgid "Contact Info"
 msgstr "İletişim Bilgileri"
 
-#: templates/includes/header.html:624
+#: templates/includes/header.html:634
 msgid "Mon-Fri, 09am - 05pm"
 msgstr "Pzt-Cum, 09:00 - 17:00"
 
@@ -939,8 +1256,14 @@ msgstr ""
 "ekip üyelerimiz hakkında bilgi edinin."
 
 #: templates/pages/about.html:84
+#, fuzzy
+#| msgid ""
+#| "We are a leading AI company based in Turkey, dedicated to harnessing "
+#| "technology for the benefit of humanity. Our expertise spans a wide range "
+#| "of fields, including software development, energy solutions, cloud "
+#| "computing, robotics, AI agents, automation, and scientific innovation."
 msgid ""
-"We are a leading AI company based in Turkey, dedicated to harnessing "
+"We are a leading AI company based in Türkiye, dedicated to harnessing "
 "technology for the benefit of humanity. Our expertise spans a wide range of "
 "fields, including software development, energy solutions, cloud computing, "
 "robotics, AI agents, automation, and scientific innovation."
@@ -1026,49 +1349,65 @@ msgid "Founder and Chairman"
 msgstr "Kurucu ve Başkan"
 
 #: templates/pages/about.html:155 templates/pages/about.html:173
-#: templates/pages/about.html:191 templates/pages/about.html:209
-#: templates/pages/about.html:227 templates/pages/about.html:245
-#: templates/pages/about.html:263 templates/pages/about.html:281
+#: templates/pages/about.html:193 templates/pages/about.html:212
+#: templates/pages/about.html:230 templates/pages/about.html:248
+#: templates/pages/about.html:266 templates/pages/about.html:284
+#: templates/pages/about.html:302 templates/pages/about.html:320
 msgid "LinkedIn Profile"
 msgstr "LinkedIn Profili"
 
 #: templates/pages/about.html:168 templates/pages/about.html:172
-msgid "Chairman"
-msgstr "Başkan"
+msgid "Business Partner"
+msgstr ""
 
-#: templates/pages/about.html:186 templates/pages/about.html:190
-msgid "London Representative"
-msgstr "Londra Temsilcisi"
-
-#: templates/pages/about.html:204 templates/pages/about.html:208
-msgid "Strategic Projects Director"
+#: templates/pages/about.html:188 templates/pages/about.html:192
+#, fuzzy
+#| msgid "Strategic Projects Director"
+msgid "Strategic Projects Leader"
 msgstr "Stratejik Projeler Direktörü"
 
-#: templates/pages/about.html:222 templates/pages/about.html:226
-msgid "Associated Developer"
-msgstr "Ortak Geliştirici"
+#: templates/pages/about.html:207 templates/pages/about.html:211
+msgid "Senior Scientific and Technical Advisor"
+msgstr ""
 
-#: templates/pages/about.html:240 templates/pages/about.html:244
-msgid "Training Specialist"
-msgstr "Eğitim Uzmanı"
+#: templates/pages/about.html:225 templates/pages/about.html:229
+msgid "Senior Financial Technology Advisor"
+msgstr ""
 
-#: templates/pages/about.html:258 templates/pages/about.html:262
-msgid "Lawyer and Computer Engineer"
-msgstr "Avukat ve Bilgisayar Mühendisi"
+#: templates/pages/about.html:243 templates/pages/about.html:247
+#, fuzzy
+#| msgid "Trainings"
+msgid "Training Leader"
+msgstr "Eğitimler"
 
-#: templates/pages/about.html:276 templates/pages/about.html:280
-msgid "Intern Developer"
+#: templates/pages/about.html:261 templates/pages/about.html:265
+msgid "Software Developer and Strategic Legal Leader"
+msgstr ""
+
+#: templates/pages/about.html:279 templates/pages/about.html:283
+#: templates/pages/about.html:297 templates/pages/about.html:301
+#, fuzzy
+#| msgid "Intern Developer"
+msgid "Software Developer"
 msgstr "Stajyer Geliştirici"
 
-#: templates/pages/about.html:501
+#: templates/pages/about.html:315
+msgid "Executive Assistant"
+msgstr ""
+
+#: templates/pages/about.html:319
+msgid "General Coordinator"
+msgstr ""
+
+#: templates/pages/about.html:541
 msgid "FAQ Animation"
 msgstr "SSS Animasyonu"
 
-#: templates/pages/about.html:513
+#: templates/pages/about.html:553
 msgid "What services does RecroTech offer?"
 msgstr "RecroTech hangi hizmetleri sunuyor?"
 
-#: templates/pages/about.html:518
+#: templates/pages/about.html:558
 msgid ""
 "RecroTech offers a comprehensive range of technology services including AI-"
 "powered solutions, cloud computing, web and mobile development, digital "
@@ -1081,11 +1420,11 @@ msgstr ""
 "Hizmetlerimizi her müşterinin benzersiz ihtiyaçlarını karşılayacak şekilde "
 "uyarlıyoruz."
 
-#: templates/pages/about.html:527
+#: templates/pages/about.html:567
 msgid "Where is RecroTech located?"
 msgstr "RecroTech nerede bulunuyor?"
 
-#: templates/pages/about.html:532
+#: templates/pages/about.html:572
 msgid ""
 "We are headquartered in Türkiye with a vision for global expansion. We work "
 "with clients worldwide, offering both on-site and remote collaboration "
@@ -1096,11 +1435,11 @@ msgstr ""
 "hem de uzaktan işbirliği seçenekleri sunarak dünya çapında müşterilerle "
 "çalışıyoruz."
 
-#: templates/pages/about.html:541
+#: templates/pages/about.html:581
 msgid "How can I join the RecroTech team?"
 msgstr "RecroTech ekibine nasıl katılabilirim?"
 
-#: templates/pages/about.html:546
+#: templates/pages/about.html:586
 msgid ""
 "We're always looking for talented individuals to join our team. Please visit "
 "our <a href=\"\">Contact page</a> or send your resume to info@recrotech.com. "
@@ -1112,11 +1451,11 @@ msgstr ""
 "info@recrotech.com adresine gönderin. Geliştiriciler, tasarımcılar, yapay "
 "zeka uzmanları ve iş profesyonelleri için heyecan verici fırsatlar sunuyoruz."
 
-#: templates/pages/about.html:555
+#: templates/pages/about.html:595
 msgid "What makes RecroTech different from other tech companies?"
 msgstr "RecroTech'i diğer teknoloji şirketlerinden farklı kılan nedir?"
 
-#: templates/pages/about.html:560
+#: templates/pages/about.html:600
 msgid ""
 "Our commitment to 'reviving and restoring' businesses through technology "
 "sets us apart. We don't just deliver technical solutions; we partner with "
@@ -1130,11 +1469,11 @@ msgstr ""
 "yaratan anlamlı yenilikler yaratıyoruz. Ekibimizin uzmanlığı, müşteri odaklı "
 "yaklaşımımızla birleşince başarıyı garanti eder."
 
-#: templates/pages/about.html:569
+#: templates/pages/about.html:609
 msgid "How long does a typical project take?"
 msgstr "Tipik bir proje ne kadar sürer?"
 
-#: templates/pages/about.html:574
+#: templates/pages/about.html:614
 msgid ""
 "Project timelines vary depending on scope and complexity. Simple web "
 "projects may take 4-6 weeks, while complex AI solutions or enterprise "
@@ -1171,69 +1510,65 @@ msgstr "yeniden canlandırıyoruz"
 msgid "technology for the"
 msgstr "teknolojiyi"
 
-#: templates/pages/index.html:38
+#: templates/pages/index.html:39
 msgid "good of humanity."
 msgstr "insanlığın iyiliği için."
 
-#: templates/pages/index.html:42
+#: templates/pages/index.html:43
 msgid "Contact US"
 msgstr "Bize Ulaşın"
 
-#: templates/pages/index.html:66
+#: templates/pages/index.html:90
 msgid "Search..."
 msgstr "Ara..."
 
-#: templates/pages/index.html:80
+#: templates/pages/index.html:104
 msgid "AB Delegation"
 msgstr "AB Delegasyonu"
 
-#: templates/pages/index.html:85
-msgid "Ministry of Family and Social Services"
-msgstr "Aile ve Sosyal Hizmetler Bakanlığı"
-
-#: templates/pages/index.html:105
+#: templates/pages/index.html:121
 msgid "Ministry of Agriculture and Forestry"
 msgstr "Tarım ve Orman Bakanlığı"
 
-#: templates/pages/index.html:110
+#: templates/pages/index.html:126
 msgid "Ministry of Health"
 msgstr "Sağlık Bakanlığı"
 
-#: templates/pages/index.html:161
+#: templates/pages/index.html:177
 msgid "About RecroTech"
 msgstr "RecroTech Hakkında"
 
-#: templates/pages/index.html:166
+#: templates/pages/index.html:182
 msgid "years of"
 msgstr "yıllık"
 
-#: templates/pages/index.html:167
+#: templates/pages/index.html:183
 msgid "experience"
 msgstr "deneyim"
 
-#: templates/pages/index.html:180
+#: templates/pages/index.html:196
 msgid "We envision a world where AI creates technology, not just powers it."
 msgstr ""
 "Yapay zekanın teknolojiyi sadece güçlendirmediği, yarattığı bir dünya hayal "
 "ediyoruz."
 
-#: templates/pages/index.html:189
+#: templates/pages/index.html:205
 msgid "Guaranteed Success"
 msgstr "Garantili Başarı"
 
-#: templates/pages/index.html:190
+#: templates/pages/index.html:206
 msgid "Always try best for success."
 msgstr "Başarı için her zaman en iyisini yaparız."
 
-#: templates/pages/index.html:365
+#: templates/pages/index.html:381
 msgid "Latest Service"
 msgstr "En Son Hizmetler"
 
-#: templates/pages/index.html:367
+#: templates/pages/index.html:383
 msgid "IT Excellence Every of Step of the Way"
 msgstr "Her Adımda Bilişim Mükemmelliği"
 
-#: templates/pages/index.html:370
+#: templates/pages/index.html:386
 msgid ""
 "Information Technology is a rapidly evolving field that encompasses the "
 "study and app"
@@ -1241,7 +1576,7 @@ msgstr ""
 "Bilgi Teknolojisi, hızla gelişen ve çalışma ile uygulamayı kapsayan bir "
 "alandır."
 
-#: templates/pages/index.html:405 templates/pages/index.html:414
+#: templates/pages/index.html:421 templates/pages/index.html:430
 msgid ""
 "Information Technology is a rapidly evolving field that is a encompasses the "
 "study and application"
@@ -1249,27 +1584,27 @@ msgstr ""
 "Bilgi Teknolojisi, hızla gelişen ve çalışma ile uygulamayı kapsayan bir "
 "alandır."
 
-#: templates/pages/index.html:437 templates/pages/index.html:476
+#: templates/pages/index.html:453 templates/pages/index.html:492
 msgid "Artificial Intelligence"
 msgstr "Yapay Zeka"
 
-#: templates/pages/index.html:444 templates/pages/index.html:483
+#: templates/pages/index.html:460 templates/pages/index.html:499
 msgid "Smart City"
 msgstr "Akıllı Şehir"
 
-#: templates/pages/index.html:451 templates/pages/index.html:490
+#: templates/pages/index.html:467 templates/pages/index.html:506
 msgid "Space Technology"
 msgstr "Uzay Teknolojisi"
 
-#: templates/pages/index.html:459 templates/pages/index.html:498
+#: templates/pages/index.html:475 templates/pages/index.html:514
 msgid "Innovation"
 msgstr "İnovasyon"
 
-#: templates/pages/index.html:466 templates/pages/index.html:505
+#: templates/pages/index.html:482 templates/pages/index.html:521
 msgid "Data Analytics"
 msgstr "Veri Analitiği"
 
-#: templates/pages/index.html:518
+#: templates/pages/index.html:534
 msgid ""
 "With a solid standing in the industry, numerous awards, and a strong base of "
 "satisfied customers."
@@ -1277,87 +1612,87 @@ msgstr ""
 "Sektörde sağlam bir konuma, çok sayıda ödüle ve güçlü bir memnun müşteri "
 "tabanına sahibiz."
 
-#: templates/pages/index.html:522
+#: templates/pages/index.html:538
 msgid "Team member"
 msgstr "Ekip Üyesi"
 
-#: templates/pages/index.html:526
+#: templates/pages/index.html:542
 msgid "Work Complete"
 msgstr "Tamamlanan İş"
 
-#: templates/pages/index.html:530
+#: templates/pages/index.html:546
 msgid "Winning Award"
 msgstr "Kazanılan Ödül"
 
-#: templates/pages/index.html:534
+#: templates/pages/index.html:550
 msgid "Client Review"
 msgstr "Müşteri Yorumu"
 
-#: templates/pages/index.html:550
+#: templates/pages/index.html:566
 msgid "Latest Portfolio"
 msgstr "Son Portföy"
 
-#: templates/pages/index.html:552
+#: templates/pages/index.html:568
 msgid "Our Newest Project"
 msgstr "En Yeni Projemiz"
 
-#: templates/pages/index.html:568
+#: templates/pages/index.html:584
 msgid "Completed Projects"
 msgstr "Tamamlanan Projeler"
 
-#: templates/pages/index.html:572
+#: templates/pages/index.html:588
 msgid "Client Satisfaction"
 msgstr "Müşteri Memnuniyeti"
 
-#: templates/pages/index.html:585
+#: templates/pages/index.html:601
 msgid "Innovation First"
 msgstr "Önce İnovasyon"
 
-#: templates/pages/index.html:586
+#: templates/pages/index.html:602
 msgid "Cutting-edge AI solutions"
 msgstr "Son teknoloji yapay zeka çözümleri"
 
-#: templates/pages/index.html:598
+#: templates/pages/index.html:614
 msgid "Fast Delivery"
 msgstr "Hızlı Teslimat"
 
-#: templates/pages/index.html:599
+#: templates/pages/index.html:615
 msgid "On-time project completion"
 msgstr "Zamanında proje tamamlama"
 
-#: templates/pages/index.html:613
+#: templates/pages/index.html:629
 msgid "Expert Team"
 msgstr "Uzman Ekip"
 
-#: templates/pages/index.html:614
+#: templates/pages/index.html:630
 msgid "Highly skilled professionals"
 msgstr "Yüksek yetenekli profesyoneller"
 
-#: templates/pages/index.html:625
+#: templates/pages/index.html:641
 msgid "Secure & Reliable"
 msgstr "Güvenli ve Güvenilir"
 
-#: templates/pages/index.html:626
+#: templates/pages/index.html:642
 msgid "Enterprise-grade security"
 msgstr "Kurumsal düzeyde güvenlik"
 
-#: templates/pages/index.html:639
+#: templates/pages/index.html:655
 msgid "AI Model Fashion Try-On"
 msgstr "Yapay Zeka Model Moda Denemesi"
 
-#: templates/pages/index.html:641
+#: templates/pages/index.html:657
 msgid "AI FASHION"
 msgstr "YAPAY ZEKA MODA"
 
-#: templates/pages/index.html:642
+#: templates/pages/index.html:658
 msgid "Fashion Try-On Technology"
 msgstr "Moda Deneme Teknolojisi"
 
-#: templates/pages/index.html:645
+#: templates/pages/index.html:661
 msgid "Virtual Fashion Assistant"
 msgstr "Sanal Moda Asistanı"
 
-#: templates/pages/index.html:646
+#: templates/pages/index.html:662
 msgid ""
 "We make retail collection promotions faster, cheaper, and more creative by "
 "using robust AI tech."
@@ -1365,23 +1700,23 @@ msgstr ""
 "Güçlü yapay zeka teknolojisi kullanarak perakende koleksiyon tanıtımlarını "
 "daha hızlı, daha ucuz ve daha yaratıcı hale getiriyoruz."
 
-#: templates/pages/index.html:657
+#: templates/pages/index.html:673
 msgid "AI Agriculture Projects"
 msgstr "Yapay Zeka Tarım Projeleri"
 
-#: templates/pages/index.html:659
+#: templates/pages/index.html:675
 msgid "AI AGRICULTURE"
 msgstr "YAPAY ZEKA TARIM"
 
-#: templates/pages/index.html:660
+#: templates/pages/index.html:676
 msgid "Smart Farming Solutions"
 msgstr "Akıllı Tarım Çözümleri"
 
-#: templates/pages/index.html:663
+#: templates/pages/index.html:679
 msgid "Precision Agriculture AI"
 msgstr "Hassas Tarım Yapay Zekası"
 
-#: templates/pages/index.html:664
+#: templates/pages/index.html:680
 msgid ""
 "AI agents which help for all practices in agricultural activities using a "
 "reliable wide knowledge-base."
@@ -1389,29 +1724,48 @@ msgstr ""
 "Güvenilir geniş bilgi tabanı kullanarak tarımsal faaliyetlerdeki tüm "
 "uygulamalara yardımcı olan yapay zeka ajanları."
 
-#: templates/pages/index.html:678
+#: templates/pages/index.html:694
 msgid "Solar AI"
 msgstr "Güneş Yapay Zekası"
 
-#: templates/pages/index.html:680
+#: templates/pages/index.html:696
 msgid "SOLAR AI"
 msgstr "GÜNEŞ YAPAY ZEKASI"
 
-#: templates/pages/index.html:681
+#: templates/pages/index.html:697
 msgid "Renewable Energy"
 msgstr "Yenilenebilir Enerji"
 
-#: templates/pages/index.html:684
+#: templates/pages/index.html:700
 msgid "AI Energy Optimization"
 msgstr "Yapay Zeka Enerji Optimizasyonu"
 
-#: templates/pages/index.html:685
+#: templates/pages/index.html:701
 msgid ""
 "Machine learning for solar panel efficiency and energy distribution "
 "optimization."
 msgstr ""
 "Güneş paneli verimliliği ve enerji dağıtım optimizasyonu için makine "
 "öğrenmesi."
+
+#: templates/pages/index.html:716 templates/pages/index.html:718
+#: templates/pages/index.html:722
+#, fuzzy
+#| msgid "AI in Space"
+msgid "AI in Law"
+msgstr "Uzay'da Yapay Zeka"
+
+#: templates/pages/index.html:719
+#, fuzzy
+#| msgid "AI in Fashion"
+msgid "AI in Law Making"
+msgstr "Moda'da Yapay Zeka"
+
+#: templates/pages/index.html:723
+#, fuzzy
+#| msgid "AI in Fashion"
+msgid "AI in law making"
+msgstr "Moda'da Yapay Zeka"
 
 #: templates/pages/service_details.html:301
 msgid "Navigate to home page"
@@ -1432,3 +1786,47 @@ msgstr "Sonraki hizmet sayfasına git"
 #: templates/pages/service_details.html:404
 msgid "Back to services"
 msgstr "Hizmetlere dön"
+
+#: templates/pages/solutions.html:72
+#, fuzzy
+#| msgid "AI in Agriculture"
+msgid "AI Agriculture LLMs"
+msgstr "Tarım'da Yapay Zeka"
+
+#, fuzzy
+#~| msgid "AI in Fashion"
+#~ msgid "AI Fashion Models"
+#~ msgstr "Moda'da Yapay Zeka"
+
+#, fuzzy
+#~| msgid ""
+#~| "Subscribe to our newsletter and receive the latest updates on "
+#~| "RecroTech's innovations, projects, and industry insights — straight to "
+#~| "your inbox."
+#~ msgid ""
+#~ "Subscribe to our newsletter and receive the latest updates on RecroTech's "
+#~ "innovations, projects, and industry insights — straight to your inbox."
+#~ msgstr ""
+#~ "Bültenimize abone olun ve RecroTech'in yenilikleri, projeleri ve sektör "
+#~ "içgörüleri hakkındaki en son güncellemeleri doğrudan gelen kutunuza alın."
+
+#~ msgid "What we do"
+#~ msgstr "Neler Yapıyoruz"
+
+#~ msgid "Chairman"
+#~ msgstr "Başkan"
+
+#~ msgid "London Representative"
+#~ msgstr "Londra Temsilcisi"
+
+#~ msgid "Associated Developer"
+#~ msgstr "Ortak Geliştirici"
+
+#~ msgid "Training Specialist"
+#~ msgstr "Eğitim Uzmanı"
+
+#~ msgid "Lawyer and Computer Engineer"
+#~ msgstr "Avukat ve Bilgisayar Mühendisi"
+
+#~ msgid "Ministry of Family and Social Services"
+#~ msgstr "Aile ve Sosyal Hizmetler Bakanlığı"
