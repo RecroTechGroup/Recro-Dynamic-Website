@@ -25,9 +25,6 @@
   </head>
   <body>
 
-    <!-- Header Include -->
-    {% include "includes/header.html" %}
-
     <!-- Breadcrumb Section -->
     <div class="breadcrumb-wrapper bg-cover" style="background-image: url('{% static 'img/pages_back.jpeg' %}');">
       <div class="container">
@@ -43,115 +40,157 @@
     </div>
 
     <!-- Contact Section Start -->
-    <section class="contact-section-12 fix section-padding">
-      <div class="container">
-        <div class="contact-wrapper-12">
-          <div class="row g-4">
-            <div class="col-lg-6">
-              <div class="contact-left-items">
-                <div class="section-title mb-0">
-                  <h2 class="wow fadeInUp" data-wow-delay=".3s">{% trans "Contact Us" %}</h2>
+<section class="contact-section-12 fix section-padding">
+  <div class="container">
+    <div class="contact-wrapper-12">
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="contact-left-items">
+            <div class="section-title mb-0">
+              <h2 class="wow fadeInUp" data-wow-delay=".3s">{% trans "Contact Us" %}</h2>
+            </div>
+            <div class="contact-area">
+              <div class="contact-item wow fadeInUp" data-wow-delay=".4s">
+                <div class="icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h5>{% trans "Headquarters" %}</h5>
                 </div>
-                <div class="contact-area">
-                  <div class="contact-item wow fadeInUp" data-wow-delay=".4s">
-                    <div class="icon">
-                      <i class="fa-solid fa-location-dot"></i>
-                      <h5>{% trans "Address" %}</h5>
-                    </div>
-                    <div class="content">
-                      <h6>
-                        {% trans "Mustafa Kemal Mahallesi, Barış Sitesi, 2092 Sokak, No:22, Çankaya/ANKARA" %}
-                      </h6>
-                    </div>
-                  </div>
-                  <div class="contact-item wow fadeInUp" data-wow-delay=".5s">
-                    <div class="icon">
-                      <i class="fa-solid fa-phone"></i>
-                      <h5>{% trans "Number" %}</h5>
-                    </div>
-                    <div class="content">
-                      <h6>
-                        <a href="tel:+903128037837">+90 312 803 78 37</a>
-                      </h6>
-                    </div>
-                  </div>
-                  <div class="contact-item mb-0 wow fadeInUp" data-wow-delay=".6s">
-                    <div class="icon">
-                      <i class="fa-solid fa-envelope"></i>
-                      <h5>{% trans "E-mail" %}</h5>
-                    </div>
-                    <div class="content">
-                      <h6>
-                        <a href="mailto:info@recrotechgroup.com">info@recrotechgroup.com</a>
-                      </h6>
-                    </div>
-                  </div>
+                <div class="content">
+                  <h6>
+                    {% trans "Mustafa Kemal Mahallesi, Barış Sitesi, 2092 Sokak, No:22, Çankaya/ANKARA" %}
+                  </h6>
+                </div><br>
+                <div class="icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h5>{% trans "Branch" %}</h5>
                 </div>
-                <div class="google-map wow fadeInUp" data-wow-delay=".7s">
-                  <iframe src="https://www.google.com/maps?q=39.9131958,32.7568761&z=17&output=embed" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="content">
+                  <h6>
+                    {% trans "Teknoloji Geliştirme Bölgesi, Üniversiteler Mahallesi, Şehit Mustafa Tayyarcan Caddesi, No:5, Cyberpark Tepe Binası, Zemin Kat, No: Z43, 06800 Bilkent Çankaya/Ankara" %}
+                  </h6>
+                </div>
+              </div>
+              <div class="contact-item wow fadeInUp" data-wow-delay=".5s">
+                <div class="icon">
+                  <i class="fa-solid fa-phone"></i>
+                  <h5>{% trans "Number" %}</h5>
+                </div>
+                <div class="content">
+                  <h6><a href="tel:+903128037837">+90 312 803 78 37</a></h6>
+                </div>
+              </div>
+              <div class="contact-item mb-0 wow fadeInUp" data-wow-delay=".6s">
+                <div class="icon">
+                  <i class="fa-solid fa-envelope"></i>
+                  <h5>{% trans "E-mail" %}</h5>
+                </div>
+                <div class="content">
+                  <h6><a href="mailto:info@recrotechgroup.com">info@recrotechgroup.com</a></h6>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="contact-box">
-                <div class="section-title mb-0">
-                  <h2 class="wow fadeInUp" data-wow-delay=".3s">{% trans "Get In Touch" %}</h2>
-                </div>
-                <form action="#" id="contact-form1" method="POST" class="contact-form-items">
-                  {% csrf_token %}
-                  <div class="row g-4">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                      <div class="form-clt">
-                        <input type="text" name="name" id="name" placeholder="{% trans 'Your Name' %}" required>
-                      </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
-                      <div class="form-clt">
-                        <input type="email" name="email" id="email" placeholder="{% trans 'Email' %}" required>
-                      </div>
-                    </div>
-                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
-                      <div class="form-clt">
-                        <div class="form">
-                          <select name="service" class="single-select w-100" required>
-                            <option value="">{% trans "Select Service" %}</option>
-                            <option value="AI Solutions">{% trans "AI Solutions" %}</option>
-                            <option value="AI Agents and Automations">{% trans "AI Agents and Automations" %}</option>
-                            <option value="Cloud Services">{% trans "Cloud Services" %}</option>
-                            <option value="Trainings">{% trans "Trainings" %}</option>
-                            <option value="CRM Solutions">{% trans "CRM Solutions" %}</option>
-                          </select>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".6s">
-                      <div class="form-clt">
-                        <input type="date" name="date" id="date" placeholder="{% trans 'mm/dd/yyyy' %}">
-                      </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".7s">
-                      <div class="form-clt">
-                        <input type="time" name="time" id="time" placeholder="{% trans 'Time' %}">
-                      </div>
-                    </div>
-                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".8s">
-                      <div class="form-clt">
-                        <textarea name="message" id="message" placeholder="{% trans 'Type Here' %}" required></textarea>
-                      </div>
-                    </div>
-                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".9s">
-                      <button type="submit" class="theme-btn">
-                        <span>{% trans "Send Now" %} <i class="icon-arrow-right"></i></span>
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
+            <div class="google-map wow fadeInUp" data-wow-delay=".7s">
+              <iframe src="https://www.google.com/maps?q=39.9131958,32.7568761&z=17&output=embed" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
           </div>
         </div>
+
+        <div class="col-lg-6">
+          <div class="contact-box">
+            <div class="section-title mb-0">
+              <h2 class="wow fadeInUp" data-wow-delay=".3s">{% trans "Get In Touch" %}</h2>
+            </div>
+
+            <!-- ✅ Updated form -->
+            <form id="contact-form1" method="POST" class="contact-form-items">
+              {% csrf_token %}
+              <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                  <div class="form-clt">
+                    <input type="text" name="name" id="name" placeholder="{% trans 'Your Name' %}" required>
+                  </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+                  <div class="form-clt">
+                    <input type="email" name="email" id="email" placeholder="{% trans 'Email' %}" required>
+                  </div>
+                </div>
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
+                  <div class="form-clt">
+                    <div class="form">
+                      <select name="service" class="single-select w-100" required>
+                        <option value="">{% trans "Select Service" %}</option>
+                        <option value="AI Solutions">{% trans "AI Solutions" %}</option>
+                        <option value="AI Agents and Automations">{% trans "AI Agents and Automations" %}</option>
+                        <option value="Cloud Services">{% trans "Cloud Services" %}</option>
+                        <option value="Trainings">{% trans "Trainings" %}</option>
+                        <option value="CRM Solutions">{% trans "CRM Solutions" %}</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".6s">
+                  <div class="form-clt">
+                    <input type="date" name="date" id="date" placeholder="{% trans 'mm/dd/yyyy' %}">
+                  </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".7s">
+                  <div class="form-clt">
+                    <input type="time" name="time" id="time" placeholder="{% trans 'Time' %}">
+                  </div>
+                </div>
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay=".8s">
+                  <div class="form-clt">
+                    <textarea name="message" id="message" placeholder="{% trans 'Type Here' %}" required></textarea>
+                  </div>
+                </div>
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay=".9s">
+                  <button type="submit" class="theme-btn">
+                    <span>{% trans "Send Now" %} <i class="icon-arrow-right"></i></span>
+                  </button>
+                </div>
+              </div>
+            </form>
+
+            <!-- ✅ Feedback Message -->
+            <div id="contact-response" style="margin-top:15px; display:none;"></div>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
+<!-- ✅ AJAX Script -->
+<script>
+document.querySelector("#contact-form1").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const form = e.target;
+  const responseBox = document.querySelector("#contact-response");
+
+  const formData = new FormData(form);
+  responseBox.style.display = "block";
+  responseBox.textContent = "⏳ Sending...";
+
+  try {
+    const res = await fetch("{% url 'pages:contact_form_submit' %}", {
+      method: "POST",
+      body: formData,
+    });
+    const data = await res.json();
+
+    if (data.success) {
+      responseBox.textContent = "✅ " + data.message;
+      form.reset();
+    } else {
+      responseBox.textContent = "⚠️ " + data.message;
+    }
+  } catch (err) {
+    responseBox.textContent = "❌ Failed to send message. Please try again.";
+  }
+});
+</script>
+
 
     <!-- Footer Include -->
     {% include "includes/footer.html" %}

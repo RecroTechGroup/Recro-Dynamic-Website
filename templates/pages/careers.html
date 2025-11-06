@@ -1,0 +1,191 @@
+{% load static i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% include "includes/header.html" %}
+
+<html lang="{{ LANGUAGE_CODE }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% trans "Apply - RecroTech" %}</title>
+    <meta name="description" content="{% trans "Get in touch with RecroTech. Contact us for AI solutions, cloud services, and technology consulting." %}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{% static 'img/favicon.ico' %}">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'css/swiper-bundle.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/meanmenu.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'icomoon/style.css' %}">
+    <link rel="stylesheet" href="{% static 'webfonts/all.min.css' %}">
+  </head>
+  <body>
+
+    <!-- Breadcrumb Section -->
+    <div class="breadcrumb-wrapper bg-cover" style="background-image: url('{% static 'img/pages_back.jpeg' %}');">
+      <div class="container">
+        <div class="page-heading">
+          <h1 class="wow fadeInUp" data-wow-delay=".3s">{% trans "Careers" %}</h1>
+          <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+            <li><a href="{% url 'pages:home' %}">{% trans "Home" %}</a></li>
+            <li><i class="fas fa-chevron-right"></i></li>
+            <li>{% trans "Careers" %}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ======================= Open Positions Section ======================= -->
+<section class="open-positions-section fix section-padding">
+  <div class="container">
+    <div class="section-title text-center mb-5">
+      <h2 class="wow fadeInUp" data-wow-delay=".2s">{% trans "Open Positions" %}</h2>
+      <p class="wow fadeInUp" data-wow-delay=".3s">
+        {% trans "Currently, there are no open positions available." %}
+      </p>
+    </div>
+
+    <!-- Example structure for future job cards -->
+    <div class="row g-4 justify-content-center">
+      {#
+      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+        <div class="job-card p-4 rounded-2xl shadow-md">
+          <h4>{% trans "AI Research Engineer" %}</h4>
+          <p>{% trans "Work on cutting-edge machine learning models and quantum AI systems." %}</p>
+          <a href="#career-form" class="theme-btn mt-3">{% trans "Apply Now" %}</a>
+        </div>
+      </div>
+      #}
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact Section Start -->
+<section class="contact-section-12 fix section-padding">
+  <div class="container">
+    <div class="contact-wrapper-12">
+      <div class="contact-box">
+        <div class="section-title mb-0">
+          <h2 class="wow fadeInUp" data-wow-delay=".3s">{% trans "Join Our Team" %}</h2>
+          <p class="wow fadeInUp" data-wow-delay=".4s">{% trans "We are always looking for talented individuals." %}</p>
+        </div>
+
+        <!-- ✅ Careers Form -->
+        <form id="career-form" method="POST" class="contact-form-items">
+          {% csrf_token %}
+          <div class="row g-4">
+            <!-- Name -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+              <div class="form-clt">
+                <input type="text" name="name" id="name" placeholder="{% trans 'Your Name' %}" required>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+              <div class="form-clt">
+                <input type="email" name="email" id="email" placeholder="{% trans 'Email' %}" required>
+              </div>
+            </div>
+
+            <!-- Field / Position -->
+            <div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
+              <div class="form-clt">
+                <div class="form">
+                  <select name="field" class="single-select w-100" required>
+                    <option value="">{% trans "Select Field / Position" %}</option>
+                    <option value="AI Research">{% trans "AI Research" %}</option>
+                    <option value="Cloud Engineering">{% trans "Cloud Engineering" %}</option>
+                    <option value="Other">{% trans "Full-Stack Development" %}</option>
+                    <option value="Other">{% trans "Devops Engineering" %}</option>
+                    <option value="Data Analytics">{% trans "Data Analytics" %}</option>
+                    <option value="Marketing">{% trans "Marketing" %}</option>
+                    <option value="Finance">{% trans "Finance" %}</option>
+                    <option value="Legal">{% trans "Legal" %}</option>
+
+                    <option value="Other">{% trans "Other" %}</option>
+                    <option value="Other">{% trans "Other" %}</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- Description -->
+            <div class="col-lg-12 wow fadeInUp" data-wow-delay=".6s">
+              <div class="form-clt">
+                <textarea name="description" id="description" placeholder="{% trans 'Tell us about yourself or your experience' %}" required></textarea>
+              </div>
+            </div>
+
+            <!-- Submit -->
+            <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
+              <button type="submit" class="theme-btn">
+                <span>{% trans "Send Application" %} <i class="icon-arrow-right"></i></span>
+              </button>
+            </div>
+          </div>
+        </form>
+
+        <!-- ✅ Feedback Message -->
+        <div id="career-response" style="margin-top:15px; display:none;"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ✅ AJAX Script -->
+<script>
+document.querySelector("#contact-form1").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const form = e.target;
+  const responseBox = document.querySelector("#contact-response");
+
+  const formData = new FormData(form);
+  responseBox.style.display = "block";
+  responseBox.textContent = "⏳ Sending...";
+
+  try {
+    const res = await fetch("{% url 'pages:contact_form_submit' %}", {
+      method: "POST",
+      body: formData,
+    });
+    const data = await res.json();
+
+    if (data.success) {
+      responseBox.textContent = "✅ " + data.message;
+      form.reset();
+    } else {
+      responseBox.textContent = "⚠️ " + data.message;
+    }
+  } catch (err) {
+    responseBox.textContent = "❌ Failed to send message. Please try again.";
+  }
+});
+</script>
+
+
+    <!-- Footer Include -->
+    {% include "includes/footer.html" %}
+
+    <!-- JavaScript Files -->
+    <script src="{% static 'js/jquery-3.7.1.min.js' %}"></script>
+    <script src="{% static 'js/viewport.jquery.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+    <script src="{% static 'js/jquery.waypoints.js' %}"></script>
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'js/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'js/jquery.meanmenu.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/wow.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+  </body>
+</html>

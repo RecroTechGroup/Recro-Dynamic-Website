@@ -580,7 +580,17 @@ a:hover {
                                 {% trans "Services" %}
                             </a>
                             <ul class="submenu">
-                                <li><a href="{% url 'pages:services' %}">{% trans "What we do" %}</a></li>
+
+                                <li><a href="{% url 'pages:service_details' 'awide' %}">{% trans "AI Solutions" %}</a>
+                                </li>
+                                <li><a href="{% url 'pages:service_details' 'aiagent' %}">{% trans "AI Agents" %}</a>
+                                </li>
+                                <li><a href="{% url 'pages:service_details' 'cloud' %}">{% trans "Cloud Services" %}</a>
+                                </li>
+                                <li><a href="{% url 'pages:service_details' 'crm' %}">{% trans "CRM Solutions" %}</a>
+                                </li>
+
+
                                 <li><a href="{% url 'pages:service_details' 'train' %}">{% trans "Trainings" %}</a></li>
                             </ul>
                         </li>
@@ -687,7 +697,12 @@ a:hover {
                                                 <i class="fa-solid fa-chevron-down"></i>
                                             </a>
                                             <ul class="submenu">
-                                                <li><a href="{% url 'pages:services' %}">{% trans "What we do" %}</a></li>
+
+                                                <li><a href="{% url 'pages:service_details' 'awide' %}">{% trans "AI Solutions" %}</a></li>
+                                                <li><a href="{% url 'pages:service_details' 'aiagent' %}">{% trans "AI Agents" %}</a></li>
+                                                <li><a href="{% url 'pages:service_details' 'cloud' %}">{% trans "Cloud Consulting" %}</a></li>
+                                                <li><a href="{% url 'pages:service_details' 'crm' %}">{% trans "CRM Solutions" %}</a></li>
+
                                                 <li><a href="{% url 'pages:service_details' 'train' %}">{% trans "Trainings" %}</a></li>
                                             </ul>
                                         </li>
@@ -698,7 +713,16 @@ a:hover {
                                             <a href="#" class="disabled-link" data-tooltip="{% trans 'Coming soon' %}">{% trans "News" %}</a>
                                         </li>
                                         <li>
-                                            <a href="{% url 'pages:contact' %}">{% trans "Contact" %}</a>
+
+                                            <a href="{% url 'pages:contact' %}">
+                                                {% trans "Contact" %}
+                                                <i class="fa-solid fa-chevron-down"></i>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li><a href="{% url 'pages:contact' %}">{% trans "Contact Us" %}</a></li>
+                                                <li><a href="{% url 'pages:careers' %}">{% trans "Careers" %}</a></li>
+                                            </ul>
+
                                         </li>
                                     </ul>
                                 </nav>
@@ -787,6 +811,17 @@ a:hover {
                                     <span class="arrow-btn"><i class="icon-arrow-right"></i></span>
                                 </a>
                             </div>
+
+                                    <div class="main-button d-none d-lg-block">
+            <a href="https://open.spotify.com/show/03cjFsiKrU2UCv8gMbIuoZ?si=8742fcf8d4d24015&nd=1&dlsi=086215539480468e"
+               class="d-flex align-items-center" target="_blank" rel="noopener noreferrer">
+                <img src="{% static 'img/logo/recro_talks_white.png' %}"
+                     alt="RecroTalks Logo"
+                     style="height: 40px; width: auto;">
+            </a>
+        </div>
+
+
                             <div class="header__hamburger d-xl-none my-auto">
                                 <div class="sidebar__toggle">
                                     <i class="fas fa-bars"></i>
@@ -795,7 +830,22 @@ a:hover {
                         </div>
                     </div>
                 </div>
-            </div>
+
+                        <!-- RecroTalks Logo (Top Right Corner)
+        <div class="header-extra-logo position-absolute top-0 end-0 me-4 mt-2 d-none d-lg-block">
+            <a href="https://open.spotify.com/show/03cjFsiKrU2UCv8gMbIuoZ?si=8742fcf8d4d24015&nd=1&dlsi=086215539480468e"
+               class="d-flex align-items-center" target="_blank" rel="noopener noreferrer">
+                <img src="{% static 'img/logo/recro_talks_white.png' %}"
+                     alt="RecroTalks Logo"
+                     style="height: 40px; width: auto;">
+            </a>
+        </div>
+
+            </div>-->
+
+            <style>.header-extra-logo.hidden {
+    display: none !important;
+}</style>
         </div>
     </header>
 
@@ -812,7 +862,27 @@ a:hover {
                 });
             });
         });
+
+        document.addEventListener('DOMContentLoaded', function() {
+    const logo = document.querySelector('.header-extra-logo');
+    const header = document.getElementById('header-sticky');
+
+    window.addEventListener('scroll', function() {
+        // Adjust threshold (e.g., 50px) as needed
+        if (window.scrollY > 50) {
+            logo.classList.add('hidden');  // Hide when scrolling down
+        } else {
+            logo.classList.remove('hidden');  // Show when at top
+        }
+    });
+});
     </script>
 
 </body>
 </html>
+
+
+
+
+
+

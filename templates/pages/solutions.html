@@ -58,14 +58,33 @@
       <div class="container">
         <div class="row g-4">
 
+          <!-- agri - Agriculture LLMs fashion - Fashion AI marketing - Marketing Solutions realestate
+          Real Estate AI Assistant & Models logistics - Logistics AI Solutions fintech
+          Financial Technologies & Intelligence legal - Legal Intelligence-->
+
+          <!-- Agriculture -->
+          <div class="col-lg-6 col-md-6">
+            <div class="project-items-5 wow fadeInUp" data-wow-delay=".5s">
+              <div class="thumb">
+                <img src="{% static 'img/project/aiagri.png' %}" alt="{% trans 'Agriculture LLMs' %}">
+              </div>
+              <div class="content">
+                <h3><a href="{% url 'pages:solution_details' 'agri' %}">{% trans "AI Agriculture LLMs" %}</a></h3>
+                <a href="{% url 'pages:solution_details' 'agri' %}" class="icon">
+                  <i class="icon-arrow-1right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <!-- Fashion -->
           <div class="col-lg-6 col-md-6">
             <div class="project-items-5 wow fadeInUp" data-wow-delay=".3s">
               <div class="thumb">
-                <img src="{% static 'img/project/fashion-ai.jpeg' %}" alt="{% trans 'AI in Fashion' %}">
+                <img src="{% static 'img/project/aifashion.webp' %}" alt="{% trans 'Fashion AI' %}">
               </div>
               <div class="content">
-                <h3><a href="{% url 'pages:solution_details' 'fashion' %}">{% trans "AI in Fashion" %}</a></h3>
+                <h3><a href="{% url 'pages:solution_details' 'fashion' %}">{% trans "Fashion AI" %}</a></h3>
                 <a href="{% url 'pages:solution_details' 'fashion' %}" class="icon">
                   <i class="icon-arrow-right"></i>
                 </a>
@@ -73,35 +92,81 @@
             </div>
           </div>
 
-          <!-- Agriculture -->
+          <!-- Marketing -->
           <div class="col-lg-6 col-md-6">
-            <div class="project-items-5 wow fadeInUp" data-wow-delay=".5s">
+            <div class="project-items-5 wow fadeInUp" data-wow-delay=".3s">
               <div class="thumb">
-                <img src="{% static 'img/project/agri-ai.jpeg' %}" alt="{% trans 'AI in Agriculture' %}">
+                <img src="{% static 'img/project/marketing_main.jpeg' %}" alt="{% trans 'Marketing Solutions' %}">
               </div>
               <div class="content">
-                <h3><a href="{% url 'pages:solution_details' 'agri' %}">{% trans "AI in Agriculture" %}</a></h3>
-                <a href="{% url 'pages:solution_details' 'agri' %}" class="icon">
+                <h3><a href="{% url 'pages:solution_details' 'marketing' %}">{% trans "Marketing Solutions" %}</a></h3>
+                <a href="{% url 'pages:solution_details' 'marketing' %}" class="icon">
                   <i class="icon-arrow-right"></i>
                 </a>
               </div>
             </div>
           </div>
 
-          <!-- Space -->
+          <!-- Real Estate -->
           <div class="col-lg-6 col-md-6">
-            <div class="project-items-5 wow fadeInUp" data-wow-delay=".7s">
+            <div class="project-items-5 wow fadeInUp" data-wow-delay=".3s">
               <div class="thumb">
-                <img src="{% static 'img/project/ai-space.jpeg' %}" alt="{% trans 'AI in Space' %}">
+                <img src="{% static 'img/project/realest1.webp' %}" alt="{% trans 'Real Estate AI Assistant & Models' %}">
               </div>
               <div class="content">
-                <h3><a href="{% url 'pages:solution_details' 'space' %}">{% trans "AI in Space" %}</a></h3>
-                <a href="{% url 'pages:solution_details' 'space' %}" class="icon">
+                <h3><a href="{% url 'pages:solution_details' 'realestate' %}">{% trans "Real Estate AI Assistant & Models" %}</a></h3>
+                <a href="{% url 'pages:solution_details' 'realestate' %}" class="icon">
                   <i class="icon-arrow-right"></i>
                 </a>
               </div>
             </div>
           </div>
+
+          <!-- logistics -->
+          <div class="col-lg-6 col-md-6">
+            <div class="project-items-5 wow fadeInUp" data-wow-delay=".3s">
+              <div class="thumb">
+                <img src="{% static 'img/project/ailogistics.jpg' %}" alt="{% trans 'Logistics AI Solutions' %}">
+              </div>
+              <div class="content">
+                <h3><a href="{% url 'pages:solution_details' 'logistics' %}">{% trans "Logistics AI Solutions" %}</a></h3>
+                <a href="{% url 'pages:solution_details' 'logistics' %}" class="icon">
+                  <i class="icon-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--fintech -->
+          <div class="col-lg-6 col-md-6">
+            <div class="project-items-5 wow fadeInUp" data-wow-delay=".3s">
+              <div class="thumb">
+                <img src="{% static 'img/project/aifin.jpg' %}" alt="{% trans 'Financial Technologies & Intelligence' %}">
+              </div>
+              <div class="content">
+                <h3><a href="{% url 'pages:solution_details' 'fintech' %}">{% trans "Financial Technologies & Intelligence" %}</a></h3>
+                <a href="{% url 'pages:solution_details' 'fintech' %}" class="icon">
+                  <i class="icon-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- legal -->
+          <div class="col-lg-6 col-md-6">
+            <div class="project-items-5 wow fadeInUp" data-wow-delay=".7s">
+              <div class="thumb">
+                <img src="{% static 'img/project/ailegal1.jpg' %}" alt="{% trans 'Legal Intelligence' %}">
+              </div>
+              <div class="content">
+                <h3><a href="{% url 'pages:solution_details' 'legal' %}">{% trans "Legal Intelligence" %}</a></h3>
+                <a href="{% url 'pages:solution_details' 'legal' %}" class="icon">
+                  <i class="icon-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
 
         </div>
       </div>
