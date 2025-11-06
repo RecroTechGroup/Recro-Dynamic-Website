@@ -13,6 +13,9 @@ urlpatterns = [
     path('', views.home_view, name='home'),
     path('about/', views.about_view, name='about'),
     path('contact/', views.contact_view, name='contact'),
+
+    path('careers/', views.careers_view, name='careers'),
+
     path('docs/', views.docs_view, name='docs'),
     path('faq/', views.faq_view, name='faq'),
     path('isp/', views.isp_view, name='isp'),
@@ -50,6 +53,9 @@ urlpatterns = [
     # ==================== FOOTER PAGES ====================
     path('information-security-policy/', views.isp_view, name='information_security_policy'),
     path('documents/', views.docs_view, name='documents'),
+
+    path("subscribe/", views.subscribe_newsletter, name="subscribe_newsletter"),
+    path("contact-submit/", views.contact_form_submit, name="contact_form_submit"),
 ]
 
 # ==================== NOT: ESKİ URL YAPISI ====================

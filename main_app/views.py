@@ -3,12 +3,20 @@ Views for RecroTech Django application.
 Handles all page rendering and routing logic.
 Uses context processors for dynamic data (solutions, services, site info).
 """
-
+import requests
 from django.shortcuts import render
 from django.http import Http404
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+import os
+from datetime import datetime, timedelta, timezone
+from main_app.contexts import solutions_context
 
-
+# N8N_WEBHOOK_URL = os.getenv()
+N8N_WEBHOOK_URL = 'https://n8n.recrotechgroup.com/webhook/fc9a189c-ab12-4c22-9c62-011c4f1d3d33'
+CONTACT_WEBHOOK_URL = "https://n8n.recrotechgroup.com/webhook/ad2f94e6-eb4e-43fb-b47a-827ef3bd79d1"
 # ==================== ANA SAYFALAR ====================
+
 
 def home_view(request):
     """Ana sayfa - Home page"""
@@ -23,6 +31,10 @@ def about_view(request):
 def contact_view(request):
     """İletişim sayfası - Contact page"""
     return render(request, 'pages/contact.html')
+
+
+def careers_view(request):
+    return render(request, 'pages/careers.html')
 
 
 def docs_view(request):
@@ -61,7 +73,6 @@ def solution_details_view(request, solution_type):
     Context: solution, solution_type, prev_solution, next_solution
     """
     # Import context processor to get solutions data
-    from main_app.contexts import solutions_context
     solutions_data = solutions_context(request)['solutions']
 
     # Validate solution exists
@@ -245,3 +256,62 @@ def solutions_space_view(request):
     Yeni yapıda: solution_details_view(request, 'space')
     """
     return render(request, 'pages/solutions-space.html')
+
+
+@csrf_exempt
+def subscribe_newsletter(request):
+    if request.method == "POST":
+        email = request.POST.get("email")
+        print(email)
+
+        if not email:
+            return JsonResponse({"success": False, "message": "Email is required."})
+
+        # Send email to n8n webhook
+        try:
+            requests.post(N8N_WEBHOOK_URL, json={"email": email}, timeout=5)
+        except requests.exceptions.RequestException as e:
+            print("n8n request failed:", e)
+            return JsonResponse({"success": False, "message": "Failed to send email to n8n."})
+
+        return JsonResponse({"success": True, "message": "Subscription successful!"})
+
+    return JsonResponse({"success": False, "message": "Invalid request method."})
+
+
+@csrf_exempt
+def contact_form_submit(request):
+    if request.method != "POST":
+        return JsonResponse({"success": False, "message": "Invalid request method."}, status=405)
+
+    name = request.POST.get("name")
+    email = request.POST.get("email")
+    service = request.POST.get("service")
+    date = request.POST.get("date")
+    time = request.POST.get("time")
+    message = request.POST.get("message")
+
+    if not all([name, email, service, message]):
+        return JsonResponse({"success": False, "message": "Missing required fields."}, status=400)
+
+    # Get current time in UTC+3 (Türkiye time)
+    utc_plus_3 = timezone(timedelta(hours=3))
+    time_sent = datetime.now(utc_plus_3).strftime("%Y-%m-%d %H:%M:%S")
+
+    payload = {
+        "name": name,
+        "email": email,
+        "service": service,
+        "date": date,
+        "time": time,
+        "message": message,
+        "time_sent": time_sent,  # <--- current time in UTC+3
+    }
+
+    try:
+        requests.post(CONTACT_WEBHOOK_URL, json=payload, timeout=5)
+    except requests.exceptions.RequestException as e:
+        print(f"[Contact webhook error] {e}")
+        return JsonResponse({"success": False, "message": "Failed to send contact data to n8n."}, status=502)
+
+    return JsonResponse({"success": True, "message": "Message sent successfully!"})

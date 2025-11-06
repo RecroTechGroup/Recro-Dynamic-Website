@@ -17,9 +17,9 @@ def solutions_context(request):
     """
     solutions_data = {
         'agri': {
-            'hero_title': _('AI in Agriculture'),
-            'page_title': _('AI in Agriculture'),
-            'intro_title': _('AI in Agriculture'),
+            'hero_title': _('Agriculture LLMs'),
+            'page_title': _('Agriculture LLMs - RecroTech'),
+            'intro_title': _('Agriculture LLMs'),
             'intro_text': _(
                 "We leverage AI to support farmers and agriculture enthusiasts by providing up-to-date "
                 "information on regulations and tailored solutions for the specific challenges they may face. "
@@ -63,9 +63,9 @@ def solutions_context(request):
         },
 
         'fashion': {
-            'hero_title': _('Fashion Models'),
-            'page_title': _('AI Fashion Models - RecroTech'),
-            'intro_title': _('AI Fashion Models'),
+            'hero_title': _('Fashion AI'),
+            'page_title': _('Fashion AI - RecroTech'),
+            'intro_title': _('Fashion AI'),
             'intro_text': _(
                 "AI solutions are designed specifically for the fashion retail industry, helping your company "
                 "boost sales and streamline operations. By leveraging advanced machine learning and computer "
@@ -113,47 +113,247 @@ def solutions_context(request):
             ]
         },
 
-        'space': {
-            'hero_title': _('AI in Space'),
-            'page_title': _('AI in Space - RecroTech'),
-            'intro_title': _('AI in Space'),
+        'marketing': {
+            'hero_title': _('Marketing Solutions'),
+            'page_title': _('Marketing Solutions - RecroTech'),
+            'intro_title': _('Marketing Solutions'),
             'intro_text': _(
-                "Build and deploy autonomous AI agents that tackle real-world business challenges through "
-                "open-source automation and seamless deployment. From intelligent task routing to adaptive "
-                "workflows and predictive orchestration, our systems integrate directly with your stack, "
-                "accelerating outcomes and reducing manual overhead."
+                "Empower your marketing strategy with AI-driven insights and analytics. Our comprehensive "
+                "marketing solutions help you understand your customers, competitors, and market dynamics "
+                "better. From brand positioning to customer segmentation, we provide the tools and intelligence "
+                "needed to make data-backed decisions that drive growth and customer loyalty."
             ),
-            'section_title': _('Adaptive Intelligence That Works for You'),
+            'section_title': _('Data-Driven Marketing Intelligence'),
             'section_text': _(
-                "Our AI agents continuously learn from interactions and data, improving performance over time. "
-                "They automate repetitive operations, detect anomalies, and respond to complex signals — "
-                "allowing teams to focus on strategic decisions while the system handles precision execution."
+                "Leverage advanced data analytics, customer research, and market intelligence to transform "
+                "your marketing performance. Our solutions integrate seamlessly with your existing systems, "
+                "providing real-time insights that help you stay ahead of market trends and customer expectations."
             ),
-            'image_main': 'img/gif/uzay.gif',
-            'image_side': 'img/service/uzay.png',
+            'image_main': 'img/project/marketing_top.jpeg',
+            'image_side': 'img/project/marketing_down.jpeg',
             'pills': [
                 {
                     'key': 'pilot',
-                    'title': _('Design an AI Agent'),
+                    'title': _('Elevate Your Brand Value'),
                     'description': _(
-                        "Create domain-specific agents capable of autonomous reasoning, planning, and interaction. "
-                        "Tailor AI systems to your unique requirements with advanced customization and training capabilities."
+                        "Understand your brand and industry better to elevate your brand value. Conduct comprehensive "
+                        "brand health tracking, positioning research, and perception analysis to strengthen your "
+                        "market presence and competitive advantage."
                     )
                 },
                 {
                     'key': 'agent',
-                    'title': _('Automate Workflows'),
+                    'title': _('Increase Sales & Loyalty'),
                     'description': _(
-                        "Streamline end-to-end business processes with adaptive automation and minimal supervision. "
-                        "Reduce manual tasks, improve efficiency, and enable teams to focus on high-value activities."
+                        "Know your customers better and increase both sales and customer loyalty. Utilize customer "
+                        "research, segmentation, and behavioral analysis to create targeted campaigns that resonate "
+                        "with your audience and drive conversions."
                     )
                 },
                 {
                     'key': 'modernize',
-                    'title': _('Deploy Effortlessly'),
+                    'title': _('Make Confident Decisions'),
                     'description': _(
-                        "Integrate agents through lightweight APIs and open frameworks for instant scalability. "
-                        "Deploy to production quickly with robust monitoring, version control, and rollback capabilities."
+                        "Decode the market, products, services, and competition to make faster and more confident "
+                        "decisions. Access comprehensive market research, competitive intelligence, and predictive "
+                        "analytics for strategic advantage."
+                    )
+                }
+            ]
+        },
+
+        'realestate': {
+            'hero_title': _('Real Estate AI Assistant & Models'),
+            'page_title': _('Real Estate AI Assistant & Models - RecroTech'),
+            'intro_title': _('Real Estate AI Assistant & Models'),
+            'intro_text': _(
+                "Transform your real estate business with intelligent AI assistants that engage customers "
+                "instantly and accurately. Our solutions help you maximize customer potential by providing "
+                "immediate, intelligent responses to property inquiries, market questions, and client needs. "
+                "Never lose a potential buyer or tenant due to delayed responses."
+            ),
+            'section_title': _('Intelligent Customer Engagement'),
+            'section_text': _(
+                "Increase your customer acquisition rate with AI-powered assistants that respond to inquiries "
+                "in seconds. Our intelligent models understand property listings, market conditions, and customer "
+                "preferences to provide personalized recommendations and accurate information 24/7."
+            ),
+            'image_main': 'img/project/real_estate_top.jpeg',
+            'image_side': 'img/project/real_estate_down.jpeg',
+            'pills': [
+                {
+                    'key': 'pilot',
+                    'title': _('Maximize Customer Potential'),
+                    'description': _(
+                        "Increase your customer potential by engaging prospects instantly. Our AI assistants "
+                        "provide accurate, detailed responses to property inquiries within seconds, significantly "
+                        "improving conversion rates and customer satisfaction."
+                    )
+                },
+                {
+                    'key': 'agent',
+                    'title': _('Instant Intelligent Responses'),
+                    'description': _(
+                        "Answer customer questions in seconds and increase your chance of closing deals. "
+                        "AI-powered responses cover property details, pricing, availability, neighborhood "
+                        "information, and financing options with accuracy and consistency."
+                    )
+                },
+                {
+                    'key': 'modernize',
+                    'title': _('24/7 Availability'),
+                    'description': _(
+                        "Never miss an opportunity with round-the-clock AI assistance. Capture leads outside "
+                        "business hours, schedule viewings automatically, and maintain engagement across all "
+                        "customer touchpoints without increasing operational costs."
+                    )
+                }
+            ]
+        },
+
+        'logistics': {
+            'hero_title': _('Logistics AI Solutions'),
+            'page_title': _('Logistics AI Solutions - RecroTech'),
+            'intro_title': _('Logistics AI Solutions'),
+            'intro_text': _(
+                "Revolutionize your logistics operations with AI-powered solutions that streamline customer "
+                "communication, optimize workflows, and enhance operational efficiency. Our intelligent systems "
+                "ensure your customers receive instant, accurate responses while your team operates seamlessly "
+                "across all logistics processes."
+            ),
+            'section_title': _('Seamless Logistics Intelligence'),
+            'section_text': _(
+                "Don't lose customers due to delayed responses. Our AI solutions provide intelligent, instant "
+                "answers to tracking inquiries, delivery schedules, and service questions. Simultaneously, "
+                "optimize internal operations with smart workforce management and process automation."
+            ),
+            'image_main': 'img/project/logistics_top.jpeg',
+            'image_side': 'img/project/logistics_down.jpeg',
+            'pills': [
+                {
+                    'key': 'pilot',
+                    'title': _('Instant Customer Response'),
+                    'description': _(
+                        "Don't lose customers because of late answers. Provide intelligent responses to tracking "
+                        "inquiries, delivery status, and service questions in seconds. Maintain customer "
+                        "satisfaction with accurate, real-time information delivery."
+                    )
+                },
+                {
+                    'key': 'agent',
+                    'title': _('Seamless Workforce Organization'),
+                    'description': _(
+                        "Organize your employees seamlessly with AI-driven scheduling, task allocation, and "
+                        "performance optimization. Coordinate drivers, warehouse staff, and support teams "
+                        "efficiently to maximize productivity and reduce operational bottlenecks."
+                    )
+                },
+                {
+                    'key': 'modernize',
+                    'title': _('Optimized Operations'),
+                    'description': _(
+                        "Integrate AI across your logistics chain for route optimization, demand forecasting, "
+                        "and inventory management. Reduce costs, improve delivery times, and enhance overall "
+                        "operational efficiency with intelligent automation."
+                    )
+                }
+            ]
+        },
+
+        'fintech': {
+            'hero_title': _('Financial Technologies & Intelligence'),
+            'page_title': _('Financial Technologies & Intelligence - RecroTech'),
+            'intro_title': _('Financial Technologies & Intelligence'),
+            'intro_text': _(
+                "We perform cutting-edge R&D in financial markets and develop innovative financial solutions "
+                "that make life easier for companies. Our AI-powered financial intelligence systems provide "
+                "advanced analytics, risk assessment, and automated decision-making capabilities to transform "
+                "your financial operations."
+            ),
+            'section_title': _('Intelligent Financial Solutions'),
+            'section_text': _(
+                "Leverage advanced financial AI to optimize investment strategies, automate risk management, "
+                "and gain deeper insights into market dynamics. Our solutions combine machine learning with "
+                "financial expertise to deliver actionable intelligence for better decision-making."
+            ),
+            'image_main': 'img/project/finance_top.jpeg',
+            'image_side': 'img/project/finance_down.jpeg',
+            'pills': [
+                {
+                    'key': 'pilot',
+                    'title': _('Advanced Market Analytics'),
+                    'description': _(
+                        "Conduct sophisticated financial market research and analysis using AI-powered tools. "
+                        "Identify trends, predict market movements, and uncover investment opportunities with "
+                        "advanced quantitative models and real-time data processing."
+                    )
+                },
+                {
+                    'key': 'agent',
+                    'title': _('Automated Risk Management'),
+                    'description': _(
+                        "Implement intelligent risk assessment and management systems that continuously monitor "
+                        "portfolios, detect anomalies, and provide early warnings. Make life easier for companies "
+                        "with automated compliance, fraud detection, and credit scoring."
+                    )
+                },
+                {
+                    'key': 'modernize',
+                    'title': _('Innovative Financial Solutions'),
+                    'description': _(
+                        "Deploy cutting-edge fintech solutions tailored to your company's needs. From algorithmic "
+                        "trading to personalized financial planning, our R&D-driven innovations transform complex "
+                        "financial challenges into streamlined, efficient processes."
+                    )
+                }
+            ]
+        },
+
+        'legal': {
+            'hero_title': _('Legal Intelligence'),
+            'page_title': _('Legal Intelligence - RecroTech'),
+            'intro_title': _('Legal Intelligence'),
+            'intro_text': _(
+                "RecroTech works with JUS to provide comprehensive legal and ethical intelligence for AI systems. "
+                "JUS serves as the legal and ethical intelligence core, ensuring that all AI systems operate with "
+                "transparency, accountability, and compliance. Through strategic collaboration, we integrate advanced "
+                "legal frameworks and governance tools to align AI innovation with regulatory standards."
+            ),
+            'section_title': _('Compliance and Governance Excellence'),
+            'section_text': _(
+                "Transform legal complexity into operational clarity. JUS enables organizations to automate "
+                "compliance, audit algorithmic decisions, and maintain data privacy across AI ecosystems. "
+                "From AI policy management to certification readiness, build trust and responsibility into "
+                "every intelligent system."
+            ),
+            'image_main': 'img/project/legal_top.jpeg',
+            'image_side': 'img/project/legal_down.jpeg',
+            'pills': [
+                {
+                    'key': 'pilot',
+                    'title': _('Regulatory Compliance'),
+                    'description': _(
+                        "Ensure compliance with KVKK, GDPR, and ISO/IEC 42001 standards. JUS integrates advanced "
+                        "legal frameworks into your AI systems, automating compliance monitoring and maintaining "
+                        "alignment with evolving regulatory requirements across jurisdictions."
+                    )
+                },
+                {
+                    'key': 'agent',
+                    'title': _('Algorithmic Transparency'),
+                    'description': _(
+                        "Audit algorithmic decisions with transparency and accountability. Maintain data privacy "
+                        "across AI ecosystems while ensuring ethical AI operations. Track, document, and validate "
+                        "AI system behaviors to meet legal and ethical standards."
+                    )
+                },
+                {
+                    'key': 'modernize',
+                    'title': _('Sustainable Digital Future'),
+                    'description': _(
+                        "Shape the foundation of a sustainable digital future with JUS. From AI policy management "
+                        "to certification readiness, empower your institution to innovate confidently within "
+                        "ethical and lawful boundaries, building trust into every intelligent system."
                     )
                 }
             ]
@@ -269,9 +469,9 @@ def services_context(request):
         },
 
         'cloud': {
-            'hero_title': _('Cloud Services'),
-            'page_title': _('Cloud Services'),
-            'intro_title': _('Cloud Services'),
+            'hero_title': _('Cloud Consulting'),
+            'page_title': _('Cloud Consulting'),
+            'intro_title': _('Cloud Consulting'),
             'intro_text': _(
                 "We design and deploy cloud-native systems that transform ideas into scalable, high-performance "
                 "applications. Our expertise in distributed computing, data orchestration, and infrastructure "
@@ -476,3 +676,4 @@ def site_info_context(request):
     }
 
     return {'site': site_data}
+
